@@ -48,7 +48,7 @@ comments: true
 	- OWOX BI BigQuery Reports의 오른쪽에 있는 추가 버튼 클릭(+ 무료)
 	- <img width="1010" alt="스크린샷 2019-07-20 13 53 15" src="https://user-images.githubusercontent.com/18207755/61578387-23918f80-ab31-11e9-9f5c-b5c2fe1bba66.png">
 	- Google 로그인 후, OWOX BI BigQuery Reports이(가) 내 Google 계정에 액세스하려고 합니다 라는 부분에서 허용을 클릭
-		- 만약 BigQuery API가 활성화 안되어있으면 확인창이 또 뜨는데 확인 누르면 됨 
+		- 만약 BigQuery API가 활성화되어 있지 않다면 확인창이 추가로 뜨는데, 확인 누르면 됨
 
 - 2) 부가기능 활성화
 	- 스프레드시트에서 부가기능 - 부가기능 관리 클릭
@@ -60,7 +60,7 @@ comments: true
 	- <img width="647" alt="스크린샷 2019-07-20 20 06 17" src="https://user-images.githubusercontent.com/18207755/61578399-52a80100-ab31-11e9-912c-7a1eb28be497.png">
 	- create 클릭
 	- <img width="848" alt="스크린샷 2019-07-20 20 08 11" src="https://user-images.githubusercontent.com/18207755/61578400-53d92e00-ab31-11e9-829d-ab9534b9838e.png">
-	- 이 부분에 쿼리를 작성! 단, 쿼리 날릴 때 #stadardSQL인지 #legacySQL인지 명시해줘야 함
+	- 이 부분에 쿼리를 작성! 단, 쿼리를 작성할 때 #stadardSQL인지 #legacySQL인지 명시해줘야 함
 	- Save & Run 클릭
 	- 결과가 스프레드시트의 새로운 시트로 저장됨
 	- 쿼리의 결과를 Report라고 부름
@@ -71,17 +71,17 @@ comments: true
 
 - 5) 파라미터 설정하기
 	- [How to add parameters?](https://support.owox.com/hc/en-us/articles/217491007=no_parameters)를 클릭하면 파라미터를 동적으로 사용하는 방법에 대해 알려줌
-	- Input 입력하는 경우, date, 리스트에서 선택하는 방식이 가능
+	- Input 입력하는 방식, 날짜를 선택하는 방식, 리스트에서 선택하는 방식이 가능
 
 - 6) 이미 작성된 레포트를 수정하고 싶은 경우
 	- Edit current report 클릭 후 수정
-	- <img width="889" alt="스크린샷 2019-07-20 20 14 12" src="https://user-images.githubusercontent.com/18207755/61578401-550a5b00-ab31-11e9-8749-2486a6d7acdc.png">
+	- <img width="945" alt="스크린샷 2019-07-20 21 20 29" src="https://user-images.githubusercontent.com/18207755/61578574-42ddec00-ab34-11e9-800b-a9639781834d.png">
 
 - 7) 데이터를 최신화하고 싶은 경우
 	- Refresh currernt report 클릭 (현재 레포트만 수정)
 	- Refresh all reports 클릭 (모든 레포트 수정)
 
-- 8) 쿼리를 주기적으로 돌리고 싶은 경우
+- 8) 쿼리를 주기적으로 돌리고 싶은 경우(스케쥴링)
 	- Schedule reports 클릭
 	- Enable reports to run automatically 클릭 
 	- Schedule reports to run `every day` between `4 am - 5am` 에서 빈도와 시간대를 설정
@@ -90,7 +90,7 @@ comments: true
 	- Receive email notification을 실패할 때 메일 받거나 매번 메일을 받는 옵션을 설정할 수 있음
 	- I understand Google BigQuery query pricing policy를 체크해야 함
 		- BigQuery는 쿼리를 날릴 때마다 비용이 부과되기 때문에 이 점을 꼭 유의해야함
-	- <img width="694" alt="스크린샷 2019-07-20 20 44 37" src="https://user-images.githubusercontent.com/18207755/61578406-589de200-ab31-11e9-95dd-4ef78e852e72.png">
+	- <img width="694" alt="스크린샷 2019-07-20 20 44 37" src="https://user-images.githubusercontent.com/18207755/61578584-6acd4f80-ab34-11e9-8fbe-540977afa47b.png">
 
 
 ---
