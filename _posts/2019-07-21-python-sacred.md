@@ -55,23 +55,23 @@ comments: true
 
 - 샘플 코드를 통해 Sacred에 대해 알아보기
     - first_config.py 파일 생성
-		
-		  ```
-        from sacred import Experiment
-        
-        ex = Experiment('hello_config')
-        # Notebook일 경우 
-        # ex = Experiment('hello_config', interactive=True)
-        
-        @ex.config
-        def my_config():
-            recipient = "world"
-            message = "Hello %s!" % recipient
-        
-        @ex.automain
-        def my_main(message):
-            print(message)
-		  ```
+	
+	```
+	from sacred import Experiment
+	    
+	ex = Experiment('hello_config')
+	# Notebook일 경우 
+	# ex = Experiment('hello_config', interactive=True)
+	    
+	@ex.config
+	def my_config():
+	    recipient = "world"
+	    message = "Hello %s!" % recipient
+	    
+	@ex.automain
+	def my_main(message):
+		print(message)
+	```
 
     - ex = Experiment('실험 이름')
         - `@ex.config`로 파라미터를 저장함
@@ -93,8 +93,10 @@ comments: true
 
 - Command Line에서 파라미터 injection
     - with [파라미터]="value" 로 넣을 수 있음
-
-        python3 first_config.py with recipient="that is cool"
+    	
+    	```
+    	python3 first_config.py with recipient="that is cool"
+    	```
 
     - <img src="https://www.dropbox.com/s/llwsv70ieq1tbve/Screenshot%202019-07-21%2014.51.27.png?raw=1">
 
@@ -107,10 +109,12 @@ comments: true
 - Python에서 파라미터 injection
     - run할 때 `config_updates` 를 설정
 
-        from first_config import ex
-        
-        r = ex.run(config_updates={'recipient': 'awesome'})
-
+		```
+		from first_config import ex
+		    
+		r = ex.run(config_updates={'recipient': 'awesome'})
+		```
+		
 - Capture Functions
 
         from sacred import Experiment
