@@ -3,7 +3,7 @@ layout: post
 title:  "머신러닝 실험을 도와줄 Python Sacred 소개"
 subtitle: "머신러닝 실험을 도와줄 Python Sacred 소개"
 categories: mlops
-tags: mlops-version
+tags: version
 comments: true
 ---
 
