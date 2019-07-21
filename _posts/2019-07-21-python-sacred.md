@@ -8,6 +8,7 @@ comments: true
 ---
 
 - 머신러닝 실험에서 사용되는 Config, Parameter 등을 더 손쉽게 저장할 수 있도록 도와주는 Python Library Sacred에 대한 글입니다
+	- Sacred 대시보드 관련 내용은 [Sacred와 Omniboard를 활용한 로그 모니터링](https://zzsza.github.io/mlops/2019/07/22/sacred-with-omniboard/)에 작성했습니다! 
 
 ---
 
@@ -24,7 +25,7 @@ comments: true
 	    - Sacred에서 저장된 파라미터를 더 쉽게 볼 수 없을까?에 대한 고민으로 시작된 프로젝트
 	    - Sacred에서 저장된 파라미터를 Table로 보여주고, 성능도 알려줌
 	    - Sacred + Omniboard 조합을 사용하는 것을 매우 추천!
-	    - Omniboard 설치는 다른 글을 통해 전달드릴 예정
+	    - **Omniboard 설치 및 실행은 [Sacred와 Omniboard를 활용한 로그 모니터링](https://zzsza.github.io/mlops/2019/07/22/sacred-with-omniboard/) 참고 :)**
 - 공식 문서에 작성된 내용
 
         Every experiment is sacred
