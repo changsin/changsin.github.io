@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Sacred와 Omniboard를 활용한 로그 모니터링"
+title:  "Sacred와 Omniboard를 활용한 실험 및 로그 모니터링"
 subtitle: "Sacred with Omniboard"
 categories: mlops
 tags: version
