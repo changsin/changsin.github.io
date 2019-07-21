@@ -128,7 +128,7 @@ Python 변수, 객체, 복사에 대해 작성한 글입니다
 	>>> l2: [3, [66, 44, 33, 22], (7, 8, 9, 10, 11)]
 	```
 	
-	- <img src="https://www.dropbox.com/s/fl1wytnuhkji75f/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-24%2011.55.22.png?raw=1">
+	- <img src="https://www.dropbox.com/s/fl1wytnuhkji75f/Screenshot%202018-08-24%2011.55.22.png?raw=1">
 	- 리스트에서 += 연산자는 리스트를 변경
 	- 튜플에서 += 연산자는 새로운 튜플을 만들어 l2[2]에 다시 바인딩
 - 깊은 복사와 얕은 복사

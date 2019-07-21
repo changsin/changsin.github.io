@@ -23,7 +23,7 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 
 ## First Layer : Visualize Filters
 ---
-<img src="https://www.dropbox.com/s/4qolb65q8x3oo6p/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-02%2012.05.49.png?raw=1">
+<img src="https://www.dropbox.com/s/4qolb65q8x3oo6p/Screenshot%202018-06-02%2012.05.49.png?raw=1">
 
 - Filter로 구성됩니다. AlexNet은 여러개의 Convolution Filter가 존재합니다
 - Get slide input image -> inner product
@@ -35,7 +35,7 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 
 ## Intermediate layer
 ---
-<img src="https://www.dropbox.com/s/h5u6yziqi1z6bza/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-02%2012.16.47.png?raw=1">
+<img src="https://www.dropbox.com/s/h5u6yziqi1z6bza/Screenshot%202018-06-02%2012.16.47.png?raw=1">
 
 - 생각보다 흥미롭지 않음. 해석하기 힘듬
 - Input 이미지와 직접적으로 연결되어 있지 않음
@@ -43,33 +43,33 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 
 ## Last Layer
 ---
-<img src="https://www.dropbox.com/s/gnpajyui0z3simg/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-02%2012.22.35.png?raw=1">
+<img src="https://www.dropbox.com/s/gnpajyui0z3simg/Screenshot%202018-06-02%2012.22.35.png?raw=1">
 
 - AlexNet의 경우 4096차원의 feature vector
 - ConvNet의 마지막 layer는 어떤 일을 하고 있을까?
 - 알아보기 위해 많은 이미지를 네트워크에 돌려보고 마지막 레이어를 시각화
 
-<img src="https://www.dropbox.com/s/qeozj796fwiipy0/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-02%2012.29.47.png?raw=1">
+<img src="https://www.dropbox.com/s/qeozj796fwiipy0/Screenshot%202018-06-02%2012.29.47.png?raw=1">
 
 - 단순히 생각하면 Nearest Neighbors를 떠올릴 수 있음
 - 2강에서 배운 것처럼 test image와 pixel space에서 이웃인 것을 찾습니다(좌측)
 - ConvNet는 Semantic content가 유사하게 나옵니다. feature space에서 이웃인 것을 찾습니다
 	- 코끼리의 좌측면이 Test image였는데 우측면이 이웃으로 나온 것은 pixel 관점에선 매우 다르지만 feature 관점에선 유사합니다!
 
-<img src="https://www.dropbox.com/s/98rluzs2vwiibq5/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-02%2012.42.57.png?raw=1">
+<img src="https://www.dropbox.com/s/98rluzs2vwiibq5/Screenshot%202018-06-02%2012.42.57.png?raw=1">
 
 - 차원 축소의 효과도 있습니다
 - 4096 차원을 2 차원으로 압축	
 - PCA, t-SNE도 같은 효과
 - t-SNE
 	- natural clustering
-	- <img src="https://www.dropbox.com/s/dbkoa9uhy17wez9/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-02%2012.46.43.png?raw=1">
+	- <img src="https://www.dropbox.com/s/dbkoa9uhy17wez9/Screenshot%202018-06-02%2012.46.43.png?raw=1">
 	- [karpathy의 CNN 코드](https://cs.stanford.edu/people/karpathy/cnnembed/) 참고
 	- [김홍배님 Slideshare](https://www.slideshare.net/ssuser06e0c5/visualizing-data-using-tsne-73621033) 참고 
 
 ## Visualizing Activation
 ---
-<img src="https://www.dropbox.com/s/o7xoy2nlz81a8uj/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-02%2012.51.52.png?raw=1">
+<img src="https://www.dropbox.com/s/o7xoy2nlz81a8uj/Screenshot%202018-06-02%2012.51.52.png?raw=1">
 
 - 중간 레이어를 가중치를 시각화하는 것은 해석하기 힘들었지만, Activation을 시각화하는 것은 어떤 경우 해석 가능합니다
 - 데이터를 네트워크에 넣고 어떤 이미지에서 특정 뉴런이 최대 활성화를 가지는지 봅니다. 그러면 입력 이미지와 연결된 영역을 볼 수 있습니다
@@ -82,7 +82,7 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 
 ## Maximally Activating Patches
 ---
-<img src="https://www.dropbox.com/s/vuaa6qn9k6glrye/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-02%2013.19.50.png?raw=1">
+<img src="https://www.dropbox.com/s/vuaa6qn9k6glrye/Screenshot%202018-06-02%2013.19.50.png?raw=1">
 
 - Visualizing intermediate feature의 다른 방법
 - Input image의 특정 patch를 시각화
@@ -93,7 +93,7 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 
 ## Occlusion Experiments
 ---
-<img src="https://www.dropbox.com/s/vnwzj45x9v3sy7f/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-02%2013.25.53.png?raw=1">
+<img src="https://www.dropbox.com/s/vnwzj45x9v3sy7f/Screenshot%202018-06-02%2013.25.53.png?raw=1">
 
 - Occlusion : 폐쇄
 - input 이미지의 어떤 부분이 classification에 영향을 많이 미치는지 찾아보는 방법
@@ -104,14 +104,14 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 
 ## Saliency Maps
 ---
-<img src="https://www.dropbox.com/s/n8zt9s0i28jaohq/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-02%2013.36.42.png?raw=1">
+<img src="https://www.dropbox.com/s/n8zt9s0i28jaohq/Screenshot%202018-06-02%2013.36.42.png?raw=1">
 
 - saliency : 중요한
 - 이미지 픽셀에 대해 class score의 gradient를 계산하고, 절대값을 취하기 + RGB 채널을 최대로 취하는 방식(이미지를 흔든다고 표현했음) 
 - Input에서 어떤 이미지가 classification에 중요한지 파악하는 방법!(Occlusion Experiments처럼)
 - Semantic Segmentation을 수행하기 위해 해당 작업을 하기도 함
-- <img src="https://www.dropbox.com/s/h0ym48ycdcoow8v/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-02%2013.49.26.png?raw=1">
-- <img src="https://www.dropbox.com/s/dawuia4wibmjdz9/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-02%2013.56.18.png?raw=1">
+- <img src="https://www.dropbox.com/s/h0ym48ycdcoow8v/Screenshot%202018-06-02%2013.49.26.png?raw=1">
+- <img src="https://www.dropbox.com/s/dawuia4wibmjdz9/Screenshot%202018-06-02%2013.56.18.png?raw=1">
 - 이미지 내의 Object를 추출할 수 있어서 정말 좋음! 그러나 다루기 어렵고 효과를 보려면 엄청 많은 접근을 해야합니다. 따라서 이게 실용적인진 모르겠음
 - 그러나 supervision과 함께 훈련된 것보다 훨씬 효과적일듯!
 - fixed input image
@@ -119,19 +119,19 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 
 ## Intermediate Features via (guided) backprop
 ---
-<img src="https://www.dropbox.com/s/waxqanp7q40w4ry/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-02%2018.57.25.png?raw=1">
+<img src="https://www.dropbox.com/s/waxqanp7q40w4ry/Screenshot%202018-06-02%2018.57.25.png?raw=1">
 
 - 이해가 잘 안됨..
 - DeConv를 이용해 뉴런의 Gradient를 시각화하는 과정에서 사용하는 Back Propagation의 일종
 - 일반적인 Back Propagation과 달리 Positive influence만 반영해 관심있는 뉴런의 Gradient를 선명하게 시각화 가능
 - 이미지의 어떤 부분이 최고로 영향을 미치는지 확인할 수 있는 방법
-- <img src="https://www.dropbox.com/s/g7y27b558qd8q9s/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-02%2023.47.54.png?raw=1">
+- <img src="https://www.dropbox.com/s/g7y27b558qd8q9s/Screenshot%202018-06-02%2023.47.54.png?raw=1">
 - fixed input image
 - [Grad-CAM: 대선주자 얼굴 위치 추적기](http://jsideas.net/python/2018/01/12/grad_cam.html) 참고
 
 ## Gradient Ascent
 ---
-<img src="https://www.dropbox.com/s/mrn5cbfftaea81k/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-03%2000.21.19.png?raw=1">
+<img src="https://www.dropbox.com/s/mrn5cbfftaea81k/Screenshot%202018-06-03%2000.21.19.png?raw=1">
 
 - 참고 자료 : [Grad Cam을 이용한 딥러닝 모형 해석](http://freesearch.pe.kr/archives/4685), [엄태웅님 글](https://www.facebook.com/terryum/posts/10154593107119417)
 - 일부 Input image에서 의존성을 제거합니다
@@ -142,27 +142,27 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 	- 특정 뉴런의 값을 Maximize
 	- 그러나 자연스러운 이미지로 보이기
 
-<img src="https://www.dropbox.com/s/mxchl8mryawjd85/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-03%2000.21.38.png?raw=1">
+<img src="https://www.dropbox.com/s/mxchl8mryawjd85/Screenshot%202018-06-03%2000.21.38.png?raw=1">
 
 - gradient ascent를 이미지 자체의 픽셀에 적용
 
-<img src="https://www.dropbox.com/s/py1xr2napf5qg55/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-03%2000.22.08.png?raw=1">
+<img src="https://www.dropbox.com/s/py1xr2napf5qg55/Screenshot%202018-06-03%2000.22.08.png?raw=1">
 
 - Simple Regularizer : 생성된 이미지의 L2 norm을 penalize
 - 이미지를 생성하기 시작
 
 
-<img src="https://www.dropbox.com/s/9ui0hkcjpz42ekn/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-03%2000.22.30.png?raw=1">
+<img src="https://www.dropbox.com/s/9ui0hkcjpz42ekn/Screenshot%202018-06-03%2000.22.30.png?raw=1">
 
 - 가우시안 블러 이미지를 추가하고, 작은 value를 가진 픽셀을 0으로 바꾸고, 작은 그라디언트를 가지는 픽셀을 0으로 바꿈 
 - 위 결과로 조금 더 나은 시각화를 보여주고 있습니다
  
-<img src="https://www.dropbox.com/s/wl67whk1new17r8/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-03%2000.22.49.png?raw=1">
+<img src="https://www.dropbox.com/s/wl67whk1new17r8/Screenshot%202018-06-03%2000.22.49.png?raw=1">
 
-<img src="https://www.dropbox.com/s/hc80l86fdfi38wy/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-03%2000.23.00.png?raw=1">
+<img src="https://www.dropbox.com/s/hc80l86fdfi38wy/Screenshot%202018-06-03%2000.23.00.png?raw=1">
 
 
-<img src="https://www.dropbox.com/s/4sboypbf9j27fpk/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-05%2001.34.22.png?raw=1">
+<img src="https://www.dropbox.com/s/4sboypbf9j27fpk/Screenshot%202018-06-05%2001.34.22.png?raw=1">
 
 - Pixel space 대신 FC6 latent space를 최적화
 - 궁금하면 논문을 꼭 읽어볼 것
@@ -181,14 +181,14 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 - (3) Modify the image to maximize the class
 - (4) Repeat until network is fooled
 
-<img src="https://www.dropbox.com/s/k91g3bbm9claoy0/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-03%2000.50.07.png?raw=1">
+<img src="https://www.dropbox.com/s/k91g3bbm9claoy0/Screenshot%202018-06-03%2000.50.07.png?raw=1">
 
 - 위와 같은 행동이 어떻게 가능한지는 이안 굿펠로우의 강의를 통해서 알아볼 예정입니다
 
 ## DeepDream : Amplify existing features
 ---
 
-<img src="https://www.dropbox.com/s/s4vcexd9hlofqxx/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-05%2001.42.25.png?raw=1">
+<img src="https://www.dropbox.com/s/s4vcexd9hlofqxx/Screenshot%202018-06-05%2001.42.25.png?raw=1">
 
 - 참고 자료 : [텐서플로우를 이용해서 딥드림(DeepDream) 알고리즘 구현해보기](http://solarisailab.com/archives/535)
 - amplify : 증폭시키다
@@ -200,7 +200,7 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 - 한마디로 하면 Neural Networks의 Feature를 시각화하고 이를 Input 이미지와 결합해 환각적인 이미지를 만들어내는 알고리즘
 - 하나의 뉴런이 아니라 레이어로 확장 
 
-<img src="https://www.dropbox.com/s/fm27c1q42f37xyr/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-05%2001.47.22.png?raw=1">
+<img src="https://www.dropbox.com/s/fm27c1q42f37xyr/Screenshot%202018-06-05%2001.47.22.png?raw=1">
 
 - 코드에서 사용한 몇가지 트릭
 	- Jitter : 이미지를 두 픽셀씩 옮김
@@ -214,7 +214,7 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 	- 주어진 feature vector와 일치한 이미지
 	- 자연스러운 이미지
 	
-<img src="https://www.dropbox.com/s/5jwscyjtxsxnlag/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-05%2002.05.31.png?raw=1"> 
+<img src="https://www.dropbox.com/s/5jwscyjtxsxnlag/Screenshot%202018-06-05%2002.05.31.png?raw=1"> 
 
 - relu2_2가 완벽히 재현되어 있는 것을 보면, 해당 레이어는 버리면 안된다는 뜻입니다
 - relu5_3의 시각화는 이미지의 공간 구조는 유지한 채, 점점 색상 및 질감이 달라지고 있습니다
@@ -234,16 +234,16 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 ## Neural Texture Synthesis
 ---
 
-<img src="https://www.dropbox.com/s/b8ca9fbso1defk8/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-05%2002.16.59.png?raw=1">
+<img src="https://www.dropbox.com/s/b8ca9fbso1defk8/Screenshot%202018-06-05%2002.16.59.png?raw=1">
 
 ## Neural Style Transfer
 ---
 
 - [[코드](https://github.com/jcjohnson/neural-style)]
 
-<img src="https://www.dropbox.com/s/zfl952phto2s483/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-05%2002.19.04.png?raw=1">
+<img src="https://www.dropbox.com/s/zfl952phto2s483/Screenshot%202018-06-05%2002.19.04.png?raw=1">
 
-<img src="https://www.dropbox.com/s/unq7wo4igefklv8/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-05%2002.19.24.png?raw=1">
+<img src="https://www.dropbox.com/s/unq7wo4igefklv8/Screenshot%202018-06-05%2002.19.24.png?raw=1">
 
 - 문제점 : many forward / backward가 필요해서 매우 느림
 - 해결책 : 다른 neural network를 사용 => Fast Style Transfer
@@ -251,13 +251,13 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 ### Fast Style Transfer
 - [[코드](https://github.com/jcjohnson/fast-neural-style)]
 
-<img src="https://www.dropbox.com/s/k8tuhnb6uiikk6c/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-05%2002.22.27.png?raw=1">
+<img src="https://www.dropbox.com/s/k8tuhnb6uiikk6c/Screenshot%202018-06-05%2002.22.27.png?raw=1">
 
 
 ## Summary
 ---
 
-<img src="https://www.dropbox.com/s/ncg1jjkfwjopf7q/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-05%2002.21.52.png?raw=1">
+<img src="https://www.dropbox.com/s/ncg1jjkfwjopf7q/Screenshot%202018-06-05%2002.21.52.png?raw=1">
 
 
 

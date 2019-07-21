@@ -12,7 +12,7 @@ comments: true
 ---
 
 ## Overview
-<img src="https://www.dropbox.com/s/cnwnbmfvz1lbarq/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-03-26%2017.06.44.png?raw=1">
+<img src="https://www.dropbox.com/s/cnwnbmfvz1lbarq/Screenshot%202019-03-26%2017.06.44.png?raw=1">
 
 ## Operations Research
 - OR
@@ -104,7 +104,7 @@ comments: true
 
 ### Neighborhood vs Population Search
 - Neighborhood search
-	- <img src="https://www.dropbox.com/s/pb45r9rcnld5d8c/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-03-26%2018.16.50.png?raw=1"> 
+	- <img src="https://www.dropbox.com/s/pb45r9rcnld5d8c/Screenshot%202019-03-26%2018.16.50.png?raw=1"> 
 	- local search
 	- 계산적으로 어려운 최적화 문제를 해결하는 휴리스틱 방법론
 	- 잠재적 솔루션을 취하고 주변 환경(일종의 이웃)을 체크

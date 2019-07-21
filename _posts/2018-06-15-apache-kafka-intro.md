@@ -19,7 +19,7 @@ comments: true
 카프카는 링크드인에서 처음 출발한 기술로, 링크드인에서 발생하는 이슈를 해결하기 위해 탄생했습니다. 카프카가 개발되기 전의 링크드인 아키텍쳐는 다음과 같습니다
 
 ### 기존 아키텍쳐
-<img src="https://www.dropbox.com/s/svl8pah2sa80597/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-15%2017.23.26.png?raw=1">
+<img src="https://www.dropbox.com/s/svl8pah2sa80597/Screenshot%202018-06-15%2017.23.26.png?raw=1">
 
 - Monitoring : 앱/서비스에서 일어나는 미터링(사용량, 응답 시간, 에러 카운트)를 저장할 시계열 데이터 처리용 시스템
 - Splunk : 앱/서비스에서 발생하는 로그를 저장하고 실시간 또는 배치로 분석할 수 있도록 저장하는 시스템
@@ -40,14 +40,14 @@ comments: true
 	- 데이터가 증가함에 따라 스케일아웃이 가능한 시스템
 
 ### 새로운 아키텍쳐
-<img src="https://www.dropbox.com/s/frqw6rrbsi0u3ce/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-15%2017.32.21.png?raw=1">
+<img src="https://www.dropbox.com/s/frqw6rrbsi0u3ce/Screenshot%202018-06-15%2017.32.21.png?raw=1">
 
 - 기존엔 데이터 스토어 백엔드 관리와 백엔드에 따른 포맷, 별도의 앱 개발을 해야했는데 이젠 카프카에만 데이터를 전달하면 필요한 곳에서 각자 가져갈 수 있도록 변경되었습니다
 - 카프카가 제공하는 표준 포맷으로 연결되어 데이터를 주고받는 데 부담이 없어졌습니다
 
 
 ### 카프카의 지향점
-<img src="https://www.dropbox.com/s/4mbv8n6lvdm7cka/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-15%2018.24.04.png?raw=1" widht="500" height="400">
+<img src="https://www.dropbox.com/s/4mbv8n6lvdm7cka/Screenshot%202018-06-15%2018.24.04.png?raw=1" widht="500" height="400">
 
 ### 카프카의 용도
 - 메세지 처리
@@ -69,7 +69,7 @@ comments: true
 	- 그러나 메세징 시스템이 중간에 있어서 전달 속도가 빠르지 않음
 	- 전화기의 교환대의 원리와 살짝 유사한 느낌
 - Kafka
-	- <img src="https://www.dropbox.com/s/zh6p3bc1zjg42m6/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-15%2020.51.26.png?raw=1"> 	
+	- <img src="https://www.dropbox.com/s/zh6p3bc1zjg42m6/Screenshot%202018-06-15%2020.51.26.png?raw=1"> 	
 	- 전달 속도가 느린 단점을 극복하기 위해 메세지 전달의 신뢰성 관리를 프로듀서와 컨슈머에게 넘기고, 교환기 기능을 컨슈머가 만들 수 있게 했습니다	
 - 카프카 말고도 RabbitMQ 같은 메세징 프로그램도 있습니다
 
@@ -92,10 +92,10 @@ comments: true
 ---
 
 ### Netflix
-<img src="https://www.dropbox.com/s/egk36r4ry02hzfj/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-15%2021.03.55.png?raw=1">
+<img src="https://www.dropbox.com/s/egk36r4ry02hzfj/Screenshot%202018-06-15%2021.03.55.png?raw=1">
 
 ### Uber
-<img src="https://www.dropbox.com/s/jfb8zqpqd4ft8r5/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-15%2021.07.21.png?raw=1">
+<img src="https://www.dropbox.com/s/jfb8zqpqd4ft8r5/Screenshot%202018-06-15%2021.07.21.png?raw=1">
 
 
 

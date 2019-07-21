@@ -46,7 +46,7 @@ GCP 콘솔([https://console.cloud.google.com/](https://console.cloud.google.com/
 - 측정항목 : NVDIA K80 GPUs, NVDIA P100 GPUs
 - 위치 : asia-east1
 
-<img src="https://www.dropbox.com/s/re5b9whkf5kcqpe/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-14%2001.00.47.png?raw=1">
+<img src="https://www.dropbox.com/s/re5b9whkf5kcqpe/Screenshot%202018-06-14%2001.00.47.png?raw=1">
 
 이렇게 설정하면 모든 region별로 GPU 할당량을 볼 수 있습니다  
 (저는 예전에 신청해서 Quota가 2로 되어있습니다)  
@@ -64,7 +64,7 @@ K80 GPU 왼쪽 체크박스에 체크한 후, 할당량 수정을 눌러주세�
 
 Compute Engine - VM 인스턴스 - 인스턴스 만들기 클릭
 
-<img src="https://www.dropbox.com/s/z3zdhi0n1cx3sp6/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-14%2001.08.06.png?raw=1" width="400" height="600">
+<img src="https://www.dropbox.com/s/z3zdhi0n1cx3sp6/Screenshot%202018-06-14%2001.08.06.png?raw=1" width="400" height="600">
 
 - 지역 : asia-east1, 영역 : asia-east1-a
 - 머신 유형 : 사용하고 싶은 유형을 선택해주세요. 저는 cpu 8, ram 30, K80 GPU를 선택했습니다
@@ -189,7 +189,7 @@ c.NotebookApp.password = '<해시값>'
 
 메뉴 - VPC 네트워크 - 방화벽 규칙 - 방화벽 규칙 만들기 선택
 
-<img src="https://www.dropbox.com/s/emboyqppnrhwuw6/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-14%2002.59.52.png?raw=1" width="400" height="600">
+<img src="https://www.dropbox.com/s/emboyqppnrhwuw6/Screenshot%202018-06-14%2002.59.52.png?raw=1" width="400" height="600">
 
 네트워크 태그에 gpu를 가지고있는 인스턴스의 8888 포트만 엽니다  
 이제 다시 Compute Engine - 아까 생성한 인스턴스를 클릭해주세요!  
@@ -231,7 +231,7 @@ VM 인스턴스 세부정보에서 "수정"을 클릭해주세요
 하단에 맞춤 메타데이터 아래에 다음과 같은 값을 넣어주세요!
 byeon을 여러분들이 사용하는 유저 이름으로 바꿔주세요
 
-<img src="https://www.dropbox.com/s/iikt8b8pz6k7uvk/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-14%2010.34.43.png?raw=1" width="400" height="300">
+<img src="https://www.dropbox.com/s/iikt8b8pz6k7uvk/Screenshot%202018-06-14%2010.34.43.png?raw=1" width="400" height="300">
 
 ```
 key : startup-script

@@ -30,7 +30,7 @@ comments: true
 - M&S는 문제 해결 도구
 	- M&S 프로세스 : 문제 => 모델링 => 시뮬레이션
 		- 시뮬레이션의 결과가 문제의 답임 
-		- <img src="https://www.dropbox.com/s/rps0h0udipz9uf2/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-06-02%2020.13.58.png?raw=1">
+		- <img src="https://www.dropbox.com/s/rps0h0udipz9uf2/Screenshot%202019-06-02%2020.13.58.png?raw=1">
 - M&S 적용 효과는?
 	- 과학적 의사 결정 : 의사 결정 결과에 대한 신뢰성 증대
 	- 효율적 업무 수행 : 비용과 시간 절감
@@ -40,7 +40,7 @@ comments: true
 		- 우리가 만든 모델이 실제랑 동일해야 함
 		- 검증은 모델링 목적에 부합하는 데이터에 국한해야 함
 		- 모델링 목적을 만족시키는 검증 
-			- <img src="https://www.dropbox.com/s/sogn0ji2vujl9kr/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-06-02%2020.19.59.png?raw=1">
+			- <img src="https://www.dropbox.com/s/sogn0ji2vujl9kr/Screenshot%202019-06-02%2020.19.59.png?raw=1">
 - V&V가 안된 M&S 적용시 문제점
 	- 검증되지 않는 모델을 사용한 시뮬레이션의 결과
 	- 1) M&S 결과 신뢰도 X
@@ -48,9 +48,9 @@ comments: true
 	- 따라서 실제 체계와 비교가 필수
 	- 모델 검증을 위해서 운영중인 시스템의 데이터 수집이 필수
 - M&S 관련 용어 이해 : 유추적 의미로 접근
-	- <img src="https://www.dropbox.com/s/h6y6pw02l3vm2ev/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-06-02%2020.27.55.png?raw=1">
+	- <img src="https://www.dropbox.com/s/h6y6pw02l3vm2ev/Screenshot%202019-06-02%2020.27.55.png?raw=1">
 - M&S 공학 수명 주기 및 학술 분야 적용 기술
-	- <img src="https://www.dropbox.com/s/ru9s8adot5sfbln/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-06-02%2020.28.18.png?raw=1">
+	- <img src="https://www.dropbox.com/s/ru9s8adot5sfbln/Screenshot%202019-06-02%2020.28.18.png?raw=1">
 
 
 ---
@@ -72,13 +72,13 @@ comments: true
 - 목적 지향적 모델링 예 (1)
 	- 구조가 달라지는 경우
 	- 컴퓨터 시스템을 만들어보자
-		- <img src="https://www.dropbox.com/s/yhbqgey1ghugvwi/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-06-02%2020.37.22.png?raw=1">
+		- <img src="https://www.dropbox.com/s/yhbqgey1ghugvwi/Screenshot%202019-06-02%2020.37.22.png?raw=1">
 - 목적 지향적 모델링 예 (2)
 	- 변수가 달라지는 경우 + 목적에 따라 달라지는 경우
-	- <img src="https://www.dropbox.com/s/boots3v5961edai/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-06-02%2020.40.30.png?raw=1">
+	- <img src="https://www.dropbox.com/s/boots3v5961edai/Screenshot%202019-06-02%2020.40.30.png?raw=1">
 - M&S의 목적 : 기능 vs 성능/효과도
 	- 모델의 목적을 여러가지를 동시에 수용하면 모델의 복잡도가 높아지고 ->  정확도가 떨어지고 -> 시뮬레이션 결과의 신뢰도가 떨어짐
-	- <img src="https://www.dropbox.com/s/vltkfh5y6fxvneb/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-06-02%2020.43.50.png?raw=1">
+	- <img src="https://www.dropbox.com/s/vltkfh5y6fxvneb/Screenshot%202019-06-02%2020.43.50.png?raw=1">
 - M&S의 3 요소
 	- 대상 시스템
 	- 모델 : 시스템에서 모델 설계
@@ -89,7 +89,7 @@ comments: true
 		- 실행 불가로 인해 실증 한계점 존재 
 	- 검증(Verification) : 모델과 시뮬레이터가 일치하는지? 모델이 구현된 후 실시 
 		- 코드 디버깅과 동일한 프로세스
-	- <img src="https://www.dropbox.com/s/08oqpw3rhcj3r0q/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-06-02%2020.50.59.png?raw=1">
+	- <img src="https://www.dropbox.com/s/08oqpw3rhcj3r0q/Screenshot%202019-06-02%2020.50.59.png?raw=1">
 
 
 ---
@@ -110,7 +110,7 @@ comments: true
 	- 모델링 = 지식 변환 과정
 		- 도메인 전문가와 M&S 전문가가 지식 교환 및 변환
 	- 모델 Validation 필수!
-	- <img src="https://www.dropbox.com/s/7flbhpesshicp31/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-06-02%2020.55.30.png?raw=1">
+	- <img src="https://www.dropbox.com/s/7flbhpesshicp31/Screenshot%202019-06-02%2020.55.30.png?raw=1">
 - 모델 명세 방법
 	- 1) 수식적 틀에 의한 명세
 		- 수학 방정식
@@ -133,11 +133,11 @@ comments: true
 - 시뮬레이션 엔진 : 모델 해석(실행)하기
 	- 시뮬레이션 엔진 = 모델 실행기 = 모델 해석기 = 모델 실행 알고리즘
 	- 모델(예: 방정식)을 실행시키는(예: 방정식 풀기) 알고리즘
-	- <img src="https://www.dropbox.com/s/d2gemklyaa8i2rx/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-06-02%2021.01.16.png?raw=1">
+	- <img src="https://www.dropbox.com/s/d2gemklyaa8i2rx/Screenshot%202019-06-02%2021.01.16.png?raw=1">
 - 시뮬레이터
 	- 모델 + 시뮬레이션 엔진(모델 실행기) + 시뮬레이션에 필요한 기타 자원의 집합체
 	- 아주 간단한 경우 소프트웨어만 시뮬레이터라 할 수 있고, 복잡하면 하드웨어도 필요
-	- <img src="https://www.dropbox.com/s/adqh8tvquc9y6wi/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-06-02%2021.02.22.png?raw=1">
+	- <img src="https://www.dropbox.com/s/adqh8tvquc9y6wi/Screenshot%202019-06-02%2021.02.22.png?raw=1">
 
 ---
 
@@ -151,25 +151,25 @@ comments: true
 		- 각각에 대해서 모델, 변수가 달라짐  
 - 1) 먹고 남은 사과 수
 	- 모델 설계 
-		- <img src="https://www.dropbox.com/s/s1a3g3m5sc2esh6/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-06-02%2021.51.05.png?raw=1">
+		- <img src="https://www.dropbox.com/s/s1a3g3m5sc2esh6/Screenshot%202019-06-02%2021.51.05.png?raw=1">
 	- 모델 구현
-		- <img src="https://www.dropbox.com/s/pcfwg23qx8fmmuw/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-06-02%2021.56.22.png?raw=1">
+		- <img src="https://www.dropbox.com/s/pcfwg23qx8fmmuw/Screenshot%202019-06-02%2021.56.22.png?raw=1">
 	- 시뮬레이터 검증(Verificaiton)
 		- 검증 표를 만들고, 모델의 출력과 계산기를 비교
-		- <img src="https://www.dropbox.com/s/1yhh2qrn6hti17k/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-06-02%2021.57.28.png?raw=1">
+		- <img src="https://www.dropbox.com/s/1yhh2qrn6hti17k/Screenshot%202019-06-02%2021.57.28.png?raw=1">
 	- 모델 실증(Validation)
 		- 시뮬레이터와 실제 값의 차이가 왜 나는지? 확인
-		- <img src="https://www.dropbox.com/s/y95kiokdqbzty14/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-06-02%2021.59.15.png?raw=1">
+		- <img src="https://www.dropbox.com/s/y95kiokdqbzty14/Screenshot%202019-06-02%2021.59.15.png?raw=1">
 
 - 2) 사과 먹는데 소요한 시간
 	- 모델 설계
-		- <img src="https://www.dropbox.com/s/23q9wmyqq8pvrub/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-06-02%2022.01.14.png?raw=1">
+		- <img src="https://www.dropbox.com/s/23q9wmyqq8pvrub/Screenshot%202019-06-02%2022.01.14.png?raw=1">
 	- 모델의 실증(Validation)
 		- 시뮬레이터와 실제 값의 차이가 왜 나는지? 확인
-		- <img src="https://www.dropbox.com/s/hatpxvdjx0seyux/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-06-02%2022.02.33.png?raw=1">
+		- <img src="https://www.dropbox.com/s/hatpxvdjx0seyux/Screenshot%202019-06-02%2022.02.33.png?raw=1">
 	- 모델의 조정(Calibration)
 		- 모델 논리를 개조해서 다시 시뮬레이션하는 과정 => 다시 구현 => 실증
-		- <img src="https://www.dropbox.com/s/ss3j1u5vg1i4zws/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-06-02%2022.03.07.png?raw=1">
+		- <img src="https://www.dropbox.com/s/ss3j1u5vg1i4zws/Screenshot%202019-06-02%2022.03.07.png?raw=1">
 
 
   

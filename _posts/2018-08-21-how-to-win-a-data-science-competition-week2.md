@@ -61,25 +61,25 @@ EDA : 탐색적 자료 분석, Exploratory data analysis
 ### Visualizations
 - Explore individual features
 	- Histograms : ```plt.hist()```
-		- <img src="https://www.dropbox.com/s/r6ppwc7y8vy8dg4/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-16%2020.28.02.png?raw=1" height="300" width="400"> 
+		- <img src="https://www.dropbox.com/s/r6ppwc7y8vy8dg4/Screenshot%202018-08-16%2020.28.02.png?raw=1" height="300" width="400"> 
 	- Plot (index vs value) : ```plt.plot(x, '.')```, ```plt.scatter(range(len(x)), x, c=y)```, 데이터가 적절히 섞였는지 확인
-		- <img src="https://www.dropbox.com/s/7qumsa1htbe77yw/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-16%2020.28.55.png?raw=1" height="300" width="400"> 
-		- <img src="https://www.dropbox.com/s/kqpazpcv2ydn19x/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-16%2020.30.07.png?raw=1" height="300" width="450">
+		- <img src="https://www.dropbox.com/s/7qumsa1htbe77yw/Screenshot%202018-08-16%2020.28.55.png?raw=1" height="300" width="400"> 
+		- <img src="https://www.dropbox.com/s/kqpazpcv2ydn19x/Screenshot%202018-08-16%2020.30.07.png?raw=1" height="300" width="450">
 	- Statistics : ```df.describe()```, ```x.mean()```, ```x.var()```
 	- Other tools : ```x.value_counts()```,```x.isnull()```
 - Explore feature relations
 	- Pairs
 		- Scatter plots : ```plt.scatter(x1, x2)```, ```pd.scatter_matrix(df)```
-			- <img src="https://www.dropbox.com/s/jjje4cxztfyooja/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-16%2020.32.58.png?raw=1" height="300" width="300">
-			- <img src="https://www.dropbox.com/s/0thqha0vmdg8kom/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-16%2020.35.45.png?raw=1" height="300" width="300"> 
+			- <img src="https://www.dropbox.com/s/jjje4cxztfyooja/Screenshot%202018-08-16%2020.32.58.png?raw=1" height="300" width="300">
+			- <img src="https://www.dropbox.com/s/0thqha0vmdg8kom/Screenshot%202018-08-16%2020.35.45.png?raw=1" height="300" width="300"> 
 		- Corrplot : ```df.corr()```, ```plt.matshow(...)```
-			- <img src="https://www.dropbox.com/s/5kbnm4puey0du0p/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-16%2020.37.06.png?raw=1" height="300" widht="300">
+			- <img src="https://www.dropbox.com/s/5kbnm4puey0du0p/Screenshot%202018-08-16%2020.37.06.png?raw=1" height="300" widht="300">
 	- Groups
 		- Corrplot + clustering
-			- <img src="https://www.dropbox.com/s/97pk7vwfmcaghq9/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-16%2020.41.32.png?raw=1" height="300" width="300"> 
+			- <img src="https://www.dropbox.com/s/97pk7vwfmcaghq9/Screenshot%202018-08-16%2020.41.32.png?raw=1" height="300" width="300"> 
 		- Plot (index vs feature statistics) : ```df.mean().plot(style='.')```, ```df.srot_values().plot(style='.')```
-			- <img src="https://www.dropbox.com/s/xay165gu1ji6g9w/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-16%2020.41.49.png?raw=1" height="300" widht="300"> 
-			- <img src="https://www.dropbox.com/s/lvavqzvi69t5l61/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-16%2020.42.45.png?raw=1" height="300" width="300">
+			- <img src="https://www.dropbox.com/s/xay165gu1ji6g9w/Screenshot%202018-08-16%2020.41.49.png?raw=1" height="300" widht="300"> 
+			- <img src="https://www.dropbox.com/s/lvavqzvi69t5l61/Screenshot%202018-08-16%2020.42.45.png?raw=1" height="300" width="300">
 
 ### Dataset cleaning and other things to check
 - Duplicated columns
@@ -107,13 +107,13 @@ EDA : 탐색적 자료 분석, Exploratory data analysis
 	- 이 성능은 Train(past) 데이터와 Test(future) 데이터에 따라 다름
 	- 학습한 후, 모델의 성능을 평가하기 위해 validation을 사용
 	- Train(past), Validation(past), Test(future)
-	- <img src="https://www.dropbox.com/s/ip1yzk7zh9zzw8t/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-20%2015.52.34.png?raw=1">
+	- <img src="https://www.dropbox.com/s/ip1yzk7zh9zzw8t/Screenshot%202018-08-20%2015.52.34.png?raw=1">
 	- Validation에서 성능이 잘 나온 것을 Best 모델로 하고 계속 튜닝을 하면 오버피팅이 될 수 있음(Test엔 잘 안맞는 모델)
 - underfitting and overfitting
-	- <img src="https://www.dropbox.com/s/4fzayj743inny9z/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-20%2015.57.11.png?raw=1">
+	- <img src="https://www.dropbox.com/s/4fzayj743inny9z/Screenshot%202018-08-20%2015.57.11.png?raw=1">
 	- 머신러닝의 오버피팅과 대회의 오버피팅은 살짝 다름
 	- Overfitting in general != overfitting in competition
-	- <img src="https://www.dropbox.com/s/wyydgqosmzuhes5/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-20%2016.03.29.png?raw=1">
+	- <img src="https://www.dropbox.com/s/wyydgqosmzuhes5/Screenshot%202018-08-20%2016.03.29.png?raw=1">
 	- General
 		- capturing noize
 		- capturing patterns which do not getneralize to test data
@@ -136,7 +136,7 @@ EDA : 탐색적 자료 분석, Exploratory data analysis
 			- 같은 모델을 다르게 split해서 성능을 보고싶을 경우
 		- Split 방식이 성능 추정에 민감한 영향을 미침
 	- K-fold
-		- <img src="https://www.dropbox.com/s/3dx4qk0rgezr7tx/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-21%2010.14.27.png?raw=1"> 
+		- <img src="https://www.dropbox.com/s/3dx4qk0rgezr7tx/Screenshot%202018-08-21%2010.14.27.png?raw=1"> 
 		- ngroups=k 
 		- ```sklearn.model_selection.kfold```
 		- Train data를 K folds로 나눔
@@ -168,9 +168,9 @@ EDA : 탐색적 자료 분석, Exploratory data analysis
 - 1) Random rows in validation
 - 2) Time based split
 - 3) Differend approached to validation
-	- <img src="https://www.dropbox.com/s/tcy9jk7d33un16y/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-21%2011.22.03.png?raw=1">
+	- <img src="https://www.dropbox.com/s/tcy9jk7d33un16y/Screenshot%202018-08-21%2011.22.03.png?raw=1">
 	- 모델의 목적에 따라 적절한 split이 필요
-	- <img src="https://www.dropbox.com/s/lpfoy9rgrhf079y/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-21%2011.27.24.png?raw=1">
+	- <img src="https://www.dropbox.com/s/lpfoy9rgrhf079y/Screenshot%202018-08-21%2011.27.24.png?raw=1">
 		- 파란색 선이 mean value
 		- 좌측의 경우 test보다 validation 때 더 나은 score 얻음
 		- 우측의 경우 test와 validation와 유사한 score 얻음 
@@ -188,9 +188,9 @@ EDA : 탐색적 자료 분석, Exploratory data analysis
 			- Time based
 			- 특정 일 이전의 데이터는 train, 이후의 데이터는 test 
 			- Moving window validation
-			- <img src="https://www.dropbox.com/s/ev80voci262izn7/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-21%2011.40.22.png?raw=1"> 
+			- <img src="https://www.dropbox.com/s/ev80voci262izn7/Screenshot%202018-08-21%2011.40.22.png?raw=1"> 
 		- By id  
-			- <img src="https://www.dropbox.com/s/gnanuk5q6srxvje/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-21%2011.42.51.png?raw=1">
+			- <img src="https://www.dropbox.com/s/gnanuk5q6srxvje/Screenshot%202018-08-21%2011.42.51.png?raw=1">
 		- Combined
 			- Date + Id, geographic  
 
@@ -261,7 +261,7 @@ EDA : 탐색적 자료 분석, Exploratory data analysis
 
 ### Leaderboard probing and examples of rare data leaks
 - ID와 밀접하게 연결된 카테고리는 LB probing에 취약함
-	- <img src="https://www.dropbox.com/s/6ue6en8vtn70vfe/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-21%2016.10.25.png?raw=1">
+	- <img src="https://www.dropbox.com/s/6ue6en8vtn70vfe/Screenshot%202018-08-21%2016.10.25.png?raw=1">
 	- id가 같은 것의 라벨을 넣고 제출해보고 나온 결과로 역추적 가능
 	- Redhat and west nile competition
 - Peculiar(이상한) examples
@@ -286,7 +286,7 @@ EDA : 탐색적 자료 분석, Exploratory data analysis
 - 유저와 호텔의 거리를 통해 추측할 수 있는 것들이 있음! Train과 test에서 많이 매칭됨
 	- user city와 destination distance pair
 	- 더 많은 match를 찾는 것
-	- <img src="https://www.dropbox.com/s/r6398kjk9b8xtwh/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-21%2018.58.14.png?raw=1">
+	- <img src="https://www.dropbox.com/s/r6398kjk9b8xtwh/Screenshot%202018-08-21%2018.58.14.png?raw=1">
 	- 유저 도시, 호텔 국가, 호텔 도시 3개의 방정식으로 어느 그룹의 호텔이 몇 개나 있는지를 알 수 있음
 	- 리버스 엔지니어링을 하며 모든 도시의 좌표를 반복적으로 찾음
 	- 일부 도시는 바다 위에 있는것으로 보였는데, 알고리즘이 정확하지 않다는 것을 의미

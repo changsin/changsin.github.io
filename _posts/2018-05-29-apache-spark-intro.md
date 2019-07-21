@@ -77,7 +77,7 @@ val file = spark.textFile("hdfs://...")val counts = file.flatMap(line => line.s
 	- ```rdd.unpersist()```
 	- ```rdd.persist(MEMORY_ONLY)``` 
 - Persistence Level
-	- <img src="https://www.dropbox.com/s/v7wlsy5qaqzhdki/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-29%2021.58.27.png?raw=1">
+	- <img src="https://www.dropbox.com/s/v7wlsy5qaqzhdki/Screenshot%202018-05-29%2021.58.27.png?raw=1">
 	- MEMORY\_ONLY\_SER 옵션을 반드시 Check
 	- 전송/저장할 때는 object 그대로 저장하면 바이트 상태로 저장되기 때문에 사람이 알아볼 수 있는 형태로 포맷을 저장해서 전송할 필요가 있습니다. 이런 작업을 Serialized한다고 표현
 	- object를 serialize할 경우 json, binary 등으로 가능! serialize/deserialize 작업은 꽤 비싼 작업이기 때문에 옵션이 세세하게 있습니다
@@ -92,7 +92,7 @@ val file = spark.textFile("hdfs://...")val counts = file.flatMap(line => line.s
 
 ### Narrow & Wide Dependency
 - map, filter 등을 할 때 RDD의 종속 관계(화살표 관계)를 Dependency라고 함
-- <img src="https://www.dropbox.com/s/ttb54bm5glqnqnz/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-29%2022.10.37.png?raw=1">
+- <img src="https://www.dropbox.com/s/ttb54bm5glqnqnz/Screenshot%202018-05-29%2022.10.37.png?raw=1">
 - Narrow Dependency
 	- 효율적
 	- 하나의 파티션이 하나의 파티션에서만 사용

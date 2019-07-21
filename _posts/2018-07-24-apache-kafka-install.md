@@ -17,7 +17,7 @@ comments: true
 
 ## 아파치 주키퍼
 ### 개요
-- <img src="https://www.dropbox.com/s/wco6izvo0lnjxki/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-07-24%2013.57.55.png?raw=1"> 
+- <img src="https://www.dropbox.com/s/wco6izvo0lnjxki/Screenshot%202018-07-24%2013.57.55.png?raw=1"> 
 - 분산 애플리케이션 관리를 위한 안정적 코디네이션 애플리케이션
 - 각 애플리케이션의 정보를 중앙에 집중하고 구성 관리, 그룹 관리 네이밍, 동기화 등의 서비스 제공
 - 직접 개발하기보다 안정적이라고 검증된 주키퍼를 많이 사용

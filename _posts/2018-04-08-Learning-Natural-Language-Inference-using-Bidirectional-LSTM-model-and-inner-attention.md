@@ -22,7 +22,7 @@ Learning Natural Language Inference using Bidirectional LSTM model and Inner Att
 ## 1. Introduction
 - 한 쌍의 문장이 주어질 때, 전제로부터 합리적 추론을 할 수 있는지 측정하는 것이 목표
 
-<img src="https://www.dropbox.com/s/0m0vu19clej2ftk/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-04-08%2015.13.34.png?raw=1" width="400" height="200">
+<img src="https://www.dropbox.com/s/0m0vu19clej2ftk/Screenshot%202018-04-08%2015.13.34.png?raw=1" width="400" height="200">
 
 
 - RTE의 3가지 types
@@ -36,7 +36,7 @@ Learning Natural Language Inference using Bidirectional LSTM model and Inner Att
 - Single directional LSTM과 GRU는 문맥 정보를 활용하지 못하는 약점이 있으며, CNN은 단어 순서(word order)에 대한 정보를 활용하지 못함
 - Bidirectional LSTM은 위에서 언급된 단점을 해결하기 위해, 두 방향으로 sequence를 처리해 이전과 이후의 context를 사용
 
-<img src="https://www.dropbox.com/s/0pbit688g5bw6au/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-04-08%2015.15.28.png?raw=1">
+<img src="https://www.dropbox.com/s/0pbit688g5bw6au/Screenshot%202018-04-08%2015.15.28.png?raw=1">
 
 - Feature Engineering이나 외부 리소스를 필요하지 않는 RTE를 위해 통합된 프레임 워크를 제안함
 	- 기본 모델은 Premise와 Hypothesis에 BiLSTM을 구축

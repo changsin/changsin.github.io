@@ -39,7 +39,7 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 ## Generative Models
 ---
 
-<img src="https://www.dropbox.com/s/l3xa29mk7nl8jtp/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2010.20.02.png?raw=1">
+<img src="https://www.dropbox.com/s/l3xa29mk7nl8jtp/Screenshot%202018-06-10%2010.20.02.png?raw=1">
 
 - Train 데이터가 주어지면, 이 데이터의 분포와 동일한 새로운 samples을 생성
 - $$p_{model}(x)$$와 $$p_{data}(x)$$가 유사하도록 학습
@@ -50,7 +50,7 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 
 
 ### Why Generative Models?
-<img src="https://www.dropbox.com/s/maobzorpfmopzw2/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2010.24.27.png?raw=1">
+<img src="https://www.dropbox.com/s/maobzorpfmopzw2/Screenshot%202018-06-10%2010.24.27.png?raw=1">
 
 - Data로부터 실제와 같은 샘플을 얻을 수 있음(artwork, super-resolution, colorization 등)
 - time-series data의 generative model들은 simulation과 planning할 때 사용 가능(강화학습!)
@@ -59,7 +59,7 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 - Semi-supervised learning에서 활용될 수 있음
 
 ### Taxonomy of Generative Models
-<img src="https://www.dropbox.com/s/2pzxib21t7z6x9k/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2010.27.26.png?raw=1">
+<img src="https://www.dropbox.com/s/2pzxib21t7z6x9k/Screenshot%202018-06-10%2010.27.26.png?raw=1">
 
 - Generative Model의 분류
 - 이 수업에선 3가지만 다룰 예정입니다
@@ -69,7 +69,7 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 
 ### Fully visible belief network
 
-<img src="https://www.dropbox.com/s/xlcys4wh2i04ly9/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2010.35.26.png?raw=1">
+<img src="https://www.dropbox.com/s/xlcys4wh2i04ly9/Screenshot%202018-06-10%2010.35.26.png?raw=1">
 
 - Explicit density model
 - 1-d 차원의 이미지 x의 likelihood를 decompose하기 위해 chain rule 사용
@@ -81,14 +81,14 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 
 
 ### PixelRNN
-<img src="https://www.dropbox.com/s/brrhj1ag50znpkp/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2010.48.40.png?raw=1" width="220" height="200">
+<img src="https://www.dropbox.com/s/brrhj1ag50znpkp/Screenshot%202018-06-10%2010.48.40.png?raw=1" width="220" height="200">
 
 - corner부터 시작해 이미지 픽셀 생성
 - RNN/LSTM을 사용해 이전 픽셀에 dependency
 - 그러나, sequential generation은 느림!!
 
 ### PixelCNN
-<img src="https://www.dropbox.com/s/n3pflqtf64vr99g/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2010.51.17.png?raw=1" widht="200" height="250">
+<img src="https://www.dropbox.com/s/n3pflqtf64vr99g/Screenshot%202018-06-10%2010.51.17.png?raw=1" widht="200" height="250">
 
 - corner부터 시작해 이미지 픽셀 생성
 - CNN over context region을 사용해 이전 픽셀에 dependency
@@ -98,44 +98,44 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 	- 그러나 sequentially하기 때문에 여전히 느림
 
 ### Generations Samples
-<img src="https://www.dropbox.com/s/6js5vkewwvc1s68/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2011.04.33.png?raw=1">
+<img src="https://www.dropbox.com/s/6js5vkewwvc1s68/Screenshot%202018-06-10%2011.04.33.png?raw=1">
 
 ### Summary
-<img src="https://www.dropbox.com/s/swi2wiyzc8zwz9v/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2011.05.00.png?raw=1">
+<img src="https://www.dropbox.com/s/swi2wiyzc8zwz9v/Screenshot%202018-06-10%2011.05.00.png?raw=1">
 
 
 ## Variational Autoencoders (VAE)
 ---
 
-<img src="https://www.dropbox.com/s/cg0673i8cayx62g/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2011.14.03.png?raw=1">
+<img src="https://www.dropbox.com/s/cg0673i8cayx62g/Screenshot%202018-06-10%2011.14.03.png?raw=1">
 
 - VAE는 latent z를 가진 intractable(다루기 힘든) 밀도 함수를 정의
 - 직접적으로 최적화할 수 없고, likelihood에 대한 lower bound(하한)으로 유도하고 최적화	
 	
 ### background first: Autoencoders
-<img src="https://www.dropbox.com/s/tpnoz2r1qvyhl9e/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2011.18.00.png?raw=1">
+<img src="https://www.dropbox.com/s/tpnoz2r1qvyhl9e/Screenshot%202018-06-10%2011.18.00.png?raw=1">
 
 - unlabeled training data로 저차원의 feature representation을 만드는 unsupervised 접근
 - Encoder는 계속 변하고 있음
 - 차원 축소를 하는 이유는?
 	- 의미있는 데이터 변동 factor를 찾을 수 있는 Feature를 얻기 위해
 
-<img src="https://www.dropbox.com/s/wkhxy57nxgx5gca/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2011.23.21.png?raw=1">
+<img src="https://www.dropbox.com/s/wkhxy57nxgx5gca/Screenshot%202018-06-10%2011.23.21.png?raw=1">
 
 - How to learn this feature representation?
 	- original data를 재설계할 수 있는 feature를 학습
 	- Autoencoding은 encoding 그 자체!
 - Decoder도 Encoder처럼 계속 변하고 있음
 
-<img src="https://www.dropbox.com/s/npg2xnhb81t645u/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2011.25.52.png?raw=1">
+<img src="https://www.dropbox.com/s/npg2xnhb81t645u/Screenshot%202018-06-10%2011.25.52.png?raw=1">
 
-<img src="https://www.dropbox.com/s/iuivz189dggea8x/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2011.27.19.png?raw=1">
+<img src="https://www.dropbox.com/s/iuivz189dggea8x/Screenshot%202018-06-10%2011.27.19.png?raw=1">
 
 - Encoder는 supervised model을 initialize하기 위해 사용할 수 있음
 - 그렇다면 autoencoder로 새로운 이미지를 생성할 수 있을까? => VAE
 
 ### Variational Autoencoders
-<img src="https://www.dropbox.com/s/oc79eu8lxpyv860/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2011.30.22.png?raw=1">
+<img src="https://www.dropbox.com/s/oc79eu8lxpyv860/Screenshot%202018-06-10%2011.30.22.png?raw=1">
 
 - true parameters $$\theta^*$$를 estimate하고 싶음
 - How should we represent this model?
@@ -149,33 +149,33 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 	- Intractable!
 
 ### Intractabiltiy
-<img src="https://www.dropbox.com/s/q6dycmy8lg8anmd/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2011.44.41.png?raw=1">
+<img src="https://www.dropbox.com/s/q6dycmy8lg8anmd/Screenshot%202018-06-10%2011.44.41.png?raw=1">
 
-<img src="https://www.dropbox.com/s/ivujma7vxmcm36q/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2011.48.14.png?raw=1">
+<img src="https://www.dropbox.com/s/ivujma7vxmcm36q/Screenshot%202018-06-10%2011.48.14.png?raw=1">
 
 - decoder network 모델링에 추가하기 위해 encoder network를 정의($$p_{\theta}(z\mid x)$$를 근사할)
 
-<img src="https://www.dropbox.com/s/ivinifqg6g9qjn8/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2011.50.02.png?raw=1">
+<img src="https://www.dropbox.com/s/ivinifqg6g9qjn8/Screenshot%202018-06-10%2011.50.02.png?raw=1">
 
-<img src="https://www.dropbox.com/s/9vw12vta3bv0iqs/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2011.50.31.png?raw=1">
+<img src="https://www.dropbox.com/s/9vw12vta3bv0iqs/Screenshot%202018-06-10%2011.50.31.png?raw=1">
 
-<img src="https://www.dropbox.com/s/61ixhtnjyhsd2i8/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2011.54.36.png?raw=1">
+<img src="https://www.dropbox.com/s/61ixhtnjyhsd2i8/Screenshot%202018-06-10%2011.54.36.png?raw=1">
 
-<img src="https://www.dropbox.com/s/9fepjx4h1m9kkv0/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2011.56.01.png?raw=1">
+<img src="https://www.dropbox.com/s/9fepjx4h1m9kkv0/Screenshot%202018-06-10%2011.56.01.png?raw=1">
 
-<img src="https://www.dropbox.com/s/kiirfh2eeqgz6o1/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2011.56.16.png?raw=1">
+<img src="https://www.dropbox.com/s/kiirfh2eeqgz6o1/Screenshot%202018-06-10%2011.56.16.png?raw=1">
 
-<img src="https://www.dropbox.com/s/563kc94iu6cpu1b/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2011.57.33.png?raw=1">
+<img src="https://www.dropbox.com/s/563kc94iu6cpu1b/Screenshot%202018-06-10%2011.57.33.png?raw=1">
 
-<img src="https://www.dropbox.com/s/gs00ny0yz4913tw/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2011.58.22.png?raw=1">
+<img src="https://www.dropbox.com/s/gs00ny0yz4913tw/Screenshot%202018-06-10%2011.58.22.png?raw=1">
 
 ### Generating Data
-<img src="https://www.dropbox.com/s/8h63uinllaeiti7/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-11%2022.42.16.png?raw=1">
+<img src="https://www.dropbox.com/s/8h63uinllaeiti7/Screenshot%202018-06-11%2022.42.16.png?raw=1">
 
-<img src="https://www.dropbox.com/s/u50jqxtihcvvc0y/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-11%2022.42.30.png?raw=1">
+<img src="https://www.dropbox.com/s/u50jqxtihcvvc0y/Screenshot%202018-06-11%2022.42.30.png?raw=1">
 
 ### Summary
-<img src="https://www.dropbox.com/s/1pskkm52djclycm/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-11%2022.42.46.png?raw=1">
+<img src="https://www.dropbox.com/s/1pskkm52djclycm/Screenshot%202018-06-11%2022.42.46.png?raw=1">
 
 
 ## Generative Adversarial Networks (GAN)
@@ -205,59 +205,59 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 - Generator network : 실제와 같은 이미지를 생성해 discriminator를 속입니다
 - Discriminator network : 실제와 가짜 이미지를 구별합니다
 
-<img src="https://www.dropbox.com/s/2fkftsb2sksw8ue/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-11%2021.33.15.png?raw=1">
+<img src="https://www.dropbox.com/s/2fkftsb2sksw8ue/Screenshot%202018-06-11%2021.33.15.png?raw=1">
 
 - Generator가 진짜같은 이미지를 생성해낸다면!!
 
-<img src="https://www.dropbox.com/s/3wkocm1qvvxkl0i/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-11%2021.39.28.png?raw=1">
+<img src="https://www.dropbox.com/s/3wkocm1qvvxkl0i/Screenshot%202018-06-11%2021.39.28.png?raw=1">
 
 - Discriminator는 objective를 최대화.
 	- $$D(x)$$는 1에 가깝고 $$D(G(z))$$는 0에 가까워야 합니다
 - Generator는 objective를 최소화
 	- $$D(G(z))$$는 1에 가까워야 함
 
-<img src="https://www.dropbox.com/s/yrsd0ni269cjkc0/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-11%2021.50.42.png?raw=1">
+<img src="https://www.dropbox.com/s/yrsd0ni269cjkc0/Screenshot%202018-06-11%2021.50.42.png?raw=1">
 
 - generator에서 graident ascent 사용
 
-<img src="https://www.dropbox.com/s/3tjgeka924xl0aw/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-11%2022.32.47.png?raw=1">
+<img src="https://www.dropbox.com/s/3tjgeka924xl0aw/Screenshot%202018-06-11%2022.32.47.png?raw=1">
 
 - GAN training algorithm
 - training 후, 새 이미지를 생성하기 위해 generator 네트워크를 사용합니다
 
 ### Generated samples
-<img src="https://www.dropbox.com/s/3fwxj66svo68s39/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-11%2022.34.12.png?raw=1">
+<img src="https://www.dropbox.com/s/3fwxj66svo68s39/Screenshot%202018-06-11%2022.34.12.png?raw=1">
 
-<img src="https://www.dropbox.com/s/c2aeog6hwmlo9d4/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-11%2022.34.28.png?raw=1">
+<img src="https://www.dropbox.com/s/c2aeog6hwmlo9d4/Screenshot%202018-06-11%2022.34.28.png?raw=1">
 
 
 ### Convolutional Architectures
-<img src="https://www.dropbox.com/s/wwinfk4wpaacb7r/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-11%2022.35.56.png?raw=1">
+<img src="https://www.dropbox.com/s/wwinfk4wpaacb7r/Screenshot%202018-06-11%2022.35.56.png?raw=1">
 
 - Gan이 더 잘 생산할 수 있도록 도와주는 아키텍쳐
 
-<img src="https://www.dropbox.com/s/o1z2djeydhcaauv/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-11%2022.36.28.png?raw=1">
+<img src="https://www.dropbox.com/s/o1z2djeydhcaauv/Screenshot%202018-06-11%2022.36.28.png?raw=1">
 
-<img src="https://www.dropbox.com/s/yoplja0npkltfs6/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-11%2022.37.10.png?raw=1">
+<img src="https://www.dropbox.com/s/yoplja0npkltfs6/Screenshot%202018-06-11%2022.37.10.png?raw=1">
 
-<img src="https://www.dropbox.com/s/k94lrafq3na9fln/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-11%2022.37.33.png?raw=1">
+<img src="https://www.dropbox.com/s/k94lrafq3na9fln/Screenshot%202018-06-11%2022.37.33.png?raw=1">
 
 - 이런 작업들도 진행 가능
 - Vector의 연산이 가능 (Word2Vec처럼)
 
 ### 2017: Year of the GAN
-<img src="https://www.dropbox.com/s/so11qru56ixq1fa/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-11%2022.38.14.png?raw=1">
+<img src="https://www.dropbox.com/s/so11qru56ixq1fa/Screenshot%202018-06-11%2022.38.14.png?raw=1">
 
 - 다양한 종류의 GAN이 연구되고 있습니다
 - [The GAN Zoo](https://github.com/hindupuravinash/the-gan-zoo) : GAN 관련 논문들을 정리한 repo
 - [ganhacks](https://github.com/soumith/ganhacks) : GAN들을 학습할 때 트릭과 팁을 주는 repo
 
 ### Summary
-<img src="https://www.dropbox.com/s/7dd1m75pdt9snv6/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-11%2022.39.56.png?raw=1">
+<img src="https://www.dropbox.com/s/7dd1m75pdt9snv6/Screenshot%202018-06-11%2022.39.56.png?raw=1">
 
 
 ## Recap
-<img src="https://www.dropbox.com/s/ehpw78xf9ed4tjh/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-11%2022.40.13.png?raw=1">
+<img src="https://www.dropbox.com/s/ehpw78xf9ed4tjh/Screenshot%202018-06-11%2022.40.13.png?raw=1">
 
 
 ## Reference

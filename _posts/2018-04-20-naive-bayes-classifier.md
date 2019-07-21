@@ -11,11 +11,11 @@ comments: true
 ## Optimal Classification
 - 나이브 베이즈 분류기를 배우기 위해서 먼저 Optimal Classification에 대해 알아야 합니다
 
-<img src="https://www.dropbox.com/s/on9o28jpicgq5oz/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-04-19%2023.40.52.png?raw=1">
+<img src="https://www.dropbox.com/s/on9o28jpicgq5oz/Screenshot%202018-04-19%2023.40.52.png?raw=1">
 
 위 그래프는 Y Class가 초록색일 경우와 빨간색일 경우를 분류하는 분류기의 모습을 보여줍니다. 즉, 주어진 조건 X에 대한 확률 Y로 나타납니다. X가 왼쪽 부분이라면 초록색일 확률이 높으며 X가 우측 부분이면 빨간색일 확률이 높다고 판단합니다. 이것을 식으로 나타내면 주어진 조건 X에서 Y값이 최대가 되는 확률 분포 함수가 Optimal Classification입니다
 
-<img src="https://www.dropbox.com/s/9ndtc7i5ck90zbh/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-04-20%2000.03.36.png?raw=1">
+<img src="https://www.dropbox.com/s/9ndtc7i5ck90zbh/Screenshot%202018-04-20%2000.03.36.png?raw=1">
 
 위 그림은 처음에 봤던 실선 분류기와 직선(점선) 분류기가 같이 있는 그래프입니다. Decision Boundary를 기준으로 좌측에 있을 경우엔 초록색으로 분류되어야 합니다. 이 경우 빨간색일 확률값들은 Error가 됩니다   
 
@@ -64,7 +64,7 @@ $$P(x_{1}, x_{2}\mid y)=P(x_{1}\mid y)P(x_{2}\mid y)$$
 
 ### Conditional vs Marginal Independence
 
-<img src="https://www.dropbox.com/s/huxo7u60vdnrt67/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-04-20%2001.40.21.png?raw=1">
+<img src="https://www.dropbox.com/s/huxo7u60vdnrt67/Screenshot%202018-04-20%2001.40.21.png?raw=1">
 
 위 이미지에서 Commander가 Go라고 명령했을 때 Officer A와 B의 상태를 보여줍니다
 
@@ -84,7 +84,7 @@ $$P(X_{i}=x_{i}\mid Y=y)$$는 이제 $$(2-1)dk$$개의 파라미터가 필요합
 
 결론적으로 아래와 같이 정리할 수 있습니다
 
-<img src="https://www.dropbox.com/s/koylcd73cavdnu3/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-04-20%2002.00.43.png?raw=1">
+<img src="https://www.dropbox.com/s/koylcd73cavdnu3/Screenshot%202018-04-20%2002.00.43.png?raw=1">
 
 ## Problem of Naive Bayes Classifier
 - Naive Assumption

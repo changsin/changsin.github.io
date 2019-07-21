@@ -46,18 +46,18 @@ Google Cloud Platform 제품인 BigQuery와 Datalab을 사용해 Structed Data�
 	- 이름 : upload-bigquery
 	- 저장소 등급 : Reginal 	
 	- 위치 : ASIA-EAST1
-- <img src="https://www.dropbox.com/s/sjsmkc33s1vrqey/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-07-31%2022.53.13.png?raw=1">
+- <img src="https://www.dropbox.com/s/sjsmkc33s1vrqey/Screenshot%202018-07-31%2022.53.13.png?raw=1">
 - "파일 업로드"를 눌러서 파일을 업로드 하거나 파일을 드래그앤드롭
 - 이제 업로드한 파일의 주소는 ```gs://upload-bigquery/{file_name}.csv```
 
 ## BigQuery에서 테이블 생성
 - [BigQuery Console](https://bigquery.cloud.google.com)로 접속
 	- 만약 파란색 배경의 "베타" 콘솔 화면이 뜬다면 ```Go to Classic UI```를 클릭해 클래식 UI로 접속
-- <img src="https://www.dropbox.com/s/pd6gqmfuxjzzfvn/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-07-31%2023.01.29.png?raw=1">
+- <img src="https://www.dropbox.com/s/pd6gqmfuxjzzfvn/Screenshot%202018-07-31%2023.01.29.png?raw=1">
 - 세모 버튼을 클릭한 후, Create new dataset 클릭
 - Dataset ID : ```nc_new```
 - nc_new를 선택한 후 + 버튼 클릭
-- <img src="https://www.dropbox.com/s/s7a2pbyolfydu5y/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-07-31%2023.05.29.png?raw=1" widht="500" height="600">
+- <img src="https://www.dropbox.com/s/s7a2pbyolfydu5y/Screenshot%202018-07-31%2023.05.29.png?raw=1" widht="500" height="600">
 - 위 설정으로 한 후, Create Table을 하면 몇분 뒤 테이블 생성
 	- {file_name}은 저장된 파일 이름을 지정
 	- 단, nc 데이터는 총 11개라 귀찮음. 자동화 작업
@@ -106,10 +106,10 @@ chmod 755 load-data-bigquery.sh
 ```
 
 - 약 10분 후 작업 완료(명령어 순서는 아래 사진을 따라하지 말고 위에서 작성한대로 진행)
-- <img src="https://www.dropbox.com/s/cxpn6zdxlzngou4/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-07-31%2023.55.31.png?raw=1">
+- <img src="https://www.dropbox.com/s/cxpn6zdxlzngou4/Screenshot%202018-07-31%2023.55.31.png?raw=1">
 
 - 이제 다시 BigQuery Console로 돌아가 테이블이 생성되었나 확인
-- <img src="https://www.dropbox.com/s/eh9bug7bkinzk3v/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-07-31%2023.57.33.png?raw=1">
+- <img src="https://www.dropbox.com/s/eh9bug7bkinzk3v/Screenshot%202018-07-31%2023.57.33.png?raw=1">
 - Details를 선택하면 테이블 정보를 볼 수 있고, Preview를 누르면 데이터를 볼 수 있음
 
 ## Datalab 생성

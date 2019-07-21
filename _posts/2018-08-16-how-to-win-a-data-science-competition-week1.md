@@ -57,20 +57,20 @@ Coursera 강의인 How to Win a Data Science Competition: Learn from Top Kaggler
 
 ## Recap of main ML algorithms
 - Linear
-	- <img src="https://www.dropbox.com/s/wtpum7a87l3zuva/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-16%2015.05.38.png?raw=1" height="200" width="200"> 
+	- <img src="https://www.dropbox.com/s/wtpum7a87l3zuva/Screenshot%202018-08-16%2015.05.38.png?raw=1" height="200" width="200"> 
 	- Try to seperate objects with a plane which divides space into two parts 
 	- 공간을 2부분으로 나누는 선 찾기
 	- example : Logistic Regression, SVM
 	- spare high dimensional data일 때 좋음
 	- 비선형 문제는 풀지 못함
 - Tree-based
-	- <img src="https://www.dropbox.com/s/ne29224gt7uc4fd/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-16%2015.08.25.png?raw=1" height="200" width="200"> 
+	- <img src="https://www.dropbox.com/s/ne29224gt7uc4fd/Screenshot%202018-08-16%2015.08.25.png?raw=1" height="200" width="200"> 
 	- 공간을 2부분으로 나누는 선 (1개의 class와 그 나머지) 찾기
 	- 그 후 나머지를 또 2부분으로 나누는 선 찾기
 	- tabular 데이터(표 형태의)에서 좋은 default 방법
 	- example : Decision Tree, Random Forest, GBDT, xgboost, LightGBM
 - kNN
-	- <img src="https://www.dropbox.com/s/rqds0t44kr0jqhv/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-16%2015.11.37.png?raw=1" height="200" width="200"> 
+	- <img src="https://www.dropbox.com/s/rqds0t44kr0jqhv/Screenshot%202018-08-16%2015.11.37.png?raw=1" height="200" width="200"> 
 	- 가장 근처에 있는 객체와 같은 라벨을 가짐
 	- Missing value를 채울 때, kNN으로 가능 
 - Neural Networks

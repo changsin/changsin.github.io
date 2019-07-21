@@ -36,13 +36,13 @@ comments: true
 	- Likelihood는 logistic regression과 유사 => min 값을 학습 => blur 
 
 ### Adversarial
-<img src="https://www.dropbox.com/s/hgr7gfwqe8v1kvf/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-04%2014.55.41.png?raw=1">
+<img src="https://www.dropbox.com/s/hgr7gfwqe8v1kvf/Screenshot%202018-11-04%2014.55.41.png?raw=1">
 
 - Generator, Discriminator 모델 2개 존재
 - 모르는 Z space에 넣은 후, 우리가 가진 x와 g로 나온 아웃풋과 비교
 - 경찰과 지폐위조범 사례
 - z값을 줬을 때 x 이미지를 내보내는 모델(Q)를 정의하고 실제 데이터 모델 P에 가깝도록!
-- <img src="https://www.dropbox.com/s/o5qi0rh9dj58154/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-04%2014.57.22.png?raw=1">
+- <img src="https://www.dropbox.com/s/o5qi0rh9dj58154/Screenshot%202018-11-04%2014.57.22.png?raw=1">
 - 왼쪽에서 점점 우측으로 이동하며 원본과 유사해짐
 - 수식이 min max가 정말 어려워 보이지만 극단적 예시를 넣으면 쉽게 이해할 수 있음
 	- Discriminator가 잘한다고 했을 때, $$D(x)=1$$이라 로그 부분은 0이 됨
@@ -51,14 +51,14 @@ comments: true
 
 ### Two Step Approach
 - 아래와 같은 내용을 증명해야 함
-	- <img src="https://www.dropbox.com/s/1246e4f5z4610wp/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-04%2015.05.50.png?raw=1">
+	- <img src="https://www.dropbox.com/s/1246e4f5z4610wp/Screenshot%202018-11-04%2015.05.50.png?raw=1">
 - Proposition 1
 	- $$a \log(y)+b \log(1-y)$$를 미분하면 $$a(1-y)-by=0$$ 따라서 $$y = \frac{a}{a+b}$$
 	- G가 fixed 되었을 때 D의 optimal 포인트는 다음과 같이 나타낼 수 있음
 	- $$D_{G}^{*}(x)=\frac{p_{data}(x)}{p_{data}(x)+p_{g}(x)}$$
 	- D에 관한 것을 껴넣고 표현!
 - Main Theorem
-	- <img src="https://www.dropbox.com/s/ns6f8110ln1n9gb/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-04%2015.20.17.png?raw=1"> 
+	- <img src="https://www.dropbox.com/s/ns6f8110ln1n9gb/Screenshot%202018-11-04%2015.20.17.png?raw=1"> 
 	- D가 optimal에 도달했을 때 G의 입장에서 어쩔 때 Global optima를 가지는지 확인
 	- $$p_{g}=p_{data}$$일 경우 $$D_{G}^{*}(x)=\frac{1}{2}$$, 대입해서 풀면 $$C(G)=-log(4)$$
 	- KL 다이버전스..! 검색해보기
@@ -67,7 +67,7 @@ comments: true
 ### Convergence of the proposed algorithm
 - minmax problem이 global optimal을 가짐
 	- 모델 distribution이 실제 데이터 distribution과 정확히 일치할 때 뿐 
-- <img src="https://www.dropbox.com/s/uo80syly2yedv8h/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-04%2015.33.36.png?raw=1">
+- <img src="https://www.dropbox.com/s/uo80syly2yedv8h/Screenshot%202018-11-04%2015.33.36.png?raw=1">
 - D에 대해 supream(max)에 대한 loss 함수가 있고, 모든 p_{g}에 컨벡스하면 d_optimal 서드 드리프트(미분들의 set)에 포함됨
 - convex 문제는 미분해서 gradient descent하면 global optimal에 도달하는 것이 보장되어 있음
 
@@ -75,7 +75,7 @@ comments: true
 - 이미지 생성
 - vector arithmetic(벡터 산수)
 - 이미지에서도 사용 가능!(DCGAN)
-	- <img src="https://www.dropbox.com/s/6des3ge07sayvry/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-04%2015.42.37.png?raw=1"> 
+	- <img src="https://www.dropbox.com/s/6des3ge07sayvry/Screenshot%202018-11-04%2015.42.37.png?raw=1"> 
 - Rotation 되는 것처럼 이미지를 생성할 수 있음
 
 ### Difficuties
@@ -138,7 +138,7 @@ comments: true
 	- 2) classification, task specific network
 	
 ### Result
-<img src="https://www.dropbox.com/s/ynfu3vwhkjgd8mt/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-05%2009.19.34.png?raw=1">
+<img src="https://www.dropbox.com/s/ynfu3vwhkjgd8mt/Screenshot%202018-11-05%2009.19.34.png?raw=1">
 
 - 효과적으로 늘어나는 것을 볼 수 있음
 - [구현물](https://github.com/felixlaumon)
@@ -188,28 +188,28 @@ comments: true
 - Neural MT : Depp Learning을 활용한 번역
 
 ### SMT
-<img src="https://www.dropbox.com/s/18o89ld3ma0ehg9/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-06%2009.02.37.png?raw=1">
+<img src="https://www.dropbox.com/s/18o89ld3ma0ehg9/Screenshot%202018-11-06%2009.02.37.png?raw=1">
 
 ### RNN Encoder-Decoder 구조 소개
-<img src="https://www.dropbox.com/s/p9fy9whs4g16r2e/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-06%2009.03.46.png?raw=1">
+<img src="https://www.dropbox.com/s/p9fy9whs4g16r2e/Screenshot%202018-11-06%2009.03.46.png?raw=1">
 
 - decoder : 제네레이터같은 역할, c를 포함
 
 ### Hidden Unit
-<img src="https://www.dropbox.com/s/zzbdbx10136z25z/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-06%2009.06.18.png?raw=1">
+<img src="https://www.dropbox.com/s/zzbdbx10136z25z/Screenshot%202018-11-06%2009.06.18.png?raw=1">
 
 - 게이트가 2개 존재
 - r이 완전히 열리면 이전 state를 버림
 - update gate는 새로운 것을 얼마나 반영할 것인가
 
 ### RNN Encoder
-<img src="https://www.dropbox.com/s/8y2vtwkb1i04j4n/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-06%2009.08.41.png?raw=1">
+<img src="https://www.dropbox.com/s/8y2vtwkb1i04j4n/Screenshot%202018-11-06%2009.08.41.png?raw=1">
 
 ### RNN Decoder
-<img src="https://www.dropbox.com/s/kh0m66her5h8zf2/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-06%2009.10.39.png?raw=1">
+<img src="https://www.dropbox.com/s/kh0m66her5h8zf2/Screenshot%202018-11-06%2009.10.39.png?raw=1">
 
 ### 학습
-<img src="https://www.dropbox.com/s/hxoa089tsvj9oxb/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-06%2009.11.29.png?raw=1">
+<img src="https://www.dropbox.com/s/hxoa089tsvj9oxb/Screenshot%202018-11-06%2009.11.29.png?raw=1">
 
 ### 활용
 - SMT에 적용
@@ -264,7 +264,7 @@ comments: true
 
 ### 방법론
 - 핵심 아이디어
-	- <img src="https://www.dropbox.com/s/7sqxzvxu6b8tyi1/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-11%2012.27.06.png?raw=1">
+	- <img src="https://www.dropbox.com/s/7sqxzvxu6b8tyi1/Screenshot%202018-11-11%2012.27.06.png?raw=1">
 	- Convolutional Neural Networks with 3-layers
 	- super-resolution 문제에서 최초로 딥러닝을 적용
 	- index를 바꿔서 쓰는 중, image가 Y고 ground truth가 X
@@ -301,7 +301,7 @@ comments: true
 - 모델을 복잡하게 할 수 있을까?
 
 ### 방법론
-<img src="https://www.dropbox.com/s/m4muppp8i8wwzw7/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-11%2012.26.19.png?raw=1">
+<img src="https://www.dropbox.com/s/m4muppp8i8wwzw7/Screenshot%202018-11-11%2012.26.19.png?raw=1">
 
 - Receptive field를 키우고, scale factor를 2배 3배 4배 고려
 - 이미지 learning decay
@@ -407,7 +407,7 @@ comments: true
 	- 복사, 반복, 정렬 알고리즘에 대한 실험 결과를 나타냄
 
 ### 구조
-<img src="https://www.dropbox.com/s/xgwcmzv9yabx6kc/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-09%2009.05.28.png?raw=1">
+<img src="https://www.dropbox.com/s/xgwcmzv9yabx6kc/Screenshot%202018-11-09%2009.05.28.png?raw=1">
 
 - 그냥 Turing 머신과 다른 점은 read/write 헤드가 여러개 있을 수 있는 점
 	- 여러 헤드가 있어서 더 효율적
@@ -425,7 +425,7 @@ comments: true
 
 ### Detail
 
-<img src="https://www.dropbox.com/s/ipmha2fswb8d9rn/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-09%2009.09.36.png?raw=1">
+<img src="https://www.dropbox.com/s/ipmha2fswb8d9rn/Screenshot%202018-11-09%2009.09.36.png?raw=1">
 
 - Addresing
 	- 주소 찾기

@@ -62,12 +62,12 @@ comments: true
 
 ### 1. Dataset 생성
 - [BigQuery Console](https://console.cloud.google.com/bigquery)에서 리소스 - 프로젝트 아이디 클릭해주세요
-- <img src="https://www.dropbox.com/s/reozanj9m8d7uv8/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-02%2019.41.23.png?raw=1"> 
+- <img src="https://www.dropbox.com/s/reozanj9m8d7uv8/Screenshot%202018-08-02%2019.41.23.png?raw=1"> 
 - 데이터세트 만들기 클릭! : id는 bqml_tutorial
 
 ### 2. 분류 모델 생성하기
 - 우리가 다룰 데이터는 다음과 같습니다
-- <img src="https://www.dropbox.com/s/r4ezv463j30nush/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-02%2019.55.27.png?raw=1">
+- <img src="https://www.dropbox.com/s/r4ezv463j30nush/Screenshot%202018-08-02%2019.55.27.png?raw=1">
 - label은 0, 1로 transcation이 있으면 1 없으면 0
 - os, mobile 유무, 국가, pageviews가 feature
 
@@ -90,17 +90,17 @@ WHERE
 
 - label이란 컬럼이 꼭 필요합니다(label2라고 하면 에러 뿜음)
 - 20160801부터 20170630까지 약 11개월치 데이터를 학습했는데 약 8분 소요
-- <img src="https://www.dropbox.com/s/z3hgct6knz5a952/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-02%2020.05.44.png?raw=1">
+- <img src="https://www.dropbox.com/s/z3hgct6knz5a952/Screenshot%202018-08-02%2020.05.44.png?raw=1">
 
 - Test로 20170601부터 20170630까지 1개월 데이터를 학습했는데 99초 소요 (UI가 다른 이유는 이 테스트는 과거 BigQuery Console에서 진행했기 때문입니다! 과거 UI에서도 정상 작동함)
-- <img src="https://www.dropbox.com/s/2e21v7nf8ua9b3u/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-02%2020.08.06.png?raw=1">
+- <img src="https://www.dropbox.com/s/2e21v7nf8ua9b3u/Screenshot%202018-08-02%2020.08.06.png?raw=1">
 
 
 ### 3. 학습 모델 정보 보기
 - 생성된 Table에서 정보 확인
-- <img src="https://www.dropbox.com/s/tovs8tvypxgac2u/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-02%2020.10.11.png?raw=1">
+- <img src="https://www.dropbox.com/s/tovs8tvypxgac2u/Screenshot%202018-08-02%2020.10.11.png?raw=1">
 - 모델 유형, loss 유형, 학습 옵션도 보임!!! Early Stopping이 적용된 듯
-- <img src="https://www.dropbox.com/s/wd37myxsjqk8m9j/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-02%2020.12.02.png?raw=1">
+- <img src="https://www.dropbox.com/s/wd37myxsjqk8m9j/Screenshot%202018-08-02%2020.12.02.png?raw=1">
 - 위 방법 이외에도 모델의 정보를 보고 싶은 경우엔 ```ML.TRAINING_INFO``` 를 사용하면 됩니다
 
 	```
@@ -110,7 +110,7 @@ FROM
   ML.TRAINING_INFO(MODEL `bqml_tutorial.sample_model`)
 ```
 
-- <img src="https://www.dropbox.com/s/ud29tmnr5f6lffa/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-02%2020.15.23.png?raw=1">
+- <img src="https://www.dropbox.com/s/ud29tmnr5f6lffa/Screenshot%202018-08-02%2020.15.23.png?raw=1">
 - training\_run은 새로 생성된 모델은 값이 0이고 warm\_start 옵션을 사옹할 경우, 다시 학습시 값이 증가합니다
 
 - Feature의 정보를 보고싶을 경우
@@ -122,7 +122,7 @@ FROM
   ML.FEATURE_INFO(MODEL `bqml_tutorial.sample_model`)
 ```
 
-- <img src="https://www.dropbox.com/s/owxlzk1v6obrdq3/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-02%2020.18.37.png?raw=1">
+- <img src="https://www.dropbox.com/s/owxlzk1v6obrdq3/Screenshot%202018-08-02%2020.18.37.png?raw=1">
 
 - Weights의 정보를 보고싶을 경우
 
@@ -133,7 +133,7 @@ FROM
  ML.WEIGHTS(MODEL `bqml_tutorial.sample_model`)
 ```
 
-- <img src="https://www.dropbox.com/s/sym8l40p5p2p0jk/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-02%2020.20.56.png?raw=1" height="600" width="500">
+- <img src="https://www.dropbox.com/s/sym8l40p5p2p0jk/Screenshot%202018-08-02%2020.20.56.png?raw=1" height="600" width="500">
 - 이런 식으로 weight도 나옵니다! 충격적...
 
 ### 4. 모델 평가하기
@@ -157,7 +157,7 @@ FROM ML.EVALUATE(MODEL `bqml_tutorial.sample_model`, (
 ```
 
 - 1초가 지난 후 아래와 같은 결과가 나왔습니다
-- <img src="https://www.dropbox.com/s/lbtmz553gq7ktdr/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-02%2020.23.45.png?raw=1">
+- <img src="https://www.dropbox.com/s/lbtmz553gq7ktdr/Screenshot%202018-08-02%2020.23.45.png?raw=1">
 
 
 ### 5. 모델로 예측하기
@@ -183,7 +183,7 @@ FROM ML.PREDICT(MODEL `bqml_tutorial.sample_model`, (
 ```
 
 - 역시 1초 뒤 아래와 같은 결과가 나왔습니다
-- <img src="https://www.dropbox.com/s/xqxoqzq3nl77itv/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-02%2020.26.01.png?raw=1" height="400" width="600">
+- <img src="https://www.dropbox.com/s/xqxoqzq3nl77itv/Screenshot%202018-08-02%2020.26.01.png?raw=1" height="400" width="600">
 
 
 ## BigQuery ML 문법

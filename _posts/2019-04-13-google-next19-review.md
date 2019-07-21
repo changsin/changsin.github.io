@@ -48,29 +48,29 @@ comments: true
 ### ML Ops Best Practices on Google Cloud
 - [https://www.youtube.com/watch?v=20h_RTHEtZI](https://www.youtube.com/watch?v=20h_RTHEtZI)
 - MLOps Challenges
-	- <img src="https://www.dropbox.com/s/kqwjascfp2tnq6c/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-12%2022.57.22.png?raw=1">
+	- <img src="https://www.dropbox.com/s/kqwjascfp2tnq6c/Screenshot%202019-04-12%2022.57.22.png?raw=1">
 - Data Validation
     - [TFDV](https://www.tensorflow.org/tfx/data_validation/get_started)
-    - <img src="https://www.dropbox.com/s/8vl3uvr56wa29kb/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-12%2023.13.47.png?raw=1">
-    - <img src="https://www.dropbox.com/s/14kjzk2tsokql9y/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-12%2023.14.11.png?raw=1"> 
+    - <img src="https://www.dropbox.com/s/8vl3uvr56wa29kb/Screenshot%202019-04-12%2023.13.47.png?raw=1">
+    - <img src="https://www.dropbox.com/s/14kjzk2tsokql9y/Screenshot%202019-04-12%2023.14.11.png?raw=1"> 
 - Model Analyze
     - [TFMA](https://www.tensorflow.org/tfx/model_analysis/get_started)
     - Model 정확도가 시간이 지나며 점점 낮아지고 지속적 모니터링이 불가능한 상황이 자주 오는데, 이럴 때 사용하면 좋음
-    - <img src="https://www.dropbox.com/s/kvvs6o4rmnwsr3c/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-12%2023.22.21.png?raw=1">
-    - <img src="https://www.dropbox.com/s/uaixck53fkfm208/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-12%2023.24.27.png?raw=1">
-    - <img src="https://www.dropbox.com/s/0ifgpk12qdlqpzf/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-12%2023.26.50.png?raw=1">
+    - <img src="https://www.dropbox.com/s/kvvs6o4rmnwsr3c/Screenshot%202019-04-12%2023.22.21.png?raw=1">
+    - <img src="https://www.dropbox.com/s/uaixck53fkfm208/Screenshot%202019-04-12%2023.24.27.png?raw=1">
+    - <img src="https://www.dropbox.com/s/0ifgpk12qdlqpzf/Screenshot%202019-04-12%2023.26.50.png?raw=1">
     - trip\_start\_hour가 특정 값일때 정확도를 알려줌
     	- 예시 : 현재 모델이 주간엔 정확도가 높고 야간엔 낮다 이런 결론이 나올 수 있음
 - Kubeflow
     - Kubernetes-native OSS Platform to Develop, Deploy and Manage Scalable and End-to-End ML Workloads
 - Cloud AI Platform
     - A code-based intergrated development environment for data science and machine learning inside the GCP console
-- <img src="https://www.dropbox.com/s/ni6y9e6tasw9ma5/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2000.07.22.png?raw=1">
-- <img src="https://www.dropbox.com/s/pl2qcm80z02etme/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2000.12.19.png?raw=1">
-- <img src="https://www.dropbox.com/s/05tnudp8mg5axna/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2000.12.44.png?raw=1">
+- <img src="https://www.dropbox.com/s/ni6y9e6tasw9ma5/Screenshot%202019-04-13%2000.07.22.png?raw=1">
+- <img src="https://www.dropbox.com/s/pl2qcm80z02etme/Screenshot%202019-04-13%2000.12.19.png?raw=1">
+- <img src="https://www.dropbox.com/s/05tnudp8mg5axna/Screenshot%202019-04-13%2000.12.44.png?raw=1">
 - 아키텍쳐
-	- <img src="https://www.dropbox.com/s/9fbqtejea5ki416/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2000.14.25.png?raw=1">
-	- <img src="https://www.dropbox.com/s/0t5enhuy9q39hyv/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2000.15.50.png?raw=1">
+	- <img src="https://www.dropbox.com/s/9fbqtejea5ki416/Screenshot%202019-04-13%2000.14.25.png?raw=1">
+	- <img src="https://www.dropbox.com/s/0t5enhuy9q39hyv/Screenshot%202019-04-13%2000.15.50.png?raw=1">
 
 ---
 
@@ -80,40 +80,40 @@ comments: true
 - [Kubeflow](https://www.kubeflow.org/)
 	- A Kubernetes-native open source platform to develop, deploy and manage, scalable ML Workloads 
 - ML Workflow Orchestration
-	- <img src="https://www.dropbox.com/s/odt09jlkibamud7/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.14.16.png?raw=1">
-	- <img src="https://www.dropbox.com/s/rwfdrgj7fd04ad7/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.19.02.png?raw=1">
+	- <img src="https://www.dropbox.com/s/odt09jlkibamud7/Screenshot%202019-04-13%2001.14.16.png?raw=1">
+	- <img src="https://www.dropbox.com/s/rwfdrgj7fd04ad7/Screenshot%202019-04-13%2001.19.02.png?raw=1">
 	- 코드 예제
-		- <img src="https://www.dropbox.com/s/sb5bzxzxqj8i01m/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.19.54.png?raw=1"> 
+		- <img src="https://www.dropbox.com/s/sb5bzxzxqj8i01m/Screenshot%202019-04-13%2001.19.54.png?raw=1"> 
 - Share, Re-use & Compose
-	- <img src="https://www.dropbox.com/s/6icgiyldirc4xz6/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.21.21.png?raw=1">
+	- <img src="https://www.dropbox.com/s/6icgiyldirc4xz6/Screenshot%202019-04-13%2001.21.21.png?raw=1">
 	- zip 파일로 올림(람다에서도 이렇게 진행)
 	- AI Hub도 사용 가능
-		- <img src="https://www.dropbox.com/s/y473qnjfrdblqh2/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.22.00.png?raw=1">
+		- <img src="https://www.dropbox.com/s/y473qnjfrdblqh2/Screenshot%202019-04-13%2001.22.00.png?raw=1">
 	- 코드 예제
-		- <img src="https://www.dropbox.com/s/f8xon3c5kg4s50y/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.22.18.png?raw=1">  
+		- <img src="https://www.dropbox.com/s/f8xon3c5kg4s50y/Screenshot%202019-04-13%2001.22.18.png?raw=1">  
 - Rapid Reliable Experimentation
-	- <img src="https://www.dropbox.com/s/0f2vu12npoqd7cz/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.23.12.png?raw=1">
-	- <img src="https://www.dropbox.com/s/g3vet8pecqxzj3p/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.23.22.png?raw=1">
+	- <img src="https://www.dropbox.com/s/0f2vu12npoqd7cz/Screenshot%202019-04-13%2001.23.12.png?raw=1">
+	- <img src="https://www.dropbox.com/s/g3vet8pecqxzj3p/Screenshot%202019-04-13%2001.23.22.png?raw=1">
 		- MlFlow랑 비교해서 어떤 우위가 있는지 궁금
-	- <img src="https://www.dropbox.com/s/4fow7szw0umzq7b/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.23.54.png?raw=1">
-	- <img src="https://www.dropbox.com/s/6dt7713assf2p3s/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.24.39.png?raw=1">
+	- <img src="https://www.dropbox.com/s/4fow7szw0umzq7b/Screenshot%202019-04-13%2001.23.54.png?raw=1">
+	- <img src="https://www.dropbox.com/s/6dt7713assf2p3s/Screenshot%202019-04-13%2001.24.39.png?raw=1">
 - GOJEK
 	- 싱가포르, 인도네시아, 베트남, 태국에서 교통, 물류 등의 서비스를 하고 있는 기업
-	- <img src="https://www.dropbox.com/s/8hd7foe2s1sh9u4/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.27.01.png?raw=1">
-	- <img src="https://www.dropbox.com/s/hlc0rq4txo3j15v/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.27.17.png?raw=1">
+	- <img src="https://www.dropbox.com/s/8hd7foe2s1sh9u4/Screenshot%202019-04-13%2001.27.01.png?raw=1">
+	- <img src="https://www.dropbox.com/s/hlc0rq4txo3j15v/Screenshot%202019-04-13%2001.27.17.png?raw=1">
 	- Airflow를 사용했는데, 아래 이유로 Kubeflow 도입
 		- 실험하기 어려움
 		- 엔지니어링 무거움
 		- Low traceability and reproducibility
 	- Data pipeline은 Airflow를 쓰고, ML pipeline은 Kubeflow 사용
-		- <img src="https://www.dropbox.com/s/fhhps7re6g949jx/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.30.10.png?raw=1">
-		- <img src="https://www.dropbox.com/s/gkjzprcsd7eumbb/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.30.55.png?raw=1">  
+		- <img src="https://www.dropbox.com/s/fhhps7re6g949jx/Screenshot%202019-04-13%2001.30.10.png?raw=1">
+		- <img src="https://www.dropbox.com/s/gkjzprcsd7eumbb/Screenshot%202019-04-13%2001.30.55.png?raw=1">  
 		- roc 커브도 그려줌
-		- <img src="https://www.dropbox.com/s/3l5a7gxtjao9qeg/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.32.51.png?raw=1">
+		- <img src="https://www.dropbox.com/s/3l5a7gxtjao9qeg/Screenshot%202019-04-13%2001.32.51.png?raw=1">
 	- TFX Taxi 예제
-		- <img src="https://www.dropbox.com/s/hlxdsw5vsnb9cof/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.33.27.png?raw=1">
-		- <img src="https://www.dropbox.com/s/2uf0du393jt7jrg/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.33.57.png?raw=1">
-		- <img src="https://www.dropbox.com/s/nlixphmj86t9cau/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.34.39.png?raw=1">
+		- <img src="https://www.dropbox.com/s/hlxdsw5vsnb9cof/Screenshot%202019-04-13%2001.33.27.png?raw=1">
+		- <img src="https://www.dropbox.com/s/2uf0du393jt7jrg/Screenshot%202019-04-13%2001.33.57.png?raw=1">
+		- <img src="https://www.dropbox.com/s/nlixphmj86t9cau/Screenshot%202019-04-13%2001.34.39.png?raw=1">
 		- TFMA를 Static HTML로 생성해줌
 
 ---
@@ -121,43 +121,43 @@ comments: true
 ### What's New with BigQuery ML and Using it to Assess Data Quality
 - [https://www.youtube.com/watch?v=DnlG4frLKmw](https://www.youtube.com/watch?v=DnlG4frLKmw)
 - [BigQuery ML](https://zzsza.github.io/gcp/2018/08/03/bigqueryml/)의 새로운 기능에 대해 말해줌
-- <img src="https://www.dropbox.com/s/2j41htu4m7qalgz/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.38.35.png?raw=1">
+- <img src="https://www.dropbox.com/s/2j41htu4m7qalgz/Screenshot%202019-04-13%2001.38.35.png?raw=1">
 - New BigQuery UI
-	- <img src="https://www.dropbox.com/s/4yh9n5ln4c15bi6/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.38.58.png?raw=1">
+	- <img src="https://www.dropbox.com/s/4yh9n5ln4c15bi6/Screenshot%202019-04-13%2001.38.58.png?raw=1">
 	- 현기증 납니다.. 빨리 나와주세요
 - Matrix Factorization
-	- <img src="https://www.dropbox.com/s/p82vj7wp49q6v2l/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.39.28.png?raw=1">
+	- <img src="https://www.dropbox.com/s/p82vj7wp49q6v2l/Screenshot%202019-04-13%2001.39.28.png?raw=1">
 - NCAA 농구 3점슛 예측
-	- <img src="https://www.dropbox.com/s/rmldqf4v8fxxdy1/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.39.59.png?raw=1">
+	- <img src="https://www.dropbox.com/s/rmldqf4v8fxxdy1/Screenshot%202019-04-13%2001.39.59.png?raw=1">
 - TensorFlow
-	- <img src="https://www.dropbox.com/s/dcu87vkywus6nj5/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.40.29.png?raw=1">
+	- <img src="https://www.dropbox.com/s/dcu87vkywus6nj5/Screenshot%202019-04-13%2001.40.29.png?raw=1">
 - Feautre pre-processing function
-	- <img src="https://www.dropbox.com/s/z072npxtlpzw48o/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.40.52.png?raw=1">
+	- <img src="https://www.dropbox.com/s/z072npxtlpzw48o/Screenshot%202019-04-13%2001.40.52.png?raw=1">
 	- BUCKETIZE, POLYNOMIAL\_EXPAND, FEATURE\_CROSS 등
 - 시연
 	- [QueryItSmart](https://github.com/groovenauts/QueryItSmart) Github 참고
 	- BigQuery + Cloud ML engine을 사용한 웹 데모
 - K means clustering
-	- <img src="https://www.dropbox.com/s/daa97kxjc03q8rw/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.46.33.png?raw=1">
+	- <img src="https://www.dropbox.com/s/daa97kxjc03q8rw/Screenshot%202019-04-13%2001.46.33.png?raw=1">
 - Booking.com의 시연
 	- 빅쿼리로 kmenas 진행(클러스터 개수 21개)한 후 데이터 스튜디오로 시각화
-	- <img src="https://www.dropbox.com/s/lizg8uw38l6urol/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.48.30.png?raw=1">
-	- <img src="https://www.dropbox.com/s/ptdopkb7kv04v7l/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.49.58.png?raw=1">
+	- <img src="https://www.dropbox.com/s/lizg8uw38l6urol/Screenshot%202019-04-13%2001.48.30.png?raw=1">
+	- <img src="https://www.dropbox.com/s/ptdopkb7kv04v7l/Screenshot%202019-04-13%2001.49.58.png?raw=1">
 
 ---
 
 ### Data Processing in Google Cloud: Hadoop, Spark, and Dataflow
 - [https://www.youtube.com/watch?v=GRP-cGbJSCs](https://www.youtube.com/watch?v=GRP-cGbJSCs)
 - 이미 많이 알던 내용들인데, 새롭게 알게된 내용 위주로 캡쳐
-- <img src="https://www.dropbox.com/s/849mvs0cuc4evrh/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.00.17.png?raw=1">
-- <img src="https://www.dropbox.com/s/7vwqbypxxsipykj/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.00.34.png?raw=1">
-- <img src="https://www.dropbox.com/s/zidbjll9urrxkfm/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.00.48.png?raw=1">
+- <img src="https://www.dropbox.com/s/849mvs0cuc4evrh/Screenshot%202019-04-13%2001.00.17.png?raw=1">
+- <img src="https://www.dropbox.com/s/7vwqbypxxsipykj/Screenshot%202019-04-13%2001.00.34.png?raw=1">
+- <img src="https://www.dropbox.com/s/zidbjll9urrxkfm/Screenshot%202019-04-13%2001.00.48.png?raw=1">
 - Dataflow
-	- <img src="https://www.dropbox.com/s/tyb9x1499xe0c5j/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.01.10.png?raw=1">
+	- <img src="https://www.dropbox.com/s/tyb9x1499xe0c5j/Screenshot%202019-04-13%2001.01.10.png?raw=1">
 	- 1년 사이에 템플릿이 정말 많아짐
-	- <img src="https://www.dropbox.com/s/0y2mqdo8ud4g515/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.03.50.png?raw=1">
+	- <img src="https://www.dropbox.com/s/0y2mqdo8ud4g515/Screenshot%202019-04-13%2001.03.50.png?raw=1">
 - Dataproc
-	- <img src="https://www.dropbox.com/s/64ukdqwcnewieum/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.04.24.png?raw=1">
+	- <img src="https://www.dropbox.com/s/64ukdqwcnewieum/Screenshot%202019-04-13%2001.04.24.png?raw=1">
 	- Web interface에서 제플린 선택 가능  
 
 ---
@@ -165,28 +165,28 @@ comments: true
 ### Rethinking Business: Data Analytics With Google Cloud
 - [https://www.youtube.com/watch?v=DpngHc31a5Y](https://www.youtube.com/watch?v=DpngHc31a5Y)
 - Platform
-	- <img src="https://www.dropbox.com/s/wkgkax05ww11oy6/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.54.08.png?raw=1">
+	- <img src="https://www.dropbox.com/s/wkgkax05ww11oy6/Screenshot%202019-04-13%2001.54.08.png?raw=1">
 - Data Funsion
 	- Google [Data Fusion](https://cloud.google.com/data-fusion/)
-	- <img src="https://www.dropbox.com/s/yy98uamifj5hyl4/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.54.37.png?raw=1">
+	- <img src="https://www.dropbox.com/s/yy98uamifj5hyl4/Screenshot%202019-04-13%2001.54.37.png?raw=1">
 	- 코드 없이 파이프라인 생성
-	- <img src="https://www.dropbox.com/s/rwjb56x4dmsxdth/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.56.45.png?raw=1">
+	- <img src="https://www.dropbox.com/s/rwjb56x4dmsxdth/Screenshot%202019-04-13%2001.56.45.png?raw=1">
 - BigQuery flat-rate with Reservations
 	- 예약제 요금제?
-	- <img src="https://www.dropbox.com/s/pppf9nul4xkdj2i/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.57.52.png?raw=1">
+	- <img src="https://www.dropbox.com/s/pppf9nul4xkdj2i/Screenshot%202019-04-13%2001.57.52.png?raw=1">
 - BigQuery Storage API
-	- <img src="https://www.dropbox.com/s/flavb24cnyv3dgb/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.58.22.png?raw=1">
+	- <img src="https://www.dropbox.com/s/flavb24cnyv3dgb/Screenshot%202019-04-13%2001.58.22.png?raw=1">
 - BI Engine
-	- <img src="https://www.dropbox.com/s/lpgu8ytcklbhh4q/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.59.06.png?raw=1">
+	- <img src="https://www.dropbox.com/s/lpgu8ytcklbhh4q/Screenshot%202019-04-13%2001.59.06.png?raw=1">
 	- 시각화하는 도구 같은데, Tableau를 대체할 수 있을지 궁금
 - Dataproc and Composer
-	- <img src="https://www.dropbox.com/s/tj2ruljdtnyyryp/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2002.00.33.png?raw=1">
+	- <img src="https://www.dropbox.com/s/tj2ruljdtnyyryp/Screenshot%202019-04-13%2002.00.33.png?raw=1">
 	- Composer는 Managed Airflow인데, 사용하다보면 약간 불편한 점도 있긴함    
 - Stream 데이터 처리하는 파이프라인
-	- <img src="https://www.dropbox.com/s/126rs7ebz6xh9ij/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2002.01.40.png?raw=1">
+	- <img src="https://www.dropbox.com/s/126rs7ebz6xh9ij/Screenshot%202019-04-13%2002.01.40.png?raw=1">
 - Dataflow SQL
-	- <img src="https://www.dropbox.com/s/389dqh15qlgg1wr/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2002.01.57.png?raw=1"> 
-	- <img src="https://www.dropbox.com/s/aiylt1wu3hi09vd/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2002.07.18.png?raw=1">
+	- <img src="https://www.dropbox.com/s/389dqh15qlgg1wr/Screenshot%202019-04-13%2002.01.57.png?raw=1"> 
+	- <img src="https://www.dropbox.com/s/aiylt1wu3hi09vd/Screenshot%202019-04-13%2002.07.18.png?raw=1">
 	- 빅쿼리 콘솔에서 Dataflow Engine으로 설정한 후, 아래 쿼리 날림
 	- TUMBLE_START는 처음 보는데 신기.. 
 	- 쿼리 날리면 내부적으로 Beam이 데이터 읽고 전처리하는듯
@@ -200,13 +200,13 @@ comments: true
 	GROUP BY sr.sales_region, TUMBLE(tr.event_timestamp, "INTERVAL 5 SECOND")
 	```
 	
-	- <img src="https://www.dropbox.com/s/mluaams5n0o31yz/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2002.05.47.png?raw=1">
+	- <img src="https://www.dropbox.com/s/mluaams5n0o31yz/Screenshot%202019-04-13%2002.05.47.png?raw=1">
 	- pubsub 토픽을 바로 넣어서 쓰는듯..?
-	- <img src="https://www.dropbox.com/s/637pcfwpwj51u79/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2002.08.08.png?raw=1">
+	- <img src="https://www.dropbox.com/s/637pcfwpwj51u79/Screenshot%202019-04-13%2002.08.08.png?raw=1">
 	
 - Data Catalog
-	- <img src="https://www.dropbox.com/s/z4fegch5hwi7a2v/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.53.05.png?raw=1">
-	- <img src="https://www.dropbox.com/s/5r7h4my6cq57ybi/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-13%2001.53.40.png?raw=1">
+	- <img src="https://www.dropbox.com/s/z4fegch5hwi7a2v/Screenshot%202019-04-13%2001.53.05.png?raw=1">
+	- <img src="https://www.dropbox.com/s/5r7h4my6cq57ybi/Screenshot%202019-04-13%2001.53.40.png?raw=1">
 
 ---	
 	 

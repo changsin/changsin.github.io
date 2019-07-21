@@ -29,12 +29,12 @@ comments: true
 	- 한 layer의 configuration : Filter Width: 5, Filter Height : 3, Num Filters : 24
 - RNN(controller)를 사용해 아키텍쳐를 명시하는 string 생성
 - RNN을 수렴하게 학습해서, string의 정확도를 알 수 있음
-- <img src="https://www.dropbox.com/s/w9pn495nxco8y2q/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-26%2009.20.18.png?raw=1">
+- <img src="https://www.dropbox.com/s/w9pn495nxco8y2q/Screenshot%202018-11-26%2009.20.18.png?raw=1">
 
 - RNN
 	- sequence to sequence
 - Training with REINFORCE
-	- <img src="https://www.dropbox.com/s/xnonxo86iqql3d4/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-26%2009.22.14.png?raw=1">
+	- <img src="https://www.dropbox.com/s/xnonxo86iqql3d4/Screenshot%202018-11-26%2009.22.14.png?raw=1">
 - Distributed Training 사용
 
 ### 아키텍쳐 세부
@@ -70,12 +70,12 @@ comments: true
 	- data-poor problem이 존재
 
 ### Relation Networks
-<img src="https://www.dropbox.com/s/bq1zkhdfn3wweo3/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-27%2008.14.49.png?raw=1">
+<img src="https://www.dropbox.com/s/bq1zkhdfn3wweo3/Screenshot%202018-11-27%2008.14.49.png?raw=1">
 
 - Object들이 있고, g라는 relation 함수가 존재
 	- 모든 조합을 함수에 통과시키고, Sum
 	- 그 후 f라는 함수에 통과
-- <img src="https://www.dropbox.com/s/8rrkjbzebxkdgyj/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-27%2008.15.49.png?raw=1">
+- <img src="https://www.dropbox.com/s/8rrkjbzebxkdgyj/Screenshot%202018-11-27%2008.15.49.png?raw=1">
 
 ### RN의 장점
 - 관계를 잘 추론(Infer)
@@ -87,10 +87,10 @@ comments: true
 - Order invariant함
 
 ### Model - for VisualQA
-<img src="https://www.dropbox.com/s/lvjlv1i1tp51wtg/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-27%2008.21.10.png?raw=1">
+<img src="https://www.dropbox.com/s/lvjlv1i1tp51wtg/Screenshot%202018-11-27%2008.21.10.png?raw=1">
 
 ### Model - for Natural Language
-<img src="https://www.dropbox.com/s/8hx1rrwr1zeen4q/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-27%2008.24.05.png?raw=1"> 
+<img src="https://www.dropbox.com/s/8hx1rrwr1zeen4q/Screenshot%202018-11-27%2008.24.05.png?raw=1"> 
 	
 
 ### Thoughts
@@ -115,10 +115,10 @@ comments: true
 
 	
 ### Background
-<img src="https://www.dropbox.com/s/l24xmf40iwrno09/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-28%2008.29.12.png?raw=1">
+<img src="https://www.dropbox.com/s/l24xmf40iwrno09/Screenshot%202018-11-28%2008.29.12.png?raw=1">
 
 - DQN
-	- <img src="https://www.dropbox.com/s/12934uzd1k8sfrh/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-28%2008.30.38.png?raw=1">
+	- <img src="https://www.dropbox.com/s/12934uzd1k8sfrh/Screenshot%202018-11-28%2008.30.38.png?raw=1">
 
 	
 ### Algorithm
@@ -130,7 +130,7 @@ comments: true
 	- Actor Network (Policy) : loss function을 2번으로 나눔. update를 2개의 곱으로 표현(chain rule)
 
 - 전체 네트워크 구성
-	- <img src="https://www.dropbox.com/s/4topd8ufrxos3yz/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-28%2008.38.02.png?raw=1">
+	- <img src="https://www.dropbox.com/s/4topd8ufrxos3yz/Screenshot%202018-11-28%2008.38.02.png?raw=1">
 	
 ---
 	
@@ -140,7 +140,7 @@ comments: true
 - Weight 초기화를 다른 방법으로!
 
 ### Definition
-<img src="https://www.dropbox.com/s/odmp8wbnocq5j0g/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-29%2021.55.23.png?raw=1">
+<img src="https://www.dropbox.com/s/odmp8wbnocq5j0g/Screenshot%202018-11-29%2021.55.23.png?raw=1">
 
 - a값을 학습!
 - no weight decay
@@ -156,7 +156,7 @@ comments: true
 	- Variance를 2/(n_in+n_out)
 
 ### Initialization in PReLU Case
-<img src="https://www.dropbox.com/s/e8b7webho14fqvc/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-29%2022.34.28.png?raw=1">
+<img src="https://www.dropbox.com/s/e8b7webho14fqvc/Screenshot%202018-11-29%2022.34.28.png?raw=1">
 
 ### Summary
 - PReLU 제안

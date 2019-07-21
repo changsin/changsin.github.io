@@ -41,12 +41,12 @@ comments: true
 	- pseudo-labeld 정보로 통합
 
 ### 예시
-<img src="https://www.dropbox.com/s/sw9zwo5zkonzkdb/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-20%2009.26.19.png?raw=1">
+<img src="https://www.dropbox.com/s/sw9zwo5zkonzkdb/Screenshot%202018-11-20%2009.26.19.png?raw=1">
 
 - 도메인이 다른 곳에서 사용
 - 공통적으로 잘 작동할 feature를 찾기
 
-<img src="https://www.dropbox.com/s/rbd3t5h3che1rfl/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-20%2009.28.55.png?raw=1">
+<img src="https://www.dropbox.com/s/rbd3t5h3che1rfl/Screenshot%202018-11-20%2009.28.55.png?raw=1">
 
 - 1 step
 
@@ -114,7 +114,7 @@ comments: true
 - 마지막 프레임에 안 움직이는거랑 비교하면 어떨까? (신선한 아이디어)
 
 ### 결론
-<img src="https://www.dropbox.com/s/26rcwu9upqnbusv/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-21%2009.33.18.png?raw=1">
+<img src="https://www.dropbox.com/s/26rcwu9upqnbusv/Screenshot%202018-11-21%2009.33.18.png?raw=1">
 
 
 
@@ -145,7 +145,7 @@ comments: true
 		- 이미지를 S x S 그리드로 나눔
 		- grid cell, bounding box를 x,y,w,h로 표현
 		- 물체가 많이 포함할 것 같은 곳이 더 찐함 
-		- <img src="https://www.dropbox.com/s/h3uiw3vmgvq7oh6/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-23%2009.09.35.png?raw=1">
+		- <img src="https://www.dropbox.com/s/h3uiw3vmgvq7oh6/Screenshot%202018-11-23%2009.09.35.png?raw=1">
 
 ### Network Design
 - Inception v1
@@ -153,24 +153,24 @@ comments: true
 - 1x1 reduction layer
 
 ### Training
-<img src="https://www.dropbox.com/s/h5qseb54u20zhh6/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-23%2009.15.57.png?raw=1">
+<img src="https://www.dropbox.com/s/h5qseb54u20zhh6/Screenshot%202018-11-23%2009.15.57.png?raw=1">
 
 - Feature Extractor, Object Classifier로 구성
 - 1) ImageNet 1000개 데이터로 pretrain
 - 2) Network on Convolutional Feature Maps
 - 3) 7x7x30 텐서가 나옴
 - 그리드 셀
-	- <img src="https://www.dropbox.com/s/7u5x7fdqqry730m/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-23%2009.16.56.png?raw=1">
-	- <img src="https://www.dropbox.com/s/xxb9ldvf3aojqvh/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-23%2009.18.04.png?raw=1">  
+	- <img src="https://www.dropbox.com/s/7u5x7fdqqry730m/Screenshot%202018-11-23%2009.16.56.png?raw=1">
+	- <img src="https://www.dropbox.com/s/xxb9ldvf3aojqvh/Screenshot%202018-11-23%2009.18.04.png?raw=1">  
 
 
 ### Loss Function
-<img src="https://www.dropbox.com/s/jx0y74yq6okqy4y/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-23%2009.21.17.png?raw=1">
+<img src="https://www.dropbox.com/s/jx0y74yq6okqy4y/Screenshot%202018-11-23%2009.21.17.png?raw=1">
 
-<img src="https://www.dropbox.com/s/19q2fxv7r8gcerz/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-23%2009.22.30.png?raw=1">
+<img src="https://www.dropbox.com/s/19q2fxv7r8gcerz/Screenshot%202018-11-23%2009.22.30.png?raw=1">
 
 - SSE(sum-squared-error)를 사용해 단순화
 
 ### Limitation of YOLO
-<img src="https://www.dropbox.com/s/y62ov0m3a4c4gvq/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-23%2009.26.17.png?raw=1">
+<img src="https://www.dropbox.com/s/y62ov0m3a4c4gvq/Screenshot%202018-11-23%2009.26.17.png?raw=1">
 

@@ -14,7 +14,7 @@ Little Big Data #1 : 다양한 사람들의 데이터 사이언스 이야기 [�
 
 
 ## Intro
-<img src="https://www.dropbox.com/s/xycjly9kl7bz3gd/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-04-21%20%EC%98%A4%ED%9B%84%2012.14.06.png?raw=1">
+<img src="https://www.dropbox.com/s/xycjly9kl7bz3gd/Screenshot%202018-04-21%20%EC%98%A4%ED%9B%84%2012.14.06.png?raw=1">
 
 - Little Big Data : 다양한 사람들의 다양한 데이터 사이언스 이야기!
 - ```Apache Zeppelin```을 만드는 ```Zepl```에서 진행합니다!

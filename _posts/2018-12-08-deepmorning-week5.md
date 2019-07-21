@@ -52,11 +52,11 @@ comments: true
 - Lemma 5.1
 	- Random variables X, Y and function f(x,y) under suitable regularity conditions 	 
 	- Reconstruction loss!
-	- <img src="https://www.dropbox.com/s/et12zlihe48ci6u/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-03%2009.14.41.png?raw=1">
-- <img src="https://www.dropbox.com/s/nadf19g2ckr2i3m/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-03%2009.18.40.png?raw=1">
-- <img src="https://www.dropbox.com/s/rtvi2yq4126ak10/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-03%2009.18.53.png?raw=1">
+	- <img src="https://www.dropbox.com/s/et12zlihe48ci6u/Screenshot%202018-12-03%2009.14.41.png?raw=1">
+- <img src="https://www.dropbox.com/s/nadf19g2ckr2i3m/Screenshot%202018-12-03%2009.18.40.png?raw=1">
+- <img src="https://www.dropbox.com/s/rtvi2yq4126ak10/Screenshot%202018-12-03%2009.18.53.png?raw=1">
 - Disco GAN 자료
-	- <img src="https://www.dropbox.com/s/wddgnp04jywkjyz/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-03%2009.22.40.png?raw=1">
+	- <img src="https://www.dropbox.com/s/wddgnp04jywkjyz/Screenshot%202018-12-03%2009.22.40.png?raw=1">
 	- reconstructure loss가 발생해서 oscillation
  	
 	
@@ -145,7 +145,7 @@ comments: true
 - 이미지 픽셀을 Recurrent Neural network로!
 
 ### Generative Model
-<img src="https://www.dropbox.com/s/lhwgrs8ql4lfgmq/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-05%2023.33.07.png?raw=1">
+<img src="https://www.dropbox.com/s/lhwgrs8ql4lfgmq/Screenshot%202018-12-05%2023.33.07.png?raw=1">
 
 - Generative Model도 다양한 계보가 있음!
 	- Data distribution을 어떻게 모사할까?가 Pixel RNN쪽
@@ -160,7 +160,7 @@ comments: true
 	- 단순하고 직관적, 학습이 잘됨
 	- latent value가 없음
 	- tractable likelihood
-- <img src="https://www.dropbox.com/s/j9owqdf4jd3x2ou/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-05%2023.48.03.png?raw=1">
+- <img src="https://www.dropbox.com/s/j9owqdf4jd3x2ou/Screenshot%202018-12-05%2023.48.03.png?raw=1">
 
 ### Mask
 - 미래의 픽셀은 정보를 받지 않기 위해, 계산을 할 때 마스크를 씀
@@ -170,10 +170,10 @@ comments: true
 	- Mask A, B
 
 ### Receptive Fields
-<img src="https://www.dropbox.com/s/0gqwmf5mm3c8za9/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-06%2000.06.34.png?raw=1">
+<img src="https://www.dropbox.com/s/0gqwmf5mm3c8za9/Screenshot%202018-12-06%2000.06.34.png?raw=1">
 
 ### Architecture
-<img src="https://www.dropbox.com/s/yn6xsffacuv152o/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-06%2000.07.45.png?raw=1">
+<img src="https://www.dropbox.com/s/yn6xsffacuv152o/Screenshot%202018-12-06%2000.07.45.png?raw=1">
 
 - Residual 붙여서 더 깊게!
 - Row LSTM
@@ -210,12 +210,12 @@ comments: true
 
 
 ### Hallucination
-<img src="https://www.dropbox.com/s/fethr4k8pkcckaf/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-07%2000.07.07.png?raw=1">
+<img src="https://www.dropbox.com/s/fethr4k8pkcckaf/Screenshot%202018-12-07%2000.07.07.png?raw=1">
 
 - 빨간색을 카피할 수 있는 파란색
 
 ### Loss function
-<img src="https://www.dropbox.com/s/i78k9okzqvetssl/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-07%2000.26.54.png?raw=1">
+<img src="https://www.dropbox.com/s/i78k9okzqvetssl/Screenshot%202018-12-07%2000.26.54.png?raw=1">
 
 ### Several issues
 - First train the RGB & D-Net, copy the D Nte to H-Net

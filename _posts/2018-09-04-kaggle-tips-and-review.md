@@ -61,7 +61,7 @@ Coursera 강의인 How to Win a Data Science Competition: Learn from Top Kaggler
 	- Full cv는 정말 필요할 때 진행 
 - 가장 빠른 모델로 시작(LightGBM)
 - 모델 튜닝, 샘플링, 스태킹 등은 FEature engineering이 만족한 후에 진행
-- <img src="https://www.dropbox.com/s/9cdi4f0tetkpe1m/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-09-03%2001.58.07.png?raw=1"> 
+- <img src="https://www.dropbox.com/s/9cdi4f0tetkpe1m/Screenshot%202018-09-03%2001.58.07.png?raw=1"> 
 
 ### 빠르고 더럽지만 항상 좋은 방법
 - 코드 퀄리티에 신경쓰지 말기
@@ -174,7 +174,7 @@ Coursera 강의인 How to Win a Data Science Competition: Learn from Top Kaggler
 - 위 사례의 Combination
 
 ### Feature engineering
-<img src="https://www.dropbox.com/s/r1glvl4rz6b5gfo/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-09-03%2023.25.35.png?raw=1">
+<img src="https://www.dropbox.com/s/r1glvl4rz6b5gfo/Screenshot%202018-09-03%2023.25.35.png?raw=1">
 
 - Data cleaning and preparation
 - Handle missing value
@@ -183,17 +183,17 @@ Coursera 강의인 How to Win a Data Science Competition: Learn from Top Kaggler
 - 계속 하다보면 반복되는 패턴도 있어, 자동화를 어느정도 할 수 있음
 
 ### Modeling
-<img src="https://www.dropbox.com/s/5tl6ylkllh9e6wh/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-09-03%2023.31.39.png?raw=1">
+<img src="https://www.dropbox.com/s/5tl6ylkllh9e6wh/Screenshot%202018-09-03%2023.31.39.png?raw=1">
 
 - reference로 참고할 뿐 이게 진리는 아님!!
 
 ### Ensembling
-<img src="https://www.dropbox.com/s/qg2hd7dcsvxaqtl/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-09-03%2023.46.00.png?raw=1">
+<img src="https://www.dropbox.com/s/qg2hd7dcsvxaqtl/Screenshot%202018-09-03%2023.46.00.png?raw=1">
 
 - 단순 평균 ~ 멀티레이어 스태킹 등 다양한 방법으로 결합
 
 ### 협업 팁
-<img src="https://www.dropbox.com/s/crd345coq0w035m/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-09-03%2023.46.27.png?raw=1">
+<img src="https://www.dropbox.com/s/crd345coq0w035m/Screenshot%202018-09-03%2023.46.27.png?raw=1">
 
 ## 대회 후기
 ## Crowdflower Competition
@@ -201,14 +201,14 @@ Coursera 강의인 How to Win a Data Science Competition: Learn from Top Kaggler
 
 - 최종 등수 : 2위
 - 대회 목표 : 검색 결과의 적절성을 측정
-- <img src="https://www.dropbox.com/s/8fs0dzbwnlook3b/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-09-04%2000.26.01.png?raw=1">
+- <img src="https://www.dropbox.com/s/8fs0dzbwnlook3b/Screenshot%202018-09-04%2000.26.01.png?raw=1">
 - Metric
 	- Quadratic weighted kappa
 	- Typical valu range 0 ~ 1
-	- <img src="https://www.dropbox.com/s/gbgdux8svsvry85/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-09-04%2000.29.10.png?raw=1">
-	- <img src="https://www.dropbox.com/s/nmlu1drb8e7fyfw/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-09-04%2000.29.19.png?raw=1"> 
-	- <img src="https://www.dropbox.com/s/iwqomg8j1hp5gmo/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-09-04%2000.29.29.png?raw=1">
-	- <img src="https://www.dropbox.com/s/tzr582jm29wiy5s/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-09-04%2000.29.40.png?raw=1">
+	- <img src="https://www.dropbox.com/s/gbgdux8svsvry85/Screenshot%202018-09-04%2000.29.10.png?raw=1">
+	- <img src="https://www.dropbox.com/s/nmlu1drb8e7fyfw/Screenshot%202018-09-04%2000.29.19.png?raw=1"> 
+	- <img src="https://www.dropbox.com/s/iwqomg8j1hp5gmo/Screenshot%202018-09-04%2000.29.29.png?raw=1">
+	- <img src="https://www.dropbox.com/s/tzr582jm29wiy5s/Screenshot%202018-09-04%2000.29.40.png?raw=1">
 - 3 important points about data
 	- query들은 매우 짧음
 	- unique query는 261개
@@ -225,17 +225,17 @@ Coursera 강의인 How to Win a Data Science Competition: Learn from Top Kaggler
 		- Levenshtein 거리 
 	- Symbolic n-grams
 - Extending of queries
-	- <img src="https://www.dropbox.com/s/puzixmsj3jev07a/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-09-04%2000.43.17.png?raw=1"> 
+	- <img src="https://www.dropbox.com/s/puzixmsj3jev07a/Screenshot%202018-09-04%2000.43.17.png?raw=1"> 
 - Per-query models 
 - Sample weighting
-	- <img src="https://www.dropbox.com/s/dwrungwdnomolhy/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-09-04%2000.44.47.png?raw=1"> 
+	- <img src="https://www.dropbox.com/s/dwrungwdnomolhy/Screenshot%202018-09-04%2000.44.47.png?raw=1"> 
 - Bumper features
-	- <img src="https://www.dropbox.com/s/i4yo0u07mapb1nj/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-09-04%2000.45.04.png?raw=1"> 
+	- <img src="https://www.dropbox.com/s/i4yo0u07mapb1nj/Screenshot%202018-09-04%2000.45.04.png?raw=1"> 
 - Ensemble
-	- <img src="https://www.dropbox.com/s/6l545g0h94a8vho/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-09-04%2000.45.24.png?raw=1">
-	- <img src="https://www.dropbox.com/s/ceka0f5iz0uxtig/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-09-04%2000.45.36.png?raw=1"> 
+	- <img src="https://www.dropbox.com/s/6l545g0h94a8vho/Screenshot%202018-09-04%2000.45.24.png?raw=1">
+	- <img src="https://www.dropbox.com/s/ceka0f5iz0uxtig/Screenshot%202018-09-04%2000.45.36.png?raw=1"> 
 - Kappa optimization 
-	- <img src="https://www.dropbox.com/s/u2gb29xw4bniijw/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-09-04%2000.45.55.png?raw=1">
+	- <img src="https://www.dropbox.com/s/u2gb29xw4bniijw/Screenshot%202018-09-04%2000.45.55.png?raw=1">
 
 ### Conclusion
 - Key points
@@ -248,7 +248,7 @@ Coursera 강의인 How to Win a Data Science Competition: Learn from Top Kaggler
 
 - 최종 등수 : 3등  
 
-<img src="https://www.dropbox.com/s/8q2k9flkxsx4dfl/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-09-04%2011.21.05.png?raw=1">
+<img src="https://www.dropbox.com/s/8q2k9flkxsx4dfl/Screenshot%202018-09-04%2011.21.05.png?raw=1">
 
 ### Feature packs
 - Processed dataset 

@@ -21,7 +21,7 @@ comments: true
 
 ## GFS (Google File System)
 - [Google File System Paper](https://static.googleusercontent.com/media/research.google.com/ko//archive/gfs-sosp2003.pdf)
-- <img src="https://www.dropbox.com/s/veqxbvuk2oefm96/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-26%2013.53.43.png?raw=1">
+- <img src="https://www.dropbox.com/s/veqxbvuk2oefm96/Screenshot%202018-05-26%2013.53.43.png?raw=1">
 - 하둡의 원조
 - Failuer Tolerance, 물리적으로 서버 중 하나가 고장나도 정지하지 않고 잘 돌아가는 시스템
 - [박준영님 블로그](https://swalloow.github.io/map-reduce)
@@ -60,7 +60,7 @@ comments: true
 	- 컬럼 기반 데이터베이스 (Column Oriented)
 	- SQL은 Row 기반! 컬럼을 정해두고 Row를 추가하는 방식(=자유롭지 않음)인 반면 컬럼 기반은 스키마가 자유롭고 Sparse한 거대한 테이블에 적합
 	- Master와 Slave가 존재
-	- <img src="https://www.dropbox.com/s/pvu5isxpl0mmpoh/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-10-22%20%EC%98%A4%EC%A0%84%209.36.37.png?raw=1">
+	- <img src="https://www.dropbox.com/s/pvu5isxpl0mmpoh/Screenshot%202018-10-22%20%EC%98%A4%EC%A0%84%209.36.37.png?raw=1">
 
 
 ## Apache Spark

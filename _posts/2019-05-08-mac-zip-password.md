@@ -39,12 +39,12 @@ comments: true
 	zip -er zip_file.zip ./
 	```
 	
-<img src="https://www.dropbox.com/s/xewt1gmz55550y7/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-05-08%2021.47.50.png?raw=1">
+<img src="https://www.dropbox.com/s/xewt1gmz55550y7/Screenshot%202019-05-08%2021.47.50.png?raw=1">
 
 
 - zip에 대해 궁금하면 zip을 치면 관련 명령어가 나옴
 
-<img src="https://www.dropbox.com/s/2fwegq5f4x0bdxw/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-05-08%2021.52.56.png?raw=1">
+<img src="https://www.dropbox.com/s/2fwegq5f4x0bdxw/Screenshot%202019-05-08%2021.52.56.png?raw=1">
 
 ### Mac OS에서 압축 풀기
 - unzip 명령어를 통해 압축을 풀 수 있음
@@ -56,7 +56,7 @@ comments: true
 	
 - unzip을 치면 관련 명령어가 나옴
 
-<img src="https://www.dropbox.com/s/sn688ds59n75z3e/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-05-08%2021.54.35.png?raw=1">	
+<img src="https://www.dropbox.com/s/sn688ds59n75z3e/Screenshot%202019-05-08%2021.54.35.png?raw=1">	
 
 
 ---

@@ -41,7 +41,7 @@ comments: true
 ## Architecture
 ---
 
-<img src="https://www.dropbox.com/s/ggph3koz4bl5wcs/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-07-11%2021.09.02.png?raw=1">
+<img src="https://www.dropbox.com/s/ggph3koz4bl5wcs/Screenshot%202018-07-11%2021.09.02.png?raw=1">
 
 - 파란색 : Client
 - 초록색 : Server
@@ -51,7 +51,7 @@ comments: true
 	- GET / POST만 존재 
 
 ### Component
-<img src="https://www.dropbox.com/s/s3kzyvzsshe1q1u/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-07-11%2021.35.39.png?raw=1">
+<img src="https://www.dropbox.com/s/s3kzyvzsshe1q1u/Screenshot%202018-07-11%2021.35.39.png?raw=1">
 
 - Servables
 	- 클라이언트가 계산을 수행하는데 사용하는 기본 object(perform computation)

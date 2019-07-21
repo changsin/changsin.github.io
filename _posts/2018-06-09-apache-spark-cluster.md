@@ -56,7 +56,7 @@ java -version
 
 ## Spark Cluster
 ---
-<img src="https://www.dropbox.com/s/ei60vlis4b1y12u/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-09%2015.58.59.png?raw=1">
+<img src="https://www.dropbox.com/s/ei60vlis4b1y12u/Screenshot%202018-06-09%2015.58.59.png?raw=1">
 
 - Cluster Manager
 - Driver 노드 ( Master, 8080 port, ```./bin/spark-shell``` )
@@ -111,7 +111,7 @@ sc.makeRDD(List(1,2,3)).count
 - <IP>:8080 접속 되는지 확인!
 
 ### Spark Master UI
-<img src="https://www.dropbox.com/s/2w5luzn6skcf1h1/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-09%2016.18.43.png?raw=1">
+<img src="https://www.dropbox.com/s/2w5luzn6skcf1h1/Screenshot%202018-06-09%2016.18.43.png?raw=1">
 
 - Spark Master를 띄우면 8080 포트로 접속 가능
 
@@ -150,11 +150,11 @@ cp slaves.template slaves
 
 ### Spark Application
 - <IP>:4040
-<img src="https://www.dropbox.com/s/1dekdskl1949si9/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-09%2016.41.27.png?raw=1">
+<img src="https://www.dropbox.com/s/1dekdskl1949si9/Screenshot%202018-06-09%2016.41.27.png?raw=1">
 
 - Description 아래를 클릭하면
 
-<img src="https://www.dropbox.com/s/vgn8eamuvjkfmqk/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-09%2016.41.59.png?raw=1">
+<img src="https://www.dropbox.com/s/vgn8eamuvjkfmqk/Screenshot%202018-06-09%2016.41.59.png?raw=1">
 
 - 자세한 정보들이 나오며 어디가 느린지 확인할 수 있음
 - storage는 캐싱할 경우 나옴
@@ -180,7 +180,7 @@ cp slaves.template slaves
 ./sbin/start-all.sh
 ```
 
-<img src="https://www.dropbox.com/s/7irpcyrx52fjllz/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-09%2016.59.44.png?raw=1">
+<img src="https://www.dropbox.com/s/7irpcyrx52fjllz/Screenshot%202018-06-09%2016.59.44.png?raw=1">
 
 ### 큰 사이즈의 데이터로 시뮬레이션
 - spark-shell에서
@@ -193,7 +193,7 @@ bigDf.count
 
 - <IP>:4040으로 접속하면!!
 
-<img src="https://www.dropbox.com/s/jud1ul3ppozt2zz/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-09%2017.06.33.png?raw=1">
+<img src="https://www.dropbox.com/s/jud1ul3ppozt2zz/Screenshot%202018-06-09%2017.06.33.png?raw=1">
 
 - 클러스터 2개를 제외하고 재실행
 
@@ -202,7 +202,7 @@ vi <spark 주소>/conf/slaves
 // 기존 2개의 클러스터 주석처리
 ```
 
-<img src="https://www.dropbox.com/s/0sjytdcldvcqbcf/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-09%2017.09.17.png?raw=1">
+<img src="https://www.dropbox.com/s/0sjytdcldvcqbcf/Screenshot%202018-06-09%2017.09.17.png?raw=1">
 
 - 2개의 Worker가 죽어있음
 - spark-shell에서
@@ -215,7 +215,7 @@ bigDf.count
 
 - <IP>:4040으로 접속하면!!
 
-<img src="https://www.dropbox.com/s/fn7pjniwqv35wxd/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-09%2017.19.52.png?raw=1">
+<img src="https://www.dropbox.com/s/fn7pjniwqv35wxd/Screenshot%202018-06-09%2017.19.52.png?raw=1">
 
 - 시간이 더 오래걸렸습니다
 

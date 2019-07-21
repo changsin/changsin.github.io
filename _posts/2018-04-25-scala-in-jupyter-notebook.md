@@ -73,11 +73,11 @@ git clone https://github.com/jupyter-scala/jupyter-scala
 
 
 ## After Install Scala Kernel
-<img src="https://www.dropbox.com/s/hvash2pjev17l4i/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-04-25%2011.43.39.png?raw=1">
+<img src="https://www.dropbox.com/s/hvash2pjev17l4i/Screenshot%202018-04-25%2011.43.39.png?raw=1">
 
 - 위와 같이 Scala가 생깁니다 :)
 
-<img src="https://www.dropbox.com/s/cd1rmab8zi9zh1t/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-04-25%2011.45.48.png?raw=1">
+<img src="https://www.dropbox.com/s/cd1rmab8zi9zh1t/Screenshot%202018-04-25%2011.45.48.png?raw=1">
 
 - Scala로 이것저것 Test해봤습니다!!
 - 이제 다음 글에서 Spark를 Jupyter Notebook에서 해보겠습니다!!!!

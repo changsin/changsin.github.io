@@ -44,7 +44,7 @@ comments: true
 
 	
 ### 자아 성찰	
-<img src="https://www.dropbox.com/s/w0xytz6ljfxjbnj/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-10-24%2021.37.19.png?raw=1" width="600" height="400">
+<img src="https://www.dropbox.com/s/w0xytz6ljfxjbnj/Screenshot%202018-10-24%2021.37.19.png?raw=1" width="600" height="400">
 
 ---
 
@@ -77,7 +77,7 @@ comments: true
 ---
 
 ### 일기
-<img src="https://www.dropbox.com/s/g1lcp9j14990y76/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-10-24%2022.38.48.png?raw=1" width="700" height="700">
+<img src="https://www.dropbox.com/s/g1lcp9j14990y76/Screenshot%202018-10-24%2022.38.48.png?raw=1" width="700" height="700">
 
 ---
 
@@ -105,10 +105,10 @@ comments: true
 	- Linux 쉘 스크립트 다시 공부 : [블로그](https://zzsza.github.io/tag/development-linux/)
 	- Coursera Kaggle 강의 : [블로그](https://zzsza.github.io/tag/data-kaggle/)
 	- 마이크로 소프트웨어 잡지 구독
-		- <img src="https://www.dropbox.com/s/b0zs0cjjlou0sdh/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-10-25%2009.33.28.jpg?raw=1" width="600" height="400">
+		- <img src="https://www.dropbox.com/s/b0zs0cjjlou0sdh/Screenshot%202018-10-25%2009.33.28.jpg?raw=1" width="600" height="400">
 		- 전반적인 개발 지식이 부족한 제게 이 잡지는 정말 유익했어요!(다양한 주제를 다룸)
 	- 좋은 블로그 글 구독
-		- <img src="https://www.dropbox.com/s/6pwk125gsnmoe9e/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-10-25%2009.36.46.png?raw=1" width="600" height="400">
+		- <img src="https://www.dropbox.com/s/6pwk125gsnmoe9e/Screenshot%202018-10-25%2009.36.46.png?raw=1" width="600" height="400">
 		- 개인 용도의 슬랙을 생성해, 좋은 블로그 글을 RSS 구독하고 있습니다
 		- 또한 인터넷에서 접할 수 있는 좋은 글들은 별도의 채널(Ex:딥러닝-자료)에 보관하고 있습니다
 - 여기서 핵심은 제가 무엇이 공부했다가 아니라 블로그 또는 Github에 **메모**를 한 것이에요! 
@@ -150,7 +150,7 @@ comments: true
 	- 저는 회사 선택할 때 이 내용을 많이 봤어요!(면접 날에도 작성했어요)
 
 ### 중간 점검
-<img src="https://www.dropbox.com/s/z5mgg5xqi74dvoz/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-10-24%2023.56.36.png?raw=1" width="650" height="600">
+<img src="https://www.dropbox.com/s/z5mgg5xqi74dvoz/Screenshot%202018-10-24%2023.56.36.png?raw=1" width="650" height="600">
 
 - 퇴사하고 6주가 지난 시점에 중간 점검을 진행했습니다
 	- 중요한 것은 **솔직한** 중간 점검입니다!
@@ -159,7 +159,7 @@ comments: true
 
 
 ### 이직 시점
-<img src="https://www.dropbox.com/s/kiytn31kh9sqvfg/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-10-25%2000.14.36.png?raw=1" width="600" height="180">
+<img src="https://www.dropbox.com/s/kiytn31kh9sqvfg/Screenshot%202018-10-25%2000.14.36.png?raw=1" width="600" height="180">
 
 - 평소에 회사 탐방을 꾸준히 했기 때문에 많은 회사에 대해 인지하고 있었습니다
 - 회사에 대해 많은 정보가 있는 것도 중요하지만 더 중요한 것은 **회사 선정시 고려할 우선 순위**입니다
@@ -174,7 +174,7 @@ comments: true
 ## 03. 쏘카
 ---
 
-<img src="https://www.dropbox.com/s/vm23ybf9weejiqx/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-10-25%2001.33.28.png?raw=1" width="450" height="600">
+<img src="https://www.dropbox.com/s/vm23ybf9weejiqx/Screenshot%202018-10-25%2001.33.28.png?raw=1" width="450" height="600">
 
 - 선택한 이유
 	- VCNC를 인수하고 팀 빌딩을 단단하게 하고 있는 중
@@ -201,7 +201,7 @@ comments: true
 - 입사하고 받은 웰컴 키트!
 	- 간단한 다과와 캡슐 커피, 필기구 등이 있습니다!
 	
-<img src="https://www.dropbox.com/s/6wymoralkuz0kk5/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-10-25%2001.03.38.png?raw=1" width="600" height="400">
+<img src="https://www.dropbox.com/s/6wymoralkuz0kk5/Screenshot%202018-10-25%2001.03.38.png?raw=1" width="600" height="400">
 
 - 저희 그룹장이신 김상우님의 데이터야놀자 발표 자료입니다
 	- 더 궁금하시면 [링크](https://speakerdeck.com/swkimme/ssokaeseo-meosinreoning-injaereul-caeyonghaneun-iyu-feat-tada) 참고
@@ -218,7 +218,7 @@ comments: true
 	- [Kafka Streams vs Spark Structured Streaming](https://speakerdeck.com/dongjin/kafka-streams-vs-spark-structured-streaming-extended)
 	- 이런 고퀄의 세미나를 회사에서 들을 수 있어서 정말 영광이었어요!
 
-<img src="https://www.dropbox.com/s/r7okisawn92jm2q/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-10-25%2001.16.26.png?raw=1" width="600" height="400">	
+<img src="https://www.dropbox.com/s/r7okisawn92jm2q/Screenshot%202018-10-25%2001.16.26.png?raw=1" width="600" height="400">	
 
 - 회사의 복지!
 	- 쏘카 이용할 때 할인을 받을 수 있습니다! 
@@ -231,7 +231,7 @@ comments: true
 
 
 ## 정리 및 맺음말
-<img src="https://www.dropbox.com/s/emf4vatf3mc4h71/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-10-25%2001.27.39.png?raw=1">
+<img src="https://www.dropbox.com/s/emf4vatf3mc4h71/Screenshot%202018-10-25%2001.27.39.png?raw=1">
 
 - 자신에 대해 생각해보고 부족한 점을 보완해보세요
 - 회사에 대한 고민도 함께 하고, 가능하다면 회사 방문도 추천드려요

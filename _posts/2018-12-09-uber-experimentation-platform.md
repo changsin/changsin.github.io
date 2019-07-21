@@ -20,7 +20,7 @@ comments: true
 - Uber Rider, Ubet Eats, uber Freight 앱 전반에서 지원
 	- A/B/N Test, 인과 분석, Multi-armed Bandit(MAB)에 기반한 지속적 실험
 
-<img src="https://www.dropbox.com/s/1l6haiwszmrw0vn/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-09%2010.14.29.png?raw=1">
+<img src="https://www.dropbox.com/s/1l6haiwszmrw0vn/Screenshot%202018-12-09%2010.14.29.png?raw=1">
 
 - 통계 방법을 크게 4가지로 사용
     - 1) 고정된 horizon A/B/N Test(t-test, 카이제곱, rank-sum test)
@@ -30,19 +30,19 @@ comments: true
     - 유형 1, 유형 2 오류의 확률을 계산시 편차 보정을 측정하는 회귀 방법을 사용하고, standard error를 측정하기 위해 block bootstrap와 delta methods를 사용
 
 ### Classic AB Test
-<img src="https://www.dropbox.com/s/fh3lblrpm8gxi4u/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-09%2010.18.23.png?raw=1">
+<img src="https://www.dropbox.com/s/fh3lblrpm8gxi4u/Screenshot%202018-12-09%2010.18.23.png?raw=1">
 
 - 실험군과 대조군을 설정한 후, 그룹간 metric을 측정해 실험 효과를 측정
 	- Feature release 실험시 주로 사용
 
-<img src="https://www.dropbox.com/s/b0l6pt7kevdv6l6/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-09%2010.19.05.png?raw=1">
+<img src="https://www.dropbox.com/s/b0l6pt7kevdv6l6/Screenshot%202018-12-09%2010.19.05.png?raw=1">
 
 - 측정값의 평균, lift(treatment effect)가 중요한지, 샘플 사이즈는 충분히 큰지 등을 나타냄
 	- (역자) 이런 기능은 통계적 모델링에서 항상 필요하기 때문에, 한번 만들면 계속 재사용 가능! 이 부분 추가 학습하기
 
 
 ### 통계 엔진
-<img src="https://www.dropbox.com/s/j7kngctastxz8lw/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-09%2010.24.22.png?raw=1">
+<img src="https://www.dropbox.com/s/j7kngctastxz8lw/Screenshot%202018-12-09%2010.24.22.png?raw=1">
 
 - Data validation -> check metric type -> Data preprocessing -> 각 방법론 적용 -> P value calculation -> A/B/N test -> Lift 계산 -> 검정력, sample 사이즈 계산
 - 무작위 실험할 때 첫 단계 : 의사 결정(decision) metric 결정
@@ -110,7 +110,7 @@ comments: true
 		- 피어슨 상관 점수
 
 ### Sequential testing
-<img src="https://www.dropbox.com/s/tx6406uraltem6o/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-09%2010.34.37.png?raw=1">
+<img src="https://www.dropbox.com/s/tx6406uraltem6o/Screenshot%202018-12-09%2010.34.37.png?raw=1">
 
 - 전통적인 AB Test는 샘플을 반복적으로 가져와 1종 오류를 부추김
 	- 순차적 테스트는 핵심 비즈니스 메트릭을 지속적으로 모니터링 하는 방법 제공
@@ -128,7 +128,7 @@ comments: true
     - delete-a-group jackknife variance estimation과 block bootstrap 방법을 사용해 연관된 데이터에서 mSPRT 테스트를 일반화
 
 ### Continuous experiments
-<img src="https://www.dropbox.com/s/l09k7sxzrthvbl8/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-09%2010.38.28.png?raw=1">
+<img src="https://www.dropbox.com/s/l09k7sxzrthvbl8/Screenshot%202018-12-09%2010.38.28.png?raw=1">
 
 - driver, rider, eater, restaurant, delivery-partner 경험을 지속적 실험을 통해 최적화하려고 함
 	- bandit과 최적화에 초점을 둔 강화학습 방법을 구현해 실험
@@ -136,9 +136,9 @@ comments: true
 
 
 ### Case Study
-<img src="https://www.dropbox.com/s/c5c3bg3zf2g6goo/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-09%2010.39.09.png?raw=1">
+<img src="https://www.dropbox.com/s/c5c3bg3zf2g6goo/Screenshot%202018-12-09%2010.39.09.png?raw=1">
 
-<img src="https://www.dropbox.com/s/mv48kvw8ut85rz2/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-09%2010.39.23.png?raw=1">
+<img src="https://www.dropbox.com/s/mv48kvw8ut85rz2/Screenshot%202018-12-09%2010.39.23.png?raw=1">
 
 
 ### Moving forward

@@ -16,11 +16,11 @@ comments: true
 
 결선 기간동안 sli.do 채널을 운영해 참가자와 운영측의 소통을 진행했습니다! 저는 열리자마자 날씨 기상캐스터를 했습니다
 
-<img src="https://www.dropbox.com/s/a3qapcecpfnnbi2/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-04-25%2022.43.17.png?raw=1">
+<img src="https://www.dropbox.com/s/a3qapcecpfnnbi2/Screenshot%202018-04-25%2022.43.17.png?raw=1">
 
 날씨에 민감한 편이라(특히 바람) 이렇게 날씨를 알려드렸는데 운영측에서 좋게 봐주셨습니다!!!
 
-<img src="https://www.dropbox.com/s/jz9knxqu5xgpnvw/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-04-26%2000.06.32.png?raw=1">
+<img src="https://www.dropbox.com/s/jz9knxqu5xgpnvw/Screenshot%202018-04-26%2000.06.32.png?raw=1">
 
 그렇게 저는 프렌즈 스피커를 받았습니다 후후.. 감사합니다
 
@@ -137,7 +137,7 @@ NSML에 대한 프로그램 자체는 정말 좋습니다. 모델에 집중하�
 - 나이가 들수록 밤샘이 힘들다.. 체력을 키우자
 
 ## 최종 등수
-<img src="https://www.dropbox.com/s/27asp9muuwdma2b/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-04-27%2012.01.44.png?raw=1">
+<img src="https://www.dropbox.com/s/27asp9muuwdma2b/Screenshot%202018-04-27%2012.01.44.png?raw=1">
 
 예선 1차 4등, 2차 7등이었는데 결선에서 9등이 되었네요. 마감 1시간 전까진 12등이었다가 마감 10분 전에 submit이 되서 막판에 10등 안에 들었습니다!  
 

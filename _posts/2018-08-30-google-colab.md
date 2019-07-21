@@ -43,7 +43,7 @@ comments: true
 - Github의 소스 코드를 Colab에서 사용 가능
 
 ### UI
-<img src="https://www.dropbox.com/s/j9vwl4clnru0ulb/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-29%2022.26.02.png?raw=1">
+<img src="https://www.dropbox.com/s/j9vwl4clnru0ulb/Screenshot%202018-08-29%2022.26.02.png?raw=1">
 
 - 붉은 부분
 	- 해당 노트북의 목차
@@ -57,17 +57,17 @@ comments: true
 	- 코드 부분  
 
 ### 상단 설정
-<img src="https://www.dropbox.com/s/mf37f6c7em8t8zd/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-29%2022.49.30.png?raw=1">
+<img src="https://www.dropbox.com/s/mf37f6c7em8t8zd/Screenshot%202018-08-29%2022.49.30.png?raw=1">
 
 - 새 Python2, 3 노트 : Notebook 파일 생성(GPU 없는 설정)
 - 노트 업로드 : 로컬에 있는 노트북 업로드
 - Github Gist에 사본 저장 : Gist에 Secret으로 저장(처음에 연동 설정 필요)
 - Github에 사본 저장 : Github Repo의 특정 브랜치에 저장 
 
-<img src="https://www.dropbox.com/s/crnljdkvedu4huk/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-29%2022.53.22.png?raw=1">
+<img src="https://www.dropbox.com/s/crnljdkvedu4huk/Screenshot%202018-08-29%2022.53.22.png?raw=1">
 
 - 런타임 유형 변경 클릭시 GPU 사용 가능
-- <img src="https://www.dropbox.com/s/h9r2m8sabp2v8nt/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-29%2022.55.22.png?raw=1" widht="200" height="200">
+- <img src="https://www.dropbox.com/s/h9r2m8sabp2v8nt/Screenshot%202018-08-29%2022.55.22.png?raw=1" widht="200" height="200">
 
 
 ## Colab 사용하기
@@ -141,9 +141,9 @@ df = pd.read_csv("./gdrive/data/train_activity.csv")
 - ```InstallBackupAndSync.dmg```라는 파일을 클릭한 후, (열리지 않으면 우클릭 후 열기) 프로그램 설치
 - 맥북 환경이 한글이신 분은 ```Google에서 백업 및 동기화```라는 응용 프로그램이 추가됨(이것도 실행이 안되면 우클릭 후 실행)
 - 환경 설정에서 동기화할 폴더 선택
-- <img src="https://www.dropbox.com/s/8jc0jlkhn08nekp/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-30%2001.37.29.png?raw=1">
+- <img src="https://www.dropbox.com/s/8jc0jlkhn08nekp/Screenshot%202018-08-30%2001.37.29.png?raw=1">
 - "폴더 위치"라고 써있는 곳이 이제 Google Drive와 동일하게 연동
-- <img src="https://www.dropbox.com/s/lg7ft4p1gbaj0l8/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-30%2001.39.43.png?raw=1"> 
+- <img src="https://www.dropbox.com/s/lg7ft4p1gbaj0l8/Screenshot%202018-08-30%2001.39.43.png?raw=1"> 
 - 이제 "폴더 위치"에 원하는 데이터를 저장해두면 Colab에서 사용 가능
 	- 단, 크기가 큰 파일은 동기화 시간이 오래 걸릴 수 있음 
 

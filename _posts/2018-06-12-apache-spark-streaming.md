@@ -12,13 +12,13 @@ Apache Spark Streaming에 대한 글입니다
 ## Spark Streaming
 ---
 
-<img src="https://www.dropbox.com/s/iyw3faoyy8dp7ha/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-12%2022.24.17.png?raw=1">
+<img src="https://www.dropbox.com/s/iyw3faoyy8dp7ha/Screenshot%202018-06-12%2022.24.17.png?raw=1">
 
 - 다양한 소스로부터 실시간 스트리밍 데이터 처리
 - Spark RDD와 사용 방법이 유사하며 lambda 아키텍쳐를 만들기 좋음
 - Structured Streaming라는 것도 최근 추가됨 : [공식 문서](https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html)
 
-<img src="https://www.dropbox.com/s/c6x867fnpiy37gk/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-12%2022.24.43.png?raw=1">
+<img src="https://www.dropbox.com/s/c6x867fnpiy37gk/Screenshot%202018-06-12%2022.24.43.png?raw=1">
 
 - 스트림 데이터를 일정 단위로 쪼개어 batch 처리
 - DStream (discreatized stream 불연속적 스트림)

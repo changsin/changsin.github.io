@@ -104,7 +104,7 @@ Artifacts
 		mlflow ui
 		```
 
-	<img src="https://www.dropbox.com/s/jzrxbe2h3z6mwvh/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-01-16%2000.18.20.png?raw=1">
+	<img src="https://www.dropbox.com/s/jzrxbe2h3z6mwvh/Screenshot%202019-01-16%2000.18.20.png?raw=1">
 
 	
 ### MLflow Project 실행
@@ -239,7 +239,7 @@ Artifacts
 	```
 	
 - 웹 서버 탐색
-	- <img src="https://www.dropbox.com/s/n5b3yb8gzqfgm3s/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-01-16%2001.40.42.png?raw=1">
+	- <img src="https://www.dropbox.com/s/n5b3yb8gzqfgm3s/Screenshot%202019-01-16%2001.40.42.png?raw=1">
 
 ### 학습 코드 패키징
 - `MLproject`란 파일 생성해서 아래와 같이 설정

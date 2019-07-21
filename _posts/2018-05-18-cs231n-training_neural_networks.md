@@ -18,7 +18,7 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 
 
 ## Activation functions
-<img src="https://www.dropbox.com/s/6fatms7uxzrwhim/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-17%2021.14.27.png?raw=1">
+<img src="https://www.dropbox.com/s/6fatms7uxzrwhim/Screenshot%202018-05-17%2021.14.27.png?raw=1">
 
 ### Sigmoid
 - $$\sigma (x) = 1/(1+e^{-x})$$
@@ -27,11 +27,11 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 	- saturated : activation value가 극단적 값만 가지게 되는 경우
 - 3가지 문제점
 	- 1) Saturated neurons "kill" the gradients(Vanish Gradient)
-		- <img src="https://www.dropbox.com/s/v7axdjlbf1wu4x3/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-17%2021.27.09.png?raw=1">
+		- <img src="https://www.dropbox.com/s/v7axdjlbf1wu4x3/Screenshot%202018-05-17%2021.27.09.png?raw=1">
 		- x가 -10, 10일 경우엔 gradients가 0
 		- Chain Rule에 의해 gradient를 구할 때 "곱" 연산을 지속적으로 하면 gradient는 점점 0이 됩니다
 	- 2) Sigmoid outputs are not zero-centered
-		- <img src="https://www.dropbox.com/s/vpn70gyepj1g1ef/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-17%2021.29.03.png?raw=1">
+		- <img src="https://www.dropbox.com/s/vpn70gyepj1g1ef/Screenshot%202018-05-17%2021.29.03.png?raw=1">
 		- input은 항상 positive(x>0)
 		- output도 positive. 이 경우 w의 gradients는?
 			- Q) If all of X is positive?
@@ -112,7 +112,7 @@ nonlinearity
 ## Data Preprocessing
 - [cs 231 번역 참고](http://aikorea.org/cs231n/neural-networks-2-kr/) 
 
-<img src="https://www.dropbox.com/s/cj9drfw34z2q1ye/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-18%2011.30.42.png?raw=1">
+<img src="https://www.dropbox.com/s/cj9drfw34z2q1ye/Screenshot%202018-05-18%2011.30.42.png?raw=1">
 
 - zero-centered data
 	- Feature에 대해 평균값만큼 차감하는 방법 
@@ -120,7 +120,7 @@ nonlinearity
 	- 각 차원의 데이터가 동일한 범위내의 값을 갖도록 하는 방법 
 	- 이미지 처리에선 보통 하지 않음(scale이 달라지면 다른 feature)
 
-<img src="https://www.dropbox.com/s/k2d1zitwrdv2gwd/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-18%2011.34.58.png?raw=1">
+<img src="https://www.dropbox.com/s/k2d1zitwrdv2gwd/Screenshot%202018-05-18%2011.34.58.png?raw=1">
 
 - 머신러닝 관점에선
 	- PCA
@@ -143,17 +143,17 @@ nonlinearity
 - 아이디어 1) Small random numbers
 	- gaussian with zero mean and 1e-2 standard deviation
 	- small network는 okay, deep network에선 문제 발생 
-	- <img src="https://www.dropbox.com/s/6ksnrydsf193wmz/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-18%2012.12.52.png?raw=1">
+	- <img src="https://www.dropbox.com/s/6ksnrydsf193wmz/Screenshot%202018-05-18%2012.12.52.png?raw=1">
 	- Q1) weight가 **0.01**일 경우 gradients의 look like는?
 	- A1) 점점 smaller gradient가 되서 update하지 못하게 됨
 - 아이디어 2) Big random numbers
-	- <img src="https://www.dropbox.com/s/7rbq3cfnvxyyh9r/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-18%2013.22.05.png?raw=1">
+	- <img src="https://www.dropbox.com/s/7rbq3cfnvxyyh9r/Screenshot%202018-05-18%2013.22.05.png?raw=1">
 	- Q2) weight가 **1.0**일 경우 gradient는?
 	- A2) all neurons completely saturated, either -1 and 1. Gradients will be all zero
 	- Vanishing gradient 발생
 
 ### Xavier/He initialization
-<img src="https://www.dropbox.com/s/2ad9o826rb13j6q/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-18%2013.27.18.png?raw=1">
+<img src="https://www.dropbox.com/s/2ad9o826rb13j6q/Screenshot%202018-05-18%2013.27.18.png?raw=1">
 
 - Reasonable initialization. (Mathematical derivation assumes linear activations)
 - input : fan\_in, output : fan\_out ( 차원의 수 )
@@ -171,7 +171,7 @@ nonlinearity
 - 기본적으로 Gradient Vanishing 이 일어나지 않도록 하는 아이디어 중 하나입니다. 여태는 이 문제를 Activation 함수의 변화, Careful Initialization, small learning rate 등으로 해결했지만, 이런 간접적인 방법보다 training하는 과정 자체를 안정화해서 학습 속도를 가속시킬 근본적인 방법을 찾았습니다
 - 각 layer에 들어가는 input을 normalize해서 layer의 학습 속도를 가속, 각 mini-batch의 mean, variance를 구해 normalize
 
-<img src="https://www.dropbox.com/s/5niaholljkib13e/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-18%2018.28.41.png?raw=1">
+<img src="https://www.dropbox.com/s/5niaholljkib13e/Screenshot%202018-05-18%2018.28.41.png?raw=1">
 
 - N : training examples in current batch
 - D : Each batch's dimension
@@ -181,11 +181,11 @@ nonlinearity
 - 1) dimension마다 mean, variance를 구해서 계산
 - 2) Normalize
 
-<img src="https://www.dropbox.com/s/sjn60z6vo0w3rmb/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-18%2018.32.08.png?raw=1">
+<img src="https://www.dropbox.com/s/sjn60z6vo0w3rmb/Screenshot%202018-05-18%2018.32.08.png?raw=1">
 
 - Fully Connected or Convolutional layer 뒤 또는 nonlinearity 전에 위치
 
-<img src="https://www.dropbox.com/s/qmiy8du0fqzjshh/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-18%2018.42.16.png?raw=1">
+<img src="https://www.dropbox.com/s/qmiy8du0fqzjshh/Screenshot%202018-05-18%2018.42.16.png?raw=1">
 
 - 장점
 	- 네트워크의 Gradient flow를 향상시킴(가우시안 유닛 벡터가 0 근처라서 vanishing이 일어나지 않음. flow 유지)
@@ -225,14 +225,14 @@ nonlinearity
 
 
 ### Monitor and visualize the loss curve
-<img src="https://www.dropbox.com/s/cm7fkbk24771jfb/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-18%2019.24.07.png?raw=1">
+<img src="https://www.dropbox.com/s/cm7fkbk24771jfb/Screenshot%202018-05-18%2019.24.07.png?raw=1">
 
-<img src="https://www.dropbox.com/s/wxtotgjhapnxs7x/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-18%2019.24.32.png?raw=1">
+<img src="https://www.dropbox.com/s/wxtotgjhapnxs7x/Screenshot%202018-05-18%2019.24.32.png?raw=1">
 
-<img src="https://www.dropbox.com/s/ginuyhf81oa19vb/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-18%2019.24.55.png?raw=1">
+<img src="https://www.dropbox.com/s/ginuyhf81oa19vb/Screenshot%202018-05-18%2019.24.55.png?raw=1">
 
 ## Summary
-<img src="https://www.dropbox.com/s/oue1m72omio7byi/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-18%2019.25.31.png?raw=1">
+<img src="https://www.dropbox.com/s/oue1m72omio7byi/Screenshot%202018-05-18%2019.25.31.png?raw=1">
 
 
 ## Reference

@@ -30,7 +30,7 @@ comments: true
 	- 요새 미세먼지가 너무 심해서, 많이 다운로드될 것 같은 `미세미세`를 검색
 
 ### 리뷰 확인
-<img src="https://www.dropbox.com/s/7bdb69ufwwpq2ia/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-03-11%2023.56.52.png?raw=1">
+<img src="https://www.dropbox.com/s/7bdb69ufwwpq2ia/Screenshot%202019-03-11%2023.56.52.png?raw=1">
 
 - 리뷰 모두 보기 클릭
 - URL은 [https://play.google.com/store/apps/details?id=cheehoon.ha.particulateforecaster&showAllReviews=true](https://play.google.com/store/apps/details?id=cheehoon.ha.particulateforecaster&showAllReviews=true)
@@ -133,9 +133,9 @@ comments: true
 - 부록으로 Word Cloud 그린 [Colab](https://colab.research.google.com/drive/1Lr-tdDJFz_Aln-SXcoy4fEn-c8ofR7L4) 링크 공유 :)
 	- 전체 코드가 작성되어 있음 
 - 5점 평점의 Word Cloud
-	- <img src="https://www.dropbox.com/s/dsdt45dtz8uqdvo/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-03-12%2001.11.19.png?raw=1">
+	- <img src="https://www.dropbox.com/s/dsdt45dtz8uqdvo/Screenshot%202019-03-12%2001.11.19.png?raw=1">
 - 2점 이하 평점의 Word Cloud
-	- <img src="https://www.dropbox.com/s/24s12qytd4p59m6/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-03-12%2001.11.47.png?raw=1">
+	- <img src="https://www.dropbox.com/s/24s12qytd4p59m6/Screenshot%202019-03-12%2001.11.47.png?raw=1">
 	
 
 ### 마무리

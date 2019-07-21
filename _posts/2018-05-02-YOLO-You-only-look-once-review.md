@@ -31,7 +31,7 @@ comments: true
 - 위와 같은 방식은 각각의 component를 따로 학습해야 하기 때문에 느리고 최적화하기 힘듭니다!
 
 ### YOLO 방법론
-<img src="https://www.dropbox.com/s/3dmf2c368b7a76w/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-02%2013.40.49.png?raw=1">
+<img src="https://www.dropbox.com/s/3dmf2c368b7a76w/Screenshot%202018-05-02%2013.40.49.png?raw=1">
 
 - Simple한 System
 	- Input image를 448x448로 resize
@@ -61,7 +61,7 @@ comments: true
 - 이미지에 대한 모든 클래스와 bounding box를 동시에 예측합니다
 
 
-<img src="https://www.dropbox.com/s/qf4vrq8udy8mcwe/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-02%2014.33.00.png?raw=1">
+<img src="https://www.dropbox.com/s/qf4vrq8udy8mcwe/Screenshot%202018-05-02%2014.33.00.png?raw=1">
 
 - System
 	- input image를 $$S \times S$$ grid로 나눕니다
@@ -87,7 +87,7 @@ comments: true
 
 
 ### 2.1 Network Design
-<img src="https://www.dropbox.com/s/fbzemhal9672ima/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-02%2014.42.00.JPG?raw=1">
+<img src="https://www.dropbox.com/s/fbzemhal9672ima/Screenshot%202018-05-02%2014.42.00.JPG?raw=1">
 
 - GoogleNet 모델 기반
 	- 24 Convolution layer, 2 Fully Connected layer
@@ -103,7 +103,7 @@ comments: true
 - Bounding Box의 x, y는 특정 grid cell의 offset값 사용
 - final layer에서 linear activation function 사용
 
-<img src="https://www.dropbox.com/s/c1bfbn6ghkto7x8/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-02%2015.08.02.png?raw=1">
+<img src="https://www.dropbox.com/s/c1bfbn6ghkto7x8/Screenshot%202018-05-02%2015.08.02.png?raw=1">
 
 - MSE보다 쉽게 최적화할 수 있는 SSE(Sum-Squared Error)를 최적화 합니다
 
@@ -121,7 +121,7 @@ comments: true
 - data augmentation : random scaling andtranslations of up to 20% of the original image size
 
 ### Loss Function
-<img src="https://www.dropbox.com/s/zcojhtf83ytac80/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-02%2015.49.37.png?raw=1">
+<img src="https://www.dropbox.com/s/zcojhtf83ytac80/Screenshot%202018-05-02%2015.49.37.png?raw=1">
 
 출처 : [박진우님 블로그](https://curt-park.github.io/2017-03-26/yolo/)
 
@@ -137,7 +137,7 @@ comments: true
 	- fully connected layer를 2번 태워서 $$x,y,w,h$$를 맞추려고 하는데 이 값은 애초에 맞추기 힘든 값입니다.  
 
 ## 4. Experiment
-<img src="https://www.dropbox.com/s/sny745golyk7ox9/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-02%2023.45.18.png?raw=1">
+<img src="https://www.dropbox.com/s/sny745golyk7ox9/Screenshot%202018-05-02%2023.45.18.png?raw=1">
 
 - 특이한 것은 Fast R-CNN + YOLO의 앙상블이 가장 점수가 높은 것
 	- YOLO는 배경에 대해 판단하지 않으며, Localization이 되지 않습니다

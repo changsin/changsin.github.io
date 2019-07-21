@@ -33,7 +33,7 @@ comments: true
 
 Neural networks를 사용해 이미지를 생성할 때, 일반적으로 저해상도에서 고해상도로 Up-sampling합니다
 
-<img src="https://www.dropbox.com/s/bcovkp2hhf8j87m/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2019.15.53.png?raw=1">
+<img src="https://www.dropbox.com/s/bcovkp2hhf8j87m/Screenshot%202018-06-10%2019.15.53.png?raw=1">
 
 up-sampling 연산을 수행하는 다양한 방법이 있습니다  
 
@@ -70,11 +70,11 @@ Up-sampling을 최적으로 하려면 [Transposed convolution](https://arxiv.org
 Convolution 연산이 어떻게 진행되는지 설명하기 위해 간단한 예시를 들겠습니다.  
 4x4 matrix와 convolution 연산(3x3 kernel, no padding, stride 1)이 있다고 가정하겠습니다. 아래 이미지에서 볼 수 있듯, output은 2x2 matrix입니다.
 
-<img src="https://www.dropbox.com/s/c4l6cgmaih3n3s6/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2021.13.17.png?raw=1">
+<img src="https://www.dropbox.com/s/c4l6cgmaih3n3s6/Screenshot%202018-06-10%2021.13.17.png?raw=1">
 
 Convolution 연산은 input matrix와 kernel matrix간 element-wise 곱의 합으로 계산합니다. 패딩이 없고 stride가 1이라 4번의 연산만 할 수 있습니다. 따라서 output matrix는 2x2입니다.  
 
-<img src="https://www.dropbox.com/s/j0pr994htyhke87/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2021.19.54.png?raw=1">
+<img src="https://www.dropbox.com/s/j0pr994htyhke87/Screenshot%202018-06-10%2021.19.54.png?raw=1">
 
 이런 convolution 연산의 한 가지 중요한 점은 input matrix와 output matrix 사이에 위치 연결성(positional connectivity)이 존재하는 것입니다
 
@@ -89,7 +89,7 @@ Convolution 연산은 input matrix와 kernel matrix간 element-wise 곱의 합�
 
 예를 들어, 2x2 matrix 4x4 matrix로 up-sampling합니다. 이 연산은 1-to-9 관계를 형성합니다.  
 
-<img src="https://www.dropbox.com/s/7nduoohyfthas3m/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2021.49.50.png?raw=1">
+<img src="https://www.dropbox.com/s/7nduoohyfthas3m/Screenshot%202018-06-10%2021.49.50.png?raw=1">
 
 그러나 이런 연산을 어떻게 수행할까요?
 
@@ -100,28 +100,28 @@ Convolution 연산은 input matrix와 kernel matrix간 element-wise 곱의 합�
 
 Matrix를 사용해 convolution 연산을 표현할 수 있습니다. convolution 연산을 수행하고 matrix 곱을  위해 kernel matrix를 재배치합니다
 
-<img src="https://www.dropbox.com/s/juw4z76hghpcb0w/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2022.12.31.png?raw=1" width="300" height="300">
+<img src="https://www.dropbox.com/s/juw4z76hghpcb0w/Screenshot%202018-06-10%2022.12.31.png?raw=1" width="300" height="300">
 
 3x3 kernel을 4x16 matrix로 재배치하겠습니다:
 
-<img src="https://www.dropbox.com/s/t5e6crl9cba98bc/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-10%2022.14.53.png?raw=1">
+<img src="https://www.dropbox.com/s/t5e6crl9cba98bc/Screenshot%202018-06-10%2022.14.53.png?raw=1">
 
 Convolution matrix입니다. 각 row는 1개의 convolution 연산을 뜻합니다. 이것을 처음 본다면 아래 다이어그램이 도움이 될 수 있습니다. convolution matrix는 그냥 zero padding을 포함해 재배치한 kernel matrix라고 생각하면 됩니디
 
-<img src="https://www.dropbox.com/s/p1ol30wf8njno7f/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-25%2015.56.13.png?raw=1">
+<img src="https://www.dropbox.com/s/p1ol30wf8njno7f/Screenshot%202018-06-25%2015.56.13.png?raw=1">
 
 이 개념을 사용해, input matrix(4x4)를 column vector(16x1)로 펴보겠습니다(flatten)
 
-<img src="https://www.dropbox.com/s/td7a57rwavco38p/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-25%2017.25.13.png?raw=1" weight="400" height="670">
+<img src="https://www.dropbox.com/s/td7a57rwavco38p/Screenshot%202018-06-25%2017.25.13.png?raw=1" weight="400" height="670">
 
 
 4x16 convolution matrix와 1x16 input matrix를 곱할 수 있습니다 (16 차원의 column vector)
 
-<img src="https://www.dropbox.com/s/b76456td2olo94g/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-25%2015.58.30.png?raw=1">
+<img src="https://www.dropbox.com/s/b76456td2olo94g/Screenshot%202018-06-25%2015.58.30.png?raw=1">
 
 output 4x1 matrix는 전과 같은 결과를 가지는 2x2 matrix로 reshape할 수 있습니다
 
-<img src="https://www.dropbox.com/s/1chqyx92ski9wr6/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-25%2016.00.46.png?raw=1" width="300" height="240">
+<img src="https://www.dropbox.com/s/1chqyx92ski9wr6/Screenshot%202018-06-25%2016.00.46.png?raw=1" width="300" height="240">
 
 > 역자 : [Convolution 연산](#convolution-연산)의 이미지를 비교해보면 쉽게 이해될 거에요 :)
 
@@ -141,11 +141,11 @@ output 4x1 matrix는 전과 같은 결과를 가지는 2x2 matrix로 reshape할 
 
 Convolution matrix C(4x16)를 C.T(16x4)로 Transpose 했다고 가정하겠습니다. C.T(16x4)와 column vector(4x1)를 행렬 곱해서 output matrix(16x1)를 구할 수 있습니다. Transposed matrix는 1개의 값을 9개의 값들과 연결합니다.
 
-<img src="https://www.dropbox.com/s/fpj67wntpap2m9c/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-25%2016.20.29.png?raw=1">
+<img src="https://www.dropbox.com/s/fpj67wntpap2m9c/Screenshot%202018-06-25%2016.20.29.png?raw=1">
 
 output은 4x4로 reshape할 수 있습니다
 
-<img src="https://www.dropbox.com/s/m8lvvaka50gbx58/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-25%2016.21.03.png?raw=1" width="250" height="250">
+<img src="https://www.dropbox.com/s/m8lvvaka50gbx58/Screenshot%202018-06-25%2016.21.03.png?raw=1" width="250" height="250">
 
 
 작은 matrix(2x2)를 더 큰 matrix(4x4)로 up-sampling했습니다. Transposed Convolution은 가중치를 배치하는 방식 때문에 1-9 관계를 유지합니다

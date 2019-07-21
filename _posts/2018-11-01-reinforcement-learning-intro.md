@@ -64,7 +64,7 @@ comments: true
 - Environment State
 	- $$S_{t}^{e}$$ : environment의 다음 값을 계산하기 위해 내적을 가진 표현형. 보통 Agent에게 보이지 않음 
 - Atri Example
-	- <img src="https://www.dropbox.com/s/cgquwru1tjkz6ni/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-10-30%2022.51.50.png?raw=1"> 	
+	- <img src="https://www.dropbox.com/s/cgquwru1tjkz6ni/Screenshot%202018-10-30%2022.51.50.png?raw=1"> 	
 	- observation
 	- reward
 	- action
@@ -73,7 +73,7 @@ comments: true
 	- 내가 history를 보고 다음 action을 해야하는데 필요한 정보들
 	- 다음 행동을 할 때 쓰이는 정보들
 - Markov State(=Information State)
-	- <img src="https://www.dropbox.com/s/gbs7eoq6jzsg1ie/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-10-30%2023.28.36.png?raw=1"> 
+	- <img src="https://www.dropbox.com/s/gbs7eoq6jzsg1ie/Screenshot%202018-10-30%2023.28.36.png?raw=1"> 
 	- 어떤 State가 Markov한지 안한지?
 	- 결정할 때 바로 이전 state만 보고 결정을 할 경우
 	- The future is independent of the past given the present
@@ -86,7 +86,7 @@ comments: true
 
 ### 예시
 - Rat Example
-	- <img src="https://www.dropbox.com/s/m8e5r6mxm2nleqs/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-10-30%2023.44.06.png?raw=1"> 
+	- <img src="https://www.dropbox.com/s/m8e5r6mxm2nleqs/Screenshot%202018-10-30%2023.44.06.png?raw=1"> 
 	- 전구를 키는 것, 레버를 당기는 것, 종을 울리는 것 3가지의 신호
 	- 3번째에 감전을 당할까? 치즈를 받을까?
 	- State 정의에 따라 다름
@@ -125,7 +125,7 @@ comments: true
 	- 이 모델을 RL에서 사용할 수도 있고 아닐수도 있고
 
 ### RL Agent의 분류 (1)
-<img src="https://www.dropbox.com/s/c86xgk93zanfyfk/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-01%2000.22.35.png?raw=1">
+<img src="https://www.dropbox.com/s/c86xgk93zanfyfk/Screenshot%202018-11-01%2000.22.35.png?raw=1">
 
 - 1) Value Based
 	- Value Function만 존재 
@@ -159,7 +159,7 @@ comments: true
 	- Reward를 maximise!
 - 2개는 Trade-off 관계
 - 예시
-	- <img src="https://www.dropbox.com/s/ygkimoafzgq4ld5/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-01%2000.54.12.png?raw=1">
+	- <img src="https://www.dropbox.com/s/ygkimoafzgq4ld5/Screenshot%202018-11-01%2000.54.12.png?raw=1">
 
 ### Prediction and Control
 - Prediction 문제
@@ -174,10 +174,10 @@ comments: true
 
 ### Example
 - Maze Example
-	- <img src="https://www.dropbox.com/s/5tnkqw8uuslg6ip/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-10-31%2000.21.45.png?raw=1">
-	- <img src="https://www.dropbox.com/s/qgp4z9nzoe4zokw/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-10-31%2000.23.09.png?raw=1">
-	- <img src="https://www.dropbox.com/s/lz9e0dvtrpjqb6z/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-10-31%2000.23.22.png?raw=1">
-	- <img src="https://www.dropbox.com/s/d8mhbopmkqeh1pq/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-10-31%2000.23.37.png?raw=1">
+	- <img src="https://www.dropbox.com/s/5tnkqw8uuslg6ip/Screenshot%202018-10-31%2000.21.45.png?raw=1">
+	- <img src="https://www.dropbox.com/s/qgp4z9nzoe4zokw/Screenshot%202018-10-31%2000.23.09.png?raw=1">
+	- <img src="https://www.dropbox.com/s/lz9e0dvtrpjqb6z/Screenshot%202018-10-31%2000.23.22.png?raw=1">
+	- <img src="https://www.dropbox.com/s/d8mhbopmkqeh1pq/Screenshot%202018-10-31%2000.23.37.png?raw=1">
 	
 	
 	

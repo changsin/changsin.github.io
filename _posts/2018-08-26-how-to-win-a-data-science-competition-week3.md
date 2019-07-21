@@ -44,7 +44,7 @@ Coursera 강의인 How to Win a Data Science Competition: Learn from Top Kaggler
 	- Mean Sqaured Error 
 	- $$\frac{1}{N}\sum_{i=1}^{N}(y_{i}-\hat{y_{i}})^{2}$$ 
 	- MSE는 우리의 예측값의 평균 squared error를 측정
-	- <img src="https://www.dropbox.com/s/thuqgk8f9w84hok/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-23%2011.09.25.png?raw=1">
+	- <img src="https://www.dropbox.com/s/thuqgk8f9w84hok/Screenshot%202018-08-23%2011.09.25.png?raw=1">
 	- Target value의 mean
 	- [참고 자료](http://nbviewer.jupyter.org/gist/DmitryUlyanov/685689cdad7ab2da635605af22cbca6f)
 - RMSE
@@ -53,7 +53,7 @@ Coursera 강의인 How to Win a Data Science Competition: Learn from Top Kaggler
 - MAE
 	- Mean Absolute Error
 	- $$\frac{1}{N}\sum_{i=1}^{N}\left|y_{i}-\hat{y_{i}}\right|$$ 
-	- <img src="https://www.dropbox.com/s/sfhjp9skzswwqv3/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-23%2011.35.46.png?raw=1">
+	- <img src="https://www.dropbox.com/s/sfhjp9skzswwqv3/Screenshot%202018-08-23%2011.35.46.png?raw=1">
 	- MAE는 finance에서 널리 사용됨
 	- Target value의 median
 	- Outliear의 영향을 받지 않음(outliear에게 robust)
@@ -75,21 +75,21 @@ Coursera 강의인 How to Win a Data Science Competition: Learn from Top Kaggler
 	- Shop1이 더 cirtical한데, MAE와 MSE는 동일함
 	- 그래프도 모든 Target value마다 동일(곡선이거나 V이거나)
 	- 위 문제점을 해결하기 위해 나온 것이 MSPE, MAPE 
-- <img src="https://www.dropbox.com/s/8x4os3ulr5adcyo/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-23%2012.24.43.png?raw=1">
+- <img src="https://www.dropbox.com/s/8x4os3ulr5adcyo/Screenshot%202018-08-23%2012.24.43.png?raw=1">
 - relative error의 합에, 100%/N을 곱함
 - MSE와 MAE의 weight 버전이라고 생각할 수도 있음
 - MSPE
-	- <img src="https://www.dropbox.com/s/utr29ssmbup3gzu/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-23%2012.39.53.png?raw=1"> 
+	- <img src="https://www.dropbox.com/s/utr29ssmbup3gzu/Screenshot%202018-08-23%2012.39.53.png?raw=1"> 
 - MAPE	
-	- <img src="https://www.dropbox.com/s/pu1qb9omd1g4gu0/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-23%2012.40.35.png?raw=1">
+	- <img src="https://www.dropbox.com/s/pu1qb9omd1g4gu0/Screenshot%202018-08-23%2012.40.35.png?raw=1">
 	- [참고 자료](http://nbviewer.jupyter.org/gist/DmitryUlyanov/358a36930e78c33449d0f8caaeee7026)
 - RMSLE
 	- Root Mean Squared Logarithmic Error
-	- <img src="https://www.dropbox.com/s/qeem3qvzld0fuq7/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-23%2012.42.55.png?raw=1">
+	- <img src="https://www.dropbox.com/s/qeem3qvzld0fuq7/Screenshot%202018-08-23%2012.42.55.png?raw=1">
 	- MSPE와 MAPE와 동일한 상황에 사용 (relative error)
 	- prediction value와 target value가 큰 숫자일 때, 큰 차이를 벌점으로 내고싶지 않을 때 사용
 	- 과소평가된 항목에 패널티
-	- <img src="https://www.dropbox.com/s/frp4in4c8yxzuk3/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-23%2012.52.47.png?raw=1">
+	- <img src="https://www.dropbox.com/s/frp4in4c8yxzuk3/Screenshot%202018-08-23%2012.52.47.png?raw=1">
 - Conclusion
 	- (R)MSPE
 		- Weighted version of MSE
@@ -106,17 +106,17 @@ Coursera 강의인 How to Win a Data Science Competition: Learn from Top Kaggler
 	- 데이터셋의 라벨 A가 10%, B가 90%일 때 B로만 예측한 분류기는 90%의 accuracy를 가지는데, 이 분류기는 좋은 것일까?
 	- optimize하기 어려움
 - Logarithmic loss(logloss)
-	- <img src="https://www.dropbox.com/s/69e3a9mn0fmtfpx/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-23%2013.25.07.png?raw=1">
+	- <img src="https://www.dropbox.com/s/69e3a9mn0fmtfpx/Screenshot%202018-08-23%2013.25.07.png?raw=1">
 	- logloss가 잘못된 답변에 대해 더 강하게 패널티 부여
-	- <img src="https://www.dropbox.com/s/hdbgrb2ouo3zsi8/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-23%2013.51.07.png?raw=1">
+	- <img src="https://www.dropbox.com/s/hdbgrb2ouo3zsi8/Screenshot%202018-08-23%2013.51.07.png?raw=1">
 - Area Under Curve (AUC ROC)
 	- Binary task에서만 사용
 	- 특정 threshold를 설정
 	- 예측의 순서에 의존적이며 절대값엔 의존적이지 않음
 	- 설명 가능
 		- AUC
-			- <img src="https://www.dropbox.com/s/oos0wxyv9zj4jo7/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-23%2014.05.11.png?raw=1">
-			- <img src="https://www.dropbox.com/s/8s18234ymr6to3r/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-23%2014.05.57.png?raw=1"> 
+			- <img src="https://www.dropbox.com/s/oos0wxyv9zj4jo7/Screenshot%202018-08-23%2014.05.11.png?raw=1">
+			- <img src="https://www.dropbox.com/s/8s18234ymr6to3r/Screenshot%202018-08-23%2014.05.57.png?raw=1"> 
 		- Pairs ordering
 			- AUC = # correctly ordered paris / total number of paris = 1 - # incorrectly ordered pairs / total number of pairs
 - Cohen's Kappa motivation
@@ -125,10 +125,10 @@ Coursera 강의인 How to Win a Data Science Competition: Learn from Top Kaggler
 	- Accuracy = 1 -> my_score = 1
 	- Mse에서 r squared의 역할과 유사
 	- 일종의 normalization
-	- <img src="https://www.dropbox.com/s/mmyd14yfv21ygb8/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-23%2014.22.06.png?raw=1">
+	- <img src="https://www.dropbox.com/s/mmyd14yfv21ygb8/Screenshot%202018-08-23%2014.22.06.png?raw=1">
 	- kappa는 baseline을 $$p_{e}$$로 지정(랜덤하게 계산)
 	- Weighted error
-		- <img src="https://www.dropbox.com/s/bvwqw7aty7bs1cp/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-23%2014.30.20.png?raw=1"> 
+		- <img src="https://www.dropbox.com/s/bvwqw7aty7bs1cp/Screenshot%202018-08-23%2014.30.20.png?raw=1"> 
 
 
 ### General approaches for metrics optimization
@@ -153,19 +153,19 @@ Coursera 강의인 How to Win a Data Science Competition: Learn from Top Kaggler
 - RMSE, MSE, R-squared
 	- 대부분의 라이브러리에 loss function으로 구현되어 있음
 	- L2 loss
-	- <img src="https://www.dropbox.com/s/s2kpiwtr8uf840n/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-23%2016.58.44.png?raw=1">
+	- <img src="https://www.dropbox.com/s/s2kpiwtr8uf840n/Screenshot%202018-08-23%2016.58.44.png?raw=1">
 - MAE
 	- L1 loss, Median regression
-	- <img src="https://www.dropbox.com/s/xrz2yqlr05ahu20/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-23%2017.00.00.png?raw=1">
+	- <img src="https://www.dropbox.com/s/xrz2yqlr05ahu20/Screenshot%202018-08-23%2017.00.00.png?raw=1">
 - MSPE and MAPE
 	- 둘 다 Weighted version이기 때문에 쉽게 구현 가능
-	- <img src="https://www.dropbox.com/s/7ucho2aj4a04xle/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-23%2017.04.30.png?raw=1">
+	- <img src="https://www.dropbox.com/s/7ucho2aj4a04xle/Screenshot%202018-08-23%2017.04.30.png?raw=1">
 - RMSLE
-	- <img src="https://www.dropbox.com/s/vmnuxo6s8csfijr/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-23%2017.04.59.png?raw=1">
+	- <img src="https://www.dropbox.com/s/vmnuxo6s8csfijr/Screenshot%202018-08-23%2017.04.59.png?raw=1">
 
 ### Classification metrics optimization 1
 - Logloss
-	- <img src="https://www.dropbox.com/s/9hszkvvytuzjhny/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-23%2017.07.52.png?raw=1">
+	- <img src="https://www.dropbox.com/s/9hszkvvytuzjhny/Screenshot%202018-08-23%2017.07.52.png?raw=1">
 	- Probability calibration(눈금)
 		- Platt scaling
 			- 예측값에 Logistic Regression을 fit(마치 stacking처럼)
@@ -180,18 +180,18 @@ Coursera 강의인 How to Win a Data Science Competition: Learn from Top Kaggler
 ### Classification metrics optimization 2
 - AUC
 	- Pointwise loss
-		- <img src="https://www.dropbox.com/s/ql2s1o0txg48750/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-23%2019.01.56.png?raw=1">
+		- <img src="https://www.dropbox.com/s/ql2s1o0txg48750/Screenshot%202018-08-23%2019.01.56.png?raw=1">
 		- single object에 대한 loss
 	- Pairwise loss   	    
-		- <img src="https://www.dropbox.com/s/muz4efdrga7ih3v/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-23%2019.02.13.png?raw=1">
+		- <img src="https://www.dropbox.com/s/muz4efdrga7ih3v/Screenshot%202018-08-23%2019.02.13.png?raw=1">
 		- pairwise loss
-	- <img src="https://www.dropbox.com/s/100wz8pw9adr1bg/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-23%2019.02.26.png?raw=1">
+	- <img src="https://www.dropbox.com/s/100wz8pw9adr1bg/Screenshot%202018-08-23%2019.02.26.png?raw=1">
 - Quadratic weighted Kappa
 	- Optimize MSE and find right thresholds
 		- Simple!
 	- Custom smooth loss for GBDT or neural nets
 		- Harder   
-	- <img src="https://www.dropbox.com/s/zdhe8unk6w8bi1u/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-08-23%2019.06.15.png?raw=1">
+	- <img src="https://www.dropbox.com/s/zdhe8unk6w8bi1u/Screenshot%202018-08-23%2019.06.15.png?raw=1">
 	- [구현 코드](https://hub.coursera-notebooks.org/user/ynvomuepahfsgzmplvnxhw/notebooks/readonly/reading_materials/Metrics_video8_soft_kappa_xgboost.ipynb)
 
 ## Reference

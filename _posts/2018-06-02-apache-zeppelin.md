@@ -23,9 +23,9 @@ comments: true
 - 종료해도 죽지 않는다면(2번 이상 실행해서) ```ps -al```로 Zepplin PID를 찾은 후, ```kill -9 <PID>```로 죽이기
 
 ## Apache Zeppelin
-<img src="https://www.dropbox.com/s/h7sh5zm5djtgz4w/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-02%2015.00.09.png?raw=1">
+<img src="https://www.dropbox.com/s/h7sh5zm5djtgz4w/Screenshot%202018-06-02%2015.00.09.png?raw=1">
 
-<img src="https://www.dropbox.com/s/w5vwxcqcs57se0w/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-02%2016.17.08.png?raw=1">
+<img src="https://www.dropbox.com/s/w5vwxcqcs57se0w/Screenshot%202018-06-02%2016.17.08.png?raw=1">
 
 - 자동완성 기능 : ```control + .``` 또는 ```tab```(0.8.0 version에서 추가됨!)
 - 각종 설정을 변경하고 싶을 경우
@@ -35,22 +35,22 @@ comments: true
 - default라고 되어있는 버튼을 클릭하면 Report 형태(Code 숨김)로 볼 수 있습니다
 
 
-<img src="https://www.dropbox.com/s/qgny154j547wi4o/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-03%2013.52.46.png?raw=1">
+<img src="https://www.dropbox.com/s/qgny154j547wi4o/Screenshot%202018-06-03%2013.52.46.png?raw=1">
 
 - 우측 최상단 Anonymous를 클릭하면 하단에 메뉴가 나옵니다. 다른 부분은 직접 클릭해보면 알 수 있고, Interpreter를 눌러보겠습니다
 
-<img src="https://www.dropbox.com/s/adnemwoq48afcxz/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-03%2013.53.30.png?raw=1">
+<img src="https://www.dropbox.com/s/adnemwoq48afcxz/Screenshot%202018-06-03%2013.53.30.png?raw=1">
 
 - 각종 Interpreter 설정을 할 수 있는 곳입니다. 위 사진은 Spark 부분의 옵션값 페이지입니다
 
 ### Tutorial
 - [Zeppelin Tutorial](https://zeppelin.apache.org/docs/0.7.3/quickstart/tutorial.html#tutorial-with-local-file)을 해봤습니다
 
-<img src="https://www.dropbox.com/s/txpbre864nrsibz/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-03%2014.20.20.png?raw=1">
+<img src="https://www.dropbox.com/s/txpbre864nrsibz/Screenshot%202018-06-03%2014.20.20.png?raw=1">
 
 - 이런 식으로 코드를 작성해서 사용합니다!
 
-<img src="https://www.dropbox.com/s/q942roxo1e9zp8i/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-03%2014.21.12.png?raw=1">
+<img src="https://www.dropbox.com/s/q942roxo1e9zp8i/Screenshot%202018-06-03%2014.21.12.png?raw=1">
 
 - 빠른 데이터 시각화가 가능합니다
 - settings를 클릭하면 더 자세한 설정 가능
@@ -60,12 +60,12 @@ comments: true
 - Dynamic Form은 사용자가 클릭만으로 쉽게 조작할 수 있도록 도와줍니다!
 - 코딩을 할 줄 모르는 사람에게 유용
 
-<img src="https://www.dropbox.com/s/9ixvoju7gk1qsbp/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-03%2014.22.10.png?raw=1">
+<img src="https://www.dropbox.com/s/9ixvoju7gk1qsbp/Screenshot%202018-06-03%2014.22.10.png?raw=1">
 
 - Select form은 ```${formName=defaultValue,option1|option2...}``` 이런 방식으로 생성
 
 
-<img src="https://www.dropbox.com/s/ea7afuwlkv0ansr/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-03%2014.23.54.png?raw=1">
+<img src="https://www.dropbox.com/s/ea7afuwlkv0ansr/Screenshot%202018-06-03%2014.23.54.png?raw=1">
 
 - Checkbox form은 ```${checkbox:formName=defaultValue1|defaultValue2...,option1|option2...}``` 이런 방식으로 생성
 - Text input도 있습니다! [Zeppelin 공식문서](https://zeppelin.apache.org/docs/0.7.3/manual/dynamicform.html) 참고해주세요!

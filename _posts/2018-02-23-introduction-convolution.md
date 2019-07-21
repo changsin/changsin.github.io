@@ -77,9 +77,9 @@ transposed convolution은 위와 같은 방법을 사용하지 않습니다. dec
 
 
 > 역자 : Transposed Convolution는 일반적인 convolution을 반대로 수행하고 싶은 경우에 사용하며, 커널 사이에 0을 추가합니다 
-> <img src="https://www.dropbox.com/s/ksuhdbpji514bqm/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-04%2021.46.09.png?dl=1">  
+> <img src="https://www.dropbox.com/s/ksuhdbpji514bqm/Screenshot%202018-06-04%2021.46.09.png?dl=1">  
 > 위 그림은 일반적인 convolution 연산을 행렬로 표현한 것입니다   
-> <img src="https://www.dropbox.com/s/bp3752jefh3afh0/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-06-04%2021.45.07.png?dl=1">  
+> <img src="https://www.dropbox.com/s/bp3752jefh3afh0/Screenshot%202018-06-04%2021.45.07.png?dl=1">  
 > transposed convolution 연산을 행렬로 표현한 것입니다. 첫 이미지의 sparse 매트릭스 C를 inverse해서 우변(Y output)에 곱해줍니다. 그러면 Input의 값을 구할 수 있습니다.  
 > 정리하면 전치(transpose)하여 우변에 곱해주기 때문에 transposed convolution이라 부릅니다.  
 > [Up-sampling with Transposed Convolution 번역](https://zzsza.github.io/data/2018/06/25/upsampling-with-transposed-convolution/) 글을 참고하시면 명쾌하게 이해가 될거에요!

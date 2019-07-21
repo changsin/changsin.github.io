@@ -89,18 +89,18 @@ pip install tensorflow-data-validation
 	# method : tfdv.visualize_statistics(lhs_statistics, rhs_statistics=None, lhs_name='lhs_statistics', rhs_name='rhs_statistics)
 	```	
 	
-	<img src="https://www.dropbox.com/s/wuudyhmvisv9d3e/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-05-12%2013.44.27.png?raw=1">
+	<img src="https://www.dropbox.com/s/wuudyhmvisv9d3e/Screenshot%202019-05-12%2013.44.27.png?raw=1">
 	
 	- Interactive하게 직접 만져보고 싶으신 분은 웹에서 제 [Github nbviewer](https://nbviewer.jupyter.org/github/zzsza/tfx-tutorial/blob/master/data-validation/All-Features-Example.ipynb?flush_cache=true) 참고!
 	- Numeric Features
 		- 맨 왼쪽에 Sort By 옵션
 			- Non-uniformity 
-			- <img src="https://www.dropbox.com/s/gv4a1ljc3a2whww/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-05-12%2013.50.49.png?raw=1">
+			- <img src="https://www.dropbox.com/s/gv4a1ljc3a2whww/Screenshot%202019-05-12%2013.50.49.png?raw=1">
 			- Amount missing/zero
-			- <img src="https://www.dropbox.com/s/e3odgkz2fom61v1/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-05-12%2013.51.11.png?raw=1"> 	
+			- <img src="https://www.dropbox.com/s/e3odgkz2fom61v1/Screenshot%202019-05-12%2013.51.11.png?raw=1"> 	
 		- 오른쪽에 Chart to show은 분포, Quantiles, Value list length 등으로 볼 수 있고, 클릭으로 log로 변환 가능
 	- Categorical Feature도 아래처럼 시각화됨
-		- <img src="https://www.dropbox.com/s/3v0v13mx83kxt06/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-05-12%2013.54.21.png?raw=1">
+		- <img src="https://www.dropbox.com/s/3v0v13mx83kxt06/Screenshot%202019-05-12%2013.54.21.png?raw=1">
 		- SHOW RAW DATA를 누르면 카테고리 데이터 count 결과 보여줌
 - Train과 Eval Data 동시에 시각화
 	- Kaggle에서 매우 유용할 듯 
@@ -111,11 +111,11 @@ pip install tensorflow-data-validation
                           lhs_name='EVAL_DATASET', rhs_name='TRAIN_DATASET')
 	```	
 	
-	<img src="https://www.dropbox.com/s/yp05oqr5pz5mcag/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-05-12%2013.57.04.png?raw=1">
+	<img src="https://www.dropbox.com/s/yp05oqr5pz5mcag/Screenshot%202019-05-12%2013.57.04.png?raw=1">
 	
 	- 이제 파란색은 Eval data, 주황색은 Train data
 	- 우측 Charts to show에서 percentages를 클릭시 Eval과 Train의 비율을 포개서 보여줌
-		- <img src="https://www.dropbox.com/s/p9uzhb7b6xauwgr/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-05-12%2013.59.00.png?raw=1">
+		- <img src="https://www.dropbox.com/s/p9uzhb7b6xauwgr/Screenshot%202019-05-12%2013.59.00.png?raw=1">
 
 
 ### 스키마 추론
@@ -129,7 +129,7 @@ pip install tensorflow-data-validation
 	tfdv.display_schema(schema=schema)
 	```	
 	
-	<img src="https://www.dropbox.com/s/pukezj5i0v7tp3g/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-05-12%2014.02.39.png?raw=1">
+	<img src="https://www.dropbox.com/s/pukezj5i0v7tp3g/Screenshot%202019-05-12%2014.02.39.png?raw=1">
 	
 	- 각 Feature별 Type, Presence, Valency, Domain 출력 
 - Feautre의 속성을 바꾸고 싶을 경우 `tfdv.get_feature`로 가져온 후 수정
@@ -156,7 +156,7 @@ pip install tensorflow-data-validation
 	tfdv.display_anomalies(anomalies)
 	```
 	
-	<img src="https://www.dropbox.com/s/mqhkt513q5ufwcp/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-05-12%2014.51.21.png?raw=1">
+	<img src="https://www.dropbox.com/s/mqhkt513q5ufwcp/Screenshot%202019-05-12%2014.51.21.png?raw=1">
 	
 	- company, payment type feature에 예상하지 못한 값이 있음
 	- 문제 해결을 위해 min_domain_mass 제약 조건을 추가하고, value를 수동으로 추가함
@@ -185,7 +185,7 @@ pip install tensorflow-data-validation
 	tfdv.display_anomalies(serving_anomalies)
 	``` 
 
-	<img src="https://www.dropbox.com/s/lmdgwnk79ii3n5s/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-05-12%2015.04.57.png?raw=1">
+	<img src="https://www.dropbox.com/s/lmdgwnk79ii3n5s/Screenshot%202019-05-12%2015.04.57.png?raw=1">
 	
 	- tips 컬럼은 완벽하게 missing이고 trip_seconds는 FLOAT 타입을 예상했는데 INT 타입이 들어옴
 	- 타입 문제 해결 방법
@@ -246,7 +246,7 @@ pip install tensorflow-data-validation
 	tfdv.display_anomalies(skew_anomalies)
 	```
 
-<img src="https://www.dropbox.com/s/2gsxvyl6rke62iq/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-05-12%2015.18.46.png?raw=1">
+<img src="https://www.dropbox.com/s/2gsxvyl6rke62iq/Screenshot%202019-05-12%2015.18.46.png?raw=1">
 
 - payment_type이 train / serving시 거리가 매우 큼
 - company가 과거와 현재의 거리가 매우 큼
@@ -332,7 +332,7 @@ pip install tensorflow-data-validation
 - 사실 TFDV의 데이터 분포 보여주는 부분은 [Facets](https://pair-code.github.io/facets/)으로 이루어져 있음
 - Facets은 현재 2가지 시각화를 제공하는데, 1) FACETS OVERVIEW가 위에서 TFDV가 보여준 시각화고 2) FACETS DIVE로 다양한 양의 데이터를 한번에 인터랙티브하게 시각화해줌
 - FACETS DIVE는 아래처럼 시각화됨
-	- <img src="https://www.dropbox.com/s/rb6nllzw1oqamun/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-05-12%2015.34.51.png?raw=1">
+	- <img src="https://www.dropbox.com/s/rb6nllzw1oqamun/Screenshot%202019-05-12%2015.34.51.png?raw=1">
 	- 데이터를 연령대별 직업별로 보여줌
 	- Quick Draw 데이터셋을 인터렉티브하게 보려면 [링크](https://pair-code.github.io/facets/quickdraw.html) 참고
 - Colab에서 사용하는 예제는 [Github](https://github.com/PAIR-code/facets/blob/master/colab_facets.ipynb)에 나와있음

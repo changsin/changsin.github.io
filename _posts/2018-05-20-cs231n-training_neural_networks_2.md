@@ -27,12 +27,12 @@ while True:
 	- gives us some nice landscape over the weights
  
 - Problems with SGD
-	- <img src="https://www.dropbox.com/s/z9af26uh1ukeqpq/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-20%2023.28.45.png?raw=1">
+	- <img src="https://www.dropbox.com/s/z9af26uh1ukeqpq/Screenshot%202018-05-20%2023.28.45.png?raw=1">
 		- Q) loss가 한 방향으론 빠르게, 다른 방향으로 천천히 변화하면 어떻게 될까? Gradient Descent의 역할은?
 		- A) shallow dimension에서 매우 느리고 jitter 모양
 		- step마다 지그재그로 왔다갔다 해서 매우 느린 속도로 학습이 진행됨
 		- 고차원에선 이런 문제가 많이 발생 (위 그림은 2차원!)
-	- <img src="https://www.dropbox.com/s/6dpkfxkdmvdgsm4/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-20%2023.37.26.png?raw=1">
+	- <img src="https://www.dropbox.com/s/6dpkfxkdmvdgsm4/Screenshot%202018-05-20%2023.37.26.png?raw=1">
 	- x : value of parameter, y : loss	
 	- local minima
 		- SGD get will stuck == local minima, gradient is zero, 빠져나오지 못함
@@ -56,7 +56,7 @@ while True:
 ```
 
 - 1) SGD + Momentum
-	- <img src="https://www.dropbox.com/s/h4yahgx7msev9xg/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-21%2000.14.25.png?raw=1"> 
+	- <img src="https://www.dropbox.com/s/h4yahgx7msev9xg/Screenshot%202018-05-21%2000.14.25.png?raw=1"> 
 	- 위 코드에서는 x +=로 되어있는데 x -=가 맞지 않을까 생각됨
 	- maintain velocity
 	- add our gradient estimates to the velocity
@@ -65,12 +65,12 @@ while True:
 	- minima로 가는데 필요한 step이 줄어듬
 	- friction을 보통 0.9 또는 0.99로 줌
 	- velocity = running mean of gradients
-	- <img src="https://www.dropbox.com/s/3odzqhxa68nfwvg/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-21%2000.43.33.png?raw=1">
+	- <img src="https://www.dropbox.com/s/3odzqhxa68nfwvg/Screenshot%202018-05-21%2000.43.33.png?raw=1">
 	- (1) Momentum update 
 		- overcome some noise in our gradient estimate
 		- 현재 위치에서 gradient를 구한 후, 그 값에서 Velocity만큼 옮김
 	- (2) Nesterov Momentum (NAG, Nesterov Accelerated Gradient)
-		- <img src="https://www.dropbox.com/s/0o47eejp2rpfxs5/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-21%2014.13.24.png?raw=1"> 
+		- <img src="https://www.dropbox.com/s/0o47eejp2rpfxs5/Screenshot%202018-05-21%2014.13.24.png?raw=1"> 
 		- Velocity로 옮긴 후 gradient를 구함
 		- convex optimization 관점에서 유용
 		- [cs231 정리](http://aikorea.org/cs231n/neural-networks-3/#sgd)
@@ -86,9 +86,9 @@ while True:
 
 - velocity 대신 gradient의 제곱(sqaured_term)을 사용
 - 1e-7 : 0으로 나누지 않기 위해 추가한 상수
-- <img src="https://www.dropbox.com/s/7z9k1lit4mde0me/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-21%2014.30.35.png?raw=1">
+- <img src="https://www.dropbox.com/s/7z9k1lit4mde0me/Screenshot%202018-05-21%2014.30.35.png?raw=1">
 - high condition number 문제는 많이 바뀌는 gradient는 큰 수로 나누고, 잘 변하지 않는 gradient는 작은 수로 나누어 속도를 더 빠르게함
-- <img src="https://www.dropbox.com/s/84584eew0uzd1x0/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-21%2014.32.19.png?raw=1">
+- <img src="https://www.dropbox.com/s/84584eew0uzd1x0/Screenshot%202018-05-21%2014.32.19.png?raw=1">
 - Adagrad, the steps actually smaller and smaller because we just continue updating this estimate of the squared gradients over time, so this estimate just grows and grows monotonically over the course of training. Now this causes our step size to get smaller and smaller over time
 - saddle point : non-convex에선 stuck
 - not so common
@@ -123,7 +123,7 @@ while True:
 - velocity와 squared_gradient를 모두 사용
 - first moment : Momentum
 - second moment : AdaGrad/RMSProp(RMSProp에 더 근접한 듯! decay rate가 있음)
-- <img src="https://www.dropbox.com/s/feiwe1pugbttyt3/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-21%2014.47.47.png?raw=1">
+- <img src="https://www.dropbox.com/s/feiwe1pugbttyt3/Screenshot%202018-05-21%2014.47.47.png?raw=1">
 - 첫 second_moment는 0!(beta2는 0.9 또는 0.99)
 - 첫 timestep은 very very large step
 - 위 문제를 해결하기 위해 Bias correction을 추가
@@ -146,9 +146,9 @@ while True:
 - beta1 = 0.9, beta2 = 0.999, learning_rate = 1e-3 or 5e-4
 
 ### Learning rate
-- <img src="https://www.dropbox.com/s/546ltzbd2o445gk/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-21%2014.56.58.png?raw=1">
-- <img src="https://www.dropbox.com/s/ixt07xgzh3pu2ic/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-21%2015.02.26.png?raw=1">
-- <img src="https://www.dropbox.com/s/nvnkhmi2962j65w/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-21%2015.02.48.png?raw=1">
+- <img src="https://www.dropbox.com/s/546ltzbd2o445gk/Screenshot%202018-05-21%2014.56.58.png?raw=1">
+- <img src="https://www.dropbox.com/s/ixt07xgzh3pu2ic/Screenshot%202018-05-21%2015.02.26.png?raw=1">
+- <img src="https://www.dropbox.com/s/nvnkhmi2962j65w/Screenshot%202018-05-21%2015.02.48.png?raw=1">
 - lr을 천천히 decay시켜 minima에 도달할 수 있도록 설정
 - 처음엔 no decay로 시도해보고 직접 눈으로 보길!
 - decay 방법은 exponential decay, 1/t decay 등이 있음
@@ -170,25 +170,25 @@ while True:
 
 ## First-Order(1차) optimization
 - 위에서 말한 것들이 모두 First-Order optimization
-- <img src="https://www.dropbox.com/s/pb0znetxelgbtgb/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-21%2015.05.52.png?raw=1">
+- <img src="https://www.dropbox.com/s/pb0znetxelgbtgb/Screenshot%202018-05-21%2015.05.52.png?raw=1">
 - (1) Use gradient form linear approximation
 - (2) Step to minimize the approximation
 
 
 ## Second-Order(2차) optimization
-- <img src="https://www.dropbox.com/s/4vlmjhigdkhspsx/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-21%2015.07.01.png?raw=1">
+- <img src="https://www.dropbox.com/s/4vlmjhigdkhspsx/Screenshot%202018-05-21%2015.07.01.png?raw=1">
 - 함수로 근사
 - (1) Use gradient and **Hessian** to form **quadratic** approximation
 - (2) Step to the **minima** of the approximation
-- <img src="https://www.dropbox.com/s/5f5pt0z8wuordik/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-21%2015.10.51.png?raw=1">
+- <img src="https://www.dropbox.com/s/5f5pt0z8wuordik/Screenshot%202018-05-21%2015.10.51.png?raw=1">
 - 뉴턴 = 내츄럴
 - learning rate가 없음
-- <img src="https://www.dropbox.com/s/h6wk89vvu5uke40/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-21%2015.30.36.png?raw=1">
+- <img src="https://www.dropbox.com/s/h6wk89vvu5uke40/Screenshot%202018-05-21%2015.30.36.png?raw=1">
 - 딥러닝에 사용하기엔 계산량이 너무 많음(Hessian은 $$O(N^2)$$, inverting은 $$O(N^3)$$)
 - [최적화(Optimization) 기초와 포트폴리오 선택](http://www.irealism.org/xe/quantfinance/1628) 참고
 
 ### L-BFGS
-- <img src="https://www.dropbox.com/s/js4kfd3lduh66pi/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-21%2015.35.33.png?raw=1">
+- <img src="https://www.dropbox.com/s/js4kfd3lduh66pi/Screenshot%202018-05-21%2015.35.33.png?raw=1">
 - less stochastic, less parameter
 
 ## In practice
@@ -196,7 +196,7 @@ while True:
 - full batch update를 해야하면 L-BFGS
 
 
-<img src="https://www.dropbox.com/s/4x7gfkl2zmv8dar/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-21%2015.47.41.png?raw=1">
+<img src="https://www.dropbox.com/s/4x7gfkl2zmv8dar/Screenshot%202018-05-21%2015.47.41.png?raw=1">
 
 - train / val error의 gap을 줄이기 위해 어떻게 해야할까?
 
@@ -214,37 +214,37 @@ make this work even better
 
 ## Regularization
 - 1) Add term to loss
-	- <img src="https://www.dropbox.com/s/r1h6hsvpc6jdscr/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-21%2015.54.02.png?raw=1"> 
+	- <img src="https://www.dropbox.com/s/r1h6hsvpc6jdscr/Screenshot%202018-05-21%2015.54.02.png?raw=1"> 
 	- L2는 neural network에서 사용하지 않음(?)
 - 2) Dropout
-	- <img src="https://www.dropbox.com/s/nmggg3544x5eq3k/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-21%2015.55.53.png?raw=1">
+	- <img src="https://www.dropbox.com/s/nmggg3544x5eq3k/Screenshot%202018-05-21%2015.55.53.png?raw=1">
 	- randomly하게 뉴런을 activation 확률을 0으로 바꿔서 끊음
 	- 왜 좋은건가?
 		- (1) Prevent co-adaptation(상호 작용) of features 
 		- (2) kind of like large ensemble models(that share parameters)
 	- Test time
-		- <img src="https://www.dropbox.com/s/srj8085z8laksa7/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-21%2016.03.06.png?raw=1">
+		- <img src="https://www.dropbox.com/s/srj8085z8laksa7/Screenshot%202018-05-21%2016.03.06.png?raw=1">
 	- Common pattern
-		- <img src="https://www.dropbox.com/s/upb3p5dz4ssx2e4/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-21%2016.06.07.png?raw=1">
+		- <img src="https://www.dropbox.com/s/upb3p5dz4ssx2e4/Screenshot%202018-05-21%2016.06.07.png?raw=1">
 		- Batch normalization(during training) one data point might appear in difference mini batches with difference other data points.
 		- BN을 사용할 때는 Dropout을 사용하지 않음
 - 3) Data Augmentation
-	- <img src="https://www.dropbox.com/s/olhjhh9kdgcelb2/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-21%2016.09.38.png?raw=1"> 
+	- <img src="https://www.dropbox.com/s/olhjhh9kdgcelb2/Screenshot%202018-05-21%2016.09.38.png?raw=1"> 
 	- 데이터 뿔리기
 	- Horizontal Flips
 	- Random crops and scales
 	- Training : sample ranom crops / scales 
 	- Testing : average a fixed set of crops
 	- Color Jitter
-		- <img src="https://www.dropbox.com/s/ac7hxsx4ntun6bm/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-21%2016.10.55.png?raw=1"> 
+		- <img src="https://www.dropbox.com/s/ac7hxsx4ntun6bm/Screenshot%202018-05-21%2016.10.55.png?raw=1"> 
 		- Apply PCA to all RGB
-	- <img src="https://www.dropbox.com/s/mllau8qwul6syg4/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-21%2016.11.48.png?raw=1">
+	- <img src="https://www.dropbox.com/s/mllau8qwul6syg4/Screenshot%202018-05-21%2016.11.48.png?raw=1">
 	- Common pattern
-		- <img src="https://www.dropbox.com/s/lii7bptu3zjzpq4/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-21%2016.12.39.png?raw=1">
+		- <img src="https://www.dropbox.com/s/lii7bptu3zjzpq4/Screenshot%202018-05-21%2016.12.39.png?raw=1">
 
 ## Transfer Learning
 - 이미 많은 양의 data로 train된 모델을 사용
-- <img src="https://www.dropbox.com/s/rbw0sns8gwlryuy/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-21%2016.16.45.png?raw=1">
+- <img src="https://www.dropbox.com/s/rbw0sns8gwlryuy/Screenshot%202018-05-21%2016.16.45.png?raw=1">
 - 1) 적은 양의 data
 	- 마지막 layer를 reinitialize하고 train
 	- Use Linear Classifier on top layer  
@@ -253,12 +253,12 @@ make this work even better
 	- finetune a few layer
 - dataset이 많이 다른데 많은 양의 data를 보유하면 finetune a large number of layers
 - Transfer learning을 하면 FC 이전의 layer들은 generic하고 FC layer들은 specific!
-- <img src="https://www.dropbox.com/s/k0ikiq7yfattzka/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-21%2016.18.22.png?raw=1">
-- <img src="https://www.dropbox.com/s/qho0jwqosljyi2l/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-21%2016.19.06.png?raw=1">
+- <img src="https://www.dropbox.com/s/k0ikiq7yfattzka/Screenshot%202018-05-21%2016.18.22.png?raw=1">
+- <img src="https://www.dropbox.com/s/qho0jwqosljyi2l/Screenshot%202018-05-21%2016.19.06.png?raw=1">
 
 
 ## Summary
-<img src="https://www.dropbox.com/s/riotb4grdopgako/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-21%2016.19.29.png?raw=1"> 
+<img src="https://www.dropbox.com/s/riotb4grdopgako/Screenshot%202018-05-21%2016.19.29.png?raw=1"> 
  
 
 

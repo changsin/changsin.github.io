@@ -25,7 +25,7 @@ comments: true
 	- 가격은 호출 횟수, 코드가 실행되는 컴퓨팅 리소스 사용 시간, 네트워크 사용량에 따라 결정되며 무료 사용량은 월 200만회까지 무료, 리소스 사용은 메모리는 400,000GB-seconds, 컴퓨팅 시간은 200,000 GHz까지 무료이며 자세한 내용은 [Pricing 문서](https://cloud.google.com/functions/pricing) 참고  
 	- Reference 코드를 보고싶은 경우엔 [python-docs-samples](https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/functions) 참고
 	- 용도
-		- <img src="https://www.dropbox.com/s/xbka8brnlf1w23h/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-07-06%2000.51.11.png?raw=1">
+		- <img src="https://www.dropbox.com/s/xbka8brnlf1w23h/Screenshot%202019-07-06%2000.51.11.png?raw=1">
 - [Cloud Scheduler](https://cloud.google.com/scheduler/)
 	- App Engine 트리거, Pub/Sub을 통해 메세지 보내기, Compute Engine에 HTTP 엔드포인트 호출 등 다양하게 가능
 	- crontab보다 쉽게 사용 가능
@@ -58,13 +58,13 @@ comments: true
 	```
 
 - 배포시 아래 메세지가 나타남
-	- <img src="https://www.dropbox.com/s/edzm4hod0fbds1b/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-07-06%2001.24.03.png?raw=1">
+	- <img src="https://www.dropbox.com/s/edzm4hod0fbds1b/Screenshot%202019-07-06%2001.24.03.png?raw=1">
 - [Cloud Functions Console](https://console.cloud.google.com/functions/)에서 확인해보면 아래와 같이 배포된 것을 알 수 있음
-	- <img src="https://www.dropbox.com/s/moxbvlof7uhnklz/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-07-06%2001.27.28.png?raw=1">
+	- <img src="https://www.dropbox.com/s/moxbvlof7uhnklz/Screenshot%202019-07-06%2001.27.28.png?raw=1">
 - 최근 배포 시간 우측의 세로로 3개의 점을 클릭한 후, 함수 테스트 클릭하면 아래와 같이 나옴
 	- 함수 테스트 버튼을 통해 테스트 가능
 	- 위에서 배포를 한번 더 진행해서 버전: 2로 나옴
-	- <img src="https://www.dropbox.com/s/9s32qljoszgfhpy/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-07-06%2001.32.34.png?raw=1"> 
+	- <img src="https://www.dropbox.com/s/9s32qljoszgfhpy/Screenshot%202019-07-06%2001.32.34.png?raw=1"> 
 
 ---	
 
@@ -131,18 +131,18 @@ comments: true
 - 콘솔에서 [Cloud Scheduler](https://console.cloud.google.com/cloudscheduler?project=geultto)로 이동
 - 작업 만들기 클릭
 	- 지역 설정. Cloud Functions에서 만든 Region과 동일하게 설정
-		- <img src="https://www.dropbox.com/s/6r1xu8dybcvdocy/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-07-06%2011.56.06.png?raw=1"> 
+		- <img src="https://www.dropbox.com/s/6r1xu8dybcvdocy/Screenshot%202019-07-06%2011.56.06.png?raw=1"> 
 	- 작업 만들기
-		- <img src="https://www.dropbox.com/s/r4pwhx154havkm7/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-07-06%2012.00.03.png?raw=1">
+		- <img src="https://www.dropbox.com/s/r4pwhx154havkm7/Screenshot%202019-07-06%2012.00.03.png?raw=1">
 		- 빈도는 crontab 형식으로 작성
 		- 시간대는 기준 시간대를 설정. 대한민국도 존재
 		- 대상에 HTTP를 설정 
 		- Cloud Functions에서 나온 URL을 입력
-			- <img src="https://www.dropbox.com/s/tki7pepqbvtvaez/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-07-06%2012.01.02.png?raw=1"> 
+			- <img src="https://www.dropbox.com/s/tki7pepqbvtvaez/Screenshot%202019-07-06%2012.01.02.png?raw=1"> 
 			- 예시 : https://us-central1-{project}.cloudfunctions.net/{entry_point}
 		- Body가 필요하면 작성한 후, 만들기  
 - 생성한 후, Cloud Scheduler 화면을 보면 아래와 같이 스케쥴 Job들이 나타남
-	- <img src="https://www.dropbox.com/s/gy7v6bbdsvqvxfn/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-07-06%2012.04.20.png?raw=1"> 
+	- <img src="https://www.dropbox.com/s/gy7v6bbdsvqvxfn/Screenshot%202019-07-06%2012.04.20.png?raw=1"> 
 - gcloud로도 가능한데, [gcloud beta scheduler jobs create http](https://cloud.google.com/sdk/gcloud/reference/beta/scheduler/jobs/create/http)를 참고하면 볼 수 있음
 	
 	```

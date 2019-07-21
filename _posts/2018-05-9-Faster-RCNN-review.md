@@ -17,9 +17,9 @@ comments: true
 	- RPN은 각 위치의 object bounds와 objectness score를 동시에 예측하는 fully convolutional network입니다
 
 ## Architecture
-<img src="https://www.dropbox.com/s/qmnhgdsp39y15ig/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-30%2021.55.05.png?raw=1">
+<img src="https://www.dropbox.com/s/qmnhgdsp39y15ig/Screenshot%202018-05-30%2021.55.05.png?raw=1">
 
-<img src="https://www.dropbox.com/s/db46mw6e5gg63m1/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-09%2016.38.34.png?raw=1"  width="400" height="300">
+<img src="https://www.dropbox.com/s/db46mw6e5gg63m1/Screenshot%202018-05-09%2016.38.34.png?raw=1"  width="400" height="300">
 
 - 2개의 Network
 	- Region Proposal Network
@@ -46,7 +46,7 @@ comments: true
 	- $$k$$로 표현 
 	- 3개의 크기(128, 256, 512), 3개의 비율(2:1, 1:1, 1:2) = 9개의 조합
  
-<img src="https://www.dropbox.com/s/kchvbnvhzpko90c/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-09%2017.05.40.png?raw=1">
+<img src="https://www.dropbox.com/s/kchvbnvhzpko90c/Screenshot%202018-05-09%2017.05.40.png?raw=1">
  
 - Classification layer
 	- 모든 anchor마다 foreground, background 분류
@@ -56,15 +56,15 @@ comments: true
 		- foreground는 positive anchor
 		- background는 non-positive anchor
 		
-<img src="https://www.dropbox.com/s/j153zidy9yzwheb/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-09%2017.30.01.png?raw=1" width="300" height="100">
+<img src="https://www.dropbox.com/s/j153zidy9yzwheb/Screenshot%202018-05-09%2017.30.01.png?raw=1" width="300" height="100">
 
-<img src="https://www.dropbox.com/s/ptkiwnt1qnb9dec/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-09%2017.30.04.png?raw=1" width="300" height="100">
+<img src="https://www.dropbox.com/s/ptkiwnt1qnb9dec/Screenshot%202018-05-09%2017.30.04.png?raw=1" width="300" height="100">
 
 - Regression layer
 	- Bounding box regression 
 	- $$t$$는 4개의 좌표값을 가지고 있으며 ground-truth $$t^*$$도 4개의 좌표값을 가지고 있습니다
   
-<img src="https://www.dropbox.com/s/2xoyrni0vjf9yfg/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-09%2017.37.54.png?raw=1" width="300" height="150">
+<img src="https://www.dropbox.com/s/2xoyrni0vjf9yfg/Screenshot%202018-05-09%2017.37.54.png?raw=1" width="300" height="150">
   
 ### Region of Interest Pooling
 - RPN을 지나면 서로 다른 크기의 proposed region이 나옵니다. 서로 다른 크기의 region을 동일한 크기로 맞추기 위해 RoI Pooling을 사용합니다
@@ -74,7 +74,7 @@ comments: true
 
 ## Training
 ### Loss Function
-<img src="https://www.dropbox.com/s/gc7x357egci6euw/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-09%2017.50.58.png?raw=1" width="400" height="150">
+<img src="https://www.dropbox.com/s/gc7x357egci6euw/Screenshot%202018-05-09%2017.50.58.png?raw=1" width="400" height="150">
 
 - $$i$$ : anchor의 index
 - $$p_{i}$$ : anchor $$i$$가 객체인지 배경인지 예측값
@@ -108,11 +108,11 @@ comments: true
 
 
 ## Experiments
-<img src="https://www.dropbox.com/s/3qbw2fsoxiizpwr/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-09%2018.13.23.png?raw=1">
+<img src="https://www.dropbox.com/s/3qbw2fsoxiizpwr/Screenshot%202018-05-09%2018.13.23.png?raw=1">
 
 - Table 2. RPN을 사용했을 때 mAP가 조금 더 좋음
 
-<img src="https://www.dropbox.com/s/65am2mn813yyeqe/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-09%2018.14.38.png?raw=1" width="400" height="500">
+<img src="https://www.dropbox.com/s/65am2mn813yyeqe/Screenshot%202018-05-09%2018.14.38.png?raw=1" width="400" height="500">
 
 - Table 8 : 3 scales, 3 ratios를 사용할 때 성능이 가장 좋았음
 - Table 9 : lambda값이 10일 때 성능이 가장 좋았음

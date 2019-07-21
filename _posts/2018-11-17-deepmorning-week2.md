@@ -28,13 +28,13 @@ comments: true
     - conv layer로 feature를 뽑음 ⇒ content generation
         - 레이어가 깊어질수록 왜곡이 존재, 정보를 많이 날림
     - Loss function
-        - <img src="https://www.dropbox.com/s/4h5uyapa60q13e4/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-12%2009.00.17.png?raw=1">
+        - <img src="https://www.dropbox.com/s/4h5uyapa60q13e4/Screenshot%202018-11-12%2009.00.17.png?raw=1">
         - Image x를 iterative하게 만듬, weight 학습이 아님
         - 여기선 y와 w페어가 주어짐 ⇒ x 업데이트
 - Preliminary 2
     - Texture synthesis
     - 오리지날 텍스쳐를 가지는 것을 feature map으로 만들자 ⇒ style generation
-    - <img src="https://www.dropbox.com/s/soyjgnce62frsaa/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-12%2009.03.36.png?raw=1">
+    - <img src="https://www.dropbox.com/s/soyjgnce62frsaa/Screenshot%202018-11-12%2009.03.36.png?raw=1">
     - texture와 periodicity가 유사하다고 봄, correlation에 texture(style) 정보가 숨어있다
 
 ## Neural Algorithm of Artistic Style
@@ -44,13 +44,13 @@ comments: true
 - 두 마리 토끼를 한번에!
 - content를 적당히 뭉개며 style을 적당히 가미
 - Loss는 2개를 더해줌
-- <img src="https://www.dropbox.com/s/34nz6d68z35bx6x/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-12%2009.06.41.png?raw=1">
+- <img src="https://www.dropbox.com/s/34nz6d68z35bx6x/Screenshot%202018-11-12%2009.06.41.png?raw=1">
 
 ## Deep Photo Style Transfer
 
 - Photorealism Regularization ⇒ 사진처럼 만들기
 - Augmented Style loss with semantic segmentation
-- <img src="https://www.dropbox.com/s/h4p6okeqf4t973n/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-12%2009.10.35.png?raw=1">
+- <img src="https://www.dropbox.com/s/h4p6okeqf4t973n/Screenshot%202018-11-12%2009.10.35.png?raw=1">
 - Image Matting : foreground object를 뽑음, foreground object를 잘 뽑아내지 못하면 패널티
 - affine transform
 - Sky + building으로 구성된 이미지의 gram matrix를 생각해보자
@@ -144,13 +144,13 @@ comments: true
         - 모든 경우에 대해 실험을 해봐야 함
     - cross entropy의 변형을 사용
 
-        <img src="https://www.dropbox.com/s/g13b2kuhxxwwdpj/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-14%2009.23.35.png?raw=1">
+        <img src="https://www.dropbox.com/s/g13b2kuhxxwwdpj/Screenshot%202018-11-14%2009.23.35.png?raw=1">
 
-        <img src="https://www.dropbox.com/s/blj8yahfvm0zahx/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-14%2009.24.22.png?raw=1">
+        <img src="https://www.dropbox.com/s/blj8yahfvm0zahx/Screenshot%202018-11-14%2009.24.22.png?raw=1">
 
 ## 실험 결과
 
-<img src="https://www.dropbox.com/s/rblonfv4zit08u4/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-14%2009.24.48.png?raw=1">
+<img src="https://www.dropbox.com/s/rblonfv4zit08u4/Screenshot%202018-11-14%2009.24.48.png?raw=1">
 
 ## 결론
 
@@ -188,7 +188,7 @@ comments: true
 
 - 점들의 경향성을 찾는 것
 - 여기에 확률적 관점을 가미하면 점들의 확률 분포를 찾는 문제로 변형
-- <img src="https://www.dropbox.com/s/d8k5e82ra6rnmao/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-15%2009.07.32.png?raw=1">
+- <img src="https://www.dropbox.com/s/d8k5e82ra6rnmao/Screenshot%202018-11-15%2009.07.32.png?raw=1">
 - 그래피컬로 표현 가능
 - Autoencoder가 선을 찾는 것이라면 variational autoencoder는 점들의 확률분포까지 찾아내는 것
 - 각 축(Z, X)을 고차원으로 높이면 latent representation 데이터를 찾아내는 것이 목표
@@ -203,34 +203,34 @@ comments: true
 
 ## Math
 
-- <img src="https://www.dropbox.com/s/50h0ndlepmznadj/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-15%2009.13.52.png?raw=1">
+- <img src="https://www.dropbox.com/s/50h0ndlepmznadj/Screenshot%202018-11-15%2009.13.52.png?raw=1">
 - KL-divergence
     - 기본적으로 distance 개념인데 distance는 아니다..라고 말함
     - P,Q를 바꾸면 값이 달라짐
     - Distance 비슷한 것이다 라고 생각하면 될 듯
     - 확률 분포 P와 Q 차이를 구하는 것
 - 식 전개
-    - <img src="https://www.dropbox.com/s/vs2ani1uljxnnbl/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-15%2009.15.39.png?raw=1">
+    - <img src="https://www.dropbox.com/s/vs2ani1uljxnnbl/Screenshot%202018-11-15%2009.15.39.png?raw=1">
         - 천천히 전개하고, 모르겠으면 영상 13분 참고
         - L을 최대화
-    - <img src="https://www.dropbox.com/s/zct65yiq1c9fwqg/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-15%2009.17.35.png?raw=1">
+    - <img src="https://www.dropbox.com/s/zct65yiq1c9fwqg/Screenshot%202018-11-15%2009.17.35.png?raw=1">
         - 몬테카를로 q(zㅣx)로 샘플링한 값으로 L을 계산
         - 몇개를 뽑는거니 variance가 존재
-    - <img src="https://www.dropbox.com/s/bs4lqaselx9jkgf/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-15%2009.19.00.png?raw=1">
+    - <img src="https://www.dropbox.com/s/bs4lqaselx9jkgf/Screenshot%202018-11-15%2009.19.00.png?raw=1">
         - 전개를 조금 다르게 하면, 애널리틱하게(수학적으로) 표현 가능
         - variance를 적게 가능
-    - <img src="https://www.dropbox.com/s/e1b2cmmlc1x2cvp/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-15%2009.21.01.png?raw=1">
+    - <img src="https://www.dropbox.com/s/e1b2cmmlc1x2cvp/Screenshot%202018-11-15%2009.21.01.png?raw=1">
         - 전개할 때 2번째 식을 주로 사용
-    - <img src="https://www.dropbox.com/s/8v3svjx3xpj2o1k/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-15%2009.21.22.png?raw=1">
+    - <img src="https://www.dropbox.com/s/8v3svjx3xpj2o1k/Screenshot%202018-11-15%2009.21.22.png?raw=1">
         - 논문의 어펜딕스에 있음
 - Reparametrization Tricks
-    - <img src="https://www.dropbox.com/s/4o95mqng6lo8ma5/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-15%2009.21.41.png?raw=1">
+    - <img src="https://www.dropbox.com/s/4o95mqng6lo8ma5/Screenshot%202018-11-15%2009.21.41.png?raw=1">
     - 중간에 샘플링 과정이 있는데, 샘플링은 미분이 안됨
     - 그래서 샘플링을 밖으로 빼내고 표현력은 유지함
 
 ## 네트워크 구조
 
-- <img src="https://www.dropbox.com/s/7qa9xmknsyonozu/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-15%2009.24.22.png?raw=1">
+- <img src="https://www.dropbox.com/s/7qa9xmknsyonozu/Screenshot%202018-11-15%2009.24.22.png?raw=1">
 - 평균과 시그마를 inference하고 x를 계산
 - stochastic autoencoder + regularization using prior
     - prior는 노말 정규 분포(0,1)로 가정
@@ -238,7 +238,7 @@ comments: true
 ## 결과
 
 - Visualization 결과
-- <img src="https://www.dropbox.com/s/pxpejjwmpxrd43p/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-15%2009.26.38.png?raw=1">
+- <img src="https://www.dropbox.com/s/pxpejjwmpxrd43p/Screenshot%202018-11-15%2009.26.38.png?raw=1">
 - 다 잘 찾는중
 - 벡터 스페이스 커지면 좋음
 - 왜 오토 인코더는 안될까?
@@ -253,7 +253,7 @@ comments: true
 ## PR-011: Spatial Transformer Networks
 
 - 2015년 닙스, 구글 딥마인드
-- <img src="https://www.dropbox.com/s/mt649p3r1lah2ys/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-16%2009.10.57.png?raw=1">
+- <img src="https://www.dropbox.com/s/mt649p3r1lah2ys/Screenshot%202018-11-16%2009.10.57.png?raw=1">
 
 ## Introduction
 
@@ -264,15 +264,15 @@ comments: true
         - Translation : 부분적으로
 - max pooling
     - 이게 spatial invariant하게 만들긴 하나 유동적이진 않음
-- <img src="https://www.dropbox.com/s/ede5sdacx0zdxbh/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-16%2009.12.38.png?raw=1">
+- <img src="https://www.dropbox.com/s/ede5sdacx0zdxbh/Screenshot%202018-11-16%2009.12.38.png?raw=1">
 
 ## Architecture
 
-- <img src="https://www.dropbox.com/s/stvyf0cb612gy22/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-16%2009.13.13.png?raw=1">
+- <img src="https://www.dropbox.com/s/stvyf0cb612gy22/Screenshot%202018-11-16%2009.13.13.png?raw=1">
 - Localisation net : transformer 할 좌표를 찾음
     - 마지막단에 regression이 있어야 함
 - Grid generator : 좌표를 변환(Affine transform)
-    - <img src="https://www.dropbox.com/s/my82tk19ha4n1ng/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-16%2009.15.23.png?raw=1">
+    - <img src="https://www.dropbox.com/s/my82tk19ha4n1ng/Screenshot%202018-11-16%2009.15.23.png?raw=1">
 - Sampler : 하나씩 읽어옴, interpolation
     - integer sampling
     - bilinear sampling
@@ -290,8 +290,8 @@ comments: true
 
 ## Conclusion
 
-- <img src="https://www.dropbox.com/s/1795ftxsmmo74n7/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-16%2009.26.52.png?raw=1">
-- <img src="https://www.dropbox.com/s/zg5zf4ifxchmcd7/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-11-16%2009.28.09.png?raw=1">
+- <img src="https://www.dropbox.com/s/1795ftxsmmo74n7/Screenshot%202018-11-16%2009.26.52.png?raw=1">
+- <img src="https://www.dropbox.com/s/zg5zf4ifxchmcd7/Screenshot%202018-11-16%2009.28.09.png?raw=1">
 - deformable을 offset을 계산을 따로
 - spatial은 트랜스폼의 파라미터만 찾아줌
     - 샘플링하며 intepolation할 때 계산량이 적음

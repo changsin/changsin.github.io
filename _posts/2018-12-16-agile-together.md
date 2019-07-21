@@ -16,7 +16,7 @@ comments: true
 - 성장, 코칭, 채용, 팀, 달인의 비결에 대한 내용이 계속 기억에 남네요
 - 김창준님 [블로그](http://agile.egloos.com/)에도 좋은 내용이 많이 있습니다 
 
-<img src="https://www.dropbox.com/s/rhohm5g0opohww6/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-16%2016.46.49.png?raw=1" height="500" widht="300">
+<img src="https://www.dropbox.com/s/rhohm5g0opohww6/Screenshot%202018-12-16%2016.46.49.png?raw=1" height="500" widht="300">
 
 
 ---

@@ -102,7 +102,7 @@ Coursera 강의인 How to Win a Data Science Competition: Learn from Top Kaggler
 		- 그러나 아직 사용하기 어렵고 느림
 		- 작은 데이터에 시도해보기
 - GBDT   
-	- <img src="https://www.dropbox.com/s/vtisxnsngeon5dg/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-09-02%2023.03.48.png?raw=1">
+	- <img src="https://www.dropbox.com/s/vtisxnsngeon5dg/Screenshot%202018-09-02%2023.03.48.png?raw=1">
 	- 두 모델 모두 Tree를 생성한 후, given objective를 최적화
 	- ```max_depth``` : Tree의 최대 depth, 증가할수록 train set에 더 빠르게 fit, 처음엔 7로 두고 해보기!
 	- (lightGBM) ```num_leaves``` : Tree가 매우 깊을 경우 이걸 조정하면 좋을 수 있음
@@ -112,7 +112,7 @@ Coursera 강의인 How to Win a Data Science Competition: Learn from Top Kaggler
 	- ```eta``` : gradient descent 같은 필수적인 learning weight
 	- ```num_rounds``` : 얼마나 learning step을 수행할 것인가(=얼마나 트리를 만들 것인가)
 - sklearn.RandomForest/ExtraTrees
-	- <img src="https://www.dropbox.com/s/ien3r5alho0dtqu/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-09-02%2023.25.05.png?raw=1"> 
+	- <img src="https://www.dropbox.com/s/ien3r5alho0dtqu/Screenshot%202018-09-02%2023.25.05.png?raw=1"> 
 	- ExtraTrees는 Randomfrest의 더 랜덤한 버전. 파라미터는 동일
 	- ```N_estimators``` : 트리 개수. 처음엔 이 값을 작은 값부터 큰 값까지 설정한 후, accuracy를 측정! 그래프를 통해 추론. 보통 50?
 	- ```max_depth``` : xgboost와 다르게 none 설정 가능(unlimited depth) 보통 7부터 시작 추천
@@ -124,7 +124,7 @@ Coursera 강의인 How to Win a Data Science Competition: Learn from Top Kaggler
 	- Keras, Tensorflow, MxNet, PyTorch
 	- Keras, PyTorch 추천
 	- 여기선 Dense layer 이야기만 함(fully connected layer로 연결된)
-	- <img src="https://www.dropbox.com/s/ugum6zpdkon4ow1/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-09-02%2023.57.04.png?raw=1"> 
+	- <img src="https://www.dropbox.com/s/ugum6zpdkon4ow1/Screenshot%202018-09-02%2023.57.04.png?raw=1"> 
 	- simple 레이어로 시작하기!
 	- Optimizers : SGD + momentum이 빠르게 수렴하긴 하지만 오버피팅일 수 있음
 	- Batch size : 32 또는 64로 시작
@@ -142,7 +142,7 @@ Coursera 강의인 How to Win a Data Science Competition: Learn from Top Kaggler
 	- SGDClassifier/SGDRegressor
 - Vowpal Wabbit
 	- FTRL 
-- <img src="https://www.dropbox.com/s/rlr8lyw42hljwgd/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-09-03%2000.44.47.png?raw=1">
+- <img src="https://www.dropbox.com/s/rlr8lyw42hljwgd/Screenshot%202018-09-03%2000.44.47.png?raw=1">
 	- SVC에서 C를 천천히 상승 
 	- L1은 feature selection할 때 사용
 	- L1/L2/L1+L2는 각각 모두 시도 

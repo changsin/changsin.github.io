@@ -54,19 +54,19 @@ comments: true
 		- 메모리에 저장
 		- synchronous backup 
 - 예시
-	- <img src="https://www.dropbox.com/s/i3mbzubjmar4np2/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-01-06%2020.43.19.png?raw=1">
+	- <img src="https://www.dropbox.com/s/i3mbzubjmar4np2/Screenshot%202019-01-06%2020.43.19.png?raw=1">
 	- MDP가 있고 policy가 있을 떄 value를 찾는 prediction 문제
-	- <img src="https://www.dropbox.com/s/lkrwgtfzmtcatip/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-01-06%2020.50.03.png?raw=1">
+	- <img src="https://www.dropbox.com/s/lkrwgtfzmtcatip/Screenshot%202019-01-06%2020.50.03.png?raw=1">
 	- 주어진 바보같은 policy를 평가만 했을 뿐인데 평가된 value에서 greedy하게 움직이면 optimal policy가 찾을 수 있음
 	- 모든 문제에서 이게 됨! 신기
-	- <img src="https://www.dropbox.com/s/ibqizz7r1gqyfyu/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-01-06%2020.50.12.png?raw=1"> 		
+	- <img src="https://www.dropbox.com/s/ibqizz7r1gqyfyu/Screenshot%202019-01-06%2020.50.12.png?raw=1"> 		
 	- 무한하게 갈 필요가 없음! 평가하게 greedy하게 움직이는 것을 만들자
 
 ## Policy Iteration
 - Evaluate the policy(value function을 찾고)
 - Improve the policy by acting reddily(value function에 대해 greedy하게 움직이는 새로운 policy를 만들면)
 - 이 Evaluate, Improve를 반복하면 converge됨
-- <img src="https://www.dropbox.com/s/bmhwna2bolulukt/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-01-06%2020.59.53.png?raw=1">
+- <img src="https://www.dropbox.com/s/bmhwna2bolulukt/Screenshot%202019-01-06%2020.59.53.png?raw=1">
 - 예제
 	- Jack's Car Rental
 	- 좋은 문제인진 모름..
@@ -77,14 +77,14 @@ comments: true
 	- policy를 추측할 수 있음
 	- b는 수요가 더 많음
 	- a에서 차가 적어도 어쩔 경우엔 b로 옮기는 것이 나을 수 있음
-	- <img src="https://www.dropbox.com/s/cjvoof54qgcfzz6/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-01-06%2021.03.06.png?raw=1">
+	- <img src="https://www.dropbox.com/s/cjvoof54qgcfzz6/Screenshot%202019-01-06%2021.03.06.png?raw=1">
 	- x축 : b 지점에 있는 차의 수, y축 : a 지점에 있는 차의 수 
 	- iteration하면 수렴한다! 정도의 감만 잡으면 ok
 - 증명
 	- 무조건 이전 policy보다 좋은가?
-		- <img src="https://www.dropbox.com/s/9p7vbp1beduchf2/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-01-06%2021.06.54.png?raw=1">
+		- <img src="https://www.dropbox.com/s/9p7vbp1beduchf2/Screenshot%202019-01-06%2021.06.54.png?raw=1">
 	- 수렴 포인트는 optimal  
-		- <img src="https://www.dropbox.com/s/twxdck9vnx9xwvb/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-01-06%2021.16.09.png?raw=1">
+		- <img src="https://www.dropbox.com/s/twxdck9vnx9xwvb/Screenshot%202019-01-06%2021.16.09.png?raw=1">
 - Modified Policy Iteration
 	- 꼭 수렴할 때까지 해야되는가? 일찍 끝내면 안되는가
 	- k번만 하고 evaluation, improve해도 되지 않는가?
@@ -98,14 +98,14 @@ comments: true
 - value만 가지고 놈(value만 이터레이티브하게 update)
 	- policy 없음
 - 예시
-	- <img src="https://www.dropbox.com/s/3j137c7ircelb0n/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-01-06%2021.30.38.png?raw=1">
+	- <img src="https://www.dropbox.com/s/3j137c7ircelb0n/Screenshot%202019-01-06%2021.30.38.png?raw=1">
 	- 한 스텝들은 bellman optimality equation을 이용해 품
 	- 끝이란 것을 알 수 없어서 모두 다 돌아야 함
-- <img src="https://www.dropbox.com/s/olfkhs2ru5u9luf/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-01-06%2021.34.19.png?raw=1">
+- <img src="https://www.dropbox.com/s/olfkhs2ru5u9luf/Screenshot%202019-01-06%2021.34.19.png?raw=1">
 
 
 ### 잠시 정리
-- <img src="https://www.dropbox.com/s/9mm63y9c5ro56a7/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-01-06%2021.37.19.png?raw=1">
+- <img src="https://www.dropbox.com/s/9mm63y9c5ro56a7/Screenshot%202019-01-06%2021.37.19.png?raw=1">
 
 ## Asynchronous Dynamic Programming
 - 여태 나온 DP 방법들은 모든 stete들이 parallel되게 하는 synchronous backup을 사용했음

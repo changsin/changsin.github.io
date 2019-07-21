@@ -63,10 +63,10 @@ comments: true
 	- 단, "빅데이터"란 공통된 흥미를 가진 사람들을 만났던 것이 정말 좋았습니다
 - 오늘 밤부터 쓰는 GA 수강
 	- 이 강의는 알렉스앤컴퍼니에서 진행한 강의입니다
-	- <img src="https://www.dropbox.com/s/9r3dgpfb1onztsi/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-05%2022.02.33.png?raw=1">
+	- <img src="https://www.dropbox.com/s/9r3dgpfb1onztsi/Screenshot%202019-04-05%2022.02.33.png?raw=1">
 	- Google Analytics를 통해 데이터 분석할 수 있단 소식을 듣고 수강했습니다
 	- 돌이켜 보면 이 강의를 통해 하용호님을 만날 수 있었고, 계속 데이터 공부를 할 자극을 얻었습니다
-	- <img src="https://www.dropbox.com/s/6cwfx9buyy7tkxa/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-05%2022.04.06.png?raw=1">
+	- <img src="https://www.dropbox.com/s/6cwfx9buyy7tkxa/Screenshot%202019-04-05%2022.04.06.png?raw=1">
 	- 하용호님은 어려운 내용을 정말 쉽게 설명해주시는 것으로 유명합니다! [슬라이드쉐어](https://www.slideshare.net/yongho)에 가면 자료를 볼 수 있습니다 
 
 ### 2016년
@@ -133,11 +133,11 @@ comments: true
 - 2)와 3)에 대한 내용이 더 궁금하시면 제 발표자료 : [바닥부터 시작하는 데이터 인프라](https://www.slideshare.net/zzsza/little-big-data-1)를 참고하면 좋을 것 같습니다
 - 4) 개인 업무 성향 파악
 	- 입사 후, 30일/60일/90일 피드백을 통해 제가 어떤 스타일로 업무를 하는지 알 수 있었습니다
-	- <img src="https://www.dropbox.com/s/di9g6ymhk7ijnr4/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-05%2022.37.40.png?raw=1">
+	- <img src="https://www.dropbox.com/s/di9g6ymhk7ijnr4/Screenshot%202019-04-05%2022.37.40.png?raw=1">
 	- 어떤 일을 하기 전에, 다양한 고민이 많았고 뜬구름도 많이 잡았습니다. 이런 피드백을 핵직구로 받은 후 계속 개선하다보니 이젠 린한 사고 과정이 체득되었습니다
 	- 꾸준히 메모하던 습관에서, 일정 관리도 더 자세히 하게 되었습니다
 		- 캘린더에 시간 단위로 일정을 등록하고 있습니다
-		- <img src="https://www.dropbox.com/s/pti3kmcf2jgmc11/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-06%2009.12.04.png?raw=1">
+		- <img src="https://www.dropbox.com/s/pti3kmcf2jgmc11/Screenshot%202019-04-06%2009.12.04.png?raw=1">
 		- 파란색은 회사 일정, 연보라색은 개인 일정입니다
 - [2017년 회고, 2018년 계획](https://zzsza.github.io/diary/2017/12/30/2017-retrospect/) 블로그 글에 자세히 작성했습니다
 
@@ -188,17 +188,17 @@ comments: true
 		- 책이 너무 좋고, 팀 동료분들이 알면 좋을 내용이 많다 판단해서 제가 스터디 매니저를 자처해 스터디를 진행하고 있습니다
 		- 누가 발표하는 것이 아닌, 정해진 시간에 책을 같이 읽고 토론하고 있습니다
 		- 스터디 내용은 [Github](https://github.com/zzsza/Perfect-Guide-about-Machine-Learning-Study)에 올리고 있습니다
-		- <img src="https://www.dropbox.com/s/s0hf0qit9vabta6/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-05%2022.55.56.png?raw=1">
+		- <img src="https://www.dropbox.com/s/s0hf0qit9vabta6/Screenshot%202019-04-05%2022.55.56.png?raw=1">
 		- 이 스터디 말고도, 스터디잼 중급반도 시작했습니다
 	- 2) 스터디 지원
 		- 쏘카에서 SQL을 사용하는 분들이 질문하시면 정성껏 답변 하고 있습니다(스터디의 QnA 봇 같은 존재..?)
 		- 기획자분들이 직접 SQL을 하는 것을 정말! 감동적인 일이라 생각해서 열심히 답변드리고 있습니다
-		- <img src="https://www.dropbox.com/s/2tjk0kmxobgalh6/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-05%2022.57.56.png?raw=1">
+		- <img src="https://www.dropbox.com/s/2tjk0kmxobgalh6/Screenshot%202019-04-05%2022.57.56.png?raw=1">
 		- 저 말고도 다른 데이터그룹 분들도 함께 답변을 하고 있습니다
 	- 3) Kaggle에서 홍보
 		- 좋은 분들을 모시기 위해 다양한 곳에서 회사 홍보를 해야한다고 생각합니다
 		- 저는 데이터에 관심있는 분들은 캐글을 많이 할 것이란 가정하에 캐글에서 [SOCAR]라는 타이틀을 달고 대회에 참가하고 있습니다
-		- <img src="https://www.dropbox.com/s/fh3tg35iz0f4dkn/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-02-15%2014.49.54.png?raw=1"> 
+		- <img src="https://www.dropbox.com/s/fh3tg35iz0f4dkn/Screenshot%202019-02-15%2014.49.54.png?raw=1"> 
 - 앞으로도 좋은 팀, 좋은 문화를 가질 수 있도록 계속 노력할 예정입니다
 	- 사내에서 기획자, 마케터 분들을 위해 [BigQuery의 모든 것 입문편](https://www.slideshare.net/zzsza/bigquery-147073606) 강의도 하고 있습니다 
 
@@ -243,7 +243,7 @@ comments: true
 
  
 - 이력서 작성이 어려운 분들을 위해 제 이력서를 보여드립니다. 참고만 하시면 좋을 것 같습니다
-	- <img src="https://www.dropbox.com/s/zgrgqgu90zrs5gf/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-04-06%2000.33.11.png?raw=1"> 
+	- <img src="https://www.dropbox.com/s/zgrgqgu90zrs5gf/Screenshot%202019-04-06%2000.33.11.png?raw=1"> 
 	- 저는 구인본님의 [이직초보 어느 개발자의 이력서 만들기](http://woowabros.github.io/experience/2017/07/17/resume.html)를 보고 이력서를 만들었습니다
 	- 제가 만든 이력서 템플릿도 공유드립니다(pages 파일) : [Dropbox Link](https://www.dropbox.com/s/tqr8szz6odfxtcy/%EC%9D%B4%EB%A0%A5%EC%84%9C-%ED%85%9C%ED%94%8C%EB%A6%BF.pages)
 	

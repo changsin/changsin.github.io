@@ -16,7 +16,7 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 
 	
 ## Computational Graphs
-<img src="https://www.dropbox.com/s/fp7rrq0b21qekj1/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-12%2019.24.57.png?raw=1">
+<img src="https://www.dropbox.com/s/fp7rrq0b21qekj1/Screenshot%202018-05-12%2019.24.57.png?raw=1">
 
 - 이점 
 	- Back Propagation 사용 가능
@@ -32,14 +32,14 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 
 
 ### Example 1
-<img src="https://www.dropbox.com/s/cxr3o5rwn1gu54t/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-12%2019.31.42.png?raw=1">
+<img src="https://www.dropbox.com/s/cxr3o5rwn1gu54t/Screenshot%202018-05-12%2019.31.42.png?raw=1">
 
 - z 부분은 $$\frac{\partial{f}}{\partial{z}}$$ = -12/-4 = 3
 - q 부분은 $$\frac{\partial{f}}{\partial{q}}$$ = -12/3 = -4
 - y 부분은 $$\frac{\partial{f}}{\partial{y}}$$ = $$\frac{\partial{f}}{\partial{q}} \frac{\partial{q}}{\partial{y}}$$ = -4 * 1 = -4
 - x 부분은 $$\frac{\partial{f}}{\partial{x}}$$ = $$\frac{\partial{f}}{\partial{q}} \frac{\partial{q}}{\partial{x}}$$ = -4 * 1 = -4
 
-<img src="https://www.dropbox.com/s/cz8jh60q0n83aoz/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-12%2019.55.34.png?raw=1">
+<img src="https://www.dropbox.com/s/cz8jh60q0n83aoz/Screenshot%202018-05-12%2019.55.34.png?raw=1">
 
 - 구성
 	- Local Gradient : 우리가 구하려던 것은 아님
@@ -50,17 +50,17 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 	- 일종의 조립라인의 분업처럼, 복잡한 계산도 나누면 단순한 계산이 가능! 	
 
 ### Example 2
-<img src="https://www.dropbox.com/s/l1ugm20jxnf2ysc/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-12%2019.59.04.png?raw=1">
+<img src="https://www.dropbox.com/s/l1ugm20jxnf2ysc/Screenshot%202018-05-12%2019.59.04.png?raw=1">
 
 - local gradient를 구하면
 
-<img src="https://www.dropbox.com/s/fs6kexmhyje7lut/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-13%2009.30.27.png?raw=1">
+<img src="https://www.dropbox.com/s/fs6kexmhyje7lut/Screenshot%202018-05-13%2009.30.27.png?raw=1">
 
 - **x = 1.37** 
 - **0.37\*-0.53**
 - **웅원님의 이야기 : 손으로 꼭 해보세요~!**
 
-<img src="https://www.dropbox.com/s/g1cll1l533scezy/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-13%2009.31.06.png?raw=1">
+<img src="https://www.dropbox.com/s/g1cll1l533scezy/Screenshot%202018-05-13%2009.31.06.png?raw=1">
 
 - sigmoid gate를 더 쉽게 계산할 수 있습니다!
 
@@ -79,7 +79,7 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 
 
 ## Gradients for vertorized code
-<img src="https://www.dropbox.com/s/ijhktuzkwx98wrh/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-13%2009.46.01.png?raw=1">
+<img src="https://www.dropbox.com/s/ijhktuzkwx98wrh/Screenshot%202018-05-13%2009.46.01.png?raw=1">
 
 - Vector일 경우 Gradient를 구하는 방법에 대해 알아보겠습니다
 - $$\frac{\partial{z}}{\partial{x}}$$는 Jacobian matrix입니다
@@ -90,14 +90,14 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 
 
 ### Vectorized operations
-<img src="https://www.dropbox.com/s/jibzha12d5ob2ua/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-13%2010.16.16.png?raw=1">
+<img src="https://www.dropbox.com/s/jibzha12d5ob2ua/Screenshot%202018-05-13%2010.16.16.png?raw=1">
 
 - Q) What is the size of the Jacobian matrix?
 - A) 4096 * 4096
 	- 만약 미니배치를 100으로 진행하고 있었다면 409,600 x 409,600
 	
 	
-<img src="https://www.dropbox.com/s/4tduxfsx32kiz3y/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-13%2010.48.29.png?raw=1">
+<img src="https://www.dropbox.com/s/4tduxfsx32kiz3y/Screenshot%202018-05-13%2010.48.29.png?raw=1">
 
 - Q) what does it(Jacobian matrix) look like?
 - A) Diagonal
@@ -107,16 +107,16 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 
 
 ### A Vectorized Example
-<img src="https://www.dropbox.com/s/8307gxwprue00oq/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-13%2011.11.44.png?raw=1">
+<img src="https://www.dropbox.com/s/8307gxwprue00oq/Screenshot%202018-05-13%2011.11.44.png?raw=1">
 
 - The gradient of a vector is always going to be the same size as the original vector, and each element of this gradient is going to it means **how much** of this particular element affects our final output of the function
 
-<img src="https://www.dropbox.com/s/794sboa8ynbkpz4/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-13%2011.16.33.png?raw=1">
+<img src="https://www.dropbox.com/s/794sboa8ynbkpz4/Screenshot%202018-05-13%2011.16.33.png?raw=1">
 
 - Always check 
 	- The gradient with respect to a variable should have the same shape as the variable
 	
-<img src="https://www.dropbox.com/s/plvseat9vqrzgf6/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-13%2011.26.15.png?raw=1">
+<img src="https://www.dropbox.com/s/plvseat9vqrzgf6/Screenshot%202018-05-13%2011.26.15.png?raw=1">
 
 - ~~~왜 Transpose를 해주나 이해가 안되서 찾아본 [링크](https://math.stackexchange.com/questions/44945/divergence-as-transpose-of-gradient?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa) 링크를 보고 다시 생각해보니 납득~~~
 - 원하는 식을 얻기 위해 식을 변형 $$W_{k,i}$$ (Transpose)
@@ -135,12 +135,12 @@ Stanfoard [CS231n 2017](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7L
 	 
 
 ## Neural networks
-<img src="https://www.dropbox.com/s/uj9kfsurkq7fogd/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-13%2011.41.54.png?raw=1">
+<img src="https://www.dropbox.com/s/uj9kfsurkq7fogd/Screenshot%202018-05-13%2011.41.54.png?raw=1">
 
 - class of function that are stacked on top of each other and we stack them in a hierarchical way in order to make up a more complex non-linear function
 - h : intemediate variable(layer)
 
-<img src="https://www.dropbox.com/s/5ogcqe7bfge6hx6/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-13%2011.51.42.png?raw=1">
+<img src="https://www.dropbox.com/s/5ogcqe7bfge6hx6/Screenshot%202018-05-13%2011.51.42.png?raw=1">
 
 - 3 layers
 
@@ -171,7 +171,7 @@ for t in range(2000):
 ```
  
 ### Neural Network 이름의 유래
-<img src="https://www.dropbox.com/s/9ythccf61kuqmaw/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-13%2011.58.35.png?raw=1">
+<img src="https://www.dropbox.com/s/9ythccf61kuqmaw/Screenshot%202018-05-13%2011.58.35.png?raw=1">
 
 - 뉴런의 자극 처리 메커니즘과 neural network의 메커니즘이 유사합니다
 - input을 자극으로 생각하고 데이터를 처리하는 함수가 cell body!
@@ -179,12 +179,12 @@ for t in range(2000):
 - 하지만 정확히는 뉴런의 메커니즘과 같지는 않으니 참고만! 
 
 ### Activation functions
-<img src="https://www.dropbox.com/s/ks95mycsfu720xh/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-13%2012.07.49.png?raw=1">
+<img src="https://www.dropbox.com/s/ks95mycsfu720xh/Screenshot%202018-05-13%2012.07.49.png?raw=1">
 
 - 추후 하나 하나 설명할 예정!
 
 ### Neural networks: Architectures
-<img src="https://www.dropbox.com/s/hdwe3nj2l3935xc/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-13%2012.08.28.png?raw=1">
+<img src="https://www.dropbox.com/s/hdwe3nj2l3935xc/Screenshot%202018-05-13%2012.08.28.png?raw=1">
 
 - 아키텍쳐도 추후 설명할 예정입니다
 

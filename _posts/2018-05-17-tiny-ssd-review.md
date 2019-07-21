@@ -49,7 +49,7 @@ in SSD
 
 	
 ### Fire microarchitecture
-<img src="https://www.dropbox.com/s/qsfnxmp8iqxh27s/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-17%2016.43.19.png?raw=1" width="500" height="400">
+<img src="https://www.dropbox.com/s/qsfnxmp8iqxh27s/Screenshot%202018-05-17%2016.43.19.png?raw=1" width="500" height="400">
 
 - **Squeeze** convolutional layer of 1x1 filters
 	- 3 $$\times$$ 3 필터에 대한 input channels을 줄이는 2)를 실행
@@ -64,7 +64,7 @@ in SSD
 	- Key design parameters : (1 $$\times$$ 1 filters, 3 $$\times$$ 3 filters) 필터의 수
 - SqueezeNet 네트워크 아키텍처와 Fire 모듈의 microarchitecture는 거의 동일
 	
-<img src="https://www.dropbox.com/s/6rsovgsk41ksfm0/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-17%2017.16.46.png?raw=1" width="500" height="800">
+<img src="https://www.dropbox.com/s/6rsovgsk41ksfm0/Screenshot%202018-05-17%2017.16.46.png?raw=1" width="500" height="800">
 
 	
 ## 3. Optimized Sub-network stack of SSD based Convolutional Feature layers
@@ -75,7 +75,7 @@ in SSD
 			- 1) a confidence score for a object category
 			- 2) shape offset relative to default bounding box coordinates 
 	
-<img src="https://www.dropbox.com/s/2t6ct7ch4cvrp5m/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-05-17%2017.46.47.png?raw=1" width="500" height="400">
+<img src="https://www.dropbox.com/s/2t6ct7ch4cvrp5m/Screenshot%202018-05-17%2017.46.47.png?raw=1" width="500" height="400">
 
 - Key Challenge : auxiliary convolution feature layer와 convolutional predictor를 결정하는 것
 - Key Design parameter : the number of filters
