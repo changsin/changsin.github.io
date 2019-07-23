@@ -37,11 +37,12 @@ order: 10
 | 맥주 추천 시스템 	| 2015.6 - 12 	| 기획/디자인<br>데이터 크롤링 	| Collaborative Filtering을 <br>활용한 맥주 추천 시스템 	|
 
 ## 발표
+- [DEVGROUND : Mobility X Data - 모빌리티 산업의 도전 과제](https://www.slideshare.net/zzsza/mobility-x-data) (19.06.27)
 - [Write The Docs 서울 2019 : 글쓰는 개발자 모임, 글또](https://www.slideshare.net/zzsza/ss-137831892) (19.03.23)
 - [Daily 만년 Junior들의 이야기 - 델리만주 : 데이터 사이언스 입문](https://festa.io/events/192)(19.02.16)
 - [데이터야놀자 Ignite Talk : 사회인의 휴학, Gap Year 이야기](https://datayanolja.github.io/speakers/ignite6.html)(18.10.19)
 - 숙명여대 취업캠프 특강(18.06.26)
-- [백수들의 Conference](https://dfab.event-us.kr/p/2397)(18.06.24)
+- [백수들의 Conference : 개발자를 위한 (블로그) 글쓰기 intro](https://dfab.event-us.kr/p/2397)(18.06.24)
 - 인하대 Data Science 특강(18.05.03)
 - [Little Big Data #1 : 다양한 사람들의 데이터 사이언스 이야기](https://festa.io/events/21)(18.04.21)
 - [OKKY 4월 세미나 : Data Science. Intro](https://okky.kr/article/455576)(18.04.05)
