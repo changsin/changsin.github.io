@@ -14,6 +14,7 @@ comments: true
 	- [상단 설정](#상단-설정)
 	- [구글 드라이브와 Colab 연동](#구글-드라이브와-colab-연동)
 	- [구글 드라이브와 로컬 연동](#구글-드라이브와-로컬-연동)
+	- [Tensorflow 2.0 설치하기](#tensorflow-설치하기)
 	- [PyTorch 사용하기](#pytorch-사용하기)
 	- [KoNLPy 설치](#konlpy-설치)
 	- [Github 코드를 Colab에서 사용하기](#github-코드를-colab에서-사용하기)
@@ -24,6 +25,8 @@ comments: true
 	- [Google Storage에서 파일 읽기](#google-storage에서-파일-읽기)
 	- [MNIST on TPU 소스](https://colab.research.google.com/github/GoogleCloudPlatform/training-data-analyst/blob/master/courses/fast-and-lean-data-science/01_MNIST_TPU_Keras.ipynb)
 	- [Kaggle 연동하기](#kaggle-연동하기)
+	- [코기 모드](#코기-모드)
+	- [런타임 연결](#런타임-연결)
 
 	
 ## Google Colab
@@ -147,6 +150,22 @@ df = pd.read_csv("./gdrive/data/train_activity.csv")
 - 이제 "폴더 위치"에 원하는 데이터를 저장해두면 Colab에서 사용 가능
 	- 단, 크기가 큰 파일은 동기화 시간이 오래 걸릴 수 있음 
 
+### Tensorflow 설치하기
+- 2019년 7월 기준 Colab에 설치된 Tensorflow는 1.14.0입니다
+	- Tensorflow 2.0을 설치하고 싶으면 아래처럼 입력하시면 됩니다 
+	
+	```
+	!pip install tensorflow==2.0.0-beta1
+	```
+	
+	- 그 후, 런타임 - 런타임 다시 시작을 누르셔서 런타임을 다시 실행시키면 Tensorflow 2.0.0-beta1 설치된 것을 알 수 있습니다
+
+	```
+	import tensorflow as tf
+	print(tf.__version__)
+	```
+
+
 ### PyTorch 사용하기
 - 2019년 1월 26일부터 Colab에 기본적으로 PyTorch, torchvision, torchtext가 내장되었습니다
 - 출처 : [PyTorch 트위터](https://mobile.twitter.com/PyTorch/status/1088882504700968960)
@@ -227,6 +246,7 @@ print(torch.__version__)
 
 	```
 	import matplotlib.pyplot as plt
+	import matplotlib as mpl
 	import matplotlib.font_manager as fm
 	import numpy as np
 	
@@ -237,13 +257,16 @@ print(torch.__version__)
 	# 그래프에서 마이너스 폰트 깨질 경우 대비
 	
 	path = '/usr/share/fonts/truetype/nanum/NanumGothicBold.ttf'
-	fontprop = fm.FontProperties(fname=path, size=18)
-	
+	font_name = fm.FontProperties(fname=path, size=18).get_name()
+	plt.rc('font', family=font_name)
+	fm._rebuild() # 이걸 해줘야 plt.rc가 작동
+
 	plt.plot(np.random.randn(4, 8), np.random.randn(4,8), 'bo--')
-	plt.title('타이틀', fontproperties=fontprop)
-	plt.xlabel('X 라벨', fontproperties=fontprop)
-	plt.ylabel('Y 라벨', fontproperties=fontprop)
+	plt.title('타이틀')
+	plt.xlabel('X 라벨')
+	plt.ylabel('Y 라벨')
 	plt.show()
+	
 	```
 	
 ### Tensorboard 사용하기
@@ -450,6 +473,24 @@ print(torch.__version__)
 	!kaggle competitions download -c elo-merchant-category-recommendation
 	!unzip '*.zip' -d ./data
 	```
+	
+### 코기 모드
+- Colab을 조금 더 귀엽게 만드는 방법
+- 도구 - 환경설정 - 기타에 코기 모드 / 아기고양이 모드 체크
+	- <img src="https://www.dropbox.com/s/vh6rk7x1jpstzk1/Screenshot%202019-07-25%2001.24.46.png?raw=1">
+- 조금 기다리면 귀여운 친구들이 뿅!
+	- <img src="https://www.dropbox.com/s/x3ea6e7gig3locq/Screenshot%202019-07-25%2001.25.43.png?raw=1">
+- 기타에 파워 레벨을 Many power로 설정하시면 코드를 칠 때마다 이팩트가 생깁니다 :)
+	
+### 런타임 연결
+- RAM, 디스크가 나오는 부분의 우측 삼각형을 클릭하면 아래와 같은 메뉴가 보입니다
+	- <img src="https://www.dropbox.com/s/5vkmp1psdmlnjom/Screenshot%202019-07-25%2001.28.31.png?raw=1"> 
+- 호스트된 런타임에 연결(Connect to Hosted Runtime)
+	- Google Cloud의 새로운 머신 인스턴스에 연결
+	- 라이브러리를 다시 설치해야할 수도 있음 
+	- Colab의 연결이 끊길 경우 해당 버튼을 클릭해서 다시 연결할 수 있습니다(같은 인스턴스인지는 아직 확인해보지 못했습니다)
+- 로컬 런타임에 연결(Connect to Local Runtime)
+	- 내 PC(로컬)을 사용 
 	
 ## Reference
 - [Google Colab Free GPU Tutorial](https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d)
