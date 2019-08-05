@@ -37,20 +37,24 @@ order: 10
 | 맥주 추천 시스템 	| 2015.6 - 12 	| 기획/디자인<br>데이터 크롤링 	| Collaborative Filtering을 <br>활용한 맥주 추천 시스템 	|
 
 ## 발표
+- [Data Science is a Team Sport : TF에서 팀 빌딩까지 9개월의 기록 - 성장하는 조직을 만드는 여정](https://www.slideshare.net/zzsza/tf-9-160560910) (19.08.03)
 - [DEVGROUND : Mobility X Data - 모빌리티 산업의 도전 과제](https://www.slideshare.net/zzsza/mobility-x-data) (19.06.27)
 - [Write The Docs 서울 2019 : 글쓰는 개발자 모임, 글또](https://www.slideshare.net/zzsza/ss-137831892) (19.03.23)
-- [Daily 만년 Junior들의 이야기 - 델리만주 : 데이터 사이언스 입문](https://festa.io/events/192)(19.02.16)
-- [데이터야놀자 Ignite Talk : 사회인의 휴학, Gap Year 이야기](https://datayanolja.github.io/speakers/ignite6.html)(18.10.19)
+- [Daily 만년 Junior들의 이야기 - 델리만주 : 데이터 사이언스 입문](https://www.slideshare.net/zzsza/intro-102870757)(19.02.16)
+- [데이터야놀자 Ignite Talk : 사회인의 휴학, Gap Year 이야기](https://www.slideshare.net/zzsza/gap-year-119998766)(18.10.19)
 - 숙명여대 취업캠프 특강(18.06.26)
-- [백수들의 Conference : 개발자를 위한 (블로그) 글쓰기 intro](https://dfab.event-us.kr/p/2397)(18.06.24)
+- [백수들의 Conference : 개발자를 위한 (블로그) 글쓰기 intro](https://www.slideshare.net/zzsza/intro-102870757)(18.06.24)
 - 인하대 Data Science 특강(18.05.03)
-- [Little Big Data #1 : 다양한 사람들의 데이터 사이언스 이야기](https://festa.io/events/21)(18.04.21)
-- [OKKY 4월 세미나 : Data Science. Intro](https://okky.kr/article/455576)(18.04.05)
+- [Little Big Data, 다양한 사람들의 데이터 사이언스 이야기 : 바닥부터 시작하는 데이터 인프라](https://www.slideshare.net/zzsza/little-big-data-1)(18.04.21)
+- [OKKY 4월 세미나 : Data Science. Intro](https://www.slideshare.net/zzsza/data-science-intro)(18.04.05)
 - 중앙대 IT 취업특강(18.03.13)
 - 리드미 대학생 멘토링(18.02.20)
 - 패스트캠퍼스 스쿨 홈커밍 데이(18.01.20)
 
 ## 작성 문서
+- [TF에서 팀 빌딩까지 9개월의 기록 : 성장하는 조직을 만드는 여정](https://www.slideshare.net/zzsza/tf-9-160560910)
+- [MOBILITY X DATA : 모빌리티 산업의 도전 과제](https://www.slideshare.net/zzsza/mobility-x-data)
+- [BigQuery의 모든 것(기획자, 마케터, 신입 데이터 분석가를 위한) 입문편](https://www.slideshare.net/zzsza/bigquery-147073606)
 - [마이크로 소프트웨어 396호 : 개발자 글쓰기 모임, 글또](http://www.yes24.com/Product/Goods/72176082)
 - [개발자를 위한 (블로그) 글쓰기 intro](https://www.slideshare.net/zzsza/intro-102870757)
 - [Data Science. Intro](https://www.slideshare.net/zzsza/data-science-intro)
