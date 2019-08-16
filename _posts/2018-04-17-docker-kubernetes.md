@@ -97,7 +97,7 @@ comments: true
 ---
 
 ### Docker Install
-- json parser인 q 설치
+- json parser인 jq 설치
 
 	```
 	sudo apt install -y jq
@@ -249,7 +249,7 @@ COPY app.js
 ---
 
 ## Kubernetes
-- Docker를 Host에 배포하는 방식
+- Docker는 Host에 배포하는 방식
     - 보통 socket 파일로 되는데, 포트로 오픈
     - 내부망에 포트를 오픈하고 ip docker run
     - centurion이란 툴을 만듬
