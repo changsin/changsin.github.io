@@ -375,20 +375,19 @@ COPY app.js
 ---
 
 ### Install kubectl cli
-- 쿠버네티스
+```	
+sudo apt update && sudo apt install -y apt-transport-https	
+curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -	
+echo "deb http://apt.kubernetes.io/ kubernetes-xenial main" |sudo tee /etc/apt/sources.list.d/kubernetes.list	
+sudo apt update	
+sudo apt install -y kubectl	
+```
 
-	```
-	curl -sfL https://get.k3s.io | sh -
-	sudo chown ubuntu:ubuntu /etc/rancher/k3s/k3s.yaml
-	cp /etc/rancher/k3s/k3s.yaml ~/.kube/config
-	```
+- kubectl을 설치해야 합니다!(단 처음 설치하면 tab이 안됨)
+- ```kubectl version``` : 쿠버네티스 버전 명시(처음엔 Client만 나올겁니다)
+- ```source <(kubectl completion bash)``` : 자동완성 가능하도록 설정
+- ```kubectl completion bash |sudo tee /etc/bash_completion.d/kubectl``` : 종료해도 자동완성 가능하도록 설정!	
 
-- local path provisioner
-
-	```
-	kubectl apply -f https://raw.githubusercontent.com/rancher/local-path-provisioner/master/deploy/local-path-storage.yaml
-	kubectl patch storageclass local-path -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"true"}}}'
-	```
 
 ---
 
