@@ -84,9 +84,9 @@ comments: true
 	- Search space(Solution space)
 	- 모든 것이 feasible하진 않음(실현가능하진 않음)
 		- kanpsack의 capacity를 초과할 수 없음
-	- How many are they? 2^|I|
+	- How many are they? 2^∣I∣
 	- 탐색하는데 드는 시간은?
-		- |I|=50일 때 1,285,273,866 centuries  
+		- ∣I∣=50일 때 1,285,273,866 centuries  
 		- 너무 오래걸림
 
 ### Dynamic Programming
