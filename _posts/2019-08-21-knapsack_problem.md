@@ -7,7 +7,7 @@ tags: optimization
 comments: true
 ---
 
-- 최적화(Optimization) 관점에서 본 Kanpsack 문제를 정리한 글입니다
+- 최적화(Optimization) 관점에서 본 Knapsack 문제를 정리한 글입니다
 	- Cousera Discrete Optimization 2주차 강의 내용입니다 
 
 
@@ -53,10 +53,10 @@ comments: true
 - item 조합 I이 있을 때
 	- weight $$w_{i}$$
 	- value $$v_{i}$$
-	- capacity K for a kanpsack 
+	- capacity K for a Knapsack 
 - 다음 조건을 만족하는 부분 집합 찾기
 	- maximum value를 갖는
-	- 그러나 kanpsack의 capacity를 초과하지 않아야 함
+	- 그러나 Knapsack의 capacity를 초과하지 않아야 함
 - 모델링하는 방법
 	- Decision Variable(결정 변수) 선택
 		- 의사 결정의 대상
@@ -83,14 +83,14 @@ comments: true
 	- 가능한 솔루션이 얼마나 있는지?
 	- Search space(Solution space)
 	- 모든 것이 feasible하진 않음(실현가능하진 않음)
-		- kanpsack의 capacity를 초과할 수 없음
+		- Knapsack의 capacity를 초과할 수 없음
 	- How many are they? 2^∣I∣
 	- 탐색하는데 드는 시간은?
 		- ∣I∣=50일 때 1,285,273,866 centuries  
 		- 너무 오래걸림
 
 ### Dynamic Programming
-- 어떻게 최고의 kanpsack 솔루션을 찾을 수 있을까
+- 어떻게 최고의 Knapsack 솔루션을 찾을 수 있을까
 	- 다이나믹 프로그래밍을 이용해서!
 - 최적화 테크닉으로 많이 사용됨
 	- 다양한 종류의 문제에서 잘 작동하며 특히 생물학에 계산에서 잘 작동
@@ -131,7 +131,7 @@ comments: true
 
 ---
  
-### Relaxation, branc and bound
+### Relaxation, branch and bound
 - Introduce branch and bound
 - The value of relaxation
 - Exhausitive Search(완전 탐색)
