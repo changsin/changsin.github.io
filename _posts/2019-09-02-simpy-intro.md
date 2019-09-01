@@ -371,36 +371,36 @@ pip3 install simpy
 
 - 차량 인스턴스 예시
 
-```
-import simpy
-    
-class Car:
-    def __init__(self, env):
-        self.env = env
-        # Start the run process everytime an instance is created.
-        self.action = env.process(self.run())
-    
-    def run(self):
-        while True:
-            print('Start parking and charging at %d' % self.env.now)
-            charge_duration = 5
-            # We yield the process that process() returns
-            # to wait for it to finish
-            yield self.env.process(self.charge(charge_duration))
-    
-            # The charge process has finished and
-            # we can start driving again.
-            print('Start driving at %d' % self.env.now)
-            trip_duration = 2
-            yield self.env.timeout(trip_duration)
-    
-    def charge(self, duration):
-        yield self.env.timeout(duration)
-    
-env = simpy.Environment()
-car = Car(env)
-env.run(until=15)
-```
+	```
+	import simpy
+	    
+	class Car:
+	    def __init__(self, env):
+	        self.env = env
+	        # Start the run process everytime an instance is created.
+	        self.action = env.process(self.run())
+	    
+	    def run(self):
+	        while True:
+	            print('Start parking and charging at %d' % self.env.now)
+	            charge_duration = 5
+	            # We yield the process that process() returns
+	            # to wait for it to finish
+	            yield self.env.process(self.charge(charge_duration))
+	    
+	            # The charge process has finished and
+	            # we can start driving again.
+	            print('Start driving at %d' % self.env.now)
+	            trip_duration = 2
+	            yield self.env.timeout(trip_duration)
+	    
+	    def charge(self, duration):
+	        yield self.env.timeout(duration)
+	    
+	env = simpy.Environment()
+	car = Car(env)
+	env.run(until=15)
+	```
 
 - 자동차가 완전히 충전될 때까지 기다리지 않고 도중에 충전 중단하고 운전할 경우
     - interrupt()를 호출해 실행 중 프로세스를 중단할 수 있음
