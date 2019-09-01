@@ -10,6 +10,12 @@ comments: true
 딥러닝 모델을 만들면, 만들고 끝!이 아닌 Product에 모델을 배포해야 합니다. 이 모델을 추가하는 과정을 어떻게 할 수 있을까요? 그리고 직접 API를 만드는 것과 Tensorflow Serving API을 사용하는 것의 차이점은 무엇일까요? 이런 궁금증을 해결하기 위해 다양한 자료를 보고 정리한 글입니다. 시리즈물로 정리할 예정이며 이번 글에선 Tensorflow Serving Tutorial에 대해서만 작성했습니다. 잘못된 내용이 있으면 말씀해 주세요!!! 
 
 
+### 수정 사항
+- 2019.09.01
+	- 글을 작성할 당시엔 estimator가 많이 사용되지 않아 그 예제를 작성하진 않았습니다. 요샌 estimator도 많이 사용되는데, 관련해서 flask-tensorflow estimator로 serving하는 Repo를 발견해 공유드립니다
+	- 차금강님의 [flask-tensorflow](https://github.com/chagmgang/flask-tensorflow) Github
+	- 깔끔하게 코드를 작성해주셔서 매우 유용합니다 :) 
+
 ## 관련 글
 - Tensorflow Serving Tutorial(현재 글)
 - Tensorflow Serving My Model
