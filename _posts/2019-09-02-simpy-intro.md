@@ -14,7 +14,7 @@ comments: true
 ---
 
 ### Simpy
-- SimPy는 process 기반 discreate-envet 시뮬레이션 프레임워크
+- SimPy는 process 기반 discreate-event 시뮬레이션 프레임워크
     - 코루틴을 잘 사용한 예시
     - SimPy의 process는 Python 제네레이터 함수로 정의되고, 고객, 차량 에이전트 같은 active component를 모델링할 때 사용될 수 있음
     - 제한된 용량을 모델링하기 위해 shared resource도 제공함(서버나 체크아웃 카운터, 터널 등)
