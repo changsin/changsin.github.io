@@ -253,9 +253,9 @@ pip3 install simpy
                 print('Car %s done refueling at %s' % (name, env.now))
         
         def car_generator(env, gas_station):
-        		"""
-        		차량을 생성하는 함수
-        		"""
+    		"""
+    		차량을 생성하는 함수
+    		"""
             for i in range(4):
                 env.process(car(i, env, gas_station))
                 yield env.timeout(5)
