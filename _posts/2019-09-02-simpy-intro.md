@@ -13,7 +13,7 @@ comments: true
 
 ---
 
-### Simpy
+### SimPy
 - SimPy는 process 기반 discreate-event 시뮬레이션 프레임워크
     - 코루틴을 잘 사용한 예시
     - SimPy의 process는 Python 제네레이터 함수로 정의되고, 고객, 차량 에이전트 같은 active component를 모델링할 때 사용될 수 있음
@@ -30,9 +30,9 @@ comments: true
 	import simpy
 	    
 	def clock(env, name, tick):
-			while True:
-					print(name, env.now)
-					yield env.timeout(tick)
+	    while True:
+	        print(name, env.now)
+	        yield env.timeout(tick)
 	    
 	env = simpy.Environment()
 	env.process(clock(env, 'fast', 0.5))
@@ -85,11 +85,11 @@ pip3 install simpy
 	import simpy
 	    
 	def car(env):
-			"""
-			자동차 프로세스
-			주차하고 여행을 떠남
-			parking과 driving 상태를 스위칭함
-			"""
+		"""
+		자동차 프로세스
+		주차하고 여행을 떠남
+		parking과 driving 상태를 스위칭함
+		"""
 	    while True:
 	        print('Start parking at %d' % env.now)
 	        parking_duration = 5
