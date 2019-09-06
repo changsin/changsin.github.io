@@ -85,6 +85,7 @@ transposed convolution은 위와 같은 방법을 사용하지 않습니다. dec
 > [Up-sampling with Transposed Convolution 번역](https://zzsza.github.io/data/2018/06/25/upsampling-with-transposed-convolution/) 글을 참고하시면 명쾌하게 이해가 될거에요!
 > Convolution Operation은 input values와 output values 사이에 공간 연결성을 가지고 있습니다. 3x3 kernel을 사용한다면, 9개의 values가(kernel) 1개의 value(output, 문지른 후의 결과물)와 연결됩니다. 따라서 many to one 관계라고 볼 수 있습니다  
 > Transposed Convolution은 1개의 value를 9개의 values로 변경합니다. 이것은 one to many 관계라고 볼 수 있습니다.   
+> (2019년 9월) 역자 : 위 convolution 매트릭스 연산의 그림에 오류가 있습니다. 한번 어떤 부분이 오류인지 생각해보신 후, 답이 궁금하시면 댓글을 확인해주세요 :) 제보해주신 정종원님, 김남욱님 감사합니다
 
 
 
