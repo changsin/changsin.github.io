@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "SimPy 사용법 - 파이썬으로 시뮬레이션 만들기"
-subtitle: "SimPy 사용법 - 파이썬으로 시뮬레이션 만들기"
+title:  "Python SimPy 사용법 - 파이썬으로 시뮬레이션 만들기"
+subtitle: "Python SimPy 사용법 - 파이썬으로 시뮬레이션 만들기"
 categories: data
 tags: simulation
 comments: true
