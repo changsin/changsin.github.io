@@ -212,5 +212,6 @@ comments: true
 ### Reference
 - [Standard SQL User-Defined Functions](https://cloud.google.com/bigquery/docs/reference/standard-sql/user-defined-functions)
 - [New in BigQuery: Persistent UDFs](https://medium.com/@hoffa/new-in-bigquery-persistent-udfs-c9ea4100fd83)
+- [Persistent UDFs + BQ GIS = ♥](https://medium.com/@mentin/persistent-udfs-bq-gis-66c8db903e4f)
 - [bigquery-utils](https://github.com/GoogleCloudPlatform/bigquery-utils/tree/master/udfs/community)
 - [bigquery-jslibs](https://github.com/jatorre/bigquery-jslibs)
