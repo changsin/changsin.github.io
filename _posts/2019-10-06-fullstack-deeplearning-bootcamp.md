@@ -23,6 +23,7 @@ comments: true
 - 이 부트캠프는 단순히 강의만 듣는게 끝이 아니고, 꼭 Lab(실습)을 해야함!! 코드를 보면 현업에서 사용할 소재들이 꽤 많음(Lambda 배포라던가) => [Github](https://github.com/full-stack-deep-learning/fsdl-text-recognizer-project) 참고
 - 앞으로 어떤 분야를 연구할 것인가에 대해 흥미로운 주제를 던져주는 부분도 좋았음(lecture 13)
 - 단, Serving하는 부분에 대해 엄청 깊게 알려주는건 아니고, 부트캠프답게 큰 그림을 그려주고 실습을 같이 하며 하나를 구현해봄 => 이 부분은 결국 키워드를 캐치해서 스스로 해보는게 좋을듯..!
+	- MLOps는 [Awesome Production Machine Learning](https://github.com/EthicalML/awesome-production-machine-learning) 자료가 매우 풍부하며, Facebook [MLOps KR](https://www.facebook.com/groups/MLOpsKR/) 그룹도 있습니다 :)
 
 ### 어떤 사람에게 이 강의가 좋을까요?
 - 어느정도 머신러닝/딥러닝 공부를 한 후, 실제 서비스 구현에 흥미있는 분
@@ -305,7 +306,7 @@ comments: true
 	- 특별한 이유가 없으면 Tensorflw/Keras or PyTorch 사용
 	- 둘 다 동일한 포인트로 수렴
 		- define by run으로 쉽게 개발
-		- execution graphf를 다양한 플랫폼에서 최적화
+		- execution graph를 다양한 플랫폼에서 최적화
 	- 일화로, 사람들이 파이토치로 바꿀때 행복해함
 - Development, Training/Evaluation
 	- 하드웨어
