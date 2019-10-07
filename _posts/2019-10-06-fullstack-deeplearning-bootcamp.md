@@ -16,8 +16,8 @@ comments: true
 - 일단 강의가 매우 고퀄!!!!!!(감동)
 - 국내에선 이런 내공을 담은 강의를 거의 보지 못했음
 - 프로젝트를 어떻게 해야되는가, 프로젝트 우선순위를 선정하는 부분도 알려줘서 매우 좋았음. 실제 현업에서도 매번 고민하는 이슈들(Lecture 2)	
-- 데이터를 어떻게 다룰까에 대해 말해주는 점이 좋았음. 단순 로컬/클라우드만 하는게 아니라 Database도 말해줌(lecture 7)
-- 팀 구성이 어떻게 되는지, 직군이 무엇이 있는지 알려준 점이 좋았음(lecture 8)
+- 데이터를 어떻게 다룰까에 대해 말해주는 점이 좋았음. 단순 로컬/클라우드만 하는게 아니라 Database도 말해줌(lecture 6)
+- 팀 구성이 어떻게 되는지, 직군이 무엇이 있는지 알려준 점이 좋았음(lecture 7)
 - 딥러닝 트러블 슈팅에 대해 알려줘서 좋았음. 언더피팅, 오버피팅일 때의 전략을 제공함(lecture 10)
 - 모델의 성능 개선할 때 결과를 어떻게 봐야하는지에 대한 직관을 얻게 해줌(lecture 10)
 - 이 부트캠프는 단순히 강의만 듣는게 끝이 아니고, 꼭 Lab(실습)을 해야함!! 코드를 보면 현업에서 사용할 소재들이 꽤 많음(Lambda 배포라던가) => [Github](https://github.com/full-stack-deep-learning/fsdl-text-recognizer-project) 참고
@@ -530,7 +530,7 @@ comments: true
 		- 주로 소프트웨어 개발자 Role이고, SWE 파이프라인을 구축
 	- Data Engineer
 		- ML Team과 적극적으로 SWE
-	- ML Engineer
+	- ML Engineer(머신러닝 엔지니어)
 		- ML 기술 + SWE 기술의 Mix
 		- 보통 SWE로 일하시던 분들이나 공부하고 발전
 	- ML Researcher
