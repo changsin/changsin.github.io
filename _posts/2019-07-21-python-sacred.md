@@ -202,13 +202,13 @@ comments: true
     - main 함수 안에서 수동으로 seed를 설정하면 모두 적용됨
 - Special Arguments
     - `_rnd` 와 `_seed`  인자를 통해 random number를 생성할 수 있음
-		
-		```	
-        @ex.capture
-        def do_random_stuff(_rnd, _seed):
-            print(_seed)
-            print(_rnd.randint(1, 100))
-    	```
+	
+	```	
+    @ex.capture
+    def do_random_stuff(_rnd, _seed):
+        print(_seed)
+        print(_rnd.randint(1, 100))
+	```
 
 
 ### Logging
