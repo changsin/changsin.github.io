@@ -35,7 +35,6 @@ comments: true
 - Model optimization
 	- [loadmap link](https://www.tensorflow.org/model_optimization/guide/roadmap)
 - TFLite conversion flow
-	- <사진>   
 - Sample Code
 - Inference with TFLite Interpreter 
 	- 생각보다 간단
@@ -103,7 +102,7 @@ comments: true
 		- TensorRT  
 		- Cloud serverless + NoSQL : 커버리지는 낮을 수 있음. 케바케
 	- 다양한 프레임워크 지원을 위해 다른 방법으로 접근
-	- 머신러닝 모델들 => PMML 파일로 컨버전해서 상대적으로 성능이 좋은 자바를 통해 진행
+	- 머신러닝 모델들 => PMML 파일로 컨버전해서 상대적으로 성능이 좋은 자바를 통해 inference 진행
 		- <img src="https://www.dropbox.com/s/6u3hl3iydoiw3ef/2019-10-20%2013.47.31.jpg?raw=1"> 	
 	- 진행한 방법
 		- Flask, TensorRT 
@@ -444,7 +443,7 @@ comments: true
 	- 클라우드를 없애고 다른 Edge device에 모델이 돌아가도록 진행
 	- Medical Device 회사와 의료 영상, 생채 진행
 	- Security Company와 같이 CCTV 모델 연구 
-- 쎄트렉아이
+- 에스아이에이
 	- RNN을 이용한 전력 가격 예측 Github 
 	- 위성 데이터로 판별
 	- 위성 영상으로 지구에 뭐가 있는지 판단
@@ -629,6 +628,8 @@ comments: true
 	- 회사에서 사용할 수 있는 키워드도 꽤 얻었습니다! 
 - 오랜만에 만났던 분들도 모두 반가웠습니다 :)
 - 100분 넘는 분들이 일요일까지 오셔서 열정을 보여주셔서 자극받고 갑니다..!
+- 그리고 Art Lab에서 이벤트하셨는데 제가 당첨되서 엄태웅님의 책을 받았습니다!!
+	- [대학원생 때 알았더라면 좋았을 것들](http://www.yes24.com/Product/Goods/72231788) 책 너무 좋으니 관심있으시면 꼭 보셔요 :) 
 - 다음엔 타임 테이블을 미리 공지해주셔도 좋을 것 같아요 /ㅁ/
 
 

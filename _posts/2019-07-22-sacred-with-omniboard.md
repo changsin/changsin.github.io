@@ -23,7 +23,7 @@ comments: true
 		- Rolled up metric value를 컬럼으로 추가 가능(minimum validation loss, maximum training accuracy 등) 
 		- 각종 실험에 Tag나 Note를 작성할 수 있음
 		- Metric column을 제외한 모든 컬럼으로 필터 가능
-	- Expereiment Drill Down
+	- Experiment Drill Down
 		- Metric Graph를 볼 수 있음
 		- Console Output을 보여줌
 		- 모든 런타임 라이브러리 dependencies를 보여줌

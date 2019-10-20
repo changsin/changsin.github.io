@@ -37,7 +37,7 @@ comments: true
 - Sacred의 Main mechanisms
     - ConfigScopes : 함수의 local 변수를 편리하게 다룰 수 있음.`@ex.config` 데코레이터로 사용
     - Config Injection : 모든 함수에 있는 설정을 접근할 수 있음
-    - Commend-line interface : 커맨드 라인으로 파라미터를 바꿔서 실행할 수 있음
+    - Command-line interface : 커맨드 라인으로 파라미터를 바꿔서 실행할 수 있음
     - Observers : 실험의 모든 정보를 Observers에게 제공해 저장함. 이것들은 MongoDB에 저장
     - Automatic seeding : 실험의 무작위를 컨트롤할 때 도와줌
 
