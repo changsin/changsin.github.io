@@ -266,7 +266,7 @@ comments: true
 - PoC
 	- <img src="https://www.dropbox.com/s/n2yp7gw858a1lun/2019-10-20%2014.30.11.jpg?raw=1">
 	- 일단 처음엔 큰 모델을 만들어서 우리가 원하는 정확도가 나오는지 파악함
-	- 중간 산출물이 프러덕션 활용뙬 수 있도록 고민함
+	- 중간 산출물이 프러덕션 활용될 수 있도록 고민함
 - Process
 	- <img src="https://www.dropbox.com/s/08ndrguwa2fghrk/2019-10-20%2014.31.16.jpg?raw=1">
 	- 일단 한바퀴 돌면 어디가 문제인지 알 수 있어서 어느정도 휴리스틱도 괜찮음
