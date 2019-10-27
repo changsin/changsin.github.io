@@ -16,8 +16,7 @@ comments: true
 	- Deep Learning on Business Data at Uber
 	- The Growth and Future of Kubeflow for ML
 	- Stateless ML Pipelines: Achieve reproducibility and automation while simplifying the pipeline
-
-
+- Training session은 영상이 없지만, [Review](https://toddmorrill.github.io/blog/2019/10/05/MLOps-tooling)를 통해 간접적으로 내용을 볼 수 있습니다
 
 ---
 
