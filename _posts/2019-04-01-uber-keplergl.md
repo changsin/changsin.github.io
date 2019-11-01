@@ -3,7 +3,7 @@ layout: post
 title:  "Uber Kepler.gl : 지리 데이터 시각화 도구"
 subtitle: "Uber kepler.gl : 지리 데이터 시각화 도구"
 categories: data
-tags: geographic
+tags: mobility
 comments: true
 ---
 
