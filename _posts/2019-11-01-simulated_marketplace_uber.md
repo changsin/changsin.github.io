@@ -12,6 +12,9 @@ comments: true
 - 개인 학습 목적으로 번역했으며, 오역이나 의역이 있을 수 있습니다 :)
 	- 글을 보다 내용과 관련된 링크를 찾아 추가한 부분도 있습니다
 
+<br />
+<br />
+
 ---
 
 
@@ -19,7 +22,7 @@ comments: true
 	- 알고리즘이 전 세계적으로 출시되기 전에 Uber는 알고리즘을 완벽하게 테스트하고 평가해 핵심 [Marketplace](https://marketplace.uber.com/) 원칙에 맞는 최적의 사용자 경험을 만듬
 
 - Uber Marketplace Simulation팀은 제품 테스트를 더욱 안전하고 쉽게 실행할 수 있도록 현실 세계에 있을 상황을 모방한 driver와 rider을 시뮬레이션할 수 있는 플랫폼을 구축
-	- Uber marketplace 엔지니어와 데이터 과학자는 에이전트 기반의 discrete event 시뮬레이터를 활용해 리시크가 없는 환경에서 새로운 기능과 가설을 신속하게 프로토 타이핑하고 테스트할 수 있음
+	- Uber marketplace 엔지니어와 데이터 과학자는 에이전트 기반의 discrete event 시뮬레이터를 활용해 리스크가 없는 환경에서 새로운 기능과 가설을 신속하게 프로토 타이핑하고 테스트할 수 있음
 - 시뮬레이터는 이력(historical) 데이터를 활용해 marketplace 서비스 및 사용자 행동 모델(user behavior model)을 만듬
 	- Marketplace 서비스는 이런 인사이트를 활용해 Dispatch 결정을 내림
 	- 사용자 행동 모델은 simulation context를 사용해 trip 취소나 navigation 선택 같은 rider와 driver의 행동을 결정함
@@ -30,10 +33,15 @@ comments: true
 	- 새로운 모델은 시뮬레이션 플랫폼에 탑재되어 실제 서비스에 적용되기 전에 신속하게 반복할 수 있음
 - ML 모델 학습 프레임워크를 설계해 사용자가 시뮬레이션 플랫폼에서 모델을 신속하게 빌드, 배포하고 시뮬레이션을 통해 ML 모델을 개선할 수 있도록 함
 
+<br />
+<br />
+
+
+---
 
 ### Simulation platform machine learning framework
 - ML은 시뮬레이션 플랫폼에서 점점 중요한 기능의 핵심에 있음
-	- ML 프레임워크를 시뮬레이션 플랫폼에 도입하기 전에 ML 개발, 학습, serving은 주로 재사용 할 수 없는 임시 솔루션(ad-hoc)으로 구성됨
+	- ML 프레임워크를 시뮬레이션 플랫폼에 도입하기 전에 ML 개발, 학습, serving은 주로 재사용할 수 없는 임시 솔루션(ad-hoc)으로 구성됨
 	- 예를 들어 ML 개발자는 시뮬레이터에서 ML 모델을 직접 구현하고 시뮬레이터가 실행될 때 모델을 학습함
 - 이런 일회성 솔루션은 개발자가 여러 모델을 구현하고 모델 버전을 추가하며 시뮬레이터 내에서 복잡성을 누적시킴
 	- 시뮬레이터를 유지 관리하기 어려워졌고, 모델을 학습하기 위해 많은 RAM과 CPU를 사용해 시뮬레이터 성능이 저하됨
@@ -65,6 +73,9 @@ comments: true
 	- 이 변경은 또한 시뮬레이터의 처리량을 증가시킴
 	- 이런 간소화가 하드웨어 리소스를 보존하고 시스템의 효율성을 향상시킴
 - Marketplace Simulation 팀은 이 프레임워크를 사용해 표준화된 방식으로 여러 사용자 행동 및 기타 ML 모델을 시뮬레이션 플랫폼에 통합함
+
+<br />
+<br />
 
 
 ---
@@ -105,10 +116,10 @@ comments: true
 	- 시뮬레이션 플랫폼에서 육각형 계층적 공간 인덱스인 H#을 사용해 지구의 영역을 식별 가능한 그리드 셀로 분할함
 	- 이런 식별 가능한 그리드 셀을 사용해 아래 그림 5와 같이 전이 매트릭스를 정의함
 	- <img src="https://www.dropbox.com/s/mh3ypx5lup07qfn/Screenshot%202019-11-01%2022.35.52.png?raw=1">
-		- 그림 5. 이 표는 지구상의 위치를 나타내는 다양한 그리드 셸의 확률값을 보여줌 
+		- 그림 5. 이 표는 지구상의 위치를 나타내는 다양한 그리드 셀의 확률값을 보여줌 
 
 - Transition 행렬의 값은 드라이버가 현재 그리드 셀 X에 있는 경우 드라이버가 그리드 셀 Y로 이동할 확률을 나타냄
-- 이런 transition matrix를 사용해 시뮬레이션은 open 드라이버가 다음 셸로 이동할 가능성이 있는 셀을 예측할 수 있음
+- 이런 transition matrix를 사용해 시뮬레이션은 open 드라이버가 다음 셀로 이동할 가능성이 있는 셀을 예측할 수 있음
 	- 그런 다음 시뮬레이션은 해당 셀 내부의 위치를 임의로 선택해 open 드라이버의 목적지로 할당함. 아래 그림 6은 이 프로세스를 보여줌
 	- <img src="https://www.dropbox.com/s/42tmanj53f7y3rx/Screenshot%202019-11-01%2022.39.13.png?raw=1">
 		- 그림 6. 이 Flow 차트는 리프 노드에서 시작하고 맵을 사용해 식별 가능한 그리드 셀을 가져와 드라이버를 찾음. 시뮬레이션이 전이 행렬로 드라이버 이동 확률을 계산하는 방법을 보여줌(좌측 밑) 시뮬레이션에서 운전자의 목적지 위치를 선택하는 방법을 우측 지도에서 보여줌. 운전자 대상을 예측하기 위한 트리 기반 확률 모델임
@@ -119,6 +130,9 @@ comments: true
 	- 동일한 알고리즘을 사용해 분포를 실제 분포와 비교했음. 아래 그림 7은 피크 시간 드라이버의 분포를 보여줌
 	- <img src="https://www.dropbox.com/s/uozqc6xi5tdtcx8/Screenshot%202019-11-01%2022.42.21.png?raw=1">
 		- 그림 7. 왼쪽 지도는 실제 세계에서 운전자가 분포하는 영역이고, 오른쪽 지도는 시뮬레이션 결과. 근접함
+
+<br />
+<br />
 
 ---
 
@@ -168,6 +182,9 @@ comments: true
 	- 이 경우 예측 결과에 따르면, 각 rider는 여러 driver와 연결되며, driver는 여러 rider와 연결될 수 있음
 	- 그런 다음 링크를 기반으로 bipartite graph를 구성하고 maximum bipartite matching algorithm을 적용해 bipartite matching 문제를 해결하고 최소 평균 드라이버 ETA를 달성함
 
+<br />
+<br />
+
 	
 ---
 
@@ -177,7 +194,7 @@ comments: true
 	- 이 시스템은 Uber가 개발 프로세스를 가속화하고 안전하고 안정적인 transportation product를 제공할 수 있도록 도와줌
 - 앞으로는 다음 기능을 통해 시뮬레이션 ML 프레임워크를 향상시킬 계획
 	- Hyperparameter automatic tuning
-		- ML 모델에는 learing rate, tree depth 같은 많은 하이퍼 파라미터가 포함됨
+		- ML 모델에는 learning rate, tree depth 같은 많은 하이퍼 파라미터가 포함됨
 		- 이런 하이퍼 파라미터를 조정하면 시간이 많이 걸리고 오류가 발생하기 쉬움
 		- 하이퍼 파라미터 튜닝 툴을 모델 학습 파이프라인에 통합해 모델 개발자의 생산성을 높이고 엔지니어의 작업을 더 쉽게 만들 계획
 	- Online model performance monitoring
