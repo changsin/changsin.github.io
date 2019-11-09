@@ -37,6 +37,7 @@ order: 10
 | 맥주 추천 시스템 	| 2015.6 - 12 	| 기획/디자인<br>데이터 크롤링 	| Collaborative Filtering을 <br>활용한 맥주 추천 시스템 	|
 
 ## 발표
+- [Google Cloud Summit SEOUL 2019 - 고객 패널과 함께 알아보는 Google Cloud Platform](https://inthecloud.withgoogle.com/summit-sel-19/home.html?summit=globalpage) (19.11.06)
 - [Data Science is a Team Sport : TF에서 팀 빌딩까지 9개월의 기록 - 성장하는 조직을 만드는 여정](https://www.slideshare.net/zzsza/tf-9-160560910) (19.08.03)
 - [DEVGROUND : Mobility X Data - 모빌리티 산업의 도전 과제](https://www.slideshare.net/zzsza/mobility-x-data) (19.06.27)
 - [Write The Docs 서울 2019 : 글쓰는 개발자 모임, 글또](https://www.slideshare.net/zzsza/ss-137831892) (19.03.23)
@@ -52,6 +53,8 @@ order: 10
 - 패스트캠퍼스 스쿨 홈커밍 데이(18.01.20)
 
 ## 작성 문서
+- [I Want to study Data Science](https://github.com/Team-Neighborhood/I-want-to-study-Data-Science/wiki) : Data Science 전반에 대해 정리한 Wiki
+- [팀원 성장시키기 : 발표 컨설팅](https://zzsza.github.io/diary/2019/10/20/helping-presentation/)
 - [TF에서 팀 빌딩까지 9개월의 기록 : 성장하는 조직을 만드는 여정](https://www.slideshare.net/zzsza/tf-9-160560910)
 - [MOBILITY X DATA : 모빌리티 산업의 도전 과제](https://www.slideshare.net/zzsza/mobility-x-data)
 - [BigQuery의 모든 것(기획자, 마케터, 신입 데이터 분석가를 위한) 입문편](https://www.slideshare.net/zzsza/bigquery-147073606)
@@ -74,3 +77,4 @@ order: 10
 - 제이펍 베타리더스 6기
 - [스타트업, 식사는 하셨습니까?](https://www.facebook.com/groups/795777620529967/) 페이스북 그룹 2기 운영진(에디터)
 - [달다 쓰다, 또 하나의 게양](https://www.wadiz.kr/web/campaign/detail/698) 크라우드 펀딩 성공
+
