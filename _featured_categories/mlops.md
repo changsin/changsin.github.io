@@ -1,6 +1,6 @@
 ---
 layout: list
-title: ML Ops
+title: MLOps
 slug: mlops
 menu: true
 submenu: true
