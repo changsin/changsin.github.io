@@ -119,7 +119,7 @@ comments: true
 - multiply_inputs 함수 생성
 
 	```
-	CREATE FUNCTION udf.multiply_inputs(x FLOAT64, y FLOAT64)
+	CREATE OR REPLACE FUNCTION udf.multiply_inputs(x FLOAT64, y FLOAT64)
 	RETURNS FLOAT64
 	AS (x * y);
 	```
@@ -149,7 +149,7 @@ comments: true
 - custom_greeting 함수 생성
 
 	```
-	CREATE FUNCTION udf.custom_greeting(a STRING)
+	CREATE OR REPLACE FUNCTION udf.custom_greeting(a STRING)
 	RETURNS STRING
 	LANGUAGE js AS """
 	  var d = new Date();
@@ -181,7 +181,7 @@ comments: true
 	- BigQuery에서 함수 정의
 		
 		```
-		CREATE FUNCTION udf.geo_to_h3(lat FLOAT64, lng FLOAT64, resolution INT64)
+		CREATE OR REPLACE FUNCTION udf.geo_to_h3(lat FLOAT64, lng FLOAT64, resolution INT64)
 		RETURNS STRING 
 		LANGUAGE js 
 		AS
@@ -203,6 +203,7 @@ comments: true
 - CREATE TEMP FUNCTION을 사용하면 TEMP UDF 생성
 - CREATE FUNCTION을 사용하면 Persistent UDF 생성
 	- Dataset 아래에 저장 
+- CREATE OR REPLACE FUNCTION는 기존에 함수가 저장할 경우 수정함
 - UDF는 SQL, Javascript로 생성 가능
 	- Javascript 활용시 단순 문법으로 생성 가능하고, 자바스크립트 라이브러리 파일을 사용해 생성 가능
 	- [공식 문서](https://cloud.google.com/bigquery/docs/reference/standard-sql/user-defined-functions#best-practices-for-javascript-udfs) : 권장 사항, 한도, 제한사항이 있으니 꼭 확인!
