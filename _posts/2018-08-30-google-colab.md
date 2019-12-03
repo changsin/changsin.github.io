@@ -36,11 +36,11 @@ comments: true
 - Google Drive + Jupyter Notebook
 	- Google Drive처럼 협업 가능(동시에 수정 가능) 
 - [https://colab.research.google.com/](https://colab.research.google.com/)로 접속시 사용 가능
-- 컴퓨터 사양(18년 8월 기준)
+- 컴퓨터 사양(19년 12월 기준)
 	- Ubuntu 17.10 
 	- CPU 제논 2.3GHz
 	- 메모리 13G 
-	- **GPU(Tesla K80)** : GPU 없는 제게 희망..
+	- **GPU : K80 또는 T4** :
 	- TPU도 사용 가능
 - GPU 사용시 최대 12시간
 - Github의 소스 코드를 Colab에서 사용 가능
@@ -151,11 +151,11 @@ df = pd.read_csv("./gdrive/data/train_activity.csv")
 	- 단, 크기가 큰 파일은 동기화 시간이 오래 걸릴 수 있음 
 
 ### Tensorflow 설치하기
-- 2019년 7월 기준 Colab에 설치된 Tensorflow는 1.14.0입니다
+- 2019년 12월 기준 Colab에 설치된 Tensorflow는 1.15.0입니다
 	- Tensorflow 2.0을 설치하고 싶으면 아래처럼 입력하시면 됩니다 
 	
 	```
-	!pip install tensorflow==2.0.0-beta1
+	!pip install tensorflow==2.0.0-rc1
 	```
 	
 	- 그 후, 런타임 - 런타임 다시 시작을 누르셔서 런타임을 다시 실행시키면 Tensorflow 2.0.0-beta1 설치된 것을 알 수 있습니다
