@@ -38,7 +38,7 @@ comments: true
 	import pandas as pd
 	
 	query = "SELECT * FROM `dataset.table`"
-	pd.read_gbq(query=query, project_id="project_id", private_key="path/to/key.json")
+	pd.read_gbq(query=query, project_id="project_id", private_key="path/to/key.json", dialect='standard')
 	```	
 	
 	- credentials 파라미터를 사용할 경우
@@ -51,7 +51,7 @@ comments: true
 	credentials = service_account.Credentials.from_service_account_file('path/to/key.json')
 
 	query = "SELECT * FROM `dataset.table`"
-	df = pd.read_gbq(query=query, project_id="project_id", credentials=credentials)
+	df = pd.read_gbq(query=query, project_id="project_id", credentials=credentials, dialect='standard')
 	```     
 
 ### User Account
@@ -77,10 +77,12 @@ comments: true
     	SCOPES, auth_local_webserver=True)
 	
 	query = "SELECT * FROM `dataset.table`"
-	df = pd.read_gbq(query=query, project_id="project_id", credentials=credentials)
+	df = pd.read_gbq(query=query, project_id="project_id", credentials=credentials, dialect='standard')
 	```
 	 	
-	 	
+- 혹은 pd.read_gbq() 인자로 `reauth=True`, `auth_local_webserver=True` 를 넣어도 가능함
+
+	
 ### 결론
 - 어떤 방식이 좋은지는 "상황"에 따라 다름
 - 각 방식의 차이점이 무엇인지 인지하고, 적절하게 사용하는 것이 핵심!
