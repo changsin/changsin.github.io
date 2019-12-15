@@ -59,10 +59,10 @@ comments: true
 - 복잡성을 증가시키면 개발은 느려짐
 - 기본 접근 방법으로 부족하면 최첨단 머신러닝 기법을 도전할 때고, 3단계 섹션을 참고하면 됨
 - 이 문서의 구성
-	- [1부](#1부.-before-machine-learning) : 머신러닝 시스템을 구축하기에 적절한 시점에 대한 이야기
-	- [2부](#2부.-ml-1단계:-your-first-pipeline) : 첫 파이프라인을 구축하는 방법
-	- [3부](#3부.-ml-2단계:-feature-engineering) : 파이프라인에 새 Feature를 추가하며 계속 출시, 반복하는 과정에 대한 이야기 + 모델 training-serving의 skew를 평가하는 방법
-	- [4부](#4부.-ml-3단계:-slowed-growth,-optimization-refinement,-and-complex-models) : 개선이 한계에 부딪힌 경우 대처하는 방법
+	- [1부](#1부-before-machine-learning) : 머신러닝 시스템을 구축하기에 적절한 시점에 대한 이야기
+	- [2부](#2부-ml-1단계-your-first-pipeline) : 첫 파이프라인을 구축하는 방법
+	- [3부](#3부-ml-2단계-feature-engineering) : 파이프라인에 새 Feature를 추가하며 계속 출시, 반복하는 과정에 대한 이야기 + 모델 training-serving의 skew를 평가하는 방법
+	- [4부](#4부-ml-3단계-slowed-growth-optimization-refinement-and-complex-models) : 개선이 한계에 부딪힌 경우 대처하는 방법
 	- 부록 : 자주 사용되는 시스템에 관한 배경 지식
 
 
@@ -594,7 +594,6 @@ comments: true
 		- 후처리를 계속 사용할 수도 있고, Diversity 또는 Relevance 기준으로 목표를 직접 수정할 수도 있음
 - Rule #43: 당신의 친구들은 다른 제품에 같은 경향이 있지만 당신의 관심사는 그렇지 않은 경향이 있음(해석이 어려워서 원문을 남깁니다 : Your friends tend to be the same across different products. Your interests tend not to be)
 	- Google의 여러 팀에서는 한 제품에서 관계의 긴밀함을 예측하는 모델을 취하여 다른 제품에 성공적으로 적용함으로써 큰 성과를 거둠
-	- 친구는 변하지 않음
 	- 반면, 여러 제품 분야를 넘나드는 맞춤화 특성으로 인해 고생하는 팀도 있음
 		- 이론적으로는 성공해야 할 것 같은데, 실제로는 잘 되지 않음
 	- 한 부문의 원시 데이터를 사용하여 다른 부문의 사용자 행동을 예측하는 방법은 성공을 거두기도 함
