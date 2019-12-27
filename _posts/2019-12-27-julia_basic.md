@@ -867,7 +867,7 @@ comments: true
 	print(m)
 	
 	# 최적화 문제 풀기
-JuMP.optimize!(m)
+	JuMP.optimize!(m)
 
 	# Optimal Solution Print
 	println("Optimal Solutions:")
