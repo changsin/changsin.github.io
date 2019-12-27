@@ -24,8 +24,7 @@ comments: true
 - looks like python, feels like lisp, runs like C 
 	- Julia는 C만큼 빠름 
 		- <img src="https://www.dropbox.com/s/kmybg4myv1ffds2/Screenshot%202019-12-26%2023.05.34.png?raw=1">
-	- Julia는 Python만큼 생산성이 높음
-	- Julia는 일반성을 가짐
+	- Julia는 R, Matlab, Python 같이 high level로 수치 계산하기 좋고, 일반 범용 목적의 프로그래밍도 지원함
 	- 메타프로그래밍을 할 수 있음(macros, multiple dispatch) 
 - 수치 해석(Numerical Analysis), 최적화(Optimization) 문제 등 고성능이 필요한 수학적 계산 처리를 주로 품
 - index 숫자가 1부터 시작함
