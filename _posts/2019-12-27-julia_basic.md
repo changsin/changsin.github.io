@@ -14,6 +14,9 @@ comments: true
 
 
 ## Julia
+
+<img src="https://www.dropbox.com/s/jz1efghzgj0u39l/Screenshot%202019-12-27%2017.58.28.png?raw=1" height="100" weight="300"> 
+
 - Julia는 MIT에서 개발한 언어로 2012년에 처음 개발함
 - Two langauge problem
 	- Performance(fortan, c, asm) vs Productivity(python, ruby, matlab) vs Generality
