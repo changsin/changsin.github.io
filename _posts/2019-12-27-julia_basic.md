@@ -88,7 +88,7 @@ comments: true
 
 - 이제 익숙한 Jupyter Notebook이 보이고 Julia 커널을 사용할 수 있게됨
 	- 최초 실행 이후엔 Jupyter Notebook으로 실행해도 줄리아 커널이 보임
-	- <img src="https://www.dropbox.com/s/qcmvn0cu006ukw7/Screenshot%202019-12-26%2022.46.49.png?raw=1" height=200 weight=300>
+	- <img src="https://www.dropbox.com/s/qcmvn0cu006ukw7/Screenshot%202019-12-26%2022.46.49.png?raw=1" height="200" weight="300">
 
 <br />
 
@@ -443,7 +443,7 @@ comments: true
 		true || println("hi")
 		```
 		
-	- || operator는 or을 뜻함
+	- `||` operator는 or을 뜻함
 	
 		```
 		true || println("hi")
