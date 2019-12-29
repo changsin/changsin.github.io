@@ -42,10 +42,10 @@ order: 10
 - [글또](https://www.facebook.com/groups/375431516259701/)
 	- 글쓰는 또라이가 세상을 바꾼다! 글쓰는 개발자 모임
 	- 예치금(10만원)을 걷고 2주에 글 1개씩 작성. 미작성시 만원 차감
-- [Google BigQuery Users](https://www.facebook.com/groups/bigquery/))
-	- Google Cloud Platform의 BigQuery에 대해 이야기 나누는 공간
+- [Google BigQuery Users](https://www.facebook.com/groups/bigquery/)
+	- Google Cloud Platform의 BigQuery에 대해 이야기 나누는 커뮤니티
 - [MLOps KR](https://www.facebook.com/groups/MLOpsKR/)
-	- Machine Learning Ops에 대해 다루는 공간
+	- Machine Learning Ops에 대해 다루는 커뮤니티
 
 	
 ## 프로젝트
