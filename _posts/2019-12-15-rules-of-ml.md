@@ -304,7 +304,7 @@ comments: true
 - Rule #19: 가능하면 매우 구체적인 Feature를 사용하기
 	- 소수의 복잡한 feature보다 다수의 단순한 feature를 학습하는 것이 더 간편함
 	- 검색 대상 문서의 id 및 규격화된 쿼리는 일반화에 크게 기여하지 못하지만, head query에서 순위와 label을 맞춰주는 역할을 함
-	- 따라서 feature 그룹에서 각 feature가 데이터의 매우 ㅈ가은 부분에만 적용되더라도 전체 coverage가 90% 넘으면 걱정할 필요가 없음
+	- 따라서 feature 그룹에서 각 feature가 데이터의 매우 작은 부분에만 적용되더라도 전체 coverage가 90% 넘으면 걱정할 필요가 없음
 	- 정규화를 사용하면 작은 example에 적용되는 feature를 배제할 수 있음
 - Rule #20: 사람이 이해할 수 있는 방식으로 기존 feature를 결합하고 수정해 새로운 feature를 만들자
 	- feature를 결합하고 수정하는 방법은 다양함. Tensorflow에선 Transformation을 이용해 데이터 전처리하는 방법을 제공함
