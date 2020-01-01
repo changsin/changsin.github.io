@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Julia 프로그래밍 언어 기본 문법 정리"
-subtitle: "Julia 프로그래밍 언어 기본 문법 정리"
+title:  "Julia Language 프로그래밍 언어 기본 문법 정리"
+subtitle: "Julia Language 프로그래밍 언어 기본 문법 정리"
 categories: development
 tags: julia
 comments: true
 ---
 	 
-- 프로그래밍 언어인 Julia 기본 문법에 대한 글입니다
+- 프로그래밍 언어인 Julia Language 기본 문법에 대한 글입니다
 
 
 ---
