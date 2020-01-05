@@ -51,8 +51,8 @@ comments: true
 
 ### 설치
 - Mac OS 기준
-- jupyter client 업데이트
-	- cannot import name 'secure_write' from 'jupyter_core.paths' 에러가 발생할 경우 jupyter_client 업그레이드
+- jupyter client 업그레이드
+	- cannot import name 'secure\_write' from 'jupyter\_core.paths' 에러가 발생할 경우 jupyter\_client 업그레이드
 
 	```
 	pip3 install --upgrade jupyter_client
@@ -184,7 +184,7 @@ comments: true
 		
 		- 'sha1:~~' 복사하기
 		
-	- jupyter_notebook_config.py 생성
+	- jupyter\_notebook\_config.py 생성
 
 		```
 		vi ~/.jupyter/jupyter_notebook_config.py
@@ -223,6 +223,22 @@ comments: true
 - [machine-learning-interactive-visualization](https://github.com/dhaitz/machine-learning-interactive-visualization)이 눈에 띄어서 소스를 clone한 후 실행해봄
 	- <img src="https://www.dropbox.com/s/fe3wsipsq6vkttq/Screenshot%202020-01-06%2000.35.21.gif?raw=1">
 
+- [bqplot](https://github.com/bloomberg/bqplot)도 Voila를 사용해 쉽게 대시보드화 할 수 있음
+- [volia-vuetify](https://github.com/voila-dashboards/voila-vuetify)엔 VuetifyJS를 사용한 대시보드 템플릿을 볼 수 있음
+	- <img src="https://user-images.githubusercontent.com/46192475/59274938-9c144f00-8c5b-11e9-961e-c33854b6e50a.gif"> 
+
+
+<br />
+
+---
+
+<br />
+
+
+### 배포
+- [공식 문서](https://voila.readthedocs.io/en/stable/deploy.html)를 보면 [mybinder.org](mybinder.org), Heroku, Google App Engine 등에서 배포하는 방법이 간단히 나와있음
+
+
 <br />
 
 ---
@@ -242,4 +258,5 @@ comments: true
 - [Voila Github](https://github.com/voila-dashboards/voila)
 - [And voila](https://blog.jupyter.org/and-voil%C3%A0-f6a2c08a4a93)
 - [Voilà is now a Jupyter subproject](https://blog.jupyter.org/voil%C3%A0-is-now-an-official-jupyter-subproject-87d659583490)
+- [voila demo](https://github.com/maartenbreddels/voila-demo)
 
