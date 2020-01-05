@@ -22,7 +22,6 @@ comments: true
 	- 2) 파이썬으로 전처리를 해야할 경우
 		- 위 두가지 경우 Jupyter Notebook에 코드를 작성하고 주기적으로 html으로 저장할 수 있음
 		- 그러나 html이 아닌 ipywidget 등을 사용해 특정 시점의 데이터를 볼 수 있도록 만들려면 노트북에서 결과를 한번 실행해야 함(html 추출시 ipywidget은 같이 추출되지 않음)
-			- ipywidget도 나올 수 있도록 대시보드화하면 좋음
 	- 3) 노트북에서 시각화, 지표 확인을 모두 하고싶은 경우
 - Voila를 사용하면 ipywidget과 노트북을 같이 렌더링해줌
 	- [Dash](https://plot.ly/dash/)나 [julyterlab-dash](https://github.com/plotly/jupyterlab-dash)도 있지만 쉬운 사용성은 아니라 생각해 Voila를 선택함
@@ -222,7 +221,7 @@ comments: true
 <img src="https://www.dropbox.com/s/jssv5xfyznzb2yz/Screenshot%202020-01-06%2000.05.26.png?raw=1">
 
 - [machine-learning-interactive-visualization](https://github.com/dhaitz/machine-learning-interactive-visualization)이 눈에 띄어서 소스를 clone한 후 실행해봄
-	- <img src="https://www.dropbox.com/s/guakdlosvababy9/Screenshot%202020-01-06%2000.08.21.png?raw=1">
+	- <img src="https://www.dropbox.com/s/fe3wsipsq6vkttq/Screenshot%202020-01-06%2000.35.21.gif?raw=1">
 
 <br />
 
