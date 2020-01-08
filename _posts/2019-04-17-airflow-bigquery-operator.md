@@ -71,7 +71,7 @@ comments: true
         schedule_interval= '30 0 * * *',
         default_args=default_dag_args) as dag:
 
-	    bq_query = bigquery_operator.BigQueryOperator(
+	    bq_query = BigQueryOperator(
 	        task_id='extract_daily_metric',
 	        bql=query, 
 	        use_legacy_sql=False,
