@@ -64,11 +64,17 @@ comments: true
 	pip3 install voila
 	```
 
-- JupyterLab preview extension 설치
+- JupyterLab preview extension 설치(JupyterLab 사용시만)
 
 	```
 	jupyter labextension install @jupyter-voila/jupyterlab-preview 
 	```
+	
+	- 혹시 `jupyter-labextension` not found Error가 발생한다면 jupyterlab을 설치하지 않은 것
+
+		```
+		pip3 install jupyterlab
+		```
 
 - notebook이나 jupyter_server extension 설치
 
