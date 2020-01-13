@@ -265,4 +265,5 @@ comments: true
 - [And voila](https://blog.jupyter.org/and-voil%C3%A0-f6a2c08a4a93)
 - [Voilà is now a Jupyter subproject](https://blog.jupyter.org/voil%C3%A0-is-now-an-official-jupyter-subproject-87d659583490)
 - [voila demo](https://github.com/maartenbreddels/voila-demo)
-
+- [Dashboarding with Jupyter Notebooks, Voila and Widgets](https://www.youtube.com/watch?v=VtchVpoSdoQ)
+- [Turn any Notebook into a Deployable Dashboard](https://www.youtube.com/watch?v=L91rd1D6XTA) : 이건 Panel 이야기긴한데, 비교할만한 대상인듯
