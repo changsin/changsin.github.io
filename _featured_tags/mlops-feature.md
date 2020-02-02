@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: Feature Engineering Auto
-slug: feature-engineering
+title: Feature
+slug: feature
 category: mlops
 menu: false
 order: 6
