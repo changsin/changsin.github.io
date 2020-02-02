@@ -57,7 +57,11 @@ comments: true
 	- 하지만 모델이 많아지고, 동일한 Feature를 사용할 경우엔 각각의 모델링 과정에서 Feature Engineering을 진행하면 모델의 개수만큼 연산을 진행해야 함
 	- 즉, 재사용성이 떨어짐
 - 6) 과거 Feature를 사용해야 하는 경우
-	- Backfill 기능을 지원해야 함
+	- 보통 시간과 관련된 Feature들이 많은데, 이 Feature들은 시간이 지나며 점점 값이 바뀜(1월 1일 시점에 최근 1시간 전 데이터와 1월 5일 시점에 최근 1시간 전 데이터는 다름)
+	- 이럴 경우 index가 있거나, Backfill 기능이 있어야 함
+		- 혹시 잠시 Feature 관련 코드가 장애날 경우에 과거 값을 계산해야할 수 있음
+		- Backfill : 간단히 말해서 예전 데이터를 계산
+	
 
 <br />
 
@@ -75,8 +79,6 @@ comments: true
 <br />
 
 ---
-
-<br />
 
 
 ### Feature Store 예시
@@ -178,7 +180,7 @@ comments: true
 ---
 
 
-### feast
+### Gojek의 feast
 - [공식 문서](https://docs.feast.dev/)
 - 사용 예시
 	- <img src="https://www.dropbox.com/s/d2p211o55bky7v3/Screenshot%202020-02-02%2020.57.42.png?raw=1">
