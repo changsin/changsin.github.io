@@ -23,7 +23,7 @@ comments: true
 	- 모델링(모델 선정, 하이퍼 파라미터 튜닝, metric 선정 과정 포함)
 	- Test Set에 성능 개선되었는지 확인
 
-- 모델이 완성되면, 그 후에 실제 서비스에 활용하기 위해 아래와 같은 과정을 거침
+- 모델이 완성되면, 그 후에 실제 서비스에 활용하기 위해 아래와 같은 과정을 거침(Production, Serving 과정)
 	- 실시간 데이터 적재 확인
 	- 실시간 데이터에 기반한 Feature Engineering
 	- 모델 학습
@@ -34,9 +34,8 @@ comments: true
 
 ---
 
-<br />
 
-### 발생할 수 있는 문제
+### Production시 발생할 수 있는 문제
 - 1) 데이터 스트리밍 파이프라인 존재 유무
 	- 데이터 ETL 파이프라인은 초반엔 배치성으로 생성해 관리하는 경우가 있음(더 쉽고, 빠르게 가능) 
 	- 이 경우, 모델을 Production화하기 위해 데이터를 실시간으로 적재해야 함
@@ -64,7 +63,6 @@ comments: true
 
 ---
 
-<br />
 
 
 ### Feature Store
@@ -112,7 +110,7 @@ comments: true
 	- [Github](https://github.com/Netflix/metaflow)
 	- <img src="https://www.dropbox.com/s/qu09q2o1wts59li/Screenshot%202020-02-02%2020.28.53.png?raw=1">
 	- <img src="https://www.dropbox.com/s/d87xc5zn2xe8a37/Screenshot%202020-02-02%2020.29.16.png?raw=1">
-		- Airflow의 Dependency를 정의하는 것을 코드로 진행하는듯
+	- Airflow의 Dependency를 정의하는 것을 코드로 진행하는듯
 	- <img src="https://www.dropbox.com/s/i5y6j70ldyijj0z/Screenshot%202020-02-02%2020.39.18.png?raw=1">
 - [featurestore.org](https://featurestore.org)에 나와있는 Feature Store Comparison 정리한 표
 	- <img src="https://www.dropbox.com/s/qtencu283usl0m6/Screenshot%202020-02-02%2021.03.27.png?raw=1">
@@ -121,7 +119,6 @@ comments: true
 
 ---
 
-<br />
 
 ### Hopsworks
 - [Homepage](https://www.logicalclocks.com/)
@@ -180,7 +177,6 @@ comments: true
 
 ---
 
-<br />
 
 ### feast
 - [공식 문서](https://docs.feast.dev/)
@@ -193,8 +189,6 @@ comments: true
 <br />
 
 ---
-
-<br />
 
 
 ### 어떻게 해야할까?
@@ -211,7 +205,6 @@ comments: true
 
 ---
 
-<br />
 
 ### Reference
 - [featurestore.org](http://featurestore.org/)
