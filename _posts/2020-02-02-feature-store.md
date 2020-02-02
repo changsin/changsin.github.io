@@ -90,11 +90,11 @@ comments: true
 	- [Document](https://www.logicalclocks.com/featurestorepage)
 	- [WHITE PAPER](https://uploads-ssl.webflow.com/5c9b9758feba5a6f9e8a6dda/5d92b35b15962a46c7ce9c5f_feature%20store%20whitepaper%201-0.pdf)
 	- <img src="https://www.dropbox.com/s/cpd34cfddgof93j/Screenshot%202020-02-02%2020.15.05.png?raw=1">
-		- White Paper(백서)를 참고하면 어떤 구조로 만들었는지 나옴
+	- White Paper(백서)를 참고하면 어떤 구조로 만들었는지 나옴
 	- <img src="https://www.dropbox.com/s/89pqyiyholerbpq/Screenshot%202020-02-02%2020.10.16.png?raw=1">
-		- Offline Features와 Online Features를 저장함
+	- Offline Features와 Online Features를 저장함
 	- <img src="https://www.dropbox.com/s/yduxbp05nyuljlm/Screenshot%202020-02-02%2020.16.16.png?raw=1">
-		- Hopsworks의 End to End System
+	- Hopsworks의 End to End System
 - Gojeck의 Feast
 	- [Github](https://github.com/gojek/feast)
 	- <img src="https://www.dropbox.com/s/vmcs1codtvxoncm/Screenshot%202020-02-02%2020.17.58.png?raw=1">
