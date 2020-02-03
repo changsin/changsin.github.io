@@ -95,7 +95,7 @@ comments: true
 	- Offline Features와 Online Features를 저장함
 	- <img src="https://www.dropbox.com/s/yduxbp05nyuljlm/Screenshot%202020-02-02%2020.16.16.png?raw=1">
 	- Hopsworks의 End to End System
-- Gojeck의 Feast
+- Gojek의 Feast
 	- [Github](https://github.com/gojek/feast)
 	- <img src="https://www.dropbox.com/s/vmcs1codtvxoncm/Screenshot%202020-02-02%2020.17.58.png?raw=1">
 	- Offline은 BigQuery에 저장하고, Online은 BigTable에 저장함
@@ -216,5 +216,5 @@ comments: true
 - [Feature Stores: Components of a Data Science Factory](https://towardsdatascience.com/feature-stores-components-of-a-data-science-factory-f0f1f73d39b8)
 - [Feature Store: The missing data layer in ML pipelines?](https://www.logicalclocks.com/blog/feature-store-the-missing-data-layer-in-ml-pipelines)
 - [Rethinking Feature Stores](https://medium.com/@changshe/rethinking-feature-stores-74963c2596f0)
--[gojeck feast](https://github.com/gojek/feast)
+-[gojek feast](https://github.com/gojek/feast)
 
