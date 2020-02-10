@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "BigQuery non-partition Table을 partition Table로 옮기기"
-subtitle: "BigQuery non-partition Table을 partition Table로 옮기기"
+subtitle: "Migrating BigQuery non-partition Table to partition Table"
 categories: gcp
 tags: BigQuery
 comments: true
