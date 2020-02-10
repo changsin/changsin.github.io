@@ -91,7 +91,7 @@ FROM Table
 	- SELECT 쿼리에서 ''을 사용하는 경우
 		- 예 : SELECT * FROM Table WHERE event_name='user_engagement' 
 		- ""로 수정해야 함. 쉘 스크립트에선 ''와 ""이 다름
-		- 스택오버플로우의 [Difference between single and double quotes in Bash](https://stackoverflow.com/questions/6697753/difference-between-single-and-double-quotes-in-bash) 글이 자세히 나옴
+		- 스택오버플로우의 [Difference between single and double quotes in Bash](https://stackoverflow.com/questions/6697753/difference-between-single-and-double-quotes-in-bash) 글에 자세히 나옴
 
 	
 <br />
