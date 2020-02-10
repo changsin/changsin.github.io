@@ -19,13 +19,13 @@ comments: true
 	- Query 탐색 범위를 줄임(=쿼리 탐색 비용 감소)
 		- BigQuery는 쿼리가 데이터를 탐색하는 양만큼 비용을 부과함
 		- 파티션이 걸린 경우 해당 파티션 범위만 탐색하기 때문에 비용이 덜 부과될 수 있음
-	- Query 스피드를 증가함(=쿼리 성능 증가)
-		- BigQuery에서 데이터의 양에 따라 쿼리의 결과가 언제 나오는지 시간이 달라짐
+	- Query 속도가 빨라짐(=쿼리 성능 증가)
+		- BigQuery에서 데이터의 양에 따라 쿼리 소요 시간이 달라짐
 		- 데이터의 양이 적으면 더 빠르게 결과가 나타남
-- Partition 기준
-	- Ingestion time(수집 시간) : 데이터 수집(로드) 날짜를 기준으로 파티션 나눔
-	- DATE/TIMESTAMP : Date나 Timestamp로 파티션을 나눔
-	- Integer(정수 범위) : 정수 값을 기준으로 파티션을 나눔
+- Partition 나누는 기준
+	- 1) Ingestion time(수집 시간) : 데이터 수집(로드) 날짜를 기준으로 파티션 나눔
+	- 2) DATE/TIMESTAMP : Date나 Timestamp로 파티션을 나눔
+	- 3) Integer(정수 범위) : 정수 값을 기준으로 파티션을 나눔
 - 테이블 샤딩
 	- 날짜/타임스탬프로 파티션을 나눈 테이블이 아닌 Table 이름에 suffix를 붙여서 테이블을 샤딩할 수 있음
 	- 예: firebase 데이터가 저장되는 analytics_XXX 데이터셋의 Table들(analytics_XXX.events_20200211 등)
@@ -49,6 +49,7 @@ comments: true
 	- Partition Spec이 호환되지 않아 발생한 문제
 - 터미널에서 `bq query`를 사용함
 	- bq query가 길어질 것 같아 쉘스크립트 작성(query_to_partition_table.sh)
+	- bq query는 Query의 결과를 Table로 바로 저장해주고, 파티션 옵션도 설정할 수 있음
 	- destination_table의 뒤를 수정하고 맨 아래 SELECT 부분을 수정하면 됨
 	- time_partitioning_field는 date_kr이고, require_partition_filter=True를 주면 쿼리할 때 항상 WHERE 절에 파티션 필터를 걸어야 함
 		- BigQuery를 안정적으로 운영하기 위해 이 옵션은 꼭 주는 것을 추천
@@ -64,7 +65,7 @@ bq --location=US query \
 --use_legacy_sql=false \
 '
 SELECT 
-	*, date_kr
+  *, date_kr
 FROM Table
 '	
 ```
@@ -87,8 +88,10 @@ FROM Table
 		```
 		
 		- 원하는 프로젝트의 설정이 없다면 gcloud init을 통해 새 설정을 추가
-	- SELECT 쿼리에서(''로 감싼 부분) ''을 사용하는 경우
-		- ""로 수정해주세요. 쉘 스크립트에선 ''와 ""이 다름
+	- SELECT 쿼리에서 ''을 사용하는 경우
+		- 예 : SELECT * FROM Table WHERE event_name='user_engagement' 
+		- ""로 수정해야 함. 쉘 스크립트에선 ''와 ""이 다름
+		- 스택오버플로우의 [Difference between single and double quotes in Bash](https://stackoverflow.com/questions/6697753/difference-between-single-and-double-quotes-in-bash) 글이 자세히 나옴
 
 	
 <br />
@@ -96,4 +99,9 @@ FROM Table
 ---	
 	
 ### Reference
-- [공식 문서, Managing partitioned tables](https://cloud.google.com/bigquery/docs/managing-partitioned-tables#copying_partitioned_tables)
+- Google Cloud Platform Document
+	- [Managing partitioned tables](https://cloud.google.com/bigquery/docs/managing-partitioned-tables#copying_partitioned_tables)
+
+
+<br />
+
