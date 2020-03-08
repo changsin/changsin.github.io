@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Papermill을 활용해 Airflow에서 Jupyter Notebook 사용하기"
-subtitle: "airflow with jupyter notebook using papermill"
+title:  "Papermill을 사용해 Jupyter Notebook에 파라미터 주입하기(feat. airflow)"
+subtitle: "airflow with jupyter notebook parameter using papermill"
 categories: mlops
 tags: basic airflow
 comments: true
 ---
 
 - Papermill Jupyter Notebook(노트북 파라미터화)에 대한 내용과 Airflow에서 활용하는 방법에 대해 작성한 글입니다
-	- jupyter notebook run with parameter, run jupyter notebook with parameters, execute notebook with the custom arguments 등
+	- jupyter notebook run with parameter, run jupyter notebook with parameters, execute notebook with the custom arguments
 
 
 <br />
@@ -65,6 +65,7 @@ comments: true
 
 ### 데이터 및 Notebook 파일 준비
 - BigQuery Public Dataset에 있는 `austin_bikeshare.bikeshare_trips` 데이터 중 2019년 11월 1일 이후 데이터만 가져와서 사용
+	- 소스코드와 csv 파일은 [Github](https://github.com/zzsza/TIL/tree/master/python)에 있음
 - 데이터를 가져와서 하는 일은 다음과 같다(일종의 레포트라고 생각)
 	- 특정 일자의 시간대별 사용량 line plot 그리기
 	- 특정 일자의 구독자 타입(subscriber\_type) bar plot 그리기
@@ -226,7 +227,7 @@ comments: true
 ### 궁금해서 시도한 내용	
 - 궁금한 점
 	- 1) 다양한 Tag로 작성해도 파라미터가 주입되나?
-		- X. parameters만 사용 가능 
+		- X. 첫 parameters만 사용 가능
 	- 2) 파일 저장하지 않고 노트북만 실행시킬 수 있는지?
 		- Notebook 안에서 모델을 훈련해서 저장하는 작업만 있다면 추가적으로 Notebook을 생성하지 않아도 됨
 		- X. output_path를 지정하지 않으면 Error 발생
@@ -276,7 +277,7 @@ comments: true
 		    task_id="run_example_notebook",
 		    input_nb="papermill_example.ipynb",
 			output_nb="papermill_example_output_{{ execution_date }}.ipynb",
-		    parameters={"data": "{{ execution_date }}" }
+		    parameters={"date": "{{ execution_date }}" }
 		)
 	```
 
@@ -284,8 +285,10 @@ comments: true
 ---	
 	
 ### 참고 자료
+- [Papermill Github](https://github.com/nteract/papermill)
+	- [Document](https://papermill.readthedocs.io/en/latest/)
+- [Notebooks as Functions with Papermill, Netflix Video](https://www.youtube.com/watch?v=3FmBJ847_y8) : Youtube 영상
 - [Apache Airflow - Workflow 관리 도구(1)](https://zzsza.github.io/data/2018/01/04/airflow-1/)
-- [Notebooks as Functions with Papermill | Netflix Video](https://www.youtube.com/watch?v=3FmBJ847_y8) : Youtube 영상
 - [Ai pipelines powered by jupyter notebooks](https://www.slideshare.net/luckbr1975/ai-pipelines-powered-by-jupyter-notebooks)	
 - [Introduction to Papermill](https://towardsdatascience.com/introduction-to-papermill-2c61f66bea30)
 - [Automated reports with Jupyter Notebooks (using Jupytext and Papermill)](https://medium.com/capital-fund-management/automated-reports-with-jupyter-notebooks-using-jupytext-and-papermill-619e60c37330)
