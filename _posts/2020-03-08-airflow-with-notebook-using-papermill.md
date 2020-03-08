@@ -87,9 +87,9 @@ comments: true
 ### Papermill 실행하기	
 - 1) 파라미터를 저장할 Cell에 Tag 달기
 	- 1-1) View - Cell Toolbar - Tags 클릭
-	- 1-2) Parameter라고 입력하고 Add tag
-	- 이제 Parameter Tag가 달린 곳에 있는 date를 덮어쓸 수 있음
-	- <img src="https://www.dropbox.com/s/ofoyh728bweeja7/Screenshot%202020-03-08%2014.06.09.png?raw=1">
+	- 1-2) Parameters라고 입력하고 Add tag
+	- 이제 Parameters Tag가 달린 곳에 있는 date를 덮어쓸 수 있음
+	- <img src="https://www.dropbox.com/s/xq6devyt9osyo1c/Screenshot%202020-03-08%2017.26.55.png?raw=1">
 - 2) Papermill 실행하기
 	- 1) Python API를 사용하는 방법과 2) CLI에서 하는 방법 2가지가 있음
 	- 1) Python API
@@ -220,7 +220,8 @@ comments: true
 	- Notebook에 파라미터만 저장하는 Cell 지정
 	- Cell에 Tag 추가
 	- Papermill 실행
-- [Voila](https://zzsza.github.io/development/2020/01/06/jupyter_notebook_voila_dashboard/)와 결합해 사용할 수 있을듯
+	- [Voila](https://zzsza.github.io/development/2020/01/06/jupyter_notebook_voila_dashboard/)와 결합해 사용할 수 있을듯
+	- Notebook으로 모델링하는 파일과 그걸 받아 Serving을 쉽게 할 수 있도록 만들 수 있을듯
 
 <br />
 ---
