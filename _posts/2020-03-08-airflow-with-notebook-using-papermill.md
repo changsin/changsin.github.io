@@ -220,6 +220,7 @@ comments: true
 	- Notebook에 파라미터만 저장하는 Cell 지정
 	- Cell에 Tag 추가
 	- Papermill 실행
+- [Voila](https://zzsza.github.io/development/2020/01/06/jupyter_notebook_voila_dashboard/)와 결합해 사용할 수 있을듯
 
 <br />
 ---
