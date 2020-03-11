@@ -101,7 +101,7 @@ comments: true
 		pm.execute_notebook(
 		   'papermill_example.ipynb', # Template Notebook
 		   'papermill_example_output.ipynb', # Template를 사용해 Output이 저장되는 Notebook
-		   parameters = dict(data='2019-11-07') # 파라미터 주입
+		   parameters = dict(date='2019-11-07') # 파라미터 주입
 		)
 		```
 		
