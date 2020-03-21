@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: Model & Pipeline version
-slug: version
+title: Experiment & Versioning
+slug: experiment
 category: mlops
 menu: false
 order: 7
