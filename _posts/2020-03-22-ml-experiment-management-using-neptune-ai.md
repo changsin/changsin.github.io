@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "머신러닝 Experiment Management 쉽게 하기(feat.neptune ai)"
+title:  "머신러닝 Experiment Management 쉽게 하기(feat. neptune ai)"
 subtitle: "Machine Learning experiment management using neptune ai"
 categories: mlops
 tags: experiment
@@ -37,7 +37,7 @@ comments: true
 	- 2) 실험 버전 관리, 실험 비교
 	- 3) 노트북 버전 관리, Diff 확인 가능
 	- 4) 협업을 위한 위키 기능
-- 단, 서비스를 제공하기 때문에 오픈소스는 아님
+- 단, 서비스를 제공하고 오픈소스는 아님
 - 여러 Framework와 도구와 결합 가능
 	- sklearn, pytorch, keras, tf, fast.ai, sacred, mlflow, lgbm 등 다양한 라이브러리 지원
 	- <img src="https://www.dropbox.com/s/r5tk0vej7ti80pp/Screenshot%202020-03-22%2000.10.13.png?raw=1">
@@ -169,8 +169,7 @@ comments: true
 	    'metric':'auc'
 	}
 	
-	neptune.init('user_id/sandbox',
-	     api_token='토큰 값 입력')
+	neptune.init('user_id/sandbox', api_token='토큰 값 입력')
 	 ```
 - 실험 생성
 	- 실험 객체 생성시 https://ui.neptune.ai/~~~ 이런 URL이 출력됨
@@ -195,7 +194,7 @@ comments: true
 	neptune.set_property(‘data_version’, sha1(data_train))
 	```	
 
-- 실험을 닫는다(종료한다)
+- 실험을 닫기(종료)
 
 	```
 	neptune.stop()
@@ -252,8 +251,9 @@ comments: true
 
 ### 결론 및 정리
 - neptune ai는 머신러닝 실험 관리할 때 유용함
+- 꼭 머신러닝이 아니여도 데이터 기반해서 여러 시뮬레이션을 돌릴 때 활용하면 좋음
 - 오픈소스가 아니지만, 개인 계정은 무료로 사용 가능
-	- Kaggle 등의 대회 기록시 좋음
+	- Kaggle 등의 대회에 참여할 때 활용해보길 추천
 - 노트북 업로드, 모델 파일 저장, 이미지 저장, 실험 비교 등 다양한 기능을 제공함
 	- Production 환경에 가기 전, 여러 실험을 돌릴 때 사용하면 좋은 도구
 - 설치가 필요없고 간단한 코드 몇 줄만 추가하면 되서 사용성이 좋음
