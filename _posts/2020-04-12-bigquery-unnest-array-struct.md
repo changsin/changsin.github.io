@@ -249,7 +249,7 @@ comments: true
 
 ### BigQuery UNNEST
 - [UNNEST Document](https://cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax?hl=ko#unnest)
-- 예시를 위해 사람들이 선호하는 프로그래밍 언어와 나이가 있다고 데이터가 있다고 가정
+- 예시를 위해 사람들이 선호하는 프로그래밍 언어와 나이가 저장된 데이터가 있다고 가정
 - 배열에 통째로 접근하고 싶은 경우엔 평소처럼 컬럼을 지정
 	- preferred_language
 
