@@ -170,8 +170,8 @@ comments: true
 	FROM example_data
 	```	
 	
-	- <img src="https://www.dropbox.com/s/lpuheks993zutfu/Screenshot%202020-04-12%2015.00.28.png?raw=1">
-	
+	- <img src="https://www.dropbox.com/s/lpuheks993zutfu/Screenshot%202020-04-12%2015.00.28.png?raw=1" width="300" height="350">
+
 
 <br />
 
@@ -277,7 +277,7 @@ comments: true
 	```
 	
 	- 결과는 다음과 같다
-		- <img src="https://www.dropbox.com/s/ysa4erzbmbyhane/Screenshot%202020-04-12%2017.22.56.png?raw=1">
+		- <img src="https://www.dropbox.com/s/ysa4erzbmbyhane/Screenshot%202020-04-12%2017.22.56.png?raw=1" width="300" height="400>
 	
 - 만약, Julia 언어를 선호하는 사람을 추출하고 싶다면 어떻게 해야할까?
 	- WHERE preferred\_language = 'Julia'을 사용하면 아래와 같은 오류가 발생함
@@ -348,7 +348,7 @@ comments: true
 	- FROM 절을 보면 FROM example_data, UNNEST(example\_data.preferred\_language) as prefer\_lang로 명시함
 		- 즉, example\_data의 preferred\_language ARRAY를 UNNEST로 펴주고, prefer\_lang으로 alias함
 	- 결과는 다음과 같다
-		- <img src="https://www.dropbox.com/s/ivvme4gu14jtemn/Screenshot%202020-04-12%2017.25.00.png?raw=1">
+		- <img src="https://www.dropbox.com/s/ivvme4gu14jtemn/Screenshot%202020-04-12%2017.25.00.png?raw=1" width="200" height="300">
 	- UNNEST 전에 그냥 ARRAY 접근했던 경우와 비교하자
 		- 이제 UNNEST 전 후에 어떻게 되는지 주의깊게 보자. 행이 왼쪽은 3, 오른쪽은 12!
 		- <img src="https://www.dropbox.com/s/rmoeri44o5ylkyw/Screenshot%202020-04-12%2017.27.png?raw=1">
