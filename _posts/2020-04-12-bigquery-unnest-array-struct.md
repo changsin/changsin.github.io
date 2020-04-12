@@ -277,7 +277,7 @@ comments: true
 	```
 	
 	- 결과는 다음과 같다
-		- <img src="https://www.dropbox.com/s/ysa4erzbmbyhane/Screenshot%202020-04-12%2017.22.56.png?raw=1" width="300" height="400>
+		- <img src="https://www.dropbox.com/s/ysa4erzbmbyhane/Screenshot%202020-04-12%2017.22.56.png?raw=1" width="300" height="400">
 	
 - 만약, Julia 언어를 선호하는 사람을 추출하고 싶다면 어떻게 해야할까?
 	- WHERE preferred\_language = 'Julia'을 사용하면 아래와 같은 오류가 발생함
