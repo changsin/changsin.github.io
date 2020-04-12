@@ -514,3 +514,4 @@ comments: true
 - [BigQuery Tip: The UNNEST Function](https://firebase.googleblog.com/2017/03/bigquery-tip-unnest-function.html)
 - [BigQuery 중첩 및 반복 열 지정](https://cloud.google.com/bigquery/docs/nested-repeated)
 - [BigQuery 배열 다루기](https://cloud.google.com/bigquery/docs/reference/standard-sql/arrays)
+- [Google BigQuery 쉽게 쓰게 하기 (feat. ARRAY)](https://cojette.github.io/bigqueryandarray/) : 갓꼬젯님의 글..!
