@@ -283,7 +283,7 @@ comments: true
 	- WHERE preferred\_language = 'Julia'을 사용하면 아래와 같은 오류가 발생함
 		- <img src="https://www.dropbox.com/s/atskki5jn7q6l0a/Screenshot%202020-04-12%2016.43.09.png?raw=1">
 		- No matching signature for operator = for argument types: ARRAY<STRING>, STRING. Supported signatures: ANY = ANY at [21:7]
-		- 이 오류는 preferred\_language는 ARRAY<STRING>인데, Julia(STRING)이랑 비교하려니 타입이 맞지않아 생기는 오류임
+		- 이 오류는 preferred\_language는 ARRAY<STRING>인데, Julia(STRING)랑 비교하려니 타입이 맞지않아 생기는 오류임
 	- 이런 상황에 **배열을 평면화(Flatten)해서 배열에 있는 값을 펴줘야 함**
 	- 배열을 펴줄 때 사용하는 것은 UNNEST로, Nest한 데이터를 UNNEST하게 만드는 것
 	- UNNEST 연산자는 ARRAY를 입력으로 받고 ARRAY의 각 요소에 대한 행이 한 개씩 포함된 테이블을 return함
