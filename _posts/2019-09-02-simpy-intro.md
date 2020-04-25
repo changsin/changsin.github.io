@@ -9,6 +9,7 @@ comments: true
 
 
 - Python SimPy 프레임워크를 사용해 파이썬으로 시뮬레이션 만드는 방법에 대해 작성한 글입니다
+	- Discrete Event Simulation Python Framework
 
 
 ---
