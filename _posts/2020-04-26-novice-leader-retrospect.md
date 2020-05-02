@@ -389,6 +389,13 @@ comments: true
 - [비폭력 대화](http://www.yes24.com/Product/Goods/57499189?scode=032&OzSrank=2)
 	- 화법에 대해 고민하며 읽은 책
 	- 내가 대통령이 된다면 모든 사람이 읽도록 하고 싶은 책이다. 팀원 모두에게 적극 추천하고 있다
+- [파워풀](http://www.yes24.com/Product/Goods/62266618)
+	- 넷플릭스의 성장과 비결을 담은 책으로, 넷플릭스에선 어떻게 일을 하는지에 대해 알 수 있다
+	- 책 리뷰는 [인스타그램](https://www.instagram.com/p/BnGs4m-FRyw/)에 있다
+- [자존감 수업](http://www.yes24.com/Product/Goods/30548474)
+	- 사람들의 자존감에 대해 이해할 수 있게 도와준 책
+	- 자존감 회복 훈련은 어떻게 하는지 알게 되었다
+	- 책 리뷰는 [인스타그램](https://www.instagram.com/p/BNmM6fkBYp3/)에 있다
 - 신수정의 리더십 코칭
 	- 신수정님은 리더십에 대한 굉장히 좋은 통찰을 많이 남겨주신다. [페이스북](https://www.facebook.com/shinsoojungceo)에 자료를 올려주시니 팔로잉하면 좋다
 	- [모르는 걸 모른다고 말할 용기](http://www.ttimes.co.kr/view.html?no=2020021310187718217)
