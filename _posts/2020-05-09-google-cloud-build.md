@@ -161,6 +161,17 @@ comments: true
 ### 5) cloudbuild.yaml 파일 작성
 - Build Step 파일을 생성한다
 - Cloud Build Trigger 설정시 기본적으로 cloudbuild.yaml을 받아서 실행함(파일명 수정 가능)
+- 파일 예시
+
+    ```bash
+    steps:
+    - name: 'gcr.io/cloud-builders/git'
+      args: ['clone', 'https://github.com/GoogleCloudPlatform/cloud-builders']
+      env: ['PROJECT_ROOT=hello']
+    - name: 'gcr.io/cloud-builders/docker'
+      args: ['build', '-t', 'gcr.io/my-project-id/myimage', '.']
+    ```
+    
 - yaml 파일은 크게 아래와 같이 구성됨
 	- steps: 클라우드 빌드가 수행해야 하는 작업들
 		- name : 어떤 cloud builder를 사용할지 지정
@@ -177,16 +188,7 @@ comments: true
 		- volumns : Docker 컨테이너 볼륨에 마운트
 		- logsBucket : 로그 저장할 스토리지 지정
 	- 더 자세한 내용은 [Build configuration overview](https://cloud.google.com/cloud-build/docs/build-config) 문서 참고
-- 예시
 
-    ```bash
-    steps:
-    - name: 'gcr.io/cloud-builders/git'
-      args: ['clone', 'https://github.com/GoogleCloudPlatform/cloud-builders']
-      env: ['PROJECT_ROOT=hello']
-    - name: 'gcr.io/cloud-builders/docker'
-      args: ['build', '-t', 'gcr.io/my-project-id/myimage', '.']
-    ```
     
 - VS Code나 IntelliJ를 사용하면, [Cloud Code for VS Code](https://cloud.google.com/code/docs/vscode/yaml-editing), [Cloud Code for IntelliJ](https://cloud.google.com/code/docs/intellij/yaml-editing) 참고하면 더욱 쉽게 생성할 수 있음
 - cloudbuild.yaml 파일 생성
