@@ -182,27 +182,27 @@ comments: true
 - gcloud compute instance 명령어로 생성
 	- ZONE은 [리전과 영역](https://cloud.google.com/compute/docs/regions-zones?hl=ko) 문서 참고함
 	
-```
-ZONE=us-east1-b
-INSTANCE_NAME=mlops-examples-ai-platform-notebook
-	
-IMAGE_FAMILY="common-container"
-IMAGE_PROJECT="deeplearning-platform-release"
-INSTANCE_TYPE="n1-standard-4"
-METADATA="proxy-mode=service_account,container=$IMAGE_URI"
-	
-gcloud compute instances create $INSTANCE_NAME \
-    --zone=$ZONE \
-    --image-family=$IMAGE_FAMILY \
-    --machine-type=$INSTANCE_TYPE \
-    --image-project=$IMAGE_PROJECT \
-    --maintenance-policy=TERMINATE \
-    --boot-disk-device-name=${INSTANCE_NAME}-disk \
-    --boot-disk-size=100GB \
-    --boot-disk-type=pd-ssd \
-    --scopes=cloud-platform,userinfo-email \
-    --metadata=$METADATA
-```
+	```
+	ZONE=us-east1-b
+	INSTANCE_NAME=mlops-examples-ai-platform-notebook
+		
+	IMAGE_FAMILY="common-container"
+	IMAGE_PROJECT="deeplearning-platform-release"
+	INSTANCE_TYPE="n1-standard-4"
+	METADATA="proxy-mode=service_account,container=$IMAGE_URI"
+		
+	gcloud compute instances create $INSTANCE_NAME \
+	    --zone=$ZONE \
+	    --image-family=$IMAGE_FAMILY \
+	    --machine-type=$INSTANCE_TYPE \
+	    --image-project=$IMAGE_PROJECT \
+	    --maintenance-policy=TERMINATE \
+	    --boot-disk-device-name=${INSTANCE_NAME}-disk \
+	    --boot-disk-size=100GB \
+	    --boot-disk-type=pd-ssd \
+	    --scopes=cloud-platform,userinfo-email \
+	    --metadata=$METADATA
+	```
 	
 - AI Platform Notebook에 보면 생성된 인스턴스를 확인할 수 있음
 
@@ -222,19 +222,19 @@ gcloud compute instances create $INSTANCE_NAME \
 
 - Changed에 있는 README.md에 마우스 커서를 올려두면 우측에 다양한 아이콘이 생김
 
-<img src="https://www.dropbox.com/s/r5fwqsym9pz2xfq/Screenshot%202020-05-10%2020.20.30.png?raw=1">
+<img src="https://www.dropbox.com/s/r5fwqsym9pz2xfq/Screenshot%202020-05-10%2020.20.30.png?raw=1" width="400" height="350">
 
 - +-가 같이 있는 버튼은 Diff 체크해주고, +버튼은 Staged로 올려줌
 - Staged에 올라간 후는 - 버튼이 생김(Unstaged)
 - Staged에 파일을 올린 후, 커밋 메세지를 입력하고 커밋 버튼을 누르면 커밋이 됨
 	- 간단히 이름과 이메일을 물어봄
 
-	<img src="https://www.dropbox.com/s/12yitscj7onw5d2/Screenshot%202020-05-10%2020.22.19.png?raw=1">
+	<img src="https://www.dropbox.com/s/12yitscj7onw5d2/Screenshot%202020-05-10%2020.22.19.png?raw=1" width="200" height="500">
 
 - 이제 Push를 위해 클라우드 모양을 클릭함
 	- 아이디, 비밀번호를 입력하면 Push가 됨
 
-	<img src="https://www.dropbox.com/s/0dlrr4xdpd2pvpp/Screenshot%202020-05-10%2020.24.47.png?raw=1">
+	<img src="https://www.dropbox.com/s/0dlrr4xdpd2pvpp/Screenshot%202020-05-10%2020.24.47.png?raw=1" width="400" height="400">
 	
 	
 	
