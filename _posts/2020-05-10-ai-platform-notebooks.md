@@ -20,6 +20,7 @@ comments: true
 	- AI Hub, Kubeflow
 	- 다양한 도구들을 사용할 수 있고, 점점 추가되고 있음
 - Google에서 주력으로 밀고 있는 느낌
+	- Google Datalab은 이제 사용하지 않고, AI Platform Notebooks을 더 권장하는듯
 - BigQuery나 Cloud Storage에 저장된 데이터를 활용해 전처리하고(BigQuery나 Dataflow 등 활용) 학습한 후, Serving
 	- 그 파이프라인도 자동화
 
