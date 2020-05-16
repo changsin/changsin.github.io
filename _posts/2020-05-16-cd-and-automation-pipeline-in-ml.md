@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "MLOps: 머신러닝에서 지속적인 배포(CD)와 자동화된 파이프라인"
-subtitle:  "MLOps: Continuous delivery and automation pipelines in machine learning"
+title:  "MLOps: Continuous delivery and automation pipelines in machine learning 번역"
+subtitle:  "MLOps: 머신러닝의 지속적인 배포(CD)와 자동화된 파이프라인 번역"
 categories: mlops
 tags: basic
 comments: true
 ---
 
 - Google Cloud Platform의 [MLOps: Continuous delivery and automation pipelines in machine learning](https://cloud.google.com/solutions/machine-learning/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning)을 번역한 글입니다
-	- 키워드 : CI/CD in Machine Learning, Continuous delivery and automation pipelines in machine learning, Continuous integration in Machine Learning
+	- 키워드 : CI/CD in Machine Learning, Continuous delivery and automation pipelines in machine learning, Continuous integration in Machine Learning, 머신러닝의 지속적인 배포와 지속적 통합, 자동화된 파이프라인
 
 
 
