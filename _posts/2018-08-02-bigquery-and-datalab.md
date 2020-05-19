@@ -136,6 +136,7 @@ datalab create --machine-type n1-standard-8 datalab-instance
 - BigQuery에서 쿼리로 EDA
 - Feature Engineering를 빅쿼리에서 진행하고 Join 
 - 등의 작업을 BigQuery에서 진행한 후, Datalab에서 모델링 진행 추천
+- (2020년 5월 작성) 작성 시간 기준으로 Datalab보다 AI Platform Notebook을 더 많이 사용하는 것이 표준이 되고 있습니다. [AI Platform Notebooks 사용 방법 및 소개](https://zzsza.github.io/gcp/2020/05/10/ai-platform-notebooks/) 참고하셔도 좋을 것 같아요 :)
 
 ### Feature Engineering
 - 이제 가설을 잡고 모델링
