@@ -306,7 +306,7 @@ comments: true
 ### 추가 자료
 - 사실 이 문서는 CI/CD 개념이 낯설고, Cloud Build에 대해 처음 접한 분들을 쉽게 설명하기 위해 CI 없이 정말 간단한 CD(사실 CD라 하기에도 민망한)를 설정함
 - 더 심화되고 구체적인 자료를 궁금하신 분들을 위해 링크 추가함
-- [공식 문서](https://cloud.google.com/cloud-build/docs/running-builds/)
+- [공식 문서](https://cloud.google.com/cloud-build/docs/)
 - Build
 	- [컨테이너 이미지 빌드](https://cloud.google.com/cloud-build/docs/building/build-containers) : 목차에 보면 Node.js, 자바, Go, 빌드 아티팩트 저장이 나와있음
 - Deploy
