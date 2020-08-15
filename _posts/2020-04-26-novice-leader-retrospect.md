@@ -380,6 +380,7 @@ comments: true
 
 
 ### 읽은 자료
+- 김창준님의 [앞에서 이끄는 것이 리더? 리더의 역할은 무엇일까?](https://hrbulletin.net/leadership/%ec%95%9e%ec%97%90%ec%84%9c-%ec%9d%b4%eb%81%84%eb%8a%94-%ea%b2%83%ec%9d%b4-%eb%a6%ac%eb%8d%94-%eb%a6%ac%eb%8d%94%ec%9d%98-%ec%97%ad%ed%95%a0%ec%9d%80-%eb%ac%b4%ec%97%87%ec%9d%bc%ea%b9%8c/)
 - [개발 7년차, 매니저 1일차](http://www.yes24.com/Product/Goods/87336637?scode=032&OzSrank=1)
 	- 이 책은 개발 업계의 팀장이라면 꼭 추천하고 싶다. 우리가 생각하는 대부분의 고민이 담겨있다
 	- 책 리뷰는 [인스타그램](https://www.instagram.com/p/B8OjxmGgtCp/)에서 확인할 수 있다
