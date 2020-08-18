@@ -124,7 +124,7 @@ comments: true
 		- 변화대화 일구기(Cultivating Change Talk)
 			- 변화대화 장려, 변화대화 유발, 변화의 방향을 봄
 			- 변화의 방향을 움직이는 면담가의 방식을 파악
-		- 유지대화 완화하기(softening Sustain Talk)
+		- 유지대화 완화하기(Softening Sustain Talk)
 			- 유지대화(현 상황을 유지)를 최소화해서 변화의 방향으로 이끄는지를 파악
 			- 이 점수가 낮은 경우 공감 점수가 높은 경우가 있음. 초반엔 유지대화가 필요할 수도 있음(점점 줄이기)
 		- 파트너쉽(Partnership)
