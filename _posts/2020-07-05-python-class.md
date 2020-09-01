@@ -219,7 +219,8 @@ class Smartphone:
         Smartphone1 = Smartphone('Iphone', {'color': 'White', 'price': 10000})
         Smartphone2 = Smartphone('Galaxy', {'color': 'Black', 'price': 8000})
         Smartphone3 = Smartphone('Blackberry', {'color': 'Silver', 'price': 6000})
-
+        
+        Smartphone1.detail_info()
 
         print(Smartphone1.__class__, Smartphone2.__class__)
         # 부모는 같음
