@@ -201,8 +201,9 @@ class Smartphone:
     """
     Smartphone Class
     """
+
     def __init__(self, brand, details):
-        self._brand = brandbrand
+        self._brand = brand
         self._details = details
 
     def __str__(self):
@@ -213,19 +214,16 @@ class Smartphone:
 
     def detail_info(self):
         print(f'Current Id : {id(self)}')
-        print(f'Smartphone Detail Info : {self._brand} {self._details.get('price'))}'
+        print(f'Smartphone Detail Info : {self._brand} {self._details.get("price")}')
+
+        Smartphone1 = Smartphone('Iphone', {'color': 'White', 'price': 10000})
+        Smartphone2 = Smartphone('Galaxy', {'color': 'Black', 'price': 8000})
+        Smartphone3 = Smartphone('Blackberry', {'color': 'Silver', 'price': 6000})
 
 
-        
-Smartphone1 = Smartphone('Iphone', {'color' : 'White', 'price': 10000})
-Smartphone2 = Smartphone('Galaxy', {'color' : 'Black', 'price': 8000})
-Smartphone3 = Smartphone('Blackberry', {'color' : 'Silver', 'price': 6000})
-	
-Smartphone1.detail_info
-	
-print(Smartphone1.__class__, Smartphone2.__class__)
-# 부모는 같음
-print(id(Smartphone1.__class__) == id(Smartphone3.__class__))
+        print(Smartphone1.__class__, Smartphone2.__class__)
+        # 부모는 같음
+        print(id(Smartphone1.__class__) == id(Smartphone3.__class__))
 ```	
 
 - 클래스 변수
