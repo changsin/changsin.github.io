@@ -458,6 +458,7 @@ comments: true
 - 누군가 만들어둔 action을 활용하면 쉽게 자동화 가능
 	- [Github Actions Repository](https://github.com/actions)에서 확인 가능함
 	- [upload-artifact](https://github.com/actions/upload-artifact), [download-artifact](https://github.com/actions/download-artifact), [cache](https://github.com/actions/cache) 등
+- 추가적으로 관심이 있으시면 [DevOps with Github Action](https://lab.github.com/githubtraining/devops-with-github-actions)을 추천드립니다 :)
 
 <br />
 
