@@ -22,96 +22,63 @@ comments: true
 	
 ---
 
+### Python Class
+- 파이썬을 처음 공부하면 함수나 라이브러리 import 등은 나름 수월하게 진행함(훈련을 통해서)
+- 단, Class 부분부터 약간 어려움이 존재할 수 있음
+	- 붕어빵 이야기, 붕어빵 틀 이야기 등으로 쉽게 설명을 들어도 이해가 안되었던 경험이 있음
+- 이번에 하나씩 정리하려는 목적으로 글을 작성
+- 쥬피터 노트북 등을 사용해서 처음 파이썬을 익히면 일종의 흐름 단위로 프로그래밍을 함
+
+<br />
+
+---
+
+<br />
+
 
 ### 객체 지향 프로그래밍
-- OOP
-- 코드의 재사용, 코드 중복 방지를 위해 사용함
+- Object-Oriented Programming
+- 프로그램을 단순히 데이터와 처리 방법으로 나누지 않고, 프로그램을 객체 단위로 생각하고 객체끼리 상호작용을 표현하는 방식
+	- 코드의 재사용, 코드 중복 방지, 유지보수 등을 위해 사용함
 - 과거엔 규모가 큰 프로젝트는 함수 중심으로 개발함
 	- 데이터가 방대해지고 복잡해져서 추후 개선이 어려움
-	- 코드 중복, 협업시 문제가 발생하는 등 복잡해짐
-- 클래스 중심
-	- 데이터 중심 => 객체로 관리
-	- 코드의 재사용, 코드 중복 방지, 유지보수, 대형 프로젝트에 사용 가능
-- 항상 클래스를 사용하는게 좋다고 말할 순 없으며, 간단한 경우엔 절차 지향으로 프로그래밍해도 좋음(개발하려는 규모에 따라 다름)
-- 절차 지향 프로그래밍
-	- 물이 위에서 아래로 흐르는 것처럼, 순차적으로 처리되는 프로그래밍
+- 항상 객체 지향이 최선은 아니며 프로젝트의 규모 등에 따라 다름
+
 
 	
 ### 절차 지향 프로그래밍 예시
-- 객체 지향	프로그래밍을 하기 전에, 절차 지향 프로그래밍으로 하면 어떤지 확인하고 객체 지향으로 프로그래밍할 예정
-
+- 절차 지향 프로그래밍
+	- 순차적으로 진행되는 프로그래밍
+- 먼저 절차 지향 방식으로 구현하고, 점점 객체 지향으로 구현해보기
 - 일반적인 코딩
-	- 하나의 형태를 만들고, Copy And Paste(복사 붙여넣기)로 추가 요소를 생성함
-	- 스마트폰이 증가될수록 코드가 길어지게 됨
-	- 스마트폰과 스마트폰 정보를 출력하려면 같이 출력해야 함
+	- 객체 없이 그냥 변수를 생성해서 만듬. 추가 요소를 만들 때는 숫자와 값만 변경하고 계속 증가시킴
+	- 스마트폰과 스마트폰 정보를 출력하려면 두 변수를 같이 프린트해야 함
 
 	```
-	
 	smartphone_1 = 'Iphone'
-	smartphone_detail_1 = [
+	smartphone_information_1 = [
 	    {'color' : 'White'},
 	    {'price': 10000}
 	]
 	
-	smartphone_2 = 'Galaxy'
-	smartphone_detail_2 = [
-	    {'color' : 'Blue'},
-	    {'price': 8000}
-	]
-	
-	smartphone_3 = 'Blackberry'
-	smartphone_detail_3 = [
-	    {'color' : 'Silver'},
-	    {'price': 6000}
-	]
-	
 	print(smartphone_1)
-	print(smartphone_detail_1)
-	```
-
-
-- List를 사용한 방법
-	- 위 방법보다 코드가 줄어듬
-	- 변수를 인덱스로 접근 가능
-		- 하지만 실수할 수 있음. 순서가 변경되면?
-		- 데이터가 많아지면? 아이폰는 인덱스 1213123번이였는데 갤럭시가 삭제되서 인덱스가 1213122로 변했으면 어떻게 알 수 있을까?
-	- 한번에 출력할 순 없음
-	- 하나만 삭제하기 힘듬
-		- smartphone\_list의 1번을 삭제하고, smartphone\_detail\_list의 1번도 삭제해줘야 함
-		- 혹은 함수를 구현해야 함
-
-	```
-	smartphone_list = ['Iphone', 'Galaxy', 'Blackberry']
-	smartphone_detail_list = [
-	    {'color' : 'White', 'price': 10000},
-	    {'color' : 'Blue', 'price': 8000},
-	    {'color' : 'Silver', 'price': 6000}
-	]
-	
-	del smartphone_list[1]
-	del smartphone_detail_list[1]
-	
-	print(smartphone_list)
-	print(smartphone_detail_list)
+	print(smartphone_information_1)
 	```
 	
 	
-- Dictionary를 사용한 방법
-	- 중첩 문제(Key는 중복 X)
-	- 정렬 문제(OrderedDict을 사용할 수 있음)
-	- 키 조회 예외 처리를 생각해야 함
-	- Dict 안의 값에 접근할 때는 ["key"]로 접근
+- Dictionary를 사용해 스마트폰과 스마트폰 정보를 저장하는 방법
+	- 딕셔너리의 Key는 중복 불가능한 문제가 존재
+	- 정렬 문제 => OrderedDict을 사용하면 해결
+	- Key가 만약 없을 경우 예외 처리를 해야 함 => DefaultDict을 사용하면 해결
+	- 스마트폰, 스마트폰 정보를 출력할 경우엔 딕셔너리만 출력하면 됨
 
 	```
 	smartphone_dicts = [
-	    {'brand': 'Iphone', 'smartphone_detail': {'color' : 'White', 'price': 10000}},
-	    {'brand': 'Galaxy', 'smartphone_detail': {'color' : 'Blue', 'price': 8000}},
-	    {'brand': 'Blackberry', 'smartphone_detail': {'color' : 'Silver', 'price': 6000}}
+	    {'brand': 'Iphone', 'smartphone_information': {'color' : 'White', 'price': 10000}},
+	    {'brand': 'Galaxy', 'smartphone_information': {'color' : 'Blue', 'price': 8000}},
 	]
 	
-	del smartphone_dicts[1]
 	print(smartphone_dicts)
-	print(smartphone_dicts[0]["brand"])
 	```	
 	
 <br />
@@ -120,29 +87,37 @@ comments: true
 ---
 	
 ### 객체 지향 프로그래밍 살펴보기
-- 구조 설계한 후, 재사용성 증가
-- 코드 반복 최소화됨
-- 다양한 매직 메소드 활용할 수 있음
+- 코드의 중복 사용이 최소화되서 재사용성이 증가
+- 클래스의 매직 메소드를 사용할 수 있음
 - 네임스페이스
-	- 변수가 객체를 바인딩할 때, 그 둘 사이의 관계를 저장하고 있는 공간
-	- a=2라고 할 때, 변수가 2라는 객체가 저장된 주소를 가지고 있는 상황
+	- 프로그래밍 언어에서 객체를 구분할 수 있는 공간
+	- 변수를 객체에 할당하면, 해당 객체는 딕셔너리 형태로 연결되서 네임스페이스에 저장됨
 	- 파이썬의 클래스는 새로운 타입(객체)을 정의하기 위해 사용되고, 모듈과 마찬가지로 하나의 네임스페이스를 가짐
+	- `globals()`를 사용하면 전역 네임스페이스를 확인할 수 있음
+	- 함수는 전역과 별개의 네임스페이스를 가짐
+	
+	```
+	temp_variable = a
+	print(globals()) 
+	```
+	
 - `__init__` : 클래스 인스턴스 생성시 초기화하며 실행되는 부분
 - class의 값을 보고 싶으면 `__dict__`을 사용
-	- 네임스페이스를 확인
-- python class str method
+- python class magic method - str
 	- `__str__` 매직 메소드가 구현되어 있지 않은 상태에서 인스턴스를 print하면 object가 나옴
-	- 비공식적으로 print문으로 출력하는 사용자 입장의 출력
 	- print() 또는 str() 함수가 호출될 때 사용	- 기본적으로 str 메소드가 먼저 실행되며, str 메소드가 없으면 repr 메소드를 실행함
-- `__repr__` : str과 비슷
-	- 개발, 엔지니어 레벨에서 객체의 엄격한 타입을 표현할 땐 이 메소드를 사용
+- python class magic method - repr
+	- `__repr__` : str과 비슷
+	- 개발, 엔지니어 레벨에서 객체의 엄격한 타입을 표현시 사용
 	- 객체 표현을 반환함
 	- repr() 함수가 호출될 때 사용
-- dir method
+- python class magic method - dir
 	- 해당 인스턴스가 가진 모든 attribute를 list 형태로 보여줌(값을 보여주진 않음)
-- `__dict__`
-	- 특정 네임스페이스만 보고 싶다면, `__dict__`를 사용
-- `__doc__`
+- python class magic method - dict
+	- `__dict__`
+	- 특정 네임스페이스만 보고 싶다면, `__dict__`를 사용한 후, 특정 네임스페이스에 접근하면 됨
+- python class magic method - doc
+	- `__doc__`
 	- docstring을 출력
 
 
@@ -151,38 +126,26 @@ class Smartphone:
 	"""
 	Smartphone class
 	"""
-    def __init__(self, brand, details):
+    def __init__(self, brand, informations):
         self._brand = brand
-        self._details = details
+        self._informations = informations
 
     def __str__(self):
-        return f'str : {self._brand} - {self._details}'
+        return f'str : {self._brand} - {self._informations}'
 
     def __repr__(self):
-        return f'repr : {self._brand} - {self._details}'
+        return f'repr : {self._brand} - {self._informations}'
     
 
 Smartphone1 = Smartphone('Iphone', {'color' : 'White', 'price': 10000})
 Smartphone2 = Smartphone('Galaxy', {'color' : 'Black', 'price': 8000})
-Smartphone3 = Smartphone('Blackberry', {'color' : 'Silver', 'price': 6000})
 
 print(Smartphone1)
 print(Smartphone1.__dict__)
-print(Smartphone2.__dict__)
-print(Smartphone3.__dict__)
-
-
-# ID 확인 : 숫자가 모두 다름
-print(id(Smartphone1))
-print(id(Smartphone2))
 
 print(Smartphone1._brand == Smartphone2._brand)
 print(Smartphone1 is Smartphone2)
 
-for x in Smartphone_list:
-    print(repr(x))
-    print(x)
-    
 print(Smartphone.__doc__)    
 ```
 	
@@ -191,8 +154,7 @@ print(Smartphone.__doc__)
 	- self는 자기 자신을 뜻함. 인스턴스 자신
 		- 인스턴스 : 클래스에 의해 만들어진 객체
 	- self가 있는 것이 인스턴스 변수
-	- 인자에 self를 받는 것은 인스턴스 메소드
-		- detail_info 함수 구현
+	- 인자에 self를 받는 것은 인스턴스 메소드 : get_information 함수
 - 인스턴스의 `__class__`는 사용된 클래스를 출력함
 
 
@@ -204,27 +166,26 @@ class Smartphone:
 
     def __init__(self, brand, details):
         self._brand = brand
-        self._details = details
+        self._infomations = infomations
 
     def __str__(self):
-        return f'str : {self._brand} - {self._details}'
+        return f'str : {self._brand} - {self._ infomations}'
 
     def __repr__(self):
-        return f'repr : {self._brand} - {self._details}'
+        return f'repr : {self._brand} - {self._ infomations}'
 
-    def detail_info(self):
+    def get_infomation(self):
         print(f'Current Id : {id(self)}')
-        print(f'Smartphone Detail Info : {self._brand} {self._details.get("price")}')
+        print(f'Smartphone Detail Info : {self._brand} {self._infomations.get("price")}')
 
         Smartphone1 = Smartphone('Iphone', {'color': 'White', 'price': 10000})
         Smartphone2 = Smartphone('Galaxy', {'color': 'Black', 'price': 8000})
-        Smartphone3 = Smartphone('Blackberry', {'color': 'Silver', 'price': 6000})
         
         Smartphone1.detail_info()
 
         print(Smartphone1.__class__, Smartphone2.__class__)
         # 부모는 같음
-        print(id(Smartphone1.__class__) == id(Smartphone3.__class__))
+        print(id(Smartphone1.__class__) == id(Smartphone2.__class__))
 ```	
 
 - 클래스 변수
@@ -248,42 +209,34 @@ class Smartphone:
     # 클래스 변수
     smartphone_count = 0
     
-    def __init__(self, brand, details):
+    def __init__(self, brand, infomations):
         self._brand = brand
-        self._details = details
+        self._infomations = infomations
         Smartphone.smartphone_count += 1
 
     def __str__(self):
-        return f'str : {self._brand} - {self._details}'
+        return f'str : {self._brand} - {self._infomations}'
 
     def __repr__(self):
-        return f'repr : {self._brand} - {self._details}'
+        return f'repr : {self._brand} - {self._infomations}'
 
-    def detail_info(self):
+    def infomation(self):
         print(f'Current Id : {id(self)}')
-        print(f'Smartphone Detail Info : {self._brand} {self._details.get('price'))}'
+        print(f'Smartphone Detail Info : {self._brand} {self._infomations.get('price'))}'
 
     def __del__(self):
         Smartphone.smartphone_count -= 1
     
 Smartphone1 = Smartphone('Iphone', {'color' : 'White', 'price': 10000})
 Smartphone2 = Smartphone('Galaxy', {'color' : 'Black', 'price': 8000})
-Smartphone3 = Smartphone('Blackberry', {'color' : 'Silver', 'price': 6000})
 	
-Smartphone1.detail_info
 	
-print(Smartphone1.__class__, Smartphone2.__class__)
-# 부모는 같음
-print(id(Smartphone1.__class__) == id(Smartphone3.__class__))
-	
-# 공유 확인
 print(Smartphone.__dict__)
 print(Smartphone1.__dict__)
 print(Smartphone2.__dict__)
-print(Smartphone3.__dict__)
 print(dir(Smartphone1))
 	
-print(Smartphone1.cor_count)
+print(Smartphone1.smartphone_count)
 print(Smartphone.smartphone_count)
 ```		
 
@@ -312,34 +265,29 @@ class Smartphone:
     """
     Smartphone Class
     """
-    # 클래스 변수
     Smartphone_count = 0
     
-    # Instance Method
-    # self : 객체의 고유한 속성 값 사용
-    def __init__(self, brand, details):
+    def __init__(self, brand, informations):
         self._brand = brand
-        self._details = details
+        self._informations = informations
         Smartphone.smartphone_count += 1
 
     def __str__(self):
-        return f'str : {self._brand} - {self._details}'
+        return f'str : {self._brand} - {self._informations}'
 
     def __repr__(self):
-        return f'repr : {self._brand} - {self._details}'
+        return f'repr : {self._brand} - {self._informations}'
 
     def detail_info(self):
         print(f'Current Id : {id(self)}')
-        print(f'Smartphone Detail Info : {self._brand} {self._details.get('price'))}'
+        print(f'Smartphone Detail Info : {self._brand} {self._informations.get('price'))}'
 
     def get_price(self):
-        return f'Before Smartphone Price -> brand : {self._brand}, price : {self._details.get('price')}'
+        return f'Before Smartphone Price -> brand : {self._brand}, price : {self._informations.get('price')}'
 
-    # Instance Method
     def get_price_culc(self):
-        return f'After Smartphone Price -> brand : {self._brand}, price : {self._details.get('price') * Smartphone.price_per_raise}'
+        return f'After Smartphone Price -> brand : {self._brand}, price : {self._informations.get('price') * Smartphone.price_per_raise}'
 
-    # Class Method
     @classmethod
     def raise_price(cls, per):
         if per <= 1:
@@ -348,7 +296,6 @@ class Smartphone:
         cls.price_per_raise = per
         return 'Succeed! price increased.'
 
-    # Static Method
     @staticmethod
     def is_iphone(inst):
         if inst._brand == 'Iphone':
@@ -358,16 +305,13 @@ class Smartphone:
     
 Smartphone1 = Smartphone('Iphone', {'color' : 'White', 'price': 10000})
 Smartphone2 = Smartphone('Galaxy', {'color' : 'Black', 'price': 8000})
-
 # 기본 정보
 print(Smartphone1)
 print(Smartphone2)
 
-# 전체 정보
-Smartphone1.detail_info()
-Smartphone2.detail_info()
+Smartphone1.information()
+Smartphone2.information()
 
-# 가격 정보(인상 전)
 print(Smartphone1.get_price())
 print(Smartphone2.get_price())
 
@@ -375,33 +319,26 @@ print(Smartphone2.get_price())
 # 이렇게 직접 접근은 좋지 않아요
 Smartphone.price_per_raise = 1.2
 
-# 가격 정보(인상 후)
+# 가격 정보
 print(Smartphone1.get_price_culc())
 print(Smartphone2.get_price_culc())
 
-# 가격 인상(클래스 메소드 사용)
+# 가격 인상
 Smartphone.raise_price(1.6)
 
-# 가격 정보(인상 후 : 클래스 메소드)
+# 가격 정보
 print(Smartphone1.get_price_culc())
 print(Smartphone2.get_price_culc())
 
-# Iphone 여부(스태틱 메소드 미사용)
 def is_iphone(inst):
     if inst._brand == 'Iphone':
         return f'OK! This Smartphone is {inst._brand}.'
     return 'Sorry. This Smartphone is not Iphone.'
 
-# 별도의 메소드 작성 후 호출
-print(is_iphone(Smartphone1))
 print(is_iphone(Smartphone2))
 
-# Iphone 여부(스태틱 메소드 사용)
 print('Static : ', Smartphone.is_iphone(Smartphone1))
 print('Static : ', Smartphone.is_iphone(Smartphone2))
-
-print('Static : ', Smartphone1.is_iphone(Smartphone1))
-print('Static : ', Smartphone2.is_iphone(Smartphone2))
 
 ```	
 	
