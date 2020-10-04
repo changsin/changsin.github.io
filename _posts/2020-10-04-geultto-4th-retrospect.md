@@ -111,6 +111,8 @@ comments: true
 <img src="https://www.dropbox.com/s/fisvsl9bcv3elm8/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-10-04%20%EC%98%A4%ED%9B%84%202.25.55.png?raw=1">
 
 
+<br />
+
 
 ### 앞으로
 - 위에 글또 4기분들의 후기를 그대로 보여드리는 이유는, 좋은 것만 취하지 않고 객관적으로 파악해 더 좋은 방향으로 나아가기 위한 목적입니다
