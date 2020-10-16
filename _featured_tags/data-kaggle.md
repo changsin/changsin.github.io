@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: CS231n
-slug: cs231
+title: Kaggle
+slug: kaggle
 category: data
 menu: false
-order: 8
+order: 2
 ---

@@ -1,5 +1,5 @@
 # Jekyll
-# Made by Seongyun Byeon
+# Made by Changsin
 # ipynb to html
 
 module Jekyll

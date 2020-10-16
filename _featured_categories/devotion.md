@@ -1,10 +1,10 @@
 ---
 layout: list
-title: Diary
-slug: diary
+title: Devotion
+slug: devotion
 menu: true
 submenu: false
-order: 1
+order: 4
 description: >
-  일기장
+  QT, devotions
 ---
