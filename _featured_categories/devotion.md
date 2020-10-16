@@ -4,7 +4,7 @@ title: Devotion
 slug: devotion
 menu: true
 submenu: false
-order: 4
+order: 3
 description: >
   QT, devotions
 ---

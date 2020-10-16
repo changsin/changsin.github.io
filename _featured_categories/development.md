@@ -4,7 +4,7 @@ title: Development
 slug: development
 menu: true
 submenu: true
-order: 3
+order: 2
 description: >
   About software development
 ---
