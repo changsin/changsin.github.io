@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
 title: PyStory
-slug: ai-pystory
+slug: pystory
 category: ai
 menu: false
 order: 1
