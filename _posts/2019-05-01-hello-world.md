@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello World"
 subtitle:   "The beginning of a story"
-categories: ai
+categories: writings
 tags: pystory
 comments: true
 ---

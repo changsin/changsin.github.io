@@ -2,7 +2,7 @@
 layout: tag-blog
 title: Diary
 slug: diary
-category: journal
+category: writings
 menu: false
 order: 1
 ---

@@ -2,7 +2,7 @@
 layout: tag-blog
 title: Zettel
 slug: zettel
-category: journal
+category: writings
 menu: false
-order: 2
+order: 3
 ---
