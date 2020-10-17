@@ -2,7 +2,7 @@
 layout: tag-blog
 title: Web
 slug: web
-category: development
+category: software
 menu: false
 order: 1
 ---

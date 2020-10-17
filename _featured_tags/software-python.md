@@ -2,7 +2,7 @@
 layout: tag-blog
 title: Python
 slug: python
-category: development
+category: software
 menu: false
 order: 2
 ---

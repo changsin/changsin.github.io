@@ -1,6 +1,6 @@
 ---
 layout: tag-blog
-title: zettel
+title: Zettel
 slug: zettel
 category: journal
 menu: false

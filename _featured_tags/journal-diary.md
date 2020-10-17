@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: journal
-slug: journal
+title: Diary
+slug: diary
 category: journal
 menu: false
 order: 1
