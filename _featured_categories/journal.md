@@ -4,7 +4,7 @@ title: Journal
 slug: journal
 menu: true
 submenu: false
-order: 4
+order: 5
 description: >
   journal entries
 ---
