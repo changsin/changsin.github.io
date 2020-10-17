@@ -11,7 +11,7 @@
 {% if username contains "//" %}
   {% assign url = username %}
 {% else %}
-  {% assign url = username | prepend:data_social.prepend | append:data_soical.append %}
+  {% assign url = username | prepend:data_social.prepend | append:data_social.append %}
 {% endif %}
 
 <li>
