@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Jekyll and Hyde"
-subtitle:   "How to use Jekyll and Hydejack to create a blog site"
+title:  "Jekyll and Hyde: How to use Jekyll and Hydejack to create a blog site"
+subtitle:   ""
 categories: coding
 tags: web
 comments: true
