@@ -1,16 +1,17 @@
 ---
 layout: post
-title:  "Jekyll and Hyde: How to use Jekyll and Hydejack to create a blog site"
-subtitle:   ""
+title: "Jekyll and Hyde"
+subtitle: "How to use Jekyll and Hydejack to create a blog site"
 categories: coding
 tags: web
 comments: true
 ---
 
-# Why use Jekyll?
+# Jekyll and Hyde: How to use Jekyll and Hydejack to create a blog site
+## Why use Jekyll?
 
 [GitHub Pages](https://pages.github.com/) is a great way to create a blog site.
-THe advantages are:
+The advantages are:
 
 * **It is free:** If you have a github account, you can have one personal github page for free
  as long as the domain name is [github user id].github.io.
@@ -22,7 +23,7 @@ THe advantages are:
 * **Easy to setup:** GitHub uses [Jekyll](https://jekyllrb.com/) which transforms
 [Markdown](https://en.wikipedia.org/wiki/Markdown) files which are basically plain text files into beautiful blogs.
 
-# Which Jekyll theme to use?
+## Which Jekyll theme to use?
 
 The easiest way to setup a github page is to use one of the [Jekyll themes](http://jekyllthemes.org/).
 A Jekyll theme is a style template that the users can customize. For choosing a theme, I had the requirements:
@@ -53,8 +54,10 @@ I liked WordPress twenty-sixteen template and still using it for my other blog s
  The downside is still the search funciton.
 
 In the end, I settled on [zzsza](https://zzsza.github.io/) because it has all the features I needed.
+Internally, almost all of these themes are built upon [Hydejack](https://hydejack.com/) which is
+another Jekyll theme and so is the reason for the title of this article: Jekyll and Hyde.
 
-# How to setup?
+## How to setup?
 
 I followed the guideline of [Beautiful Jekyll](https://github.com/daattali/beautiful-jekyll#readme)
 to setup the site.
