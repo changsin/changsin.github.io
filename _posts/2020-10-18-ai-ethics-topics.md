@@ -18,3 +18,8 @@ What are the implication for the justice system?
 * Embedded microchips
   * [Thousands Of Swedes Are Inserting Microchips Under Their Skin](https://www.npr.org/2018/10/22/658808705/thousands-of-swedes-are-inserting-microchips-under-their-skin)
   * [Chinese article](http://waagreat.com/doc_V3VxdWhweVNjVDJRSzN3eUNwaHMxZz09)
+  
+# AI in Justice
+* [COMPAS](https://en.wikipedia.org/wiki/COMPAS_(software)
+  * [AI 當法官，會是正義女神的化身嗎？](https://dq.yam.com/post.php?id=13034)
+  * [A Popular Algorithm Is No Better at Predicting Crimes Than Random People](https://www.theatlantic.com/technology/archive/2018/01/equivant-compas-algorithm/550646/)
