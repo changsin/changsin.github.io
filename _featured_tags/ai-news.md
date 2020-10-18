@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: NLP
-slug: nlp
+title: AI News
+slug: ai-news
 category: ai
 menu: false
-order: 5
+order: 4
 ---

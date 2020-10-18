@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: NLP
-slug: nlp
+title: Ethics
+slug: ethics
 category: ai
 menu: false
-order: 5
+order: 3
 ---

@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: NLP
-slug: nlp
+title: Education
+slug: education
 category: ai
 menu: false
-order: 5
+order: 2
 ---
