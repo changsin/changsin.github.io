@@ -20,6 +20,7 @@ What are the implication for the justice system?
   * [Chinese article](http://waagreat.com/doc_V3VxdWhweVNjVDJRSzN3eUNwaHMxZz09)
   
 # AI in Justice
-* [COMPAS](https://en.wikipedia.org/wiki/COMPAS_(software)
+* [COMPAS](https://en.wikipedia.org/wiki/COMPAS_(software))
   * [AI 當法官，會是正義女神的化身嗎？](https://dq.yam.com/post.php?id=13034)
   * [A Popular Algorithm Is No Better at Predicting Crimes Than Random People](https://www.theatlantic.com/technology/archive/2018/01/equivant-compas-algorithm/550646/)
+  * [Can you make AI fairer than a judge? Play our courtroom algorithm game](https://www.technologyreview.com/2019/10/17/75285/ai-fairer-than-judge-criminal-risk-assessment-algorithm/)

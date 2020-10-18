@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: Conference
-slug: conference
+title: Event
+slug: event
 category: ai
 menu: false
 order: 1
