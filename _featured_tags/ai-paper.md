@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: Conference
-slug: conference
+title: AI Paper
+slug: ai-paper
 category: ai
 menu: false
-order: 1
+order: 6
 ---
