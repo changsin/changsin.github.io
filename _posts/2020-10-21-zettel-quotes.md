@@ -11,3 +11,8 @@ comments: true
 Expect great things from God; attempt great things for God.
  -- William Carey
 ```
+
+```
+fortuna favet audaci
+(fortune favors the bold)
+```
