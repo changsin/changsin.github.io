@@ -7,7 +7,7 @@ tags: education
 comments: true
 ---
 # Online
-*[Stanford: CNN for Visual Recognition](http://cs231n.stanford.edu/)
+* [Stanford: CNN for Visual Recognition](http://cs231n.stanford.edu/)
 
 # Taiwan
 * [AI4kids](https://edge.aif.tw/ai_education_for_next_generation/):
