@@ -14,9 +14,9 @@ Here is a handy [list](https://www.ionos.com/digitalguide/server/know-how/window
 
 | CMD command | Description | Version |
 |-----|------|------|
-| call | Calls a batch file within another batch file. The command has no effect if entered directly into CMD instead of in a batch file. | All
+| call | Calls a batch file within another batch file. The command has no effect if entered directly into CMD instead of in a batch file. | All |
 | cd (chdir) | Displays the current directory and lets you switch to other directories. With the parameter /D plus drive and path specification, you can also switch drives. Use cd.. to switch to a higher directory (has the same function as the chdir command).| All |
-| cls | Clears the content of the screen. | All
+| cls | Clears the content of the screen. | All |
 | date | Displays the current date and allows you to change it. With the parameter /T the date is shown without the option to change. | All |
 | dir | Displays all folders and files within the current directory. You can restrict the output by attributes (/A), simplify the list (/B), or display all subdirectories and their files (/S). | All |
 | echo | Displays a message and is mainly used within scripts and batch files. | All |
