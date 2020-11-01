@@ -44,7 +44,7 @@ Here is a handy [list](https://www.ionos.com/digitalguide/server/know-how/window
 
 ## Files
 | CMD command | Description | Version |
-|-----|------|------|
+| ----- | ------ | ------ |
 | copy | Copies a file or multiple files to another location. It’s also possible to connect several files to one. You can use the asterisk as a wild card. | All |
 | del (erase) | Deletes a file or multiple files. If you also want to delete all files from subfolders, you can do this with the /S parameter. Read-only files can be deleted with /F (you can also use the erase command).| All |
 | for | Sets a specific command that should be run for each individual file in a file set. This command is usually used in batch and script files. | All |
