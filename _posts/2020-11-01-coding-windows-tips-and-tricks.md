@@ -43,8 +43,14 @@ Here is a handy [list](https://www.ionos.com/digitalguide/server/know-how/window
 | ver | Displays the current version number of Windows or MS-DOS. | All |
 
 ## Files
+
 | CMD command | Description | Version |
 | ----- | ------ | ------ |
+| copy | Copies a file or multiple files to another location. It’s also possible to connect several files to one. You can use the asterisk as a wild card. | All |
+| del (erase) | Deletes a file or multiple files. If you also want to delete all files from subfolders, you can do this with the /S parameter. Read-only files can be deleted with /F (you can also use the erase command).| All |
+| for | Sets a specific command that should be run for each individual file in a file set. This command is usually used in batch and script files. | All |
+| forfiles | Selects one or more files and runs a command that refers to these files. Usually used for batch and script files. | 10/8/7/Vista |
+| goto | Skips the execution within a batch program to a specific line (marker). | All |
 | if | Represents a conditional statement and executes expressions within batch files only under certain conditions. Can be extended by not if commands are only not to be executed under certain conditions. | All |
 | move | Moves a file or multiple files from one directory to another. The command can also change the names of directories. By default, the command overwrites other files with the same name when moving files to the destination. To prevent this use the /-Y parameter. | All |
 | ren (rename) | Changes the name of a particular file. Directory and drive cannot be changed this way (or use the rename command). | All |
