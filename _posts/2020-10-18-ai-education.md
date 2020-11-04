@@ -6,8 +6,12 @@ categories: ai
 tags: education
 comments: true
 ---
-# Online
+# Online Courses
 * [Stanford: CNN for Visual Recognition](http://cs231n.stanford.edu/)
+
+# Free books
+* [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/):
+ Free online book for NN & Deep Learning
 
 # Taiwan
 * [AI4kids](https://edge.aif.tw/ai_education_for_next_generation/):

@@ -109,6 +109,10 @@ for /f "usebackq tokens=1-4 delims=," %%a in ("sample1.csv") do (
       echo %%a %%b %%c %%d )
 ```
 
+* How to show contents of all files in a folder 
+```markdown
+for /f %%a in (%1\*.*) do (type %%a)
+```
 
 ### [FORFILES](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/forfiles)
 
