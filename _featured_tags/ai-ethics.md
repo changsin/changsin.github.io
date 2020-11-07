@@ -4,5 +4,5 @@ title: Ethics
 slug: ethics
 category: ai
 menu: false
-order: 3
+order: 1
 ---

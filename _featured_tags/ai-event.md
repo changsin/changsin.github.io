@@ -4,5 +4,5 @@ title: Event
 slug: event
 category: ai
 menu: false
-order: 1
+order: 2
 ---

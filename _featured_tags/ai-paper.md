@@ -4,5 +4,5 @@ title: AI Paper
 slug: ai-paper
 category: ai
 menu: false
-order: 6
+order: 5
 ---

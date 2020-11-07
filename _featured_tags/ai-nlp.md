@@ -4,5 +4,5 @@ title: NLP
 slug: nlp
 category: ai
 menu: false
-order: 5
+order: 4
 ---

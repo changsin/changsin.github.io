@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "AI Education"
-subtitle: "How to teach AI"
+title: "AI Learning"
+subtitle: "How to learn AI"
 categories: ai
-tags: education
+tags: learning
 comments: true
 ---
 # Online Courses
@@ -14,13 +14,17 @@ comments: true
   * [code](https://github.com/Atcold/pytorch-Deep-Learning) based on PyTorch  
 * [Stanford: CNN for Visual Recognition](http://cs231n.stanford.edu/) by Fei-Fei Li, etc.
 
-# Free books
+# Free Books
 * [Deep Learning](https://www.deeplearningbook.org/) by Ian Goodfellow, Yoshua Bengio and Aaron Courville:
  free online book & lectures by the gurus.
 * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) by
 [Michael Nielsen](https://michaelnielsen.org/):
  Free online book for NN & Deep Learning
 
+# Paid Books
+* [Generative Deep Learning](https://www.amazon.com/Generative-Deep-Learning-Teaching-Machines/dp/1492041947/ref=sr_1_1) 
+by David Foster: A really good introduction to GAN. Very readable and entertaining. Highly recommended.
+  * [code](https://github.com/davidADSP/GDL_code)
 # Taiwan
 * [AI4kids](https://edge.aif.tw/ai_education_for_next_generation/):
 Founded in 2019, providing AI education to primary and secondary schools in Taiwan.
