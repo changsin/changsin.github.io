@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Linux info"
+title: "Linux Tips and Tricks"
 subtitle: "various tips and trick in Linux"
 categories: coding
 tags: linux
