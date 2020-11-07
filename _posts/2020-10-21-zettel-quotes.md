@@ -20,12 +20,18 @@ if he fails, at least fails while daring greatly, so that his place shall never 
 those cold and timid souls who neither know victory nor defeat.
   -- Theodor Roosvelt
 ```
-```
+
+```markdown
 Expect great things from God; attempt great things for God.
  -- William Carey
 ```
 
-```
+```markdown
 fortuna favet audaci
 (fortune favors the bold)
+```
+
+```markdown
+The death of a child is a tragedy, but the death of a million is just a number.
+  -- Karl Marx
 ```
