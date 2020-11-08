@@ -6,6 +6,22 @@ categories: business
 tags: startup
 comments: true
 ---
+## How to start a startup
+Sam Altman, President of Y Combinator, and Dustin Moskovitz, Cofounder of Facebook, Asana,
+ and Good Ventures, kick off the How to Start a Startup Course.
+ Sam covers the first 2 of the 4 Key Areas: Ideas, Products, Teams and Execution;
+  and Dustin discusses Why to Start a Startup.
+* [How to Start a Startup](https://www.youtube.com/channel/UCxIJaCMEptJjxmmQgGFsnCg):
+youtube channel. Stanford lectures.
+* [lecture trascripts](https://genius.com/Sam-altman-lecture-1-how-to-start-a-startup-annotated)
+* Slides
+  * [Lecture 1 Sam](https://www.dropbox.com/s/uio0cep4a2454ar/Lecture_1_Sam.pdf?dl=0)
+  * [Lecture 1 Dustin](https://www.dropbox.com/s/l4lnfilivmndmt4/Lecture_1_Dustin.pdf?dl=0)
+```markdown
+People have this vision of being the CEO of a company they started and being on top of the pyramid...
+What it's really like: everyone else is your boss -- all of your employees, customers, partners, users, media are you boss.
+...
+```
 
 ## Dave Parker
 * [dkparker.com](https://www.dkparker.com)
