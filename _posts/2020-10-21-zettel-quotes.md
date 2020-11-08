@@ -32,6 +32,16 @@ fortuna favet audaci
 ```
 
 ```markdown
+All the forces in the world are not so powerful as an idea whose time has come.
+  -- Victor Hugo
+```
+
+```markdown
+Everybody has a plan until they get punched in the face.
+  -- Mike Tyson
+```
+
+```markdown
 The death of a child is a tragedy, but the death of a million is just a number.
   -- Karl Marx
 ```

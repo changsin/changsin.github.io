@@ -17,3 +17,29 @@ What's your Launch Addressable Market?
 ## Coursera courses
 * Coursera [Creating and Developing A Tech Startup](https://www.coursera.org/learn/tech-startup):
  Application that provides an API to check the status of some parts and some utilities like ping.
+
+## Presentations
+
+### [The single biggest reason why start-ups succeed | Bill Gross](https://www.youtube.com/watch?v=bNpx7gpSqbY):
+* Founder of IdeaLab
+  * Idea: ideas are not everything
+  * Team: execution - adaptability - the customer is the true reality
+  * Business model
+  * Funding
+  * Timing
+* Top 5 factors in success
+1. Timing (42%): AirBnB and Uber came right after the great recession when people needed extra money
+to overcome their initial rejection of the ideas. CitySearch belongs to the same category when
+people were looking for cost-effective ways to build web sites. On the other hand, Z.com was
+an online entertainment company and we had high hopes. But broadband penetration was too low
+in 1990-2000. A couple of years later when broadband was available, youtube came out perfectly timed and
+had a great success.
+2. Team/Execution (32%)
+3. Idea "Truth" Outlier (28%)
+4. Business Model (24%)
+5. Funding (14%)
+
+```markdown
+Everybody has a plan until they get punched in the face.
+  -- Mike Tyson
+```
