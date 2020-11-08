@@ -32,6 +32,11 @@ fortuna favet audaci
 ```
 
 ```markdown
+He who has a why to live can bear almost any how.
+  -- Nietzsche
+```
+
+```markdown
 All the forces in the world are not so powerful as an idea whose time has come.
   -- Victor Hugo
 ```

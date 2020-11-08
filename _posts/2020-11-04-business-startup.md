@@ -31,8 +31,10 @@ What it's really like: everyone else is your boss -- all of your employees, cust
 What's your Launch Addressable Market?
 
 ## Coursera courses
+* Coursera [Startup Entrepreneurship](https://www.coursera.org/specializations/startup-entrepreneurship#courses):
+Technion Israel Institute of Technology
 * Coursera [Creating and Developing A Tech Startup](https://www.coursera.org/learn/tech-startup):
- Application that provides an API to check the status of some parts and some utilities like ping.
+offered by École Polytechnique, HEC Paris
 
 ## Presentations
 
