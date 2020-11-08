@@ -14,6 +14,9 @@ comments: true
   * [code](https://github.com/Atcold/pytorch-Deep-Learning) based on PyTorch  
 * [Stanford: CNN for Visual Recognition](http://cs231n.stanford.edu/) by Fei-Fei Li, etc.
 
+# Self-Study
+* Siraj Naval [Learn Deep Learning in 6 Weeks](https://github.com/llSourcell/Learn_Deep_Learning_in_6_Weeks)
+
 # Free Books
 * [Deep Learning](https://www.deeplearningbook.org/) by Ian Goodfellow, Yoshua Bengio and Aaron Courville:
  free online book & lectures by the gurus.
@@ -25,6 +28,7 @@ comments: true
 * [Generative Deep Learning](https://www.amazon.com/Generative-Deep-Learning-Teaching-Machines/dp/1492041947/ref=sr_1_1) 
 by David Foster: A really good introduction to GAN. Very readable and entertaining. Highly recommended.
   * [code](https://github.com/davidADSP/GDL_code)
+  
 # Taiwan
 * [AI4kids](https://edge.aif.tw/ai_education_for_next_generation/):
 Founded in 2019, providing AI education to primary and secondary schools in Taiwan.
