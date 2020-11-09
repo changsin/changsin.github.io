@@ -19,7 +19,7 @@ youtube channel. Stanford lectures.
   * [Lecture 1 Dustin](https://www.dropbox.com/s/l4lnfilivmndmt4/Lecture_1_Dustin.pdf?dl=0)
 
 ## Lecture 1 - How to Start a Startup (Sam Altman, Dustin Moskovitz)
-* [youtube](https://www.youtube.com/watch?v=CBYhVcO4WgI&list=PL5q_lef6zVkaTY_cT1k7qFNF2TidHCe-1)
+[Lecture video](https://www.youtube.com/watch?v=CBYhVcO4WgI&list=PL5q_lef6zVkaTY_cT1k7qFNF2TidHCe-1)
 
 ### 1. Idea
 * Spend some time to think through ideas, the long term effect.
@@ -48,7 +48,74 @@ youtube channel. Stanford lectures.
 * It takes some fanatics to build a great product.
 * Pick a small number of users by hand.
 
+
+## Lecture 2 - Team and Execution (Sam Altman)
+* [Lecture 2 video](https://www.youtube.com/watch?v=CVfnkM44Urs&list=PL5q_lef6zVkaTY_cT1k7qFNF2TidHCe-1&index=2)
+
 ### 3. Team
+A. Cofounders: relentlessly resourceful. "James Bond"
+  * Know your cofounders - tough & calm
+
+B. Try not to hire: have a high bar. Get a small number of dedicated people.
+
+C: Get the best people: 0 - 25% of your time.
+
+* Mediocre engineers do not build great companies.
+* Hire from people you already know (referrals).
+* Go for the aptitude, not experience in early days.
+  * Are they smart?
+  * Do they get things done?
+  * Do I want to spend a lot of time around?
+
+  * Good communication skills
+  * Manically determined
+  * Pass the animal test (Paul Graham): be able to describe as an animal
+  * Would feel comfortable reporting to them.
+   Enjoy working with them. Or at least respect them.
+   
+* Equity: be ready to give up to 10% to employees
+
+D. You've hired the best - now keep them around.
+* What motivates people: autonomy & mastery
+
+E. Fire fast
+* persistently negative
 
 ### 4. Execution
+* CEO jobs
+  * Set the vision
+  * Raise money
+  * Evangelize
+  * Hire and manage
+  * Make sure the entire company executes
 
+* Can you get it done?
+  * Focus:
+    * What are you spending time and money on?
+    * What are the two and three most important things?
+    * Say no. A lot.
+    * Set overarching goals. Repeat them.
+    * Communicate.
+  * Intensity:
+    * Relentless operating rhythm
+    * Obsession with Execution Quality
+    * Bias towards action - Indecisiveness is a startup killer.
+      * Every time you talk to them, they've gotten new things done.
+      * Do it incrementally
+      * Quick
+      * Do whatever it takes
+      * Show up
+      * Don't give up
+
+* Always keep momentum: keep growing
+  * Save vision speeches for when you are winning.
+    When you are losing, you just have to have some small wins.
+    Sales fix everything.
+  * Shipping product
+  * Launching new features
+  * Reviewing/reporting metrics regularly
+```
+ The competitor to be feared is one who never bothers about you at all,
+  but goes on making his own business better all the time.
+  -- Henry Ford 
+```
