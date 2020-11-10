@@ -9,3 +9,6 @@ comments: true
 
 ## To develop interactively online
 * [codepen](https://codepen.io): html, css, and js all in one editor online
+
+## Next.js free training
+* Mastering [Next.js](https://masteringnextjs.com/#course-overview)
