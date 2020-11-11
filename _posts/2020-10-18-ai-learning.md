@@ -38,3 +38,9 @@ Founded in 2019, providing AI education to primary and secondary schools in Taiw
 
 # Korean
 * [모두를 위한 딥러닝](http://hunkim.github.io/ml/) by Hun Kim (김성훈) 
+
+
+# By Topics
+
+## Loss Functions
+* [How to choose loss functions](https://machinelearningmastery.com/how-to-choose-loss-functions-when-training-deep-learning-neural-networks/?fbclid=IwAR0uNnaF0j9wE8H0cG6mLm7_Bdjfd00lrSpQSnC-RtgmGFsKUhRwfHmeGVc)
