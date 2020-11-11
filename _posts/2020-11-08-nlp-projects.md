@@ -19,3 +19,7 @@ interesting project done by an undergraduate to auto-suggest commit messages bas
 
 * [CodeBERT](https://github.com/microsoft/CodeBERT)
 
+
+## Data
+* [Webster's English Dictionary](https://github.com/ubershmekel/WebstersEnglishDictionary)
+
