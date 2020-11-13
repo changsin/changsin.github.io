@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "How to start a startup"
-subtitle: "Learning materials for startups"
+title: "Startup Resources"
+subtitle: "Resources for startups"
 categories: business
 tags: startup
 comments: true
