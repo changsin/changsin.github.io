@@ -7,12 +7,12 @@ tags: startup
 comments: true
 ---
 # Table of Contents
-- [Introduction](#Introduction)
-- [Telling Your Story in 11 Slides](#11-slides)
-- [Markets](#Markets)
-- [Value Propositions](#value-propositions)
-- [Customer Development Data](#customer-development-data)
-- [Awkwad Cofound Discussions](#co-founder)
+1. [Introduction](#Introduction)
+2. [Telling Your Story in 11 Slides](#11-slides)
+3. [Markets](#Markets)
+4. [Value Propositions](#value-propositions)
+5. [Customer Development Data](#customer-development-data)
+6. [Awkwad Cofounder Discussions](#co-founder)
 
 # Introduction <a name="Introduction"></a>
 * [Trajectory: Startups](https://www.gettrajectory.com/)
