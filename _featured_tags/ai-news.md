@@ -4,5 +4,5 @@ title: AI News
 slug: ai-news
 category: ai
 menu: false
-order: 3
+order: 4
 ---

@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: AI Paper
-slug: ai-paper
+title: Learning
+slug: learning
 category: ai
 menu: false
-order: 6
+order: 3
 ---

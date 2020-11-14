@@ -3,7 +3,7 @@ layout: post
 title: "How to calculate the number of parameters in a neural network"
 subtitle: "parameter counting in "
 categories: ai
-tags: deep learning
+tags: learning
 comments: true
 ---
 * num_params

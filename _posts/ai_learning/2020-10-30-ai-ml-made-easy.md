@@ -3,7 +3,7 @@ layout: post
 title: "Machine Learning Made-Easy"
 subtitle: "How to do machine learning without coding"
 categories: ai
-tags: education
+tags: learning
 comments: true
 ---
 # TensorFlowJS
