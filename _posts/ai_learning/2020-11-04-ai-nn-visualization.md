@@ -3,7 +3,7 @@ layout: post
 title: "How to visualize neural networks"
 subtitle: "Visualization tools for neural networks"
 categories: ai
-tags: visualization
+tags: learning
 comments: true
 ---
 ## Neural Networks in general
