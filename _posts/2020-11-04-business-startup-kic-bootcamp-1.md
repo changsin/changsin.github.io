@@ -56,13 +56,117 @@ help finding staff?
 
 ## Telling Your Story in 11 Slides
 
+### 1. Title, Value Proposition, Contact Info
+### 2. Presentation Overview
+### 3. Problem
+### 4. Solution
+### 5. Market Size
+### 6. Competitive Analyss
+### 7. Traction/Timing - why you, why now?
+### 8. Product Road Map/Demo How you make money/Key Metrics
+### 9. Go-To-Market/Why Bahrain
+### 10. Secret sauce/Moat/IP
+### 11. Team
+### 12 Clear Ask/What do you need from the VSs?
+
 ## Research & Competitive Analysis
 
 ## Markets
+What is the market and who is the customer?
+
+#### TAM (Total Addressable Market)
+
+### SAM (Service Addressable Market)
+* Or Serviceable Available Market
+* The part of the market that can actually be reached
+  * sales and marketing driven
+  * with the feature you have now
+  * with the product roadmap you have
+  * competition
+* Not everyone that might use it, if they found it, if it was in their language and currency
+
+#### SOM (Service Obtainable Market)
+* The subset of the market you can capture
+* A proxy for short term upside
+* Not aspirational
+
+#### LAM (Launch Addressable Market)
+What can buy your product at MVP?
+* Given your TAM, SAM, and SOM - WHO is the customer?
+* With Limited Features?
+* Who can you sell today?
+  * B2B
+  * B2C
+  * Buyer profile
+ *What features will you need to launch to expand your market and price?
+
+### GTM (Go-To-Market)
+* Have a plan for how you get your first customers?
+* Your LAM maps to your Go-To-Market
+  * customer
+  * value prop
+  * pricing
+  * marketing spend and sales effort
+
+### Market Conditions
+* Nascent/New market: Uber, AirBnB
+* Large markets: >$100M or $1B
+  * Large market provides "at bat" opportunities
+  * small markets suck
+* Headwinds or tailwinds?
+  * Covid
 
 ## Value Propositions
+### Positioning
+* Positioning is holding a place in your customers' mind - not as everything.
+What's memorable?
+* Who is the initial customer?
+* Think about limiting service and customer first - before you expand
+  * You are not precluded from selling other services or products
+* What claim or promise will you make?
+* Don't buy the lead
+  * Think of this like journalism
+  * What's the headline?
+  * What's the lead?
+  * What's the story?
+### Testing
+* Each pitch is a rapid A/B testing
+* Look for 1:Many opportunities to test your value proposition
+  * Trade shows
+  * peers
+* Test tag lines
+### Taglines
+* The one sentence summary
+* Pull from the madlibs pitch
+* Benefits to customer - not features
+* Simple
+* Evolve with the company
+
+### Branding
+* You don't have a big budget - so you can't afford brand advertising
+* Start with brand neutral and build
+* Memorable
+* Phonetically easy to spell
+* Avoid double letters, etc.
+
 
 ## Customer Development Data
+### Who is your customer?
+* Product vs. Services
+  * Product is something you can deliver or ship - can you make $$ while you sleep
+  * Services require people to deliver on the value and promise - consulting or a restaurant
+* Who pays the bill?
+  * A business
+  * The consumer
+* The product user and who pays can be different as in Facebook or Google
+that make money on advertising
+
+### Why/How do they buy?
+* Make money vs. save money?
+* Searching for product?
+* Needs to be sold
+
+
 
 ## Awkward Co-Founder Discussions
 
