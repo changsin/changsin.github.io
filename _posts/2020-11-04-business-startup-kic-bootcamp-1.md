@@ -9,9 +9,12 @@ comments: true
 # Table of Contents
 - [Introduction](#Introduction)
 - [Telling Your Story in 11 Slides](#11-slides)
+- [Markets](#Markets)
+- [Value Propositions](#value-propositions)
+- [Customer Development Data](#customer-development-data)
+- [Awkwad Cofound Discussions](#co-founder)
 
-
-## Introduction <a name="Introduction"></a>
+# Introduction <a name="Introduction"></a>
 * [Trajectory: Startups](https://www.gettrajectory.com/)
 * [dkparker.com](https://www.dkparker.com)
 * [slides](https://www.dkparker.com/kic-wtia/)
@@ -59,27 +62,24 @@ help finding staff?
 2. Capturing Value: Reasonable to exceptional returns - traction & idea
 3. Delivering Value: Price, economics, S & M
 
-## Telling Your Story in 11 Slides <a name="11-slides"></a>
+# Telling Your Story in 11 Slides <a name="11-slides"></a>
+1. Title, Value Proposition, Contact Info
+2. Presentation Overview
+3. Problem
+4. Solution
+5. Market Size
+6. Competitive Analyss
+7. Traction/Timing - why you, why now?
+8. Product Road Map/Demo How you make money/Key Metrics
+9. Go-To-Market/Why Bahrain
+10. Secret sauce/Moat/IP
+11. Team
+12. Clear Ask/What do you need from the VSs?
 
-### 1. Title, Value Proposition, Contact Info
-### 2. Presentation Overview
-### 3. Problem
-### 4. Solution
-### 5. Market Size
-### 6. Competitive Analyss
-### 7. Traction/Timing - why you, why now?
-### 8. Product Road Map/Demo How you make money/Key Metrics
-### 9. Go-To-Market/Why Bahrain
-### 10. Secret sauce/Moat/IP
-### 11. Team
-### 12 Clear Ask/What do you need from the VSs?
-
-## Research & Competitive Analysis
-
-## Markets
+# Markets <a name="Markets"></a>
 What is the market and who is the customer?
 
-#### TAM (Total Addressable Market)
+### TAM (Total Addressable Market)
 
 ### SAM (Service Addressable Market)
 * Or Serviceable Available Market
@@ -90,12 +90,12 @@ What is the market and who is the customer?
   * competition
 * Not everyone that might use it, if they found it, if it was in their language and currency
 
-#### SOM (Service Obtainable Market)
+### SOM (Service Obtainable Market)
 * The subset of the market you can capture
 * A proxy for short term upside
 * Not aspirational
 
-#### LAM (Launch Addressable Market)
+### LAM (Launch Addressable Market)
 What can buy your product at MVP?
 * Given your TAM, SAM, and SOM - WHO is the customer?
 * With Limited Features?
@@ -136,7 +136,7 @@ that make money on advertising
 * Searching for product?
 * Needs to be sold
 
-## Value Propositions
+# Value Propositions <a name="value-propositions"></a>
 ### Positioning
 * Positioning is holding a place in your customers' mind - not as everything.
 What's memorable?
@@ -169,7 +169,7 @@ What's memorable?
 * Phonetically easy to spell
 * Avoid double letters, etc.
 
-## Customer Development Data
+# Customer Development Data <a name="customer-development-data"></a>
 * Parallel process with Product Development
 * "Get out of the building"
 * Develop for a few, not many
@@ -218,7 +218,7 @@ What's memorable?
 * No blind surveys
 * Can't outsource
 
-## Awkward Co-Founder Discussions
+## Awkward Co-Founder Discussions <a name="co-founder"/>
 * Setup a process to get the expectations out in the open
 * Pre-incorporation
   * Meeting 1 of 2
