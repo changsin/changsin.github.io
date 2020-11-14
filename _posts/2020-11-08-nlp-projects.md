@@ -19,6 +19,13 @@ interesting project done by an undergraduate to auto-suggest commit messages bas
 
 * [CodeBERT](https://github.com/microsoft/CodeBERT)
 
+## GPT-2
+* [GPT2-Chinese](https://github.com/Morizeyao/GPT2-Chinese)
+* [從GPT-2到GPT-3，語言模型的未來？](https://edge.aif.tw/chinese-text-generation-using-gpt-2-and-an-overview-of-gpt-3/)
+
+## GPT-3
+* [GPT-3](https://lambdalabs.com/blog/gpt-3/&usg=ALkJrhjlCw44JFGy0Da2gRQCN-WAeCn-fA):
+A Hitchhiker's Guide
 
 ## Data
 * [Webster's English Dictionary](https://github.com/ubershmekel/WebstersEnglishDictionary)
