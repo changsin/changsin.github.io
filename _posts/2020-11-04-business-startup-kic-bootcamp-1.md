@@ -6,7 +6,12 @@ categories: business
 tags: startup
 comments: true
 ---
-## Intro
+# Table of Contents
+- [Introduction](#Introduction)
+- [Telling Your Story in 11 Slides](#11-slides)
+
+
+## Introduction <a name="Introduction"></a>
 * [Trajectory: Startups](https://www.gettrajectory.com/)
 * [dkparker.com](https://www.dkparker.com)
 * [slides](https://www.dkparker.com/kic-wtia/)
@@ -54,7 +59,7 @@ help finding staff?
 2. Capturing Value: Reasonable to exceptional returns - traction & idea
 3. Delivering Value: Price, economics, S & M
 
-## Telling Your Story in 11 Slides
+## Telling Your Story in 11 Slides <a name="11-slides"></a>
 
 ### 1. Title, Value Proposition, Contact Info
 ### 2. Presentation Overview
