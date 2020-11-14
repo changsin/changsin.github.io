@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "KIC TRT Bootcamp Day2"
-subtitle: "Day2 of KIC TRT Bootcamp"
+title: "KIC TRT Bootcamp Day3"
+subtitle: "Day3 of KIC TRT Bootcamp"
 categories: business
 tags: startup
 comments: true
