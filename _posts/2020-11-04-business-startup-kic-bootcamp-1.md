@@ -116,6 +116,21 @@ What can buy your product at MVP?
 * Headwinds or tailwinds?
   * Covid
 
+### Who is your customer?
+* Product vs. Services
+  * Product is something you can deliver or ship - can you make $$ while you sleep
+  * Services require people to deliver on the value and promise - consulting or a restaurant
+* Who pays the bill?
+  * A business
+  * The consumer
+* The product user and who pays can be different as in Facebook or Google
+that make money on advertising
+
+### Why/How do they buy?
+* Make money vs. save money?
+* Searching for product?
+* Needs to be sold
+
 ## Value Propositions
 ### Positioning
 * Positioning is holding a place in your customers' mind - not as everything.
@@ -149,24 +164,76 @@ What's memorable?
 * Phonetically easy to spell
 * Avoid double letters, etc.
 
-
 ## Customer Development Data
-### Who is your customer?
-* Product vs. Services
-  * Product is something you can deliver or ship - can you make $$ while you sleep
-  * Services require people to deliver on the value and promise - consulting or a restaurant
-* Who pays the bill?
-  * A business
-  * The consumer
-* The product user and who pays can be different as in Facebook or Google
-that make money on advertising
+* Parallel process with Product Development
+* "Get out of the building"
+* Develop for a few, not many
+* Prioritize features based on needs, not wants
+* Validate with revenue/commitment
 
-### Why/How do they buy?
-* Make money vs. save money?
-* Searching for product?
-* Needs to be sold
+## What is customer development?
+* Four steps of an epiphany -- Steve Blank
 
+### A. Iteration
+1. Customer Discovery: Turn hypothesis into facts
+2. Customer Validation: Identify scalable and repeatable sales model
 
+### B. Execution
+3. Customer Creation
+4. Company Building
+
+### Customer Development Goals
+* Acute focus on problem - not product
+* Find out if customers care?
+* What do they want?
+* Determines the difference your product at launch and at scale
+* Feature priorities & Product roadmap
+
+### Customer Dev Mechanics
+* Google forms
+* structured questions
+  * Progression
+  * What do you really want to know?
+  * Will they pay for it? How much?
+  * Why will it fail?
+* Neutral, not guided questions
+
+* Build a list of interested parties
+  * mail chimp list setup
+  * ask for permission to email
+  * monthly updates: format - "what we did, what we are going to do
+  and where we can use your help"
+* Regular frequency: be predictable
+
+### What not to do
+* You are not the customer
+* Don't tolerate a small sample set - this could delay your success by years
+* Avoid "selection bias": "isn't our product amazing"
+* No rhetorical questions
+* No blind surveys
+* Can't outsource
 
 ## Awkward Co-Founder Discussions
-
+* Setup a process to get the expectations out in the open
+* Pre-incorporation
+  * Meeting 1 of 2
+    * Why do you want to do this
+    * Capital in vs. out
+    * Timing of life
+    * Passion
+  * Go to Startup Equity Calculator
+  * Meeting 2 of 2
+    * Print out a copy - bring it to the meeting
+    * How far off are you? What responsibilities?
+  * At incorporation
+    * Reverse vesting schedule
+    * What happens when someone leaves?
+  * Option pool 20%
+  * Why 50/50 is the only wrong decision
+* Post Incorporation
+* Milestones/Deliverables
+* Slicing Pie
+  * Market rates: Don't over inflate
+  * Track time and contribution
+  * Regular meeting: weekly standups
+ * Make HR changes fast - they won't  get easier
