@@ -21,3 +21,6 @@ which can automatically generate realistic and dramatic sky backgrounds in video
 ## Magic Sand
 * [Magic Sand](https://github.com/thomwolf/Magic-Sand)
 by Thomas Wolf: a software for operating an augmented reality sandbox.
+
+## Face Generation
+* [GAN Face Generation](https://github.com/parikhsachi/GAN-generating-faces/blob/master/face_generation/dlnd_face_generation.ipynb) high school student project
