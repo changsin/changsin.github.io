@@ -12,6 +12,7 @@ comments: true
 * [TensorFlow Playground](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.00438&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
   * [code](https://github.com/tensorflow/playground)
 * [Netron](https://netron.app/) is a viewer for neural network, deep learning and machine learning models.
+* [Deep Train ](https://github.com/OverLordGoldDragon/deeptrain) Full knowledge and control of the train state.
 
 ## TensforFlow JS
 * [MNIST](https://storage.googleapis.com/tfjs-vis/mnist/dist/index.html)
@@ -21,6 +22,11 @@ Neural Network 3D Visualization Framework
 * Playground: [yolov2](https://tensorspace.org/html/playground/yolov2-tiny.html)
 * [code](https://github.com/tensorspace-team/tensorspace)
 
+## TensorFlow Embedding Projector
+Including interactive maps for Word2Vec, MNIST images, etc.
+ 
+* [TF Embedding Projector](https://projector.tensorflow.org/)
+
 ## CNN
 * [Convolution Visualizer](https://ezyang.github.io/convolution-visualizer/index.html)
 * [CNN Explainer](https://poloclub.github.io/cnn-explainer/):
@@ -29,3 +35,10 @@ You can upload your own image, visualize the inner workings of CNN and interact 
 * [tf_cnnvis](https://github.com/InFoCusp/tf_cnnvis): A pretty good visualization tool, but
 requires a setup.
 
+## RNN
+
+### Word2Vec
+* [Illustrated Word2Vec](https://jalammar.github.io/illustrated-word2vec/) good illustration of Word2Vec
+* [Word2Vec Demo on browser](https://github.com/remykarem/word2vec-demo)
+### t-SNE
+* [t-SNE CSV Web Demo](https://cs.stanford.edu/people/karpathy/tsnejs/csvdemo.html)
