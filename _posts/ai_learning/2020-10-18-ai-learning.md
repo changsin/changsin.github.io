@@ -10,9 +10,13 @@ comments: true
 * [MIT: Introduction to Deep Learning](http://introtodeeplearning.com/):
  The best introduction to deep learning.
   * [code](https://github.com/aamini/introtodeeplearning/)
+
 * [NYU: Deep Learning](http://bit.ly/pDL-home) by Yann LeCun & Alfredo Canziani:
   * [code](https://github.com/Atcold/pytorch-Deep-Learning) based on PyTorch  
+
 * [Stanford: CNN for Visual Recognition](http://cs231n.stanford.edu/) by Fei-Fei Li, etc.
+
+* [Oxford Machine Learning](https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/)
 
 # Self-Study
 * Siraj Naval [Learn Deep Learning in 6 Weeks](https://github.com/llSourcell/Learn_Deep_Learning_in_6_Weeks)
