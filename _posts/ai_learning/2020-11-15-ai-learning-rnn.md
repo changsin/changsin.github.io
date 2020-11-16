@@ -6,6 +6,7 @@ categories: ai
 tags: learning
 comments: true
 ---
+# Text Generation
 ## English
 * TensorFlow tutorial [Text Generation](https://www.tensorflow.org/tutorials/text/text_generation)
 * TensorFlow tutorial [Neural machine translation with attention](https://www.tensorflow.org/tutorials/text/nmt_with_attention)
@@ -33,3 +34,8 @@ using Simpson's episode script
 
 ## Korean
 * [RNN을 이용한 한국어 감성분석 : 온라인 영화 후기를 중심으로](http://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=51909e84bd4b8282ffe0bdc3ef48d419&outLink=K)
+
+# Translation
+* [How to build a translation pipeline with RNN and Keras](https://towardsdatascience.com/how-to-build-a-translation-pipeline-with-rnn-and-keras-57c1cf4a8a7)
+Spanish-English translation.
+  * [Jupyter notebook](https://github.com/NechuBM/rnn_tutorial/blob/feature/simple-rnn/tutorials/simple_rnn/TranslationPipeline.ipynb)
