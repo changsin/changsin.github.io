@@ -40,5 +40,11 @@ requires a setup.
 ### Word2Vec
 * [Illustrated Word2Vec](https://jalammar.github.io/illustrated-word2vec/) good illustration of Word2Vec
 * [Word2Vec Demo on browser](https://github.com/remykarem/word2vec-demo)
+
 ### t-SNE
 * [t-SNE CSV Web Demo](https://cs.stanford.edu/people/karpathy/tsnejs/csvdemo.html)
+
+### Computer Vision Explorer
+* [Computer Vision Explorer](https://vision-explorer.allenai.org/text_to_image_generation) by Allen Institute
+very good tool to explore and visualize various computer vision tasks like classification,
+detection, image generation, etc.
