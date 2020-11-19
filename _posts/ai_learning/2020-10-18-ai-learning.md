@@ -22,6 +22,8 @@ comments: true
 * Siraj Naval [Learn Deep Learning in 6 Weeks](https://github.com/llSourcell/Learn_Deep_Learning_in_6_Weeks)
 * [Machine Learning Roadmap](https://whimsical.com/machine-learning-roadmap-2020-CA7f3ykvXpnJ9Az32vYXva) by Daniel Bourke
 * [Morioh](https://morioh.com/explore?next=%2F) - not just AI or ML, but web development and other topics as well.
+* [The Clever Programmer](https://thecleverprogrammer.com/2020/09/24/machine-learning-course/) - good introduction.
+ Also has a good list of projects to start learning. 
 
 # Free Books
 * [Deep Learning](https://www.deeplearningbook.org/) by Ian Goodfellow, Yoshua Bengio and Aaron Courville:
