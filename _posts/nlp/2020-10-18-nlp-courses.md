@@ -14,7 +14,7 @@ comments: true
 * [NYU Kyunghyun Cho](https://github.com/nyu-dl/NLP_DL_Lecture_Note):
  Natural Language Understanding with Distributed Representation
 
-* [NLP with Deep Learning](http://web.stanford.edu/class/cs224n/)
+* Stanford [NLP with Deep Learning](http://web.stanford.edu/class/cs224n/) by Chris Manning
   * [videos](https://online.stanford.edu/artificial-intelligence/free-content?category=All&course=6097)
 
 # Korean
