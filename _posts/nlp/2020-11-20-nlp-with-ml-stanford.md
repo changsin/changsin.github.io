@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Natural Language Processing with Machine Learning"
+title: "Stanford: NLP with Machine Learning"
 subtitle: "Stanford CS224N by Chris Manning"
 categories: ai
 tags: nlp
@@ -91,10 +91,10 @@ For each position $$t = 1, ..., T$$, predict context words within a window of fi
 $$
 L (\theta) = \prod_{t = 1}^{T} \prod_{ -m \leq j \leq m \hspace{0.8mm} (j \neq 0) }  P(w_{t+j}|w_{t};\theta)
 $$
-* $$\theta$$ is all variables to be optimized
+* $$ \theta $$ is all variables to be optimized
 
 
-The objective function $$J(\theta)$$ is the (average) negative log likelihood:
+The objective function $$ J(\theta) $$ is the (average) negative log likelihood:
 
 $$
 J (\theta) = -\frac{1}{T}logL(\theta) =
@@ -106,8 +106,8 @@ $$
 * Question: How to calculate $$ P(w_{t+j} \| w_{t};\theta) $$?
   * Answer: We will use two vectors per word w:
   
-    * $$v_{w}$$ when w is a center word
-    * $$u_{w}$$ when w is a context word
+    * $$ v_{w} $$ when w is a center word
+    * $$ u_{w} $$ when w is a context word
     
 Then for a center word c and a context word o:
 
