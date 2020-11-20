@@ -45,9 +45,9 @@ In traditional NLP, we regard words as discrete symbols: a localist representati
 Words can be represented by one-hot vectors
 
 
->  motel = [0 0 1 0]
+>  motel = \[0 0 1 0\]
 >
->  hotel = [0 1 0 0]
+>  hotel = \[0 1 0 0\]
 
 
 Problems
