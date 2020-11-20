@@ -84,7 +84,20 @@ They are distributed representations.
   * Use the similarity of the word vectors for _c_ and _o_ to calculate the probability of _o_ given _c_ (or vice versa)
   * Keep adjusting the word vectors to maximize this probability.
 
-   ![word2vec]({{site.url}}/assets/images/wordvec_objective_func_init.png)
+* Objective function
+For each position $$t = 1, ..., T$$, predict context words within a window of fixed size m,
+ given a center word $$w_{j}$$
+$$
+L (\theta) = \prod_{t = 1}^{T} \prod_{ -m \leq j \leq m \hspace{0.8mm} (j \neq 0) }  P(w_{t+j}|w_{t};\theta)
+
+\theta is all variables to be optimized
+$$
+
+The objective function $$J(\theta) is the (average) negative log likelihood:
+$$
+J (\theta) = -\frac{1}{T}logL(\theta) =
+    \prod_{t = 1}^{T} \prod_{ -m \leq j \leq m \hspace{0.8mm} (j \neq 0) }  log P(w_{t+j}|w_{t};\theta)
+$$ 
   
    ![word2vec]({{site.url}}/assets/images/wordvec_overview.png)
 
