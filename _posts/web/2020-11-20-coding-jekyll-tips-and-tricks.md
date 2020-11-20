@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Markdown Tips and Tricks"
-subtitle: "Useful markdown syntax and tips"
+title: "Jekyll Tips and Tricks"
+subtitle: "Useful Jekyll tips and tricks"
 categories: coding
 tags: web
 comments: true
@@ -23,7 +23,6 @@ If you want to have images in your blog post, you need to have the images in a s
 The problem is the location of the image files need to be correctly specified.
 For Jekyll, each blog post is mapped differently depending on the date.
 The best way is to create a static sub-folder under assets and create links.
-
 
 ```markdown
     ![word2vec]({{site.url}}/assets/images/wordvec_overview.png)
