@@ -72,7 +72,8 @@ vectors of words that appear in similar context.
 * word vectors are sometimes called word embeddings or word representations.
 They are distributed representations.
 
-* Word2vec (Mikolov et al. 2013) is a framework for learning word vectors
+* Word2vec ([Mikolov et al. 2013](https://papers.nips.cc/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf))
+ is a framework for learning word vectors
 * Idea
   * We have a large corpus of text
   * Every word in a fixed vocabulary is represented by a vector
@@ -80,9 +81,9 @@ They are distributed representations.
   * Use the similarity of the word vectors for _c_ and _o_ to calculate the probability of _o_ given _c_ (or vice versa)
   * Keep adjusting the word vectors to maximize this probability.
   
-    ![word2vec](images/wordvec_overview.png)
+    ![word2vec](../../assets/img/wordvec_overview.png)
 
-    ![word2vec](images/wordvec_objective_function.png)
+    ![word2vec](../../assets/img/wordvec_objective_function.png)
     
 * [Gensim word vector visualization](http://web.stanford.edu/class/cs224n/materials/Gensim%20word%20vector%20visualization.html)
 * Exploring Word Vectors [code](https://github.com/manning/CS224N/blob/master/assignments/hw1/exploring_word_vectors.ipynb)
@@ -91,3 +92,5 @@ They are distributed representations.
   * [videos](https://online.stanford.edu/artificial-intelligence/free-content?category=All&course=6097)
   * [New online certificate course in 2021](https://online.stanford.edu/courses/xcs224n-natural-language-processing-deep-learning)
   * Chris Manning's github [Text Analysis for Humanities Research](https://github.com/manning/Text-Analysis-for-Humanities-Research/tree/master/01-Intro%20to%20NLTK)
+* [Distributed Representations of Words and Phrases
+and their Compositionality](https://papers.nips.cc/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf) (Mikolov, et al. 2013) NeuIPS
