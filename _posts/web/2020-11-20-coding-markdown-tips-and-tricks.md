@@ -78,9 +78,7 @@ x_{21} & x_{22} & \ldots \\
 \end{array} \right)
 $$
 
-
 $$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}.$$
-
 ```
 
 They are rendered separately as:
