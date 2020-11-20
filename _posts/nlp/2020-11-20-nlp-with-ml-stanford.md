@@ -6,12 +6,14 @@ categories: ai
 tags: nlp
 comments: true
 ---
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 ## Lecture 1: Introduction and Word Vectors
 * [2019 Winter](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/)
-  * [video](https://www.youtube.com/watch?v=8rXD5-xhemo&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=1)
-  * [slides](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/slides/cs224n-2019-lecture01-wordvecs1.pdf)
-  * [notes](http://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes01-wordvecs1.pdf)
+
+   [video](https://www.youtube.com/watch?v=8rXD5-xhemo&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=1)
+ | [slides](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/slides/cs224n-2019-lecture01-wordvecs1.pdf)
+ | [notes](http://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes01-wordvecs1.pdf)
 
 #### Lecture Plan
 Lecture 1: Introduction and Word Vectors
@@ -81,10 +83,31 @@ They are distributed representations.
   * Go through each position t in the text, which has a center word _c_ and context ("outside") words _o_
   * Use the similarity of the word vectors for _c_ and _o_ to calculate the probability of _o_ given _c_ (or vice versa)
   * Keep adjusting the word vectors to maximize this probability.
-  
-    ![word2vec]({{site.url}}/assets/images/wordvec_overview.png)
+ 
+ {\product}
+ $\sum$
 
-    ![word2vec]({{site.url}}/assets/images/wordvec_objective_function.png)
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
+
+ 
+$$
+M = \left( \begin{array}{ccc}
+x_{11} & x_{12} & \ldots \\
+x_{21} & x_{22} & \ldots \\
+\vdots & \vdots & \ldots \\
+\end{array} \right)
+$$
+
+
+$$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}.$$
+
+   ![word2vec]({{site.url}}/assets/images/wordvec_objective_func_init.png)
+  
+   ![word2vec]({{site.url}}/assets/images/wordvec_overview.png)
+
+   ![word2vec]({{site.url}}/assets/images/wordvec_objective_function.png)
     
 * [Gensim word vector visualization](http://web.stanford.edu/class/cs224n/materials/Gensim%20word%20vector%20visualization.html)
 * Exploring Word Vectors [code](https://github.com/manning/CS224N/blob/master/assignments/hw1/exploring_word_vectors.ipynb)
