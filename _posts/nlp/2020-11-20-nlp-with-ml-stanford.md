@@ -90,9 +90,9 @@ For each position $$t = 1, ..., T$$, predict context words within a window of fi
 
 $$
 L (\theta) = \prod_{t = 1}^{T} \prod_{ -m \leq j \leq m \hspace{0.8mm} (j \neq 0) }  P(w_{t+j}|w_{t};\theta)
-
-\theta is all variables to be optimized
 $$
+* $$\theta$$ is all variables to be optimized
+
 
 The objective function $$J(\theta)$$ is the (average) negative log likelihood:
 
@@ -100,10 +100,17 @@ $$
 J (\theta) = -\frac{1}{T}logL(\theta) =
     \prod_{t = 1}^{T} \prod_{ -m \leq j \leq m \hspace{0.8mm} (j \neq 0) }  log P(w_{t+j}|w_{t};\theta)
 $$ 
-  
+
    ![word2vec]({{site.url}}/assets/images/wordvec_overview.png)
 
-   ![word2vec]({{site.url}}/assets/images/wordvec_objective_function.png)
+* Question: How to calculate $$ P(w_{t+j}|w_{t};\theta) $$?
+  * Answer: We will use two vectors per word w:
+    * $$v_{w}$$ when w is a center word
+    * $$u_{w}$$ when w is a context word
+Then for a center word c and a context word 0:
+$$
+P(o|c) = \frac{exp(u_{o}^{T}v_{c})}{\sum_{w  \in V}exp(u_{w}^{T}v_{c})}
+$$
     
 * [Gensim word vector visualization](http://web.stanford.edu/class/cs224n/materials/Gensim%20word%20vector%20visualization.html)
 * Exploring Word Vectors [code](https://github.com/manning/CS224N/blob/master/assignments/hw1/exploring_word_vectors.ipynb)
