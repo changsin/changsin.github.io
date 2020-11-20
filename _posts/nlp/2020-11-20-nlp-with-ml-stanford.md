@@ -83,26 +83,6 @@ They are distributed representations.
   * Go through each position t in the text, which has a center word _c_ and context ("outside") words _o_
   * Use the similarity of the word vectors for _c_ and _o_ to calculate the probability of _o_ given _c_ (or vice versa)
   * Keep adjusting the word vectors to maximize this probability.
- 
- {\product}
- $\sum$
-
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
-
-
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
-
- 
-$$
-M = \left( \begin{array}{ccc}
-x_{11} & x_{12} & \ldots \\
-x_{21} & x_{22} & \ldots \\
-\vdots & \vdots & \ldots \\
-\end{array} \right)
-$$
-
-
-$$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}.$$
 
    ![word2vec]({{site.url}}/assets/images/wordvec_objective_func_init.png)
   
