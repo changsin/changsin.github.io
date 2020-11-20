@@ -78,20 +78,22 @@ x_{21} & x_{22} & \ldots \\
 \end{array} \right)
 $$
 
-$$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}.$$
+$$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}$$
 ```
 
 They are rendered separately as:
 
 $$
-M = \left( \begin{array}{ccc}
-x_{11} & x_{12} & \ldots \\
-x_{21} & x_{22} & \ldots \\
-\vdots & \vdots & \ldots \\
-\end{array} \right)
+    M = \left( \begin{array}{ccc}
+    x_{11} & x_{12} & \ldots \\
+    x_{21} & x_{22} & \ldots \\
+    \vdots & \vdots & \ldots \\
+    \end{array} \right)
 $$
 
-$$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}.$$
+$$
+    x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}
+$$
 
 ### 2. Latex image tags
 
