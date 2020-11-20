@@ -44,9 +44,11 @@ In traditional NLP, we regard words as discrete symbols: a localist representati
 <P>
 Words can be represented by one-hot vectors
 
-motel = [0 0 1 0]
-<br>
-hotel = [0 1 0 0]
+
+>  motel = [0 0 1 0]
+>
+>  hotel = [0 1 0 0]
+
 
 Problems
 The two vectors are orthogonal, no natural notion of similarity.
@@ -67,6 +69,7 @@ frequently appear close-by
 vectors of words that appear in similar context.
 * word vectors are sometimes called word embeddings or word representations.
 They are distributed representations.
+
 * Word2vec (Mikolov et al. 2013) is a framework for learning word vectors
 * Idea
   * We have a large corpus of text
