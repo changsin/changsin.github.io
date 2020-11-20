@@ -6,7 +6,7 @@ categories: ai
 tags: nlp
 comments: true
 ---
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 ## Lecture 1: Introduction and Word Vectors
 * [2019 Winter](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/)
@@ -84,7 +84,11 @@ They are distributed representations.
   * Use the similarity of the word vectors for _c_ and _o_ to calculate the probability of _o_ given _c_ (or vice versa)
   * Keep adjusting the word vectors to maximize this probability.
  
+ {\product}
+ $\sum$
+
 <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+
 
 ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
 
