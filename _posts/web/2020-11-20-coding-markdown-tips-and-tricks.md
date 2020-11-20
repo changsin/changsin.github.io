@@ -55,29 +55,12 @@ ___bold italics___
 ````
 
 ## Math formulae
-
 There are different ways of displaying math formulae.
+* NB: Use an online math editor like [Upmath](https://upmath.me/) to check
+markdown and latex syntax.
 
-#### Latex image tags
 
-Inserting an img html tag with the formula
-```markdown
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
-
-```
-will be rendered as:
-
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
-
-A similar method is:
-
-```markdown
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
-```
-
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
-
-#### Use mathjax (preferred)
+### 1. Use mathjax header (preferred)
 Add a script header at the top of the markdown file
 ```markdown
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
@@ -110,3 +93,22 @@ x_{21} & x_{22} & \ldots \\
 $$
 
 $$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}.$$
+
+### 2. Latex image tags
+
+Inserting an img html tag with the formula
+```markdown
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+
+```
+will be rendered as:
+
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+
+A similar method is:
+
+```markdown
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
+```
+
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
