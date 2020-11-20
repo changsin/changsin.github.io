@@ -87,13 +87,15 @@ They are distributed representations.
 * Objective function
 For each position $$t = 1, ..., T$$, predict context words within a window of fixed size m,
  given a center word $$w_{j}$$
+
 $$
 L (\theta) = \prod_{t = 1}^{T} \prod_{ -m \leq j \leq m \hspace{0.8mm} (j \neq 0) }  P(w_{t+j}|w_{t};\theta)
 
 \theta is all variables to be optimized
 $$
 
-The objective function $$J(\theta) is the (average) negative log likelihood:
+The objective function $$J(\theta)$$ is the (average) negative log likelihood:
+
 $$
 J (\theta) = -\frac{1}{T}logL(\theta) =
     \prod_{t = 1}^{T} \prod_{ -m \leq j \leq m \hspace{0.8mm} (j \neq 0) }  log P(w_{t+j}|w_{t};\theta)
