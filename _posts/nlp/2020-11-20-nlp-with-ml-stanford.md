@@ -8,9 +8,10 @@ comments: true
 ---
 
 ## Lecture 1: Introduction and Word Vectors
-* [video](https://www.youtube.com/watch?v=8rXD5-xhemo&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=1)
-* [slides]()
-* [notes](http://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes01-wordvecs1.pdf)
+* [2019 Winter](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/)
+  * [video](https://www.youtube.com/watch?v=8rXD5-xhemo&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z&index=1)
+  * [slides](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/slides/cs224n-2019-lecture01-wordvecs1.pdf)
+  * [notes](http://web.stanford.edu/class/cs224n/readings/cs224n-2019-notes01-wordvecs1.pdf)
 
 #### Lecture Plan
 Lecture 1: Introduction and Word Vectors
