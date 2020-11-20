@@ -23,7 +23,9 @@ Lecture 1: Introduction and Word Vectors
 
 ### How do we represent the meaning of a word?
 #### 1. As discrete symbols
+
 * "denotational semantics": commonest linguistic way of thinking of meaning
+
 ```markdown
   signifier (symbol) ⟺ signified (idea or thing)
 ```
@@ -39,21 +41,22 @@ Common solution: WordNet, a thesaurus containing Lists of synonym lists and hype
       * Can't compute accurate word similarity
 
 #### Representing words as discrete symbols
+
 In traditional NLP, we regard words as discrete symbols: a localist representation:
 "hotel", "conference", "motel", etc.
-<P>
+
 Words can be represented by one-hot vectors
 
 
-- motel = \[0 0 1 0\]
-- hotel = \[0 1 0 0\]
+- motel = \[ 0 0 1 0 \]
+- hotel = \[ 0 1 0 0 \]
 
 
 Problems
 The two vectors are orthogonal, no natural notion of similarity.
 
 Solution:
-* Could try to reply on WordNet's list of synonyms to get similarity?
+* Could try to reply on [WordNet's](https://wordnet.princeton.edu/) list of synonyms to get similarity?
    * But it is well-known to fail badly: incompleteness, etc.
 * Instead: learn to encode similarity in the vectors themselves
 
