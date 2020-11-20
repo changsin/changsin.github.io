@@ -6,10 +6,7 @@ categories: ai
 tags: nlp
 comments: true
 ---
-<script type="text/javascript" async
-src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? 
-config=TeX-MML-AM_CHTML"
-</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"</script>
 
 ## Lecture 1: Introduction and Word Vectors
 * [2019 Winter](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/)
