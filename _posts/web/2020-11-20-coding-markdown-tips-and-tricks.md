@@ -6,6 +6,7 @@ categories: coding
 tags: web
 comments: true
 ---
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 ## How to create the table of contents
 This cannot be done automatically unfortunately, but you can do manually by adding hyperlinks for each section
@@ -107,6 +108,5 @@ x_{21} & x_{22} & \ldots \\
 \vdots & \vdots & \ldots \\
 \end{array} \right)
 $$
-
 
 $$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}.$$
