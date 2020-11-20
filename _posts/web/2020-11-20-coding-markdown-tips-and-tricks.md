@@ -56,9 +56,10 @@ ___bold italics___
 
 ## Math formulae
 There are different ways of displaying math formulae.
-* NB: Use an online math editor like [Upmath](https://upmath.me/) to check
+* NB: Use an online math editor like an online [LaTex editor](https://www.latex4technics.com/) to check
 markdown and latex syntax.
-
+  * [List of LaTex math symbols](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols)
+  * [LaTex editor](https://www.latex4technics.com/)
 
 ### 1. Use mathjax header (preferred)
 Add a script header at the top of the markdown file
