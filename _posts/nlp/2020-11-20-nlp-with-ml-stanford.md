@@ -81,9 +81,9 @@ They are distributed representations.
   * Use the similarity of the word vectors for _c_ and _o_ to calculate the probability of _o_ given _c_ (or vice versa)
   * Keep adjusting the word vectors to maximize this probability.
   
-    ![word2vec]({{site.url}}/assets/img/wordvec_overview.png)
+    ![word2vec]({{site.url}}/assets/images/wordvec_overview.png)
 
-    ![word2vec]({{site.url}}/assets/img/wordvec_objective_function.png)
+    ![word2vec]({{site.url}}/assets/images/wordvec_objective_function.png)
     
 * [Gensim word vector visualization](http://web.stanford.edu/class/cs224n/materials/Gensim%20word%20vector%20visualization.html)
 * Exploring Word Vectors [code](https://github.com/manning/CS224N/blob/master/assignments/hw1/exploring_word_vectors.ipynb)
