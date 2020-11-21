@@ -8,6 +8,7 @@ comments: true
 ---
 
 # GAN
+* [Using GANs to Create Fantastical Creatures](https://ai.googleblog.com/2020/11/using-gans-to-create-fantastical.html?fbclid=IwAR2rVaW5rl2YHbixWjZ7FvnEAndJa3mdiiZjTa1czXbg4Zv5Bp3RCnsuQi4)
 
 ## SkyAR
 a vision-based method for video sky replacement and harmonization, 
