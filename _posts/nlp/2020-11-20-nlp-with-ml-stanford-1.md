@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Stanford: NLP with Machine Learning"
-subtitle: "Stanford CS224N by Chris Manning"
+title: "Stanford: NLP with Machine Learning (1)"
+subtitle: "Lecture 1: Stanford CS224N by Chris Manning"
 categories: ai
 tags: nlp
 comments: true
