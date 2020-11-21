@@ -25,6 +25,7 @@ Lecture 1: Introduction and Word Vectors
 6. Looking at word vectors (10 mins or less)
 
 ### How do we represent the meaning of a word?
+
 #### 1. As discrete symbols
 
 * "denotational semantics": commonest linguistic way of thinking of meaning
@@ -118,6 +119,7 @@ $$
     
 * [Gensim word vector visualization](http://web.stanford.edu/class/cs224n/materials/Gensim%20word%20vector%20visualization.html)
 * Exploring Word Vectors [code](https://github.com/manning/CS224N/blob/master/assignments/hw1/exploring_word_vectors.ipynb)
+
 # Reference
 * Stanford [NLP with Deep Learning](http://web.stanford.edu/class/cs224n/index.html#schedule) by Chris Manning
   * [videos](https://online.stanford.edu/artificial-intelligence/free-content?category=All&course=6097)
