@@ -145,8 +145,9 @@ $$
 To train a model, we adjust parameters to minimize a loss.
   * $$\theta$$ represents all model parameters in one long vector
   * In our case with _d_-dimensional vectors and _V_-many words
+ 
 $$
-\theta = \left\[ \begin{array}{c}
+\theta = \left[ \begin{array}{c}
 v_{aardvark} \\
 v_a \\
 \vdots \\
@@ -156,7 +157,8 @@ u_a \\
 \dots \\
 u_{zebra}
 \end{array}
-\right\] \in \mathbb{R}^{2dV}
+\right]
+ \in \mathbb{R}^{2dV}
 $$
 
   * Remember: every word has two vectors
