@@ -116,7 +116,60 @@ Then for a center word c and a context word o:
 $$
 P(o|c) = \frac{exp(u_{o}^{T}v_{c})}{\sum_{w \in V} exp(u_{w}^{T}v_{c})}
 $$
-    
+
+1. $$u_{o}^{T}v_{c}$$: dot product compares similarity of o and c.
+
+$$ u^{T}v = u v = \sum_{i=1}^n u_i v_i $$
+
+Larger dot product = larger probability
+
+2. Exponentiation makes anything positive
+$$exp(u_{o}^{T}v_{c})$$
+
+3. Normalize over entire vocabulary to give probability distribution
+$$\sum_{w \in V} exp(u_{w}^{T}v_{c})$$
+
+This is an example of the softmax function $$\mathbb{R}^n \rightarrow  (0, 1)^n$$
+
+$$
+softmax(x_i) = \frac{exp(x_i)}{\sum_{j=1}^n exp(x_j)} = p_i
+$$
+
+* The softmax function maps arbitrary values $$x_i$$
+ to a probability distribution $$p_i$$
+  * "max" because it amplifies probability of the largest $$x_i$$
+  * "soft" because it still assigns some probability to smaller $$x_i$$
+
+* Train a model by optimizing parameters
+
+To train a model, we adjust parameters to minimize a loss.
+  * $$\theta$$ represents all model parameters in one long vector
+  * In our case with _d_-dimensional vectors and _V_-many words
+$$
+\theta = \left\[ \begin{array}{c}
+v_{aardvark} \\
+v_a \\
+\vdots \\
+v_{zebra} \\
+u_{aardvark} \\
+u_a \\
+\dots \\
+u_{zebra}
+\end{array}
+\right\] \in \mathbb{R}^{2dV}
+$$
+
+  * Remember: every word has two vectors
+  * We optimize these parameters by walking down the gradient
+
+#### Two model variants
+1. Skip-grams (SG):
+Predict context ("outside") words (position independent) given a center word
+2. Continuous Bag of Words (CBOW):
+Predict center word from (bag of) context words
+
+The lecture assumed Skip gram model so far.
+
 * [Gensim word vector visualization](http://web.stanford.edu/class/cs224n/materials/Gensim%20word%20vector%20visualization.html)
 * Exploring Word Vectors [code](https://github.com/manning/CS224N/blob/master/assignments/hw1/exploring_word_vectors.ipynb)
 
