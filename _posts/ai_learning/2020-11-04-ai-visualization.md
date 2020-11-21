@@ -48,3 +48,8 @@ requires a setup.
 * [Computer Vision Explorer](https://vision-explorer.allenai.org/text_to_image_generation) by Allen Institute
 very good tool to explore and visualize various computer vision tasks like classification,
 detection, image generation, etc.
+
+# NLP
+* [Language Interpretability Tool](https://pair-code.github.io/lit/demos/)
+an open-source platform for visualization and understanding of NLP models.
+  * [Text Generation](http://34.68.143.28/?models=t5-small&dataset=CNNDM&compare_data_mode=false&hidden_modules=Main_Color&layout=default&tab=Predictions)
