@@ -118,17 +118,14 @@ P(o|c) = \frac{exp(u_{o}^{T}v_{c})}{\sum_{w \in V} exp(u_{w}^{T}v_{c})}
 $$
 
 1. $$u_{o}^{T}v_{c}$$: dot product compares similarity of o and c.
-
-$$ u^{T}v = u v = \sum_{i=1}^n u_i v_i $$
-
+  $$ u^{T}v = u v = \sum_{i=1}^n u_i v_i $$
 Larger dot product = larger probability
 
 2. Exponentiation makes anything positive
-$$exp(u_{o}^{T}v_{c})$$
+  $$exp(u_{o}^{T}v_{c})$$
 
 3. Normalize over entire vocabulary to give probability distribution
-$$\sum_{w \in V} exp(u_{w}^{T}v_{c})$$
-
+  $$\sum_{w \in V} exp(u_{w}^{T}v_{c})$$
 This is an example of the softmax function $$\mathbb{R}^n \rightarrow  (0, 1)^n$$
 
 $$
