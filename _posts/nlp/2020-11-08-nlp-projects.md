@@ -6,6 +6,10 @@ categories: ai
 tags: nlp
 comments: true
 ---
+## [The Super Duper NLP Repo](The Super Duper NLP Repo)
+* [Text Generation with an RNN](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/text/text_generation.ipynb)
+TensorFlow tutorial
+
 ## RNN
 * [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 
