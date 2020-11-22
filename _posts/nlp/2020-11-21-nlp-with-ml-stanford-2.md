@@ -26,6 +26,7 @@ Lecture 2: Introduction and Word Vectors
 $$
 {U (outside)} {V (center)} {U.{v_{4}}^T} {softmax(U.{v_{4}}^T) probabilities}
 $$
+
 $$
 \left[ \begin{array}
 ..... \\
@@ -84,6 +85,7 @@ then take a small step in the direction of negative gradient & repeat.
 
 #### Gradient Descent - updated equation
 * (in matrix rotation)
+
     $$
         \theta^{new} = \theta^{old} -
         \alpha{\nabla}_\theta J(\theta)
@@ -91,6 +93,7 @@ then take a small step in the direction of negative gradient & repeat.
 > $$\alpha$$ = step size or learning rate
 
 * (for a single parameter)
+
     $$
         \theta_j^{new} = \theta_j^{old} -
         \alpha\frac{\alpha}{\alpha\theta_j^{old}} J(\theta)
