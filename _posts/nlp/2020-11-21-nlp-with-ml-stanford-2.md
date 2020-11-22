@@ -24,7 +24,10 @@ Lecture 2: Introduction and Word Vectors
  the dot product of the word vectors by the softmax function
 
 $$
-{U (outside)} {V (center)} {U.{v_{4}}^T} {softmax(U.{v_{4}}^T) probabilities}
+{U (outside)} 
+{V (center)}
+{U.{v_{4}}^T}  (dot product)
+{softmax(U.{v_{4}}^T) (probabilities)}
 $$
 
 $$
@@ -90,7 +93,7 @@ then take a small step in the direction of negative gradient & repeat.
         \theta^{new} = \theta^{old} -
         \alpha{\nabla}_\theta J(\theta)
     $$
-> $$\alpha$$ = step size or learning rate
+    > $$\alpha$$ = step size or learning rate
 
 * (for a single parameter)
 
