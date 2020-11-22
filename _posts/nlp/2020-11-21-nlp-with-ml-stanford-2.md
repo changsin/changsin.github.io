@@ -24,7 +24,10 @@ Lecture 2: Introduction and Word Vectors
  the dot product of the word vectors by the softmax function
 
 $$
-\theta = \left[ \begin{array}
+{U (outside)} {V (center)} {U.{v_{4}}^T} {softmax(U.{v_{4}}^T) probabilities}
+$$
+$$
+\left[ \begin{array}
 ..... \\
 ..... \\
 ..... \\
@@ -81,25 +84,23 @@ then take a small step in the direction of negative gradient & repeat.
 
 #### Gradient Descent - updated equation
 * (in matrix rotation)
-
-$$
-\theta^{new} = \theta^{old} -
-\alpha{\nabla}_\theta J(\theta)
-$$
-  * $$\alpha$$ = step size or learning rate
+    $$
+        \theta^{new} = \theta^{old} -
+        \alpha{\nabla}_\theta J(\theta)
+    $$
+> $$\alpha$$ = step size or learning rate
 
 * (for a single parameter)
-
-$$
-\theta_j^{new} = \theta_j^{old} -
-\alpha\frac{\alpha}{\alpha\theta_j^{old}} J(\theta)
-$$
+    $$
+        \theta_j^{new} = \theta_j^{old} -
+        \alpha\frac{\alpha}{\alpha\theta_j^{old}} J(\theta)
+    $$
 
 * Algorithm
 ```python
 while True:
-  theta_grad = evaluate_gradient(J, corpus, theta)
-  theta = theta - alpha * theta_grad
+    theta_grad = evaluate_gradient(J, corpus, theta)
+    theta = theta - alpha * theta_grad
 ```
 * Problem: $$J(\theta)$$ is a function of all windows in the corpus (potentially billions!)
 So $$\nabla_{\theta} J(\theta)$$ is very expensive to compute.
@@ -110,9 +111,9 @@ So $$\nabla_{\theta} J(\theta)$$ is very expensive to compute.
 * Algorithm:
 ```python
 while True:
-  window = sample_window(corpus)
-  theta_grad = evaludate_gradient(J, window, theta)
-  theta = theta - alpha * theta_grad
+    window = sample_window(corpus)
+    theta_grad = evaludate_gradient(J, window, theta)
+    theta = theta - alpha * theta_grad
 ``` 
 
 * Iteratively take gradients at each such window for SGD
