@@ -86,7 +86,7 @@ $$
 \theta^{new} = \theta^{old} -
 \alpha{\nabla}_\theta J(\theta)
 $$
-* $$\alpha$$ = step size or learning rate
+  * $$\alpha$$ = step size or learning rate
 
 * (for a single parameter)
 
@@ -101,7 +101,7 @@ while True:
   theta_grad = evaluate_gradient(J, corpus, theta)
   theta = theta - alpha * theta_grad
 ```
-* Problem: $$J(\theta)$$ is a function of all windows in the corpus (ptentially billions!)
+* Problem: $$J(\theta)$$ is a function of all windows in the corpus (potentially billions!)
 So $$\nabula_{\theta} J(\theta)$$ is very expensive to compute.
 
 * Solution: Stochastic gradient descent (SGD)
