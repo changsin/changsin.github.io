@@ -76,25 +76,27 @@ nearby in space.
 ### 2. Optimization: Gradient Descent
 * We have a cost function $$J(\theta)$$ to minimize
 * Gradient Descent is an algorithm to minimize $$J(\theta)$$
-* Idea: for current value of $$\theta$$, calculate gradient of $$J(\theta),
+* Idea: for current value of $$\theta$$, calculate gradient of $$J(\theta)$$,
 then take a small step in the direction of negative gradient & repeat.
 
 #### Gradient Descent - updated equation
 * (in matrix rotation)
+
 $$
 \theta^{new} = \theta^{old} -
 \alpha{\nabla}_\theta J(\theta)
 $$
-$$\alpha$$ = step size or learning rate
+* $$\alpha$$ = step size or learning rate
 
 * (for a single parameter)
+
 $$
 \theta_j^{new} = \theta_j^{old} -
 \alpha\frac{\alpha}{\alpha\theta_j^{old}} J(\theta)
 $$
 
 * Algorithm
-```markdown
+```python
 while True:
   theta_grad = evaluate_gradient(J, corpus, theta)
   theta = theta - alpha * theta_grad
@@ -104,8 +106,9 @@ So $$\nabula_{\theta} J(\theta)$$ is very expensive to compute.
 
 * Solution: Stochastic gradient descent (SGD)
   * Repeatedly sample windows and update after each one
+
 * Algorithm:
-```markdown
+```python
 while True:
   window = sample_window(corpus)
   theta_grad = evaludate_gradient(J, window, theta)
