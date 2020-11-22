@@ -41,6 +41,8 @@ requires a setup.
 * [Illustrated Word2Vec](https://jalammar.github.io/illustrated-word2vec/) good illustration of Word2Vec
 * [Word2Vec Demo on browser](https://github.com/remykarem/word2vec-demo)
 
+* [wevi: word embedding visual inspector](http://ronxin.github.io/wevi/)
+
 ### t-SNE
 * [t-SNE CSV Web Demo](https://cs.stanford.edu/people/karpathy/tsnejs/csvdemo.html)
 
