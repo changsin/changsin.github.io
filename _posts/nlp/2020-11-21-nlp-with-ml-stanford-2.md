@@ -102,7 +102,7 @@ while True:
   theta = theta - alpha * theta_grad
 ```
 * Problem: $$J(\theta)$$ is a function of all windows in the corpus (potentially billions!)
-So $$\nabula_{\theta} J(\theta)$$ is very expensive to compute.
+So $$\nabla_{\theta} J(\theta)$$ is very expensive to compute.
 
 * Solution: Stochastic gradient descent (SGD)
   * Repeatedly sample windows and update after each one
@@ -117,7 +117,7 @@ while True:
 
 * Iteratively take gradients at each such window for SGD
 * But in each window, we only have at most 2m + 1 words so
-$$\nabula_{\theta} J_t(\theta)$$ is very sparse!
+$$\nabla_{\theta} J_t(\theta)$$ is very sparse!
 * We might only update the word vector that actually appear!
 
 * Solution: either you need sparse matrix update operations to
