@@ -46,7 +46,9 @@ Founded in 2019, providing AI education to primary and secondary schools in Taiw
 
 # Korean
 * [모두를 위한 딥러닝](http://hunkim.github.io/ml/) by Hun Kim (김성훈) 
-
+* 한동대 김인중 교수 [2019년 겨울 한동머신러닝캠프](https://github.com/callee2006/2019-Winter-HGU-Machine-Learing-Camp)
+  * [ML notebooks](https://github.com/callee2006/MachineLearning)
+  * [Deep Learning Lab](https://hgudllab.github.io/)
 
 # By Topics
 
