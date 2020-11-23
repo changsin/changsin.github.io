@@ -28,8 +28,8 @@ For instance, king and queen are similar in terms of kingship but they are simpl
 separate points in the Euclidean space.
 We need a representation that somehow preserves similarity measures among words.
 
-##  
-
+## Word embedding
+Word embedding is the hidden layer's representation of a word and its context after training.
 
 ### Embedding over encoding
 * Embedding is dense vector with similarity
@@ -124,6 +124,9 @@ $$
 similarity = cos(\theta) = \frac{A\cdotB}{||A|| \; ||B||}
 $$
   * ||A|| is the distance of A
+  * The angle between two terms cannot be greater than $$90^{\circ}$$
+  because a word count being a negative number doesn't make any sense.
+  (if you plot word frequencies between two words as x & y coordinates)
 
 ## TF Hub Word2Vec
 * Minsuk Heo [TF Hub Word2Vec](https://www.youtube.com/watch?v=p1ETojsnXYk)
