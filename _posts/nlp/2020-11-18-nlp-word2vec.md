@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "WHat is Word2Vec"
+title: "What is Word Embedding?"
 subtitle: "How to represent words for AI"
 categories: ai
 tags: nlp
