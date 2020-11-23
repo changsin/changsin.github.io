@@ -121,16 +121,16 @@ tutorial
 * Cosine similarity - based on the angles - ignoring vector magnitude
 
 $$
-similarity = cos(\theta) = \frac{A\cdotB}{||A|| \; ||B||}
+similarity = cos(\theta) = \frac{A \cdot B}{||A|| \; ||B||}
 $$
-  * ||A|| is the distance of A
+  * \|A\| is the distance of A
   * The angle between two terms cannot be greater than $$90^{\circ}$$
   because a word count being a negative number doesn't make any sense.
   (if you plot word frequencies between two words as x & y coordinates)
 
 ## TF Hub Word2Vec
 * Minsuk Heo [TF Hub Word2Vec](https://www.youtube.com/watch?v=p1ETojsnXYk)
-* github [](https://github.com/minsuk-heo/tf2/blob/master/jupyter_notebooks/09.Word2Vec.ipynb)
+  * [github](https://github.com/minsuk-heo/tf2/blob/master/jupyter_notebooks/09.Word2Vec.ipynb)
 
 1. Train a model to predict neighbor words from the current word and vice versa.
 2. Use trained model's hidden layer as word embedding. 
