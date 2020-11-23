@@ -24,3 +24,5 @@ comments: true
   * [github](https://github.com/minsuk-heo?tab=repositories)
 * [youtub: NLP 전공자의 Computer Vision 탐방기](https://www.youtube.com/watch?v=4Pu5aSKWAbE&fbclid=IwAR0rhsbVevcDpOetndLNnDHCkakwakRtiLUBjNotw5XGy1NJcIy3e6kaYm0):
  (Visual Question Answering 기술 흐름소개) (KAERI 임경태)
+* [자연어 언어모델 ‘BERT’](https://tacademy.skplanet.com/live/player/onlineLectureDetail.action?seq=164#sec2)
+  Tacademy
