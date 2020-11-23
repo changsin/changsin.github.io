@@ -49,6 +49,7 @@ Founded in 2019, providing AI education to primary and secondary schools in Taiw
 * 한동대 김인중 교수 [2019년 겨울 한동머신러닝캠프](https://github.com/callee2006/2019-Winter-HGU-Machine-Learing-Camp)
   * [ML notebooks](https://github.com/callee2006/MachineLearning)
   * [Deep Learning Lab](https://hgudllab.github.io/)
+* KAIST 딥러닝 홀로서기 [Standalone Deep Learning](https://github.com/heartcored98/Standalone-DeepLearning)
 
 # By Topics
 
