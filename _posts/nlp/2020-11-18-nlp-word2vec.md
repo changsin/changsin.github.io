@@ -123,7 +123,7 @@ tutorial
 $$
 similarity = cos(\theta) = \frac{A \cdot B}{||A|| \; ||B||}
 $$
-  * \|A\| is the distance of A
+  * $$||A||$$ is the distance of A
   * The angle between two terms cannot be greater than $$90^{\circ}$$
   because a word count being a negative number doesn't make any sense.
   (if you plot word frequencies between two words as x & y coordinates)
