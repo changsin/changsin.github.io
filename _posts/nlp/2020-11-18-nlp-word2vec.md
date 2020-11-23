@@ -6,6 +6,23 @@ categories: ai
 tags: nlp
 comments: true
 ---
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+### Embedding over encoding
+* Embedding is dense vector with similarity
+* Similarity comes from neighboring words
+
+| word | encoding | embedding |
+|------|----------|-----------|
+| king | [1, 0, 0, 0] | [1, 2] |
+| man  | [0, 1, 0, 0] | [1, 3] |
+| queen | [0, 0, 1, 0] | [5, 1] |
+| woman | [0, 0, 0, 0] | [5, 3] |
+
+* Word2Vec data generation (skip gram)
+  * windows size = 1
+
+
 ## How to represent words?
 * Discrete representation: The vast majority of rule-based and statistical NLP work
 regards words as atomic symbols: hotel, conference, etc.
@@ -69,8 +86,52 @@ Two (moderately efficient) training methods
 Objective function: Maximize the probability of context word
 given the current center word:
 
-J'(&theta;) = &pi;_{T}^{t =1}
+$$
+J'(\theta) = \prod_{T}^{t=1}
+$$
 
+* Minsuk Heo's [word2vec tensorflow](https://github.com/minsuk-heo/python_tutorial/blob/master/data_science/nlp/word2vec_tensorflow.ipynb)
+tutorial
 
+## TF Hub Word2Vec
+* Minsuk Heo [TF Hub Word2Vec](https://www.youtube.com/watch?v=p1ETojsnXYk)
+* github [](https://github.com/minsuk-heo/tf2/blob/master/jupyter_notebooks/09.Word2Vec.ipynb)
+
+1. Train a model to predict neighbor words from the current word and vice versa.
+2. Use trained model's hidden layer as word embedding. 
+
+## Word2Vec by Jordan Boyd-Graber
+* Jordan Boyd-Graber [Understanding Word2Vec](https://www.youtube.com/watch?v=QyrUentbkvw)
+
+* similarity is calculated using _cosine similarity_:
+    $$
+        sim(d\overrightarrow{o}g, c\overrightarrow{a}t) =
+        \frac{d\overrightarrow{o}g \cdot c\overrightarrow{a}t}
+        {||d\overrightarrow{o}g|| \; ||c\overrightarrow{a}t||}
+    $$
+
+* Finding the most similar words to $$d\overrightarrow{o}g$$
+  * Compute the similarity from word $$\overrightarrow{v}$$ to all other words
+  * This is a single matrix-vector product: $$ W \cdot \overrightarrow^{T} $$
+  * Result is a |V| sized vector of similarities
+  * Take the indices of the k-highest values
+  * FAST! for 180k words, d=300: ~30sm
+  
+* Similarity to a group of words
+  * Find me words most similar to cat, dog and cow".
+  * Calculate the pairwise similarities and rum them:
+    $$ W \cdot c\overrightarrow{a}t + W \cdot c\overrightarrow{a}t $$
+  * Now find the indices of the highest values as before
+  * Matrix-vector products are wasteful. Better option:
+    $$ W \cdot (c\overrightarrow{a}t + d\overrightarrow{o}g + c\overrightarrow{o}w) $$
+  
 ## Reference
+
+* [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781)
+  (Tomas Mikolov, Kai Chen, Greg Corrado, Jeffrey Dean)
+  
 * Stanford [NLP with Deep Learning](https://www.youtube.com/watch?v=ERibwqs9p38)
+
+* Udacity TensorFlow [word2vec](https://github.com/tensorflow/examples/blob/master/courses/udacity_deep_learning/5_word2vec.ipynb)
+
+* [tmikolov](https://github.com/tmikolov/word2vec)
