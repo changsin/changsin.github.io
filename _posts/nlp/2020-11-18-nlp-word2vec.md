@@ -1,12 +1,35 @@
 ---
 layout: post
-title: "Word2Vec"
+title: "WHat is Word2Vec"
 subtitle: "How to represent words for AI"
 categories: ai
 tags: nlp
 comments: true
 ---
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+# What is word embedding?
+Word embedding refers to the process of converting words to numbers
+ so that they can be used for machine learning.
+
+## Word encoding
+A simple idea is to simply represent the whole vocabulary indexing each word as a position in an array.
+The result is a vector representation of each word.
+
+| word | encoding |
+|------|----------|
+| king | [1, 0, 0, 0] |
+| man  | [0, 1, 0, 0] |
+| queen | [0, 0, 1, 0] |
+| woman | [0, 0, 0, 0] |
+
+A problem with this simple approach is that there is no similarity among related words.
+For instance, king and queen are similar in terms of kingship but they are simply
+separate points in the Euclidean space.
+We need a representation that somehow preserves similarity measures among words.
+
+##  
+
 
 ### Embedding over encoding
 * Embedding is dense vector with similarity
@@ -92,6 +115,15 @@ $$
 
 * Minsuk Heo's [word2vec tensorflow](https://github.com/minsuk-heo/python_tutorial/blob/master/data_science/nlp/word2vec_tensorflow.ipynb)
 tutorial
+## Word Similarity
+* Minsuk Heo [자연어처리의 유사도 측정 방법(거리측정, 코사인 유사도)](https://www.youtube.com/watch?v=if6tjHAT6iM)
+* Euclidean distance - using Pythagorean theorem
+* Cosine similarity - based on the angles - ignoring vector magnitude
+
+$$
+similarity = cos(\theta) = \frac{A\cdotB}{||A|| \; ||B||}
+$$
+  * ||A|| is the distance of A
 
 ## TF Hub Word2Vec
 * Minsuk Heo [TF Hub Word2Vec](https://www.youtube.com/watch?v=p1ETojsnXYk)
