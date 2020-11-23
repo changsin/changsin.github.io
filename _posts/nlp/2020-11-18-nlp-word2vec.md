@@ -55,7 +55,7 @@ distributed representation != distributional similarity
 We define a model that aims to predict between a center word w<sub>t</sub>
 and context words in terms of word vectors.
 
-> p(context|w<sub>t</sub>)
+> p(context\|w<sub>t</sub>)
 
 which has a loss function, e.g.,
 > J = 1 - p(w<sub>-t</sub>|w<sub>t</sub>)
@@ -112,8 +112,9 @@ tutorial
 
 * Finding the most similar words to $$d\overrightarrow{o}g$$
   * Compute the similarity from word $$\overrightarrow{v}$$ to all other words
-  * This is a single matrix-vector product: $$ W \cdot \overrightarrow^{T} $$
-  * Result is a |V| sized vector of similarities
+  * This is a single matrix-vector product:
+   $$ W \cdot \overrightarrow^{T} $$
+  * Result is a \|V\| sized vector of similarities
   * Take the indices of the k-highest values
   * FAST! for 180k words, d=300: ~30sm
   
