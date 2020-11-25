@@ -8,7 +8,7 @@ comments: true
 ---
 # Overview
 * Homepage: [The Practical Machine Learning Conference](https://mlconf.eu/)
-  * [scedule](https://mlconf.eu/#schedule)
+  * [schedule](https://mlconf.eu/#schedule)
   * [youtube: Day 1](https://www.youtube.com/watch?v=x16gSOx7KEU)
   * [youtube: Day 2](https://www.youtube.com/watch?v=wM3cYjQ8Pcg)
 

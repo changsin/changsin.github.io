@@ -26,5 +26,6 @@ comments: true
  (Visual Question Answering 기술 흐름소개) (KAERI 임경태)
 * [자연어 언어모델 ‘BERT’](https://tacademy.skplanet.com/live/player/onlineLectureDetail.action?seq=164#sec2)
   Tacademy
-* wikidocs [딥 러닝을 이용한 자연어 처리 입문](https://wikidocs.net/book/2155)유원준 - What Is Natural Language Processing
-* [jiho-ml](https://jiho-ml.com/)
+* [딥 러닝을 이용한 자연어 처리 입문](https://wikidocs.net/book/2155)
+    유원준 - What Is Natural Language Processing
+* [jiho-ml](https://jiho-ml.com/weekly-nlp-0/) NLP Weekly in Korean
