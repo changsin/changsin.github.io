@@ -65,7 +65,43 @@ regards words as atomic symbols: hotel, conference, etc.
     You shall know a word by the company it keeps.
       --J. R. Firth (1957)
     ```
+    
+    ```markdown
+    Words that occur in similar context tend to have similar meanings.
+        -- Harris (1954)
+    ```
+    
+    word embeddings = distributional semantic model, distrubuted representation
+    = semantic vector space = vector space model    
+    
     Similar to later Wittgenstein
+
+* Applications
+    * compute similarities between words
+    * create groups of related words
+    * use as features in text classification
+    * document clustering
+    * NLP tasks:
+        * Part-of-Speech tagging
+        * Sentiment Analysis
+        * Syntactic parsing
+        
+* Steps
+1. Summarize the occurrence statistics for each word in a large document set
+2. Apply some transformation to the counts: e.g., dimensionality reduction (SVD) 
+to obtain dense real-valued vectors
+3. Compute similarity between words as vector similarity:
+cosine similarity between words = angle between vectors
+
+* Predict methods
+1. In one setup, the goal is to predict a word given its context.
+
+
+#### Limitations
+1. Compositionality: multi-word or sentee
+2. Words with multiple senses
+3. Tailed to a specific similarity measure: only synonyms
+4. Topical similarity: usually captured using topic models
 
 * Word meaning is defined in terms of vectors:
   * We will build a dense vector for each word type, chosen so that
