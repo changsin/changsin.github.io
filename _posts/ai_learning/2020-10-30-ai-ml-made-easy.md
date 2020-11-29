@@ -12,5 +12,10 @@ comments: true
     (Linkedin)
 
 # Easy Machine Learning Programs
-  * Microsoft [lobe](https://lobe.ai/)
+* Microsoft [lobe](https://lobe.ai/)
+* [Teachable Machine](https://teachablemachine.withgoogle.com/) with Google
 
+    Train a computer to recognize your own images, sounds, & poses.
+    A fast, easy way to create machine learning models for your sites, apps, and more
+     – no expertise or coding required.
+     
