@@ -10,6 +10,8 @@ comments: true
 # GAN
 * [Using GANs to Create Fantastical Creatures](https://ai.googleblog.com/2020/11/using-gans-to-create-fantastical.html?fbclid=IwAR2rVaW5rl2YHbixWjZ7FvnEAndJa3mdiiZjTa1czXbg4Zv5Bp3RCnsuQi4)
 
+* [Old Photo Restoration via Deep Latent Space Translation](https://arxiv.org/pdf/2009.07047v1.pdf) 2015
+
 ## SkyAR
 a vision-based method for video sky replacement and harmonization, 
 which can automatically generate realistic and dramatic sky backgrounds in videos with controllable styles.
