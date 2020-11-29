@@ -6,6 +6,19 @@ categories: writings
 tags: zettel
 comments: true
 ---
+#### Dietrich Bonhoeffer
+Dietrich Bonhoeffer, the great German pastor, theologian, martyr, spy was asked in 1943 how it was possible
+ for the Church to sit back and let Hitler seize absolute power.
+ His firm answer: "It was the teaching of cheap grace."
+```markdown
+Cheap grace is the preaching of forgiveness without requiring repentance,
+ baptism without church discipline, communion without confession,
+ absolution without personal confession.
+Cheap grace is grace without discipleship,
+ grace without the cross, grace without Jesus Christ."
+ - Dietrich Bonhoeffer
+```
+We live in a time and culture that not only teaches cheap grace but praises it.
 
 #### William Carey
 ```markdown
