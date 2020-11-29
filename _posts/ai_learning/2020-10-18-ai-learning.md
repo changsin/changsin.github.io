@@ -29,8 +29,11 @@ comments: true
 * [Deep Learning](https://www.deeplearningbook.org/) by Ian Goodfellow, Yoshua Bengio and Aaron Courville:
  free online book & lectures by the gurus.
 * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) by
-[Michael Nielsen](https://michaelnielsen.org/):
- Free online book for NN & Deep Learning
+[Michael Nielsen](https://michaelnielsen.org/): Free online book for NN & Deep Learning
+
+  This is a good introductory book for learning how Deep Learning works "under the hood".
+  as the book does not use any framework (e.g., TensorFlow). Instead the book builds
+  neural network models from scratch. 
 
 # Paid Books
 * [Generative Deep Learning](https://www.amazon.com/Generative-Deep-Learning-Teaching-Machines/dp/1492041947/ref=sr_1_1) 
@@ -50,6 +53,8 @@ Founded in 2019, providing AI education to primary and secondary schools in Taiw
   * [ML notebooks](https://github.com/callee2006/MachineLearning)
   * [Deep Learning Lab](https://hgudllab.github.io/)
 * KAIST 딥러닝 홀로서기 [Standalone Deep Learning](https://github.com/heartcored98/Standalone-DeepLearning)
+* [Deep Learning Review](https://www.notion.so/Deep-Learning-Review-c75739e6c29c4861854d57d134810fcc)
+  Notion notebook surveying and reviewing Deep Learning and some well known models.
 
 # By Topics
 
