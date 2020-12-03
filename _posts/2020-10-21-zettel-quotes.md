@@ -32,6 +32,12 @@ All the forces in the world are not so powerful as an idea whose time has come.
   -- Victor Hugo
 ```
 
+#### Thomas Huxley
+```markdown
+It is not who is right, but what is right, that is of importance.
+  -- Thomas Huxley
+```
+
 #### Theodor Roosvelt
 ```markdown
 It is not the critic who counts; not the man who points out how the strong man stumbles, 
